@@ -1,0 +1,141 @@
+.p-pagePrivacy {
+
+}
+
+.p-pagePrivacy__head {
+
+}
+
+.p-pagePrivacy__body {
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+  @include mq(tab){
+    padding-top: 8rem;
+    padding-bottom: 12rem;
+  }
+}
+
+.p-pagePrivacy__box {
+  +.p-pagePrivacy__box {
+    margin-top: 4rem;
+    @include mq(tab){
+      margin-top: 6rem;
+    }
+  }
+}
+
+.p-pagePrivacy__title {
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 0 1rem;
+  font-family: $font-zenold;
+  font-weight: 700;
+  font-size: 1.8rem;
+  
+  @include mq(tab){
+    gap: 0 2rem;
+    margin-bottom: 3rem;
+    font-size: 2.4rem;
+  }
+
+  &::before {
+    content: "";
+    display: inline-block;
+    margin-top: 0.5rem;
+    width: 1.8rem;
+    height: 1.8rem;
+    flex-shrink: 0;
+    background-color: transparent;
+    border: 0.5rem solid cl(brown);
+
+    @include mq(tab){
+      margin-top: 0.7rem;
+      width: 2.4rem;
+      height: 2.4rem;
+    }
+  }
+  
+}
+
+.p-pagePrivacy__subtitle {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 0 1rem;
+  font-weight: 700;
+  font-size: 1.6rem;
+
+  @include mq(tab){
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+  }
+
+  &::before {
+    content: "";
+    display: inline-block;
+    margin-top: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    flex-shrink: 0;
+    background-color: cl(brown);
+    border-radius: 50%;
+
+    @include mq(tab){
+      margin-top: 0.7rem;
+    }
+  }
+}
+
+.p-pagePrivacy__h4title {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2.3rem;
+  
+  @include mq(tab){
+    margin-bottom: 2rem;
+    line-height: 3rem;
+    font-size: 1.8rem;
+  }
+
+  &._small {
+    margin-left: -0.8rem;
+    font-size: 1.6rem;
+  }
+}
+
+.p-pagePrivacy__text {
+  font-size: 1.4rem;
+  color: #5B5B5B;
+  line-height: 3rem;
+  @include mq(tab){
+    font-size: 1.5rem;
+  }
+
+  a {
+    color: cl(orange);
+    text-decoration: underline;
+  }
+}
+
+.p-pagePrivacy__subtext {
+  margin-top: 3rem;
+  color: #000;
+  font-size: 1.3rem;
+  line-height: 2.3rem;
+  letter-spacing: 0.02em;
+
+  a {
+    color: cl(orange);
+    text-decoration: underline;
+  }
+}
+
+.p-pagePrivacy__btn {
+  margin: 6rem auto 0;
+  @include mq(tab){
+    margin-top: 8rem;
+  }
+}
+

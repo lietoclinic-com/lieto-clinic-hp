@@ -1,0 +1,47 @@
+.c-blog-card {
+  margin: 4.0rem 0;
+  padding: 1.5rem;
+  border: 1px solid #AE8954;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+
+  @include mq(tab){
+    margin: 5.0rem 0;
+    padding: 2.0rem;
+  }
+
+  .p-pageColumn__articlesDesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem 0;
+    @include mq(tab){
+      gap: 0;
+    }
+  }
+
+  .p-pageColumn__dates {
+    margin-top: 0;
+    gap: 0.5rem;
+    
+    @include mq(pc){
+      justify-content: space-between;
+      gap: 0.5rem 2rem;
+    }
+  }
+
+  .c-articleDates__modified {
+    gap: 1rem;
+  }
+  .c-articleDates__published {
+    gap: 1rem;
+  }
+
+  .p-pageColumn__articlesTitle {
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    @include mq(tab){
+      line-height: 3.0rem;
+    }
+  }
+
+}

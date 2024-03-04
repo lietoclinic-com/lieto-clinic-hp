@@ -1,0 +1,21 @@
+.p-pageContact {
+
+}
+
+.p-pageContact__head {
+
+}
+
+.p-pageContact__body {
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+  @include mq(tab){
+    padding-top: 8rem;
+    padding-bottom: 12rem;
+  }
+}
+
+.p-pageContact__form {
+
+}
+

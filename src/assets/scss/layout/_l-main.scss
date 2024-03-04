@@ -1,0 +1,13 @@
+.l-main {
+  padding-top: 6.4rem;
+  @include mq(pc){
+    padding-top: 0;
+  }
+  
+  &._top {
+    padding-bottom: 8rem;
+    @include mq(pc){
+      padding-bottom: 12rem;
+    }
+  }
+}

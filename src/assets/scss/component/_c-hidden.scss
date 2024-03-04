@@ -1,0 +1,38 @@
+._pc {
+  display: none;
+  @include mq(pc){
+    display: block;
+  }
+}
+
+._sp {
+  @include mq(tab){
+    display: none;
+  }
+}
+
+._overTab {
+  display: none;
+  @include mq(tab){
+    display: block;
+  }
+}
+
+._underTab {
+  @include mq(pc){
+    display: none;
+  }
+}
+
+._overPc {
+  display: none;
+  @include mq(pc){
+    display: block;
+  }
+}
+
+._underPc {
+  @include mq(pc){
+    display: none;
+  }
+}

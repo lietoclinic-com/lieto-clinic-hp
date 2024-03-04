@@ -1,0 +1,78 @@
+.p-topBanner {
+  margin-top: 3.4rem;
+  
+  @include mq(tab){
+    margin-top: 8rem;
+  }
+}
+
+.p-topSlider {
+  overflow: hidden;
+}
+
+.p-topSlider__inner {
+  max-width: 134rem;
+  margin: 0 auto;
+  
+  @include mq(tab){
+    padding: 0 4rem;
+  }
+}
+
+.p-topSliderList {
+  margin: 0 -0.7rem;
+  @include mq(tab){
+    margin: 0 -1.5rem;
+  }
+}
+
+.p-topSliderItem {
+  margin: 0 0.7rem;
+  @include mq(tab){
+    margin: 0 1.5rem;
+    
+  }
+}
+
+.slide-arrow {
+  background-color: transparent;
+  bottom: 0;
+  height: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;
+  z-index: 5;
+}
+.prev-arrow {
+  border-bottom: 2px solid cl(orange);
+  border-left: 2px solid cl(orange);
+  transform: rotate(45deg);
+  left: -12px;
+  @include mq(max){
+    left: -20px;
+  }
+}
+.next-arrow {
+  border-bottom: 2px solid cl(orange);
+  border-right: 2px solid cl(orange);
+  transform: rotate(-45deg);
+  right: -12px;
+  @include mq(max){
+    right: -20px;
+  }
+}
+
+.p-topBanner__img {
+  margin-top: 2rem;
+  text-align: center;
+  img {
+    max-width: 65rem;
+  }
+  
+  @include mq(tab){
+    margin-top: 10rem;
+  }
+}

@@ -1,0 +1,91 @@
+.c-balloon {
+  margin: 4.0rem 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0 1.0rem;
+  @include mq(tab){
+    gap: 0 4.6rem;
+  }
+}
+
+.c-balloon--right {
+  flex-direction: row-reverse;
+}
+
+.c-balloon__image {
+  width: 5.5rem;
+  height: 5.5rem;
+
+  @include mq(tab){
+    width: 9.4rem;
+    height: 9.4rem;
+  }
+
+  img {
+    border-radius: 50%;
+  }
+}
+
+.c-balloon__textWrapper {
+  flex : 1;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -1.5rem;
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #ececec;
+  }
+
+  &.c-balloon__textWrapper--right {
+    &::before {
+      left: initial;
+      right: -1.5rem;
+      clip-path: polygon(0 0, 100% 0, 0 100%);
+      background-color: #FFF4E3;
+    }
+  }
+
+  @include mq(tab){
+    &::before {
+      left: -2.5rem;
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+    &.c-balloon__textWrapper--right {
+      &::before {
+        left: initial;
+        right: -2.5rem;
+      }
+    }
+  }
+}
+
+.c-balloon__text {  
+  padding: 2.0rem 1.5rem;
+  background-color: #ececec;
+  border-radius: 0 0.4rem 0.4rem 0.4rem;
+  color: #5C6E74;
+  
+  @include mq(tab){
+    padding: 3.0rem;
+  }
+  p {
+    line-height: 2 !important;
+    margin: 0 !important;
+  }
+
+  .c-balloon__textWrapper--right & {
+    border-radius: 0.4rem 0 0.4rem 0.4rem;
+    background-color: #FFF4E3;
+    
+    p {
+      color: cl(orange);
+    }
+  }
+}

@@ -1,0 +1,80 @@
+.p-pageFaq {
+  
+}
+
+.p-pageFaq__head {
+
+}
+
+.p-pageFaq__body {
+  padding: 5rem 2.5rem 8rem;
+  max-width: 109rem; // 104 + 2.5*2
+  margin: 0 auto;
+  
+  @include mq(tab){
+    padding: 8rem 2.5rem 12rem;
+  }
+}
+
+.p-pageFaq__area {
+  
+  +.p-pageFaq__area {
+    margin-top: 7rem;
+  }
+  
+  @include mq(tab){
+    border-radius: 1rem;
+    padding: 5.3rem 6rem 6rem;
+    background-color: cl(beige);
+
+    +.p-pageFaq__area {
+      margin-top: 6rem;
+    }
+  }
+}
+
+.p-pageFaq__areaInner {
+  margin: 0 auto;
+}
+
+.p-pageFaq__areaHead {
+  display: flex;
+  gap: 0 1rem;
+  img {
+    width: 2.1rem;
+    height: 2.5rem;
+  }
+
+  @include mq(tab){
+    gap: 0 3rem;
+    img {
+      width: 3.4rem;
+      height: 4.0rem;
+    }
+  }
+}
+
+.p-pageFaq__areaTitle {
+  font-family: $font-zenold;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  
+  @include mq(tab){
+    font-size: 2.6rem;
+    line-height: 1.4;
+  }
+}
+
+.p-pageFaq__content {
+  margin-top: 2.5rem;
+  @include mq(tab){
+    margin-top: 3rem;
+  }
+
+  +.p-pageFaq__content {
+    margin-top: 6rem;
+  }
+}
+

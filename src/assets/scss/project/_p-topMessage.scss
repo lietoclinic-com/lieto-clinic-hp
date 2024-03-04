@@ -1,0 +1,10 @@
+.p-topMessage {
+  background-color: cl(beige);
+  position: relative;
+  padding: 4.5rem 0 6rem;
+  
+  @include mq(tab){
+    padding: 10rem 0 12rem;
+  }
+}
+

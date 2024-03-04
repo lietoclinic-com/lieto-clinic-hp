@@ -1,0 +1,115 @@
+.p-pageSitemap__body {
+  padding: 4rem 2.5rem 8rem;
+  @include mq(tab){
+    padding: 8rem 2.5rem 12rem;
+  }
+}
+
+.p-pageSitemap__area {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 5rem 6rem;
+  
+  @include mq(tab){
+    flex-direction: row;
+    justify-content: center;
+    max-width: 50rem;
+    margin: 0 auto;
+  }
+  
+  @include mq(pc){
+    max-width: initial;
+    gap: 0 6rem;
+  }
+}
+
+.p-pageSitemap__box {
+  @include mq(tab){
+    width: 21rem;
+  }
+}
+
+.p-pageSitemap__boxTitle {
+  color: #8A652F;
+  font-family: $font-zenold;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+  letter-spacing: 0.02em;
+
+  &::before {
+    content: "";
+    width: 4rem;
+    height: 0.2rem;
+    margin-right: 1rem;
+    margin-bottom: 0.6rem;
+    background-color: #442906;
+    display: inline-block;
+  }
+}
+
+.p-pageSitemap__list {
+  margin-top: 2rem;
+}
+
+.p-pageSitemap__item {
+  font-family: $font-zenold;
+  transition: all 0.2s;
+  line-height: 36px; /* 187.5% */
+
+  span {
+    transition: all 0.2s;
+  }
+
+  a {
+    &:hover {
+      color: cl(orange);
+      opacity: 1;
+      span {
+        color: cl(orange);
+      }
+    }
+  }
+}
+
+.p-pageSitemap__subList {
+  margin-left: 1.8rem;
+}
+
+.p-pageSitemap__subItem {
+  font-family: $font-zenold;
+  line-height: 30px; /* 187.5% */
+  font-size: 1.4rem;
+  text-indent: -0.5rem;
+  padding-left: 0.5rem;
+  &::before {
+    content: "-";
+    display: inline-block;
+    margin-right: 0.5rem;
+  }
+
+  span {
+    display: block;
+    margin-left: 0.6rem;
+    margin-bottom: 1.2rem;
+    margin-right: -2rem;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    font-size: 1.2rem;
+    color: #5C6E74;
+    @include mq(tab){
+      letter-spacing: normal;
+    }
+  }
+
+  &._column {
+    line-height: 22px;
+  }
+  
+  a {
+    color: #5C6E74;
+  }
+
+  
+}

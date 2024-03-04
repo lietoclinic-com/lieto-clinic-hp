@@ -1,0 +1,6 @@
+.p-topReason {
+  margin-top: 6rem;
+  @include mq(tab){
+    margin-top: 12rem;
+  }
+}

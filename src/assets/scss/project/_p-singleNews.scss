@@ -1,0 +1,168 @@
+.p-singleNews {
+  
+}
+
+.p-singleNews__head {
+
+}
+
+.p-singleNews__body {
+  padding: 4rem 2.5rem 8rem;
+  
+  @include mq(tab){
+    padding: 7.7rem 2.5rem 12rem;
+  }
+}
+
+.p-singleNews__area {
+  max-width: 92rem;
+  margin: 0 auto;
+}
+
+.p-singleNews__dates {
+  display: flex;
+  align-items: center;
+  gap: 0 2rem;
+
+  letter-spacing: 0.02em;
+  font-size: 1.2rem;
+  color: #99A9B0;
+
+  @include mq(tab){
+    gap: 0 4rem;
+    font-size: 1.5rem;
+  }
+}
+
+.p-singleNews__modified {
+  display: flex;
+  align-items: center;
+  gap: 0 1rem;
+
+  @include mq(tab){
+    gap: 0 2rem;
+  }
+}
+
+.p-singleNews__modifiedTtl {
+  display: flex;
+  align-items: center;
+  gap: 0 0.5rem;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-image: url(../../../dist/assets/img/icon/icon_modified.png);
+    background-size: contain;
+    
+    @include mq(tab){
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
+}
+
+.p-singleNews__modifiedNum {
+
+}
+
+
+.p-singleNews__published {
+  display: flex;
+  align-items: center;
+  gap: 0 1rem;
+
+  @include mq(tab){
+    gap: 0 2rem;
+  }
+}
+
+.p-singleNews__publishedTtl {
+  width: 6.8rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: cl(gray);
+
+  @include mq(tab){
+    width: 8.5rem;
+    height: 2.5rem;
+  }
+}
+
+.p-singleNews__publishedNum {
+
+}
+
+.p-singleNews__title {
+  margin-top: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid cl(lightgray);
+
+  line-height: 1.5;
+  font-family: $font-zenold;
+  font-size: 2.4rem;
+  font-weight: 700;
+
+  @include mq(tab){
+    margin-top: 4rem;
+    padding-bottom: 5rem;
+    font-size: 3.2rem;
+  }
+}
+
+
+.p-singleNews__content {
+  margin-top: 4rem;
+  font-size: 1.5rem;
+  line-height: 2.4;
+
+  @include mq(tab){
+    line-height: 2.625;
+    font-size: 1.6rem;
+  }
+
+  p {
+    margin: 4rem 0;
+
+    a {
+      color: cl(lightblue);
+      text-decoration: underline;
+    }
+
+    @include mq(tab){
+      margin: 5rem 0;
+    }
+  }
+
+  strong {
+    color: cl(orange);
+    font-weight: 700;
+  }
+  em {
+    font-style: italic;
+  }
+
+  img {
+    // margin: 4rem 0;
+
+    // @include mq(tab){
+    //   margin: 5rem 0;
+    // }
+  }
+}
+
+.p-singleNews__btn {
+  margin-top: 6rem;
+  @include mq(tab){
+    margin-top: 8rem;
+  }
+  a {
+    margin: 0 auto;
+  }
+}
+

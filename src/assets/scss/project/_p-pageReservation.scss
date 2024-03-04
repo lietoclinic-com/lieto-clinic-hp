@@ -1,0 +1,21 @@
+.p-pageReservation {
+
+}
+
+.p-pageReservation__head {
+
+}
+
+.p-pageReservation__body {
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+  @include mq(tab){
+    padding-top: 8rem;
+    padding-bottom: 12rem;
+  }
+}
+
+.p-pageReservation__form {
+
+}
+

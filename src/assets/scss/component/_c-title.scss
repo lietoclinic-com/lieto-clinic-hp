@@ -1,0 +1,232 @@
+// Page Title
+.c-pageTitleHead {
+  padding: 0.7rem 1.2rem;
+  background-color: cl(beige);
+  
+  @include mq(tab){
+    padding: 1.7rem;
+  }
+}
+
+.c-pageTitle {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2.25rem;
+
+  @include mq(tab){
+    margin-top: 7.3rem;
+    margin-bottom: 4.5rem;
+  }
+}
+
+.c-pageTitle__en {
+  position: relative;
+  font-family: $font-cinzel;
+  font-size: 3rem;
+  font-weight: 400;
+  color: cl(gray);
+  line-height: normal;
+
+  &::before, &::after {
+    content: "";
+    position: absolute;
+    bottom: -0.5rem;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+
+    display: block;
+    height: 0.1rem;
+  }
+  &::before {
+    width: 32.5rem;
+    background-color: cl(lightgray);
+  }
+  &::after {
+    width: 5rem;
+    background-color: cl(brown);
+  }
+
+  @include mq(tab){
+    font-size: 6rem;
+    line-height: 50px;
+
+    &::before {
+      bottom: -2rem;
+      width: 56.5rem;
+    }
+    &::after {
+      bottom: -2rem;
+      width: 8rem;
+    }
+  }
+}
+
+.c-pageTitle__ja {
+  margin-top: 1.3rem;
+  font-family: $font-zenold;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: cl(brown);
+  line-height: 26px; /* 150% */
+  letter-spacing: 0.05em;
+  
+  @include mq(tab){
+    margin-top: 4rem;
+    font-size: 2.6rem;
+    line-height: 40px;
+  }
+}
+
+
+// TOP Section Title
+.c-secTitle {
+  text-align: center;
+
+  .c-pageTitleHead & {
+    margin-top: 3rem;
+    
+    @include mq(tab){
+      margin-top: 7.3rem;
+    }
+  }
+}
+
+.c-secTitle__en {
+  position: relative;
+  font-family: $font-cinzel;
+  font-size: 2.6rem;
+  color: cl(gray);
+  line-height: normal;
+
+  &::before, &::after {
+    content: "";
+    position: absolute;
+    bottom: -1rem;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+
+    display: block;
+    height: 0.1rem;
+  }
+  &::before {
+    width: 25rem;
+    background-color: cl(lightgray);
+  }
+  &::after {
+    width: 5rem;
+    background-color: cl(brown);
+  }
+
+  @include mq(tab){
+    font-size: 6rem;
+    line-height: 50px;
+
+    &::before {
+      bottom: -2rem;
+      width: 56.5rem;
+    }
+    &::after {
+      bottom: -2rem;
+      width: 8rem;
+    }
+  }
+
+  &._black {
+    color: #000;
+    &::before { background-color: #000; }
+    &::after { background-color: cl(lightgray); }
+  }
+
+  ._exosome & {
+    &::after { background-color: cl(exo); }
+  }
+}
+
+
+.c-secTitle__ja {
+  margin-top: 2.5rem;
+  font-family: $font-zenold;
+  font-weight: 700;
+  font-size: 2rem;
+  color: cl(brown);
+  line-height: 30px; /* 150% */
+  
+  @include mq(tab){
+    margin-top: 4rem;
+    font-size: 2.6rem;
+    letter-spacing: 1.3px;
+    line-height: 40px;
+  }
+
+  ._exosome & {
+    color: cl(exo);
+  }
+}
+
+
+// TOP Section Title Wide
+.c-wideTitle {
+  width: 100%;
+  margin-bottom: -2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 3.8rem;
+  border-top: 1px solid cl(lightgray);
+  border-bottom: 1px solid cl(brown);
+  
+  @include mq(tab){
+    margin-bottom: -21rem;
+    padding-top: 4rem;
+    padding-bottom: 0;
+    border-bottom: 1px solid cl(lightgray);
+  }
+}
+
+.c-wideTitle__content {
+  margin-left: auto;
+  text-align: center;
+
+  @include mq(tab){
+    width: calc(100% - 42.857143% - 2.4rem);
+    text-align: left;
+  }
+  @include mq(pc){
+    max-width: 51.8rem;
+  }
+}
+
+.c-wideTitle__en {
+  font-family: $font-cinzel;
+  font-size: 2.6rem;
+  color: cl(gray);
+  line-height: 1.346153;
+  
+  @include mq(tab){
+    font-size: 6rem;
+    line-height: 50px;
+  }
+}
+
+.c-wideTitle__ja {
+  font-family: $font-zenold;
+  font-weight: 700;
+  font-size: 2rem;
+  color: cl(brown);
+  line-height: 30px;
+
+  @include mq(tab){
+    font-size: 2.6rem;
+    letter-spacing: 1.3px;
+    line-height: 40px;
+
+    &::after {
+      content: "";
+      display: block;
+      margin-top: 4rem;
+      width: 8rem;
+      height: 0.1rem;
+      background-color: cl(brown);
+    }
+  }
+}

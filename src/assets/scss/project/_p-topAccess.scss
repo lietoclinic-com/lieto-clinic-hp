@@ -1,0 +1,28 @@
+.p-topAccess {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  
+  @include mq(tab){
+    margin-top: 5rem;
+    margin-bottom: 12rem;
+  }
+}
+
+.p-topAccess__inner {
+
+}
+
+.p-topAccess__head {
+
+}
+
+.p-topAccess__body {
+  margin-top: 3rem;
+  @include mq(tab){
+    margin-top: 6rem;
+  }
+}
+
+.p-topAccess__area {
+
+}

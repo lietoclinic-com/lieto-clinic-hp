@@ -1,0 +1,140 @@
+.p-content {
+
+  h2.wp-block-heading {
+    margin: 4.0rem 0;
+    padding: 1.0rem 0;
+    border-top: 0.3rem solid cl(orange);
+    border-bottom: 0.3rem solid cl(orange);
+
+    font-family: $font-zenold;
+    font-size: 2.0rem;
+    font-weight: 700;
+    line-height: 1.7;
+
+    @include mq(tab){
+      margin: 5.0rem 0;
+      padding: 3.0rem 0;
+      font-size: 2.8rem;
+    }
+  }
+
+  h3.wp-block-heading {
+    margin: 4.0rem 0;
+    font-family: $font-zenold;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+    color: cl(orange);
+
+    @include mq(tab){
+      margin: 5.0rem 0;
+      font-size: 2.2rem;
+      line-height: 3.8rem;
+    }
+  }
+
+  h4.wp-block-heading {
+    margin: 4.0rem 0 3.0rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 0 1rem;
+    font-family: $font-zenold;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+
+    &::before {
+      content: "";
+      margin-top: 1.2rem;
+      flex-shrink: 0;
+      display: block;
+      width: 1.2rem;
+      height: 0.3rem;
+      background-color: cl(brown);
+      
+      @include mq(tab){
+        margin-top: 1.6rem;
+        width: 2.0rem;
+      }
+    }
+
+    @include mq(tab){
+      margin: 5.0rem 0 4.0rem;
+      font-size: 2.0rem;
+      line-height: 3.4rem;
+    }
+  }
+
+  p {
+    margin: 3.0rem 0;
+    line-height: 3.6rem;
+    font-size: 1.5rem;
+    color: #5C6E74;
+
+    @include mq(tab){
+      margin: 4.0rem 0;
+      line-height: 4.2rem;
+      font-size: 1.6rem;
+    }
+
+    > a {
+      color: cl(lightblue);
+      text-decoration: underline;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+
+    strong {
+      font-weight: 700;
+      color: cl(orange);
+    }
+  }
+
+  ol, ul {
+    margin-top: 3.0rem;
+    margin-bottom: 4.0rem;
+    padding-left: 2.0rem;
+    line-height: 2.4rem;
+    @include mq(tab){
+      margin-top: 4.0rem;
+      margin-bottom: 5.0rem;
+    }
+    li {
+      font-size: 1.4rem;
+      
+      &::marker {
+        color: cl(brown);
+        //font-family: $font-biz;
+        font-weight: 700;
+      }
+
+      +li {
+        margin-top: 1.2rem;
+        @include mq(tab){
+          margin-top: 2rem;
+        }
+      }
+    }
+  }
+
+  ol li {
+    list-style: decimal;
+  }
+  
+  ul li {
+    list-style: disc;
+    &::marker {
+      font-size: 1.8rem;
+    }
+  }
+
+  // flexible table
+  .wp-block-flexible-table-block-table {
+    font-family: $font-zenold;
+    margin: 3.2rem 0;
+    @include mq(tab){
+      margin: 4rem 0;
+    }
+  }
+}

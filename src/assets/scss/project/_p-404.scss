@@ -1,0 +1,63 @@
+.p-404 {
+
+}
+
+.p-404__head {
+
+}
+
+.p-404__body {
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+  @include mq(tab){
+    padding-top: 8rem;
+    padding-bottom: 12rem;
+  }
+}
+
+.p-404__title {
+  text-align: center;
+  font-weight: 700;
+  font-family: $font-zenold;
+  font-size: 2.0rem;
+  color: cl(brown);
+  @include mq(tab){
+    font-size: 3.2rem;
+  }
+}
+
+.p-404__box {
+  margin-top: 4rem;
+  width: 100%;
+  padding: 3rem 2rem;
+  background-color:#F8F8F8;
+  
+  @include mq(tab){
+    padding: 5rem 2rem;
+    text-align: center;
+  }
+}
+
+.p-404__text {
+  line-height: 2.3rem;
+  font-size: 1.4rem;
+  @include mq(tab){
+    line-height: 3rem;
+    font-size: 1.6rem;
+  }
+}
+
+.p-404__message {
+  margin-top: 3rem;
+  text-align: center;
+  font-weight: 700;
+  line-height: 2.6rem;
+  font-size: 1.6rem;
+
+  @include mq(tab){
+    margin-top: 2rem;
+    line-height: 3rem;
+    font-size: 2rem;
+  }
+}
+

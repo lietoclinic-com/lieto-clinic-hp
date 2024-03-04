@@ -1,0 +1,384 @@
+// PC header
+.l-header {
+  display: none;
+
+  @include mq(pc){
+    display: block;
+    width: 100%;
+    padding: 2rem 0;
+    z-index: 10;
+    background-color: #fff;
+    
+    &._top {
+      position: absolute;
+      background-color: transparent;
+    }
+  }
+}
+
+.l-header__inner {
+
+}
+
+.l-header__body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.l-header__left {
+  padding-left: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0 2rem;
+  flex: 1;
+}
+
+.l-header__logo {
+  img {
+    width: 12.2rem;
+    height: 9rem;
+  }
+}
+
+.l-header__clinic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.l-header__clinicName {
+
+  a {
+    width: 10rem;
+    height: 2.2rem;
+    background-color: cl(brown);
+    display: flex;
+    justify-content: center;
+    border-radius: 0.1rem;
+  
+    font-family: $font-zenold;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #fff;
+  }
+}
+
+.l-header__nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.l-header__topListWrap {
+  display: inline-block;
+  margin-left: auto;
+}
+
+.l-header__topList {
+  // width: 29.6rem;
+  height: 3rem;
+  margin-top: 0.2rem;
+  margin-left: auto;
+  background-color: #442906;
+  border-radius: 2rem 0 0 2rem;
+  padding-right: 1.8rem;
+  padding-left: 3rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0 2rem;
+  
+  @include mq(max){
+    // width: 32.6rem;
+    padding-right: 4.8rem;
+    // padding-left: 3rem;
+  }
+}
+
+.l-header__topItem {
+  //font-family: $font-biz;
+  font-size: 1.4rem;
+  a {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 0 0.4rem;
+    letter-spacing: 1.4px;
+
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 0.9rem;
+      height: 0.9rem;
+      background-color: #B88D50;
+      border-radius: 50%;
+    }
+  }
+}
+
+.l-header__bottomList {
+  margin-top: 1.6rem;
+  margin-right: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0 1.6rem;
+  font-size: 1.5rem;
+
+  @include mq(pc){
+    font-size: 1.4rem;
+  }
+  
+  @include mq(max){
+    margin-right: 5rem;
+    gap: 0 2.5rem;
+    font-size: 1.6rem;
+  }
+}
+
+.l-header__bottomItem {
+  //font-family: $font-zenkaku;
+
+  a {
+    font-weight: 700;
+    color: cl(black);
+  }
+
+  ._top & {
+    a {
+      font-weight: 400;
+      text-shadow: 0px 0px 1rem rgba(0, 0, 0, 0.40);
+      color: #fff;
+    }
+  }
+}
+
+// SP header
+.l-spHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999; /* 表示順序を制御 */
+  width: 100%;
+  margin: auto;
+  background-color: #fff;
+
+  @include mq(pc){
+    display: none;
+  }
+}
+
+.l-spHeader__inner {
+  
+}
+
+.l-spHeader__top {
+  height: 6.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1rem;
+  // border-bottom: 1px solid cl(orange);
+}
+
+.l-spHeader__logo {
+  width: 17.2rem;
+}
+
+.l-spHeader__nav {
+  display: none;
+  background-color: #fff;
+  height: calc(100vh - 6.4rem);
+  padding-bottom: 4rem;
+  overflow: scroll;
+  z-index: 10;
+}
+
+.l-spHeader__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.l-spHeader__item {
+  //font-family: $font-zenkaku;
+  font-size: 18px;
+  font-weight: 700;
+  border-bottom: 1px solid #FFD7A4;
+  
+  &:last-of-type {
+    border-bottom: none;
+  }
+  
+  > a {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.2rem;
+
+    background-color: #FFE9CD;
+    color: #442906;
+
+    padding: 0 3rem 0 2.6rem;
+    transition: all 0.2s;
+    &:hover {
+      opacity: 1;
+    }
+
+    .l-spHeader__itemOpen {
+      position: relative;
+      width: 2.5rem;
+      height: 2.5rem;
+      background-color: #442906;
+      border-radius: 50%;
+    
+      &::before, &::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 1.3rem;
+        height: 0.2rem;
+        background-color: #fff;
+        transition: all 0.3s;
+      }
+      &::after {
+        transform: rotate(90deg);
+      }
+    }
+
+    &.is-active {
+      background-color: #442906;
+      color: #fff;
+
+      .l-spHeader__itemOpen {
+        background-color: #fff;
+
+        &::before, &::after {
+          background-color: #442906;
+          transform: rotate(0);
+        }
+      }
+    }
+  }
+}
+
+
+
+.l-spHeader__sublist {
+  display: none;
+}
+
+.l-spHeader__subitem {
+  > a {
+    display: block;
+    // height: 4.2rem;
+    padding: 0.8rem 3rem 0.8rem 2.6rem;
+    border-bottom: 1px solid #FFD7A4;
+    background: #fff;
+    font-size: 1.6rem;
+    color: cl(orange);
+
+    &::before {
+      content: "";
+      width: 1.5rem;
+      height: 0.2rem;
+      display: inline-block;
+      margin-right: 1rem;
+      margin-bottom: 0.5rem;
+      background-color: cl(orange);
+    }
+
+    span {
+      display: block;
+      margin-left: 2.5rem;
+      line-height: 1;
+      font-weight: 500;
+      font-size: 1.2rem;
+      color: #808080;
+    }
+  }
+}
+
+.l-spHeader__btn {
+  margin-top: 3rem;
+  a {
+    //font-family: $font-shippori;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 15px; /* 83.333% */
+    letter-spacing: -1.44px;
+    margin: 0 auto;
+    &::after {
+      display: none;
+    }
+    img {
+      width: 2.8rem;
+      height: 2.8rem;
+    }
+  }
+}
+
+.l-spHeader__tel {
+  margin-top: 3.4rem;
+}
+
+.l-spHeader__telList {
+  display: flex;
+  flex-direction: column;
+  gap: 2.6rem 0;
+  justify-content: center;
+}
+
+.l-spHeader__telItem {
+  width: 30rem;
+  margin: 0 auto;
+  padding-bottom: 1.5rem;
+  border: 1px solid #8A652F;
+  background-color: #F8F8F8;
+
+}
+
+.l-spHeader__itemTitle {
+  margin: -1.2rem auto 0;
+  width: 16rem;
+  height: 2.4rem;
+  border-radius: 1.2rem;
+  background-color: #8A652F;
+  text-align: center;
+  font-family: $font-zenold;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.l-spHeader__itemTel {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+
+  img {
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+}
+
+.l-spHeader__itemNum {
+  color: cl(orange);
+  font-family: $font-cinzel;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.l-spHeader__itemTime {
+  text-align: center;
+  color: #000;
+  //font-family: $font-biz;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.52px;
+}

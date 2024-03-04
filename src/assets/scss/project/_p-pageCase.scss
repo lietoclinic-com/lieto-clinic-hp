@@ -1,0 +1,31 @@
+.p-pageCase {
+
+}
+
+.p-pageCase__head {
+
+}
+
+.p-pageCase__body {
+  padding-top: 4.5rem;
+  // padding-bottom: 6.5rem;
+
+  @include mq(tab){
+    padding-top: 8rem;
+    // padding-bottom: 8rem;
+  }
+}
+
+.p-pageCase__list {
+
+}
+
+.p-pageCase__cta {
+  margin-top: 8rem;
+  margin-bottom: 6.5rem;
+  @include mq(tab){
+    margin-top: 12rem;
+    margin-bottom: 8rem;
+  }
+}
+

@@ -1,0 +1,64 @@
+.p-concept {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3rem 2.4rem;
+
+  @include mq(tab){
+    flex-direction: row;
+  }
+}
+
+.p-concept__figure {
+  z-index: 2;
+  position: static;
+  width: 78.769231%;
+  margin: 0 auto;
+  
+  @include mq(tab){
+    width: 42.857143%;
+    margin: initial;
+  }
+
+  img {
+    border-radius: 0.4rem;
+    max-height: 57.4rem;
+    object-fit: cover;
+  }
+}
+
+.p-concept__desc {
+  flex: 1;
+  @include mq(tab){
+    margin-top: 25rem;
+    max-width: 48.4rem;
+  }
+}
+
+.p-concept__message {
+  font-family: $font-zenold;
+  color: #000;
+  font-size: 1.8rem;
+  line-height: 32px;
+  
+  @include mq(sp){
+    font-size: 2.0rem;
+    
+  }
+  @include mq(pc){
+    font-size: 2.2rem;
+    line-height: 40px;
+  }
+}
+
+.p-concept__text {
+  margin-top: 3rem;
+  font-size: 15px;
+  line-height: 32px;
+  letter-spacing: 0.3px;
+  
+  @include mq(tab){
+    margin-top: 4rem;
+    line-height: 38px; /* 253.333% */
+  }
+}

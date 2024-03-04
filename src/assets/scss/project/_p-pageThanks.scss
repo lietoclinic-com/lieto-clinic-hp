@@ -1,0 +1,82 @@
+.p-pageThanks {
+
+}
+
+.p-pageThanks__head {
+
+}
+
+.p-pageThanks__body {
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+  @include mq(tab){
+    padding-top: 8rem;
+    padding-bottom: 12rem;
+  }
+}
+
+.p-pageThanks__message {
+  text-align: center;
+  font-family: $font-zenold;
+  font-size: 2rem;
+  font-weight: 700;
+  color: cl(brown);
+  @include mq(tab){
+    font-size: 3.2rem;
+  }
+}
+
+.p-pageThanks__box {
+  margin-top: 4rem;
+  width: 100%;
+  padding: 3rem 2rem;
+  background-color: #F8F8F8;
+  
+  @include mq(tab){
+    padding: 5rem 11.521739%;
+  }
+}
+
+.p-pageThanks__boxText {
+  text-indent: -1.7rem;
+  padding-left: 1.7rem;
+
+  font-size: 1.4rem;
+  line-height: 2.3rem;
+
+  @include mq(tab){
+    text-indent: -1.8rem;
+    padding-left: 1.8rem;
+    font-size: 1.6rem;
+  }
+
+  a {
+    color: cl(lightblue);
+    text-decoration: underline;
+  }
+
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-color: cl(brown);
+    border-radius: 50%;
+  }
+
+
+  +.p-pageThanks__boxText {
+    margin-top: 2rem;
+
+    @include mq(tab){
+      margin-top: 3rem;
+    }
+  }
+}
+
+.p-pageThanks__btn {
+  margin: 6rem auto 0;
+  @include mq(tab){
+    margin-top: 8rem;
+  }
+}

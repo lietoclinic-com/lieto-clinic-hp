@@ -1,0 +1,296 @@
+// コンセプト
+.p-pageAboutConcept {
+  position: relative;
+  margin-top: 4.7rem;
+  @include mq(tab){
+    margin-top: 12rem;
+  }
+}
+
+.p-pageAboutConcept__body {
+}
+
+
+// 選ばれる理由
+.p-pageAboutReason {
+  background-color: #FFF4E3;
+  margin-top: 7rem;
+  padding: 8rem 0 6rem;
+  
+  @include mq(tab){
+    margin-top: 12rem;
+    padding: 12rem 0;
+  }
+}
+
+.p-pageAboutReason__inner {
+
+}
+
+.p-pageAboutReason__head {
+
+}
+
+.p-pageAboutReason__body {
+  margin-top: 3rem;
+  @include mq(tab){
+    margin-top: 5rem;
+  }
+}
+
+.p-pageAboutReason__list {
+
+}
+
+.p-pageAboutReason__item {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem 0;
+
+  @include mq(tab){
+    flex-direction: row;
+
+    &:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+  }
+
+  +.p-pageAboutReason__item {
+    margin-top: 4rem;
+    @include mq(tab){
+      margin-top: 6rem;
+    }
+  }
+}
+
+.p-pageAboutReason__figure {
+  position: relative;
+  z-index: 3;
+
+  @include mq(tab){
+    margin-right: -5rem;
+    width: 37.946429%;
+
+    .p-pageAboutReason__item:nth-child(even) & {
+      margin-right: 0;
+      margin-left: -5rem;
+    }
+  }
+
+  img {
+    border-radius: 0.4rem;
+    overflow: hidden;
+  }
+}
+
+.p-pageAboutReason__desc {
+  @include mq(tab){
+    margin-top: 5rem;
+    width: 62.053571%;
+    flex: 1;
+    border-top: 0.4rem solid cl(orange);
+    background-color: #fff;
+    padding: 4rem 5.3571% 4rem 9.821429%;
+
+    .p-pageAboutReason__item:nth-child(even) & {
+      padding: 4rem 9.821429% 4rem 5.3571%;
+    }
+  }
+}
+
+.p-pageAboutReason__title {
+  font-family: $font-zenold;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 700;
+  font-size: 2.0rem;
+  letter-spacing: 0.05em;
+  color: #ED8500;
+
+  @include mq(tab){
+    text-align: left;
+    font-size: 2.8rem;
+  }
+}
+
+.p-pageAboutReason__text {
+  margin-top: 2rem;
+  line-height: 2.8rem;
+  font-size: 1.4rem;
+  letter-spacing: -0.04em;
+
+  @include mq(tab){
+    margin-top: 3rem;
+    line-height: 3.6rem;
+    font-size: 1.6rem;
+    letter-spacing: 0;
+  }
+}
+
+// こんな方に選ばれています
+.p-pageAboutReason__select {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  
+  @include mq(tab){
+    margin-top: 8rem;
+    margin-bottom: 12rem;
+  }
+}
+
+.p-pageAboutReason__selectText {
+  text-align: center;
+  color: cl(brown);
+  font-family: $font-zenold;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 40px; /* 153.846% */
+  letter-spacing: 1.1px;
+
+  span {
+    position: relative;
+    &::before {
+      position: absolute;
+      top: -2rem;
+      left: 0;
+      content: "・";
+      display: block;
+      font-weight: 400;
+    }
+  }
+  @include mq(tab){
+    font-size: 26px;
+    letter-spacing: 1.3px;
+  }
+}
+
+.p-pageAboutReason__selectLine {
+  display: none;
+  @include mq(pc){
+    margin: 3rem auto 0;
+    max-width: 67.7rem;
+    display: block;
+  }
+}
+
+.p-pageAboutReason__selectBox {
+  margin: 2.5rem auto 0;
+  padding-bottom: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 47rem;
+  @include mq(pc){
+    margin-top: 0.5rem;
+    padding: 0;
+    max-width: 100%;
+  }
+}
+
+.p-pageAboutReason__selectItem {
+
+  position: relative;
+  width: 16.6rem;
+  height: 16.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.95rem 0;
+  margin: -0.5rem -0.35rem;
+
+  &::before, &::after {
+    content: "";
+    position: absolute;
+    width: 16.25rem;
+    height: 16.25rem;
+    border-radius: 50%;
+    border: 1px solid cl(orange);
+  }
+  &::before {
+    left: 0;
+  }
+  &::after {
+    right: 0;
+  }
+
+  @include mq(tab){
+    width: 23.5rem;
+    height: 23rem;
+    margin: 0 -0.5rem;
+    gap: 1.4rem 0;
+
+    &::before, &::after {
+      width: 23rem;
+      height: 23rem;
+    }
+  }
+
+  .p-pageAboutReason__selectItemText {
+    text-align: center;
+    font-weight: 700;
+    font-family: $font-zenold;
+    color: #000;
+    font-size: 13px;
+    line-height: 19.783px; /* 152.174% */
+
+    @include mq(tab){
+      font-size: 19px;
+      line-height: 28px; /* 147.368% */
+    }
+  }
+
+  img {
+    height: 5.652rem;
+    width: auto;
+    @include mq(tab){
+      height: 8rem;
+    }
+  }
+}
+
+.p-pageAboutReason__cta {
+  
+}
+
+
+// アクセス
+.p-pageAboutAccess {
+  margin-top: 6rem;
+  margin-bottom: 8rem;
+  
+  @include mq(tab){
+    margin-top: 14rem;
+    margin-bottom: 12rem;
+  }
+}
+
+.p-pageAboutAccess__inner {
+
+}
+
+.p-pageAboutAccess__head {
+
+}
+
+.p-pageAboutAccess__body {
+  margin-top: 3rem;
+  @include mq(tab){
+    margin-top: 6rem;
+  }
+}
+
+.p-pageAboutAccess__area {
+  &:last-of-type {
+    margin-top: 6rem;
+    @include mq(tab){
+      margin-top: 10rem;
+    }
+  }
+}
+
+.p-pageAbout__cta {
+  margin-bottom: 8rem;
+}
+

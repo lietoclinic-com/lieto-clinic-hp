@@ -1,0 +1,21 @@
+
+.c-linkButtonWrap {
+  margin: 5.0rem 0 8.0rem;
+  @include mq(tab){
+    margin: 6.0rem 0 10.0rem;
+  }
+}
+
+.c-linkButton {
+  text-align: center;
+  
+  .c-btn {
+    display: inline-block;
+    width: initial;
+    height: initial;
+    padding: 1.5rem 5rem 1.5rem 2rem;
+    min-width: 32.5rem;
+    margin: auto;
+  }
+}
+

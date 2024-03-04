@@ -1,0 +1,143 @@
+.pagination {
+  position: relative;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 1rem;
+  
+  @include mq(tab){
+    gap: 0 2rem;
+  }
+}
+
+.page-numbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 3.0rem;
+  height: 3.0rem;
+  border-radius: 50%;
+  
+  //font-family: $font-biz;
+  font-weight: 400;
+  font-size: 1.2rem;
+
+  color: cl(black);
+  transition: 0.2s all;
+
+  @include mq(tab){
+    width: 4.5rem;
+    height: 4.5rem;
+    font-size: 2rem;
+  }
+  
+  &.current {
+    background-color: cl(brown);
+    color: #fff;
+    transition: all 0.2s;
+  }
+  &:not(.prev,.next,.current,.dots):hover {
+    opacity: 1;
+    color: #fff;
+    background-color: cl(black);
+  }
+
+  &.prev, &.next {
+    width: initial;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+  }
+  &.prev {
+    left: 0;
+    &::before {
+      content: '';
+      display: inline-block;
+      width: 3.0rem;
+      height: 3.0rem;
+      background-color: cl(brown);
+      border-radius: 50%;
+      margin-right: 0.5rem;
+      transition: all 0.2s;
+
+      @include mq(tab){
+        width: 4.5rem;
+        height: 4.5rem;
+        margin-right: 1rem;
+      }
+    }
+    &::after {
+      position: absolute;
+      left: 1.2rem;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      content: '';
+      width: 0.5rem;
+      height: 0.6rem;
+      clip-path: polygon(100% 0, 0 50%, 100% 100%);
+      background-color: #fff;
+      @include mq(tab){
+        left: 1.7rem;
+        width: 0.75rem;
+        height: 0.9rem;
+      }
+    }
+
+    &:hover {
+      opacity: 1;
+      &::before {
+        background-color: cl(black);
+      }
+    }
+  }
+
+  &.next {
+    right: 0;
+
+    &::after {
+      content: '';
+      display: inline-block;
+      width: 3.0rem;
+      height: 3.0rem;
+      background-color: cl(brown);
+      border-radius: 50%;
+      margin-left: 0.5rem;
+      transition: all 0.2s;
+      @include mq(tab){
+        width: 4.5rem;
+        height: 4.5rem;
+        margin-left: 1rem;
+      }
+    }
+    &:before {
+      position: absolute;
+      right: 1.2rem;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      content: '';
+      width: 0.5rem;
+      height: 0.6rem;
+      clip-path: polygon(0 0, 100% 50%, 0 100%);
+      background-color: #fff;
+      @include mq(tab){
+        right: 1.7rem;
+        width: 0.75rem;
+        height: 0.9rem;
+      }
+    }
+
+    &:hover {
+      opacity: 1;
+      &::after {
+        background-color: cl(black);
+      }
+    }
+  }
+}

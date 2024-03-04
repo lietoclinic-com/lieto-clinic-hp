@@ -1,0 +1,136 @@
+.p-message {
+  background-color: cl(beige);
+  position: relative;
+  padding: 4.5rem 0 6rem;
+  
+  @include mq(tab){
+    padding: 10rem 0 12rem;
+  }
+}
+
+.p-message__head {
+  border-top: none;
+
+  @include mq(tab){
+    border-top: 1px solid #e3e3e3;
+  }
+}
+
+.p-message__inner {
+
+}
+
+.p-message__body {
+  // min-height: 70.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3rem 2.4rem;
+
+  @include mq(tab){
+    flex-direction: row;
+  }
+}
+
+.p-message__figure {
+  z-index: 2;
+  position: static;
+  text-align: center;
+  img {
+    width: 78.769231%;
+    filter: drop-shadow(-10px 10px 0px #ED8500);
+  }
+  @include mq(tab){
+    width: 42.857143%;
+    img {
+      width: 100%;
+      filter: drop-shadow(-20px 20px 0px #ED8500);
+    }
+  }
+
+  .p-message__post {
+    margin: 3rem auto 0;
+    display: flex;
+    justify-content: space-between;
+    width: 31.5rem;
+    height: 5.8rem;
+
+    color: cl(brown);
+    font-family: $font-zenold;
+    font-weight: 600;
+    line-height: 40px;
+    
+    @include mq(pc){
+      margin: 5.1rem auto 0;
+      width: 42.7rem;
+      height: 8.8rem;
+    }
+  }
+
+  .p-message__clinic {
+    position: relative;
+
+    font-size: 15px;
+    @include mq(pc){
+      font-size: 22px;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: -38px;
+      width: 6.5rem;
+      height: 0.1rem;
+      background-color: cl(brown);
+      transform: rotate(-45deg);
+
+      @include mq(pc){
+        right: -53px;
+        width: 9rem;
+      }
+    }
+
+  }
+  .p-message__name {
+    margin-top: auto;
+    font-size: 20px;
+    span {
+      margin-right: 1.3rem;
+      font-size: 13px;
+    }
+    @include mq(pc){
+      font-size: 22px;
+      span {
+        margin-right: 1.6rem;
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+.p-message__desc {
+  flex: 1;
+  
+  @include mq(tab){
+    max-width: 52rem;
+    margin-top: 26rem;
+  }
+}
+
+.p-message__text {
+  font-size: 15px;
+  line-height: 26px; /* 173.333% */
+  letter-spacing: -0.15px;
+}
+
+.p-message__btn {
+  margin-top: 4rem;
+  a {
+    margin: 0 auto;
+  }
+  @include mq(tab){
+    margin-top: 6rem;
+  }
+}
+

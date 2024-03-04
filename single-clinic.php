@@ -1,0 +1,764 @@
+<?php get_header(); ?>
+
+<main class="l-main">
+
+  <section class="p-singleClinicFv">
+    <?php get_template_part('template-parts/part', 'breadcrumb'); ?>
+
+    <div class="p-singleClinicFv__inner">
+      <h1 class="p-singleClinicFv__title">リエートクリニック<br><span><?php the_field("clinic_name"); ?>院</span></h1>
+      <div class="p-singleClinicFv__walktime">
+        <span class="p-singleClinicFv__walktimeText">
+          <?php echo get_field("clinic_time")['clinic_near_station'] ?>駅から<br>
+          徒歩<span class="_num"><?php echo get_field("clinic_time")['clinic_walktime'] ?></span>分
+        </span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 診療時間 -->
+  <div class="p-singleClinicTime">
+    <div class="p-singleClinicTime__inner l-inner">
+
+      <!-- PC版 -->
+      <table class="p-singleClinicTime__table">
+        <tr>
+          <th>診療時間</th>
+          <th>日</th>
+          <th>月</th>
+          <th>火</th>
+          <th>水</th>
+          <th>木</th>
+          <th>金</th>
+          <th>土</th>
+        </tr>
+        <?php
+        while (have_rows('clinic_open')) : the_row();
+          while (have_rows('clinic_open_table')) : the_row();
+            $time = get_sub_field('clinic_open_time');
+            $sun = get_sub_field('clinic_open_sun');
+            $mon = get_sub_field('clinic_open_mon');
+            $tue = get_sub_field('clinic_open_tue');
+            $wed = get_sub_field('clinic_open_wed');
+            $thu = get_sub_field('clinic_open_thu');
+            $fri = get_sub_field('clinic_open_fri');
+            $sat = get_sub_field('clinic_open_sat');
+        ?>
+            <tr>
+              <td><?php echo $time; ?></td>
+              <td><?php echo $sun; ?></td>
+              <td><?php echo $mon; ?></td>
+              <td><?php echo $tue; ?></td>
+              <td><?php echo $wed; ?></td>
+              <td><?php echo $thu; ?></td>
+              <td><?php echo $fri; ?></td>
+              <td><?php echo $sat; ?></td>
+            </tr>
+        <?php
+          endwhile;
+        endwhile;
+        ?>
+      </table>
+
+      <?php // SP版
+      while (have_rows('clinic_open')) : the_row();
+        while (have_rows('clinic_open_table')) : the_row();
+          $time = get_sub_field('clinic_open_time');
+          $sun = get_sub_field('clinic_open_sun');
+          $mon = get_sub_field('clinic_open_mon');
+          $tue = get_sub_field('clinic_open_tue');
+          $wed = get_sub_field('clinic_open_wed');
+          $thu = get_sub_field('clinic_open_thu');
+          $fri = get_sub_field('clinic_open_fri');
+          $sat = get_sub_field('clinic_open_sat');
+      ?>
+          <div class="p-singleClinicTime__spTable _sp">
+            <div class="p-singleClinicTime__spHead">
+              <div class="p-singleClinicTime__spHeadBox">診療時間</div>
+              <div class="p-singleClinicTime__spHeadBox"><?php echo $time; ?></div>
+            </div>
+
+            <table class="p-singleClinicTime__spBody">
+              <tr>
+                <th>日</th>
+                <th>月</th>
+                <th>火</th>
+                <th>水</th>
+                <th>木</th>
+                <th>金</th>
+                <th>土</th>
+              </tr>
+              <tr>
+                <td><?php echo $sun; ?></td>
+                <td><?php echo $mon; ?></td>
+                <td><?php echo $tue; ?></td>
+                <td><?php echo $wed; ?></td>
+                <td><?php echo $thu; ?></td>
+                <td><?php echo $fri; ?></td>
+                <td><?php echo $sat; ?></td>
+              </tr>
+            </table>
+          </div>
+      <?php
+        endwhile;
+      endwhile;
+      ?>
+
+      <div class="p-singleClinicTime__text"><?php echo get_field("clinic_open")["clinic_open_text"]; ?></div>
+    </div>
+  </div>
+
+  <!-- 選ばれる理由 -->
+  <section class="p-singleClinicReason p-reason">
+    <div class="p-reason__inner l-inner">
+      <div class="p-reason__head c-secTitle">
+        <div class="c-secTitle__en">WHY LIETO CLINIC</div>
+        <h2 class="c-secTitle__ja">リエートクリニックの<br>医療ダイエットが選ばれる理由</h2>
+      </div>
+      <div class="p-reason__body">
+        <ul class="p-reason__list">
+          <li class="p-reason__item">
+            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/top/top_reason_01.png" alt="有資格者が施術するから安心の医療痩身">
+            <h3 class="p-reason__itemTitle">有資格者が施術するから<br>安心の医療痩身</h3>
+            <p class="p-reason__itemText">
+              医師・看護師などの有資格者が施術を行うことで、お客様の健康状態や体質に合わせたプランをご提案させていただきます。<br>
+              <br>
+              専門的な知識と経験に基づいて行われるため、安心して施術を受けていただけます。
+            </p>
+          </li>
+
+          <li class="p-reason__item">
+            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/top/top_reason_02.png" alt="短期間での痩身や難しい部分痩せも対応">
+            <h3 class="p-reason__itemTitle">短期間での痩身や<br>難しい部分痩せも対応</h3>
+            <p class="p-reason__itemText">
+              短期間での効果的な痩身や、通常難しいとされる部分痩せにも対応することができます。<br>
+              <br>
+              科学的な根拠に基づいたアプローチを用いて、特定の部位の脂肪やセルライトに対して、技術や機器を駆使して細胞レベルで効果的な施術が可能です。
+            </p>
+          </li>
+
+          <li class="p-reason__item">
+            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/top/top_reason_03.png" alt="切らない施術で安心して痩身">
+            <h3 class="p-reason__itemTitle">切らない施術で<br>安心して痩身</h3>
+            <p class="p-reason__itemText _letter">
+              リエートクリニックでは、最先端の医療痩身機器や注射・点滴治療、ダイエット薬などを用いた切らない施術を行っています。<br>
+              <br>
+              お客様のお悩みに沿ったリエートクリニックオリジナルプログラムにより、理想のお身体を目指します。
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 当院の症例 -->
+  <?php if (get_field("clinic_case")) : ?>
+    <section class="p-singleClinicCase">
+      <div class="p-singleClinicCase__inner l-inner">
+        <div class="p-singleClinicCase__head p-clinicHead">
+          <h3 class="p-clinicHead__title"><?php echo get_field("clinic_name"); ?>院の症例</h3>
+        </div>
+
+        <div class="p-singleClinicCase__body">
+          <ul class="p-singleClinicCase__list p-case">
+            <?php
+            $count = 0;
+            while (have_rows('clinic_case')) : the_row();
+              $before = get_sub_field('clinic_case_before');
+              $count++;
+            ?>
+              <li class="p-case__item">
+                <div class="p-case__head">
+                  <div class="p-case__headName">症例</div>
+                  <div class="p-case__headNum">0<?php echo $count; ?></div>
+                </div>
+                <div class="p-case__body">
+                  <div class="p-case__images">
+                    <div class="p-case__image">
+                      <div class="p-case__imageTitle">BEFORE</div>
+                      <figure class="p-case__figure">
+                        <img loading="lazy" src="<?php the_sub_field('clinic_case_before'); ?>" alt="before">
+                      </figure>
+                    </div>
+                    <div class="p-case__image">
+                      <div class="p-case__imageTitle">AFTER</div>
+                      <figure class="p-case__figure">
+                        <img loading="lazy" src="<?php the_sub_field('clinic_case_after'); ?>" alt="after">
+                      </figure>
+                    </div>
+                  </div>
+                  <div class="p-case__box">
+                    <div class="p-case__boxTitle js-accordion">
+                      <?php the_sub_field('clinic_case_course'); ?>
+                      <div class="p-case__boxTitleMark"></div>
+                    </div>
+                    <div class="p-case__boxDescWrap">
+                      <div class="p-case__boxDesc">
+                        <dl class="p-case__boxContent">
+                          <dt>治療内容</dt>
+                          <dd><?php the_sub_field('clinic_case_content'); ?></dd>
+                        </dl>
+                        <dl class="p-case__boxDetail">
+                          <dt>金額</dt>
+                          <dd><?php the_sub_field('clinic_case_money'); ?></dd>
+                          <dt>期間・回数</dt>
+                          <dd><?php the_sub_field('clinic_case_term'); ?></dd>
+                          <dt>リスク・副作用</dt>
+                          <dd><?php the_sub_field('clinic_case_risk'); ?></dd>
+                        </dl>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            <?php
+            endwhile;
+            ?>
+          </ul>
+        </div>
+      </div>
+    </section>
+  <?php endif; ?>
+
+  <!-- アクセス・方法・外観内観 -->
+  <section class="p-singleClinicAccess">
+    <div class="p-singleClinicAccess__inner">
+      <div class="p-singleClinicAccess__head c-secTitle">
+        <div class="c-secTitle__en">ACCESS</div>
+        <h2 class="c-secTitle__ja">アクセス・店舗情報</h2>
+      </div>
+
+      <!-- 店舗情報 -->
+      <div class="p-singleClinicAccess__body l-inner">
+        <div class="p-singleClinicAccess__area p-access">
+          <div class="p-access__clinic">
+            <div class="p-access__desc">
+              <div class="p-access__title">
+                <span><?php echo get_field("clinic_name"); ?>院</span>
+              </div>
+              <dl class="p-access__list">
+                <div class="p-access__listRow">
+                  <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_access_brown.png'>住所</dt>
+                  <dd>〒<?php echo get_field("clinic_info")['clinic_info_post']; ?><br><?php echo get_field("clinic_info")['clinic_info_address']; ?></dd>
+                </div>
+                <div class="p-access__listRow">
+                  <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_train_brown.png'>最寄駅</dt>
+                  <dd><?php echo get_field("clinic_info")['clinic_info_station'] ?></dd>
+                </div>
+                <div class="p-access__listRow">
+                  <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_tel_brown.png'>電話番号</dt>
+                  <dd><a href="tel:<?php echo get_field("clinic_info")['clinic_info_tel'] ?>"><?php echo get_field("clinic_info")['clinic_info_tel'] ?></a></dd>
+                </div>
+                <div class="p-access__listRow">
+                  <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_time_brown.png'>診療時間</dt>
+                  <dd><?php echo get_field("clinic_info")['clinic_info_time'] ?></dd>
+                </div>
+                <div class="p-access__listRow">
+                  <dt>休診日</dt>
+                  <dd><?php echo get_field("clinic_info")['clinic_info_close'] ?></dd>
+                </div>
+                <div class="p-access__listRow">
+                  <dt>支払い方法</dt>
+                  <dd><?php echo get_field("clinic_info")['clinic_info_payment'] ?></dd>
+                </div>
+              </dl>
+            </div>
+            <div class="p-access__map">
+              <?php echo get_field("clinic_info")['clinic_info_map'] ?>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- アクセス方法 -->
+      <?php if (get_field("clinic_access")) : ?>
+        <div class="p-singleClinichow l-inner">
+          <div class="p-singleClinichow__head p-clinicHead">
+            <h3 class="p-clinicHead__title">最寄駅から<?php echo get_field("clinic_name"); ?>院への<br class="_sp">アクセス方法</h3>
+          </div>
+
+          <div class="p-singleClinichow__body">
+            <div class="p-singleClinichow__area">
+              <div class="p-singleClinichow__tabs">
+                <?php
+                while (have_rows('clinic_access')) : the_row();
+                ?>
+                  <div class="p-singleClinichow__tab">
+                    <?php the_sub_field('clinic_access_station'); ?>
+                  </div>
+                <?php
+                endwhile;
+                ?>
+              </div>
+
+              <div class="p-singleClinichow__tables">
+                <?php
+                while (have_rows('clinic_access')) : the_row();
+                ?>
+                  <div class="p-singleClinichow__table">
+                    <ul class="p-singleClinichow__boxes">
+
+                      <?php
+                      while (have_rows('clinic_access_order')) : the_row();
+                      ?>
+                        <li class="p-singleClinichow__box">
+                          <figure class="p-singleClinichow__boxFigure">
+                            <div class="p-singleClinichow__boxNum"></div>
+                            <img loading="lazy" src="<?php the_sub_field('clinic_access_image'); ?>">
+                          </figure>
+                          <p class="p-singleClinichow__boxText">
+                            <?php the_sub_field('clinic_access_desc'); ?>
+                          </p>
+                        </li>
+                      <?php
+                      endwhile;
+                      ?>
+                    </ul>
+                  </div>
+                <?php
+                endwhile;
+                ?>
+              </div>
+            </div>
+          </div>
+        </div>
+      <?php endif; ?>
+
+      <!-- 外観・内観 -->
+      <div class="p-singleClinicAlbum">
+        <div class="l-inner">
+          <div class="p-singleClinicAlbum__head p-clinicHead">
+            <h3 class="p-clinicHead__title"><?php echo get_field("clinic_name"); ?>院の外観・内観</h3>
+          </div>
+        </div>
+        <div class="p-singleClinicAlbum__body">
+          <ul class="p-singleClinicAlbum__list">
+            <?php
+            $images = get_field('clinic_gallery');
+            foreach ($images as $image) :
+            ?>
+              <li class="p-singleClinicAlbum__item">
+                <img loading="lazy" src="<?php echo $image; ?>">
+              </li>
+            <?php
+            endforeach;
+            ?>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 施術内容 -->
+  <div class="p-singleClinicTreatmentWrap">
+    <section class="p-singleClinicTreatment">
+      <div class="p-singleClinicTreatment__bgc">
+        <div class="p-singleClinicTreatment__inner l-inner">
+
+          <div class="p-singleClinicTreatment__main p-treatment">
+            <div class="p-treatment__head c-secTitle">
+              <div class="c-secTitle__en  _black">TREATMENT</div>
+              <h2 class="c-secTitle__ja">施術内容</h2>
+            </div>
+
+            <div class="p-treatment__body">
+              <div class="p-treatment__content">
+                <div class="p-treatment__contentTitle">
+                  脂肪細胞を破壊したい方へ
+                </div>
+                <ul class="p-treatment__contentList">
+
+                  <li class="p-treatment__contentItem">
+                    <a href="/menu/stimsure/">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/treatment/treatment_01.png" alt="医療電磁場機器">
+                      <div class="p-treatment__contentItemDesc">
+                        <div class="p-treatment__contentItemText">メリハリのある理想のボディラインを</div>
+                        <div class="p-treatment__contentItemHead">
+                          <h3 class="p-treatment__contentItemTitle">医療電磁場機器</h3>
+                          <div class="p-treatment__contentItemSubtitle">StimSure-スティムシュアー</div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="p-treatment__contentItem">
+                    <a href="/menu/clatuu-a/">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/treatment/treatment_02.png" alt="医療脂肪冷却機器">
+                      <div class="p-treatment__contentItemDesc">
+                        <div class="p-treatment__contentItemText">脂肪細胞のみ狙いうちで凍結排出</div>
+                        <div class="p-treatment__contentItemHead">
+                          <h3 class="p-treatment__contentItemTitle">医療脂肪冷却機器</h3>
+                          <div class="p-treatment__contentItemSubtitle">CLATUU α -クラツーアルファ-</div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="p-treatment__contentItem">
+                    <a href="/menu/hifu/">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/treatment/treatment_03.png" alt="医療HIFU">
+                      <div class="p-treatment__contentItemDesc">
+                        <div class="p-treatment__contentItemText">引き締めながら脂肪細胞を破壊</div>
+                        <div class="p-treatment__contentItemHead">
+                          <h3 class="p-treatment__contentItemTitle">医療HIFU</h3>
+                          <div class="p-treatment__contentItemSubtitle">ULTRAcel [zíː] -ウルトラセル ジィー-</div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="p-treatment__contentItem">
+                    <a href="/menu/fat-dissolving-injection/">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/treatment/treatment_04.png" alt="脂肪溶解注射">
+                      <div class="p-treatment__contentItemDesc">
+                        <div class="p-treatment__contentItemText">気になる部位を切らずに部分痩せ</div>
+                        <div class="p-treatment__contentItemHead">
+                          <h3 class="p-treatment__contentItemTitle">脂肪溶解注射</h3>
+                          <div class="p-treatment__contentItemSubtitle"> </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="p-treatment__content _bottom">
+                <div class="p-treatment__contentTitle">
+                  太りにくく、痩せやすいカラダ作りへ
+                </div>
+                <ul class="p-treatment__contentList">
+
+                  <li class="p-treatment__contentItem">
+                    <a href="/menu/glp-1/">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/treatment/treatment_05.png" alt="GLP-1">
+                      <div class="p-treatment__contentItemDesc">
+                        <div class="p-treatment__contentItemHead">
+                          <h3 class="p-treatment__contentItemTitle">GLP-1</h3>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="p-treatment__contentItem">
+                    <a href="/menu/beauty-drip/">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/treatment/treatment_06.png" alt="ダイエット美容点滴">
+                      <div class="p-treatment__contentItemDesc">
+                        <div class="p-treatment__contentItemHead">
+                          <h3 class="p-treatment__contentItemTitle">ダイエット美容点滴</h3>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="p-treatment__contentItem">
+                    <a href="/menu/original-supplement/">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/treatment/treatment_07.jpg" alt="オリジナルサプリメント">
+                      <div class="p-treatment__contentItemDesc">
+                        <div class="p-treatment__contentItemHead">
+                          <h3 class="p-treatment__contentItemTitle">オリジナルサプリメント</h3>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="p-treatment__contentItem">
+                    <a href="/menu/original-protein/">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/treatment/treatment_08.png" alt="オリジナルプロテイン">
+                      <div class="p-treatment__contentItemDesc">
+                        <div class="p-treatment__contentItemHead">
+                          <h3 class="p-treatment__contentItemTitle">オリジナルプロテイン</h3>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="p-treatment__contentItem">
+                    <a href="/menu/diet-supplement/">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/treatment/treatment_09.png" alt="ダイエット薬">
+                      <div class="p-treatment__contentItemDesc">
+                        <div class="p-treatment__contentItemHead">
+                          <h3 class="p-treatment__contentItemTitle">ダイエット薬</h3>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="p-treatment__contentItem">
+                    <a href="/menu/guidance/">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/treatment/treatment_10.png" alt="食事・栄養指導">
+                      <div class="p-treatment__contentItemDesc">
+                        <div class="p-treatment__contentItemHead">
+                          <h3 class="p-treatment__contentItemTitle">食事・栄養指導</h3>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="p-singleClinicTreatment__banner">
+              <a href="/menu/exosome/">
+                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/common/treatment_banner.png" alt="エクソソーム点滴" class="_overTab">
+                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/common/treatment_banner_sp.png" alt="エクソソーム点滴" class="_sp">
+              </a>
+            </div>
+
+            <div class="p-singleClinicTreatment__btns">
+              <a href="/menu/" class="c-btn">施術一覧をみる</a>
+              <a href="/monitor/" class="c-btn _orange">モニター募集情報をみる</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </div>
+
+  <!-- CTA -->
+  <div class="p-singleClinic__cta l-inner">
+    <?php get_template_part('template-parts/part', 'cta'); ?>
+  </div>
+
+  <!-- ご予約から施術の流れ -->
+  <section class="p-singleClinicFlow">
+    <div class="p-singleClinicFlow__inner l-inner">
+
+      <div class="p-singleClinicFlow__area">
+        <div class="p-singleClinicFlow__head c-secTitle">
+          <h2 class="c-secTitle__ja">ご予約から施術の流れ</h2>
+        </div>
+
+        <div class="p-singleClinicFlow__body p-flow">
+          <ul class="p-flow__list">
+            <h3 class="p-flow__subtitle">ご予約当日</h3>
+            <li class="p-flow__item">
+              <div class="p-flow__itemFlex">
+                <figure class="p-flow__figure">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/flow/flow_01.png" alt="ご予約・無料カウンセリング">
+                </figure>
+
+                <div class="p-flow__desc">
+                  <div class="p-flow__descHead">
+                    <div class="p-flow__descNum">01</div>
+                    <div class="p-flow__descTitle">
+                      ご予約・<br>無料カウンセリング
+                    </div>
+                  </div>
+                  <p class="p-flow__descText">
+                    無料カウンセリングは、Web予約フォームまたは電話で手軽に予約可能です。ご希望の日時を選択できますが、予約状況により日程調整が必要な場合もあるため、複数の候補日を予めご用意ください。無料カウンセリングでは、これまでのダイエット経験や食生活などをお伺いし、お客様の理想の体型や体重を実現する為の医療痩身プログラムを作成します。
+                  </p>
+                </div>
+              </div>
+
+              <div class="p-flow__itemBtns">
+                <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p" class="c-btn _orange"><img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_counseling.png" alt="counseling">無料カウンセリング予約</a>
+                <a href="tel:<?php echo get_field('toll-free', 94); ?>" class="c-btn"><img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_tel.png" alt="tel">お電話からのご予約</a>
+              </div>
+            </li>
+
+            <li class="p-flow__item">
+              <div class="p-flow__itemFlex">
+                <figure class="p-flow__figure">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/flow/flow_02.png" alt="採血・遺伝子検査">
+                </figure>
+
+                <div class="p-flow__desc">
+                  <div class="p-flow__descHead">
+                    <div class="p-flow__descNum">02</div>
+                    <div class="p-flow__descTitle">採血・遺伝子検査</div>
+                  </div>
+                  <p class="p-flow__descText">
+                    お客様ひとりひとりに合ったプログラムを実施するため、施術前に採血と遺伝子検査を行います。
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <h3 class="p-flow__subtitle _second">再度ご来院</h3>
+            <li class="p-flow__item">
+              <div class="p-flow__itemFlex">
+                <figure class="p-flow__figure">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/flow/flow_03.png" alt="inbody測定">
+                </figure>
+
+                <div class="p-flow__desc">
+                  <div class="p-flow__descHead">
+                    <div class="p-flow__descNum">03</div>
+                    <div class="p-flow__descTitle">inbody測定</div>
+                  </div>
+                  <p class="p-flow__descText">
+                    さらに、高性能な体成分分析装置のInbodyで、精密な検査を行います。<br>
+                    体を構成する基本成分である筋肉量・タンパク質・ミネラル・体脂肪を定量的に分析します。
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="p-flow__item">
+              <div class="p-flow__itemFlex">
+                <figure class="p-flow__figure">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/flow/flow_04.png" alt="問診・ダイエット食事指導">
+                </figure>
+
+                <div class="p-flow__desc">
+                  <div class="p-flow__descHead">
+                    <div class="p-flow__descNum">04</div>
+                    <div class="p-flow__descTitle">問診・<br>ダイエット食事指導</div>
+                  </div>
+                  <p class="p-flow__descText">
+                    採血・遺伝子検査・Inbodyの結果をもとに、お客様の理想の体を実現すべく、医師による投薬指導と管理栄養士による食事指導を実施します。
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="p-flow__item">
+              <div class="p-flow__itemFlex">
+                <figure class="p-flow__figure">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/flow/flow_05.png" alt="医療機器施術">
+                </figure>
+
+                <div class="p-flow__desc">
+                  <div class="p-flow__descHead">
+                    <div class="p-flow__descNum">05</div>
+                    <div class="p-flow__descTitle">医療機器施術</div>
+                  </div>
+                  <p class="p-flow__descText">
+                    お客様ひとりひとりに合ったプランで、国際的に医療認可を受けた医療痩身機器によるリエートクリニックならではの効果の高い施術を行います。
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="p-flow__item">
+              <div class="p-flow__itemFlex">
+                <figure class="p-flow__figure">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/flow/flow_06.png" alt="注射・点滴施術">
+                </figure>
+
+                <div class="p-flow__desc">
+                  <div class="p-flow__descHead">
+                    <div class="p-flow__descNum">06</div>
+                    <div class="p-flow__descTitle">注射・点滴施術</div>
+                  </div>
+                  <p class="p-flow__descText">
+                    ダウンタイムの少ない脂肪溶解注射をお客様のご希望する部位への施術を行います。
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="p-flow__item">
+              <div class="p-flow__itemFlex">
+                <figure class="p-flow__figure">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/flow/flow_07.png" alt="ダイエット薬・サプリメント処方">
+                </figure>
+
+                <div class="p-flow__desc">
+                  <div class="p-flow__descHead">
+                    <div class="p-flow__descNum">07</div>
+                    <div class="p-flow__descTitle">ダイエット薬・<br>サプリメント処方</div>
+                  </div>
+                  <p class="p-flow__descText">
+                    痩身効果を期待される厳選されたダイエット薬と痩せたいへと導くリエートクリニックのオリジナルサプリメントをお客様に合わせたオーダーメイド処方を実施します。
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 担当医師挨拶 -->
+  <?php if (get_field("clinic_doctor")['clinic_doctor_image']) : ?>
+    <section class="p-singleClinicMessage p-message">
+      <div class="p-message__head c-wideTitle">
+        <div class="p-message__headInner l-inner">
+          <div class="c-wideTitle__content">
+            <div class="c-wideTitle__en">MESSAGE</div>
+            <h2 class="c-wideTitle__ja">担当医師挨拶</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="p-message__inner l-inner">
+        <div class="p-message__body">
+          <figure class="p-message__figure">
+            <img loading="lazy" src="<?php echo get_field("clinic_doctor")['clinic_doctor_image']; ?>" alt="担当医師写真">
+            <div class="p-message__post">
+              <div class="p-message__clinic">リエートクリニック<?php echo get_field("clinic_name"); ?>院</div>
+              <div class="p-message__name"><span>医師</span><?php echo get_field("clinic_doctor")['clinic_doctor_name'] ?></div>
+            </div>
+          </figure>
+          <div class="p-message__desc">
+            <p class="p-message__text">
+              <?php echo get_field("clinic_doctor")['clinic_doctor_desc'] ?>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  <?php endif; ?>
+
+
+  <!-- よくあるご質問 -->
+  <?php if (get_field("clinic_faq")) : ?>
+    <section class="p-singleClinicFaq">
+      <div class="p-singleClinicFaq__inner l-inner">
+        <div class="p-singleClinicFaq__head c-secTitle">
+          <div class="c-secTitle__en">FAQ</div>
+          <h2 class="c-secTitle__ja">よくあるご質問</h2>
+        </div>
+
+        <div class="p-singleClinicFaq__content p-faq" itemscope itemtype="https://schema.org/FAQPage">
+
+          <?php
+          while (have_rows('clinic_faq')) : the_row();
+          ?>
+            <div class="p-faq__box js-faqAccordion" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+
+              <div class="p-faq__question">
+                <div class="p-faq__questionDesc">
+                  <div class="p-faq__questionMark">Q</div>
+                  <span class="p-faq__questionText" itemprop="name">
+                    <?php the_sub_field('clinic_faq_question'); ?>
+                  </span>
+                </div>
+                <span class="p-faq__questionOpen"></span>
+              </div>
+
+              <div class="p-faq__answer" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+                <div class="p-faq__answerDesc">
+                  <div class="p-faq__answerMark">A</div>
+                  <span class="p-faq__answerText" itemprop="text">
+                    <?php the_sub_field('clinic_faq_answer'); ?>
+                  </span>
+                </div>
+              </div>
+            </div>
+          <?php
+          endwhile;
+          ?>
+        </div>
+
+        <div class="p-singleClinicFaq__btn">
+          <a href="/faq/" class="c-btn">よくあるご質問を詳しくみる</a>
+        </div>
+      </div>
+    </section>
+  <?php endif; ?>
+
+  <!-- CTA -->
+  <div class="p-singleClinic__bottomcta l-inner">
+    <?php get_template_part('template-parts/part', 'cta'); ?>
+  </div>
+
+</main>
+
+<?php get_footer();

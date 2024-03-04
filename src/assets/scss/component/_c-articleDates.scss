@@ -1,0 +1,79 @@
+.c-articleDates {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 2rem;
+
+  letter-spacing: 0.02em;
+  font-size: 1.2rem;
+  color: #99A9B0;
+
+  @include mq(tab){
+    gap: 0.4rem 9.756%;
+    font-size: 1.5rem;
+  }
+}
+
+.c-articleDates__modified {
+  display: flex;
+  align-items: center;
+  gap: 0 1rem;
+
+  @include mq(tab){
+    gap: 0 2rem;
+  }
+}
+
+.c-articleDates__modifiedTtl {
+  display: flex;
+  align-items: center;
+  gap: 0 0.5rem;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-image: url(../../../dist/assets/img/icon/icon_modified.png);
+    background-size: contain;
+    
+    @include mq(tab){
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
+}
+
+.c-articleDates__modifiedNum {
+
+}
+
+
+.c-articleDates__published {
+  display: flex;
+  align-items: center;
+  gap: 0 1rem;
+
+  @include mq(tab){
+    gap: 0 2rem;
+  }
+}
+
+.c-articleDates__publishedTtl {
+  width: 6.8rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: cl(gray);
+
+  @include mq(tab){
+    width: 8.5rem;
+    height: 2.5rem;
+  }
+}
+
+.c-articleDates__publishedNum {
+
+}

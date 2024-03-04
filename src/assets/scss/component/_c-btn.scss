@@ -1,0 +1,67 @@
+.c-btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 1rem;
+
+  width: 30rem;
+  height: 5.4rem;
+
+  border-radius: 0.6rem;
+  background-color: cl(brown);
+  color: #fff;
+  letter-spacing: 0.32px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+
+  margin: 0 auto;
+
+  @include mq(tab){
+    margin: initial;
+  }
+  
+  &._orange {
+    background-color: cl(orange);
+  }
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 2rem;
+    margin: auto;
+    width: 1.6rem;
+    height: 0.8rem;
+    background-image: url("../../../dist/assets/img/icon/arrow_right.png");
+    background-size: contain;
+  }
+
+  &.c-btnReturn {
+    background-color: transparent;
+    border: 1px solid cl(brown);
+    color: cl(brown);
+
+    &::after {
+      display: none;
+    }
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 2rem;
+      margin: auto;
+      width: 1.6rem;
+      height: 0.8rem;
+      background-image: url("../../../dist/assets/img/icon/arrow_left_brown.png");
+      background-size: contain;
+    }
+  }
+}

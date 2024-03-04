@@ -1,0 +1,31 @@
+.p-topFaq {
+  margin-top: 6rem;  
+  @include mq(tab){
+    margin-top: 12rem;
+  }
+}
+
+.p-topFaq__inner {
+  max-width: 97rem;
+}
+
+.p-topFaq__head {
+
+}
+
+.p-topFaq__content {
+  margin-top: 3rem;
+  @include mq(tab){
+    margin-top: 5rem;
+  }
+}
+
+.p-topFaq__btn {
+  margin-top: 4rem;
+  a {
+    margin: 0 auto;
+  }
+  @include mq(tab){
+    margin-top: 6rem;
+  }
+}
