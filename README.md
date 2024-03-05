@@ -13,11 +13,12 @@ src内のファイルを削除してもdist内の画像は削除されない。
 
 ## css
 src/scss/内に記述
+ページに読み込むのは[dist/assets/css/common.css]
 CSS設計はFLOCSSを使用
 
 ## js
 機能ごとにファイルを分割し、main.jsでまとめる。
-ページに読み込むのは[dist/main.js]
+ページに読み込むのは[dist/assets/js/main.js]
 
 ## Git
 [main]ブランチ：本番環境
