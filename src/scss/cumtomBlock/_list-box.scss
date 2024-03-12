@@ -1,0 +1,85 @@
+.c-listBox {
+  margin: 5.0rem 0;
+  padding: 2.0rem 1.5rem;
+  background-color: #FFF6ED;
+  border: 0.3rem solid #8A652F;
+
+  @include mq(tab){
+    margin: 6.0rem 0;
+    padding: 3.0rem 3.0rem 4.0rem;
+  }
+}
+
+.c-listBox__title {
+  position: relative;
+  padding-bottom: 2rem;
+  border-bottom: 0.1rem solid #8A652F;
+  font-family: $font-zenold;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #8A652F;
+
+  @include mq(tab){
+    font-size: 2.0rem;
+    line-height: 3.2rem;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -0.2rem;
+    left: 0;
+    width: 5.0rem;
+    height: 0.3rem;
+    background-color: #8A652F;
+
+    @include mq(tab){
+      width: 15.0rem;
+      height: 0.5rem;
+    }
+  }
+}
+
+.c-listBox__text {
+  margin-top: 2.0rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.4rem !important;
+
+  @include mq(tab){
+    margin-top: 3.0rem;
+  }
+
+  ul, ol {
+    margin: 0 !important;
+    padding-left: 0rem !important;
+    
+    @include mq(tab){
+      padding-left: 0.5rem !important;
+    }
+    
+    li {
+      display: flex;
+      align-items: flex-start;
+      gap: 0 1.0rem;
+      list-style: none !important;
+
+      &::before {
+        content: '';
+        display: inline-block;
+        width: 2.0rem;
+        height: 2.0rem;
+        background-image: url(../../dist/img/icon/icon_liststyle.png);
+        flex-shrink: 0;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+
+  p {
+    margin: 0 !important;
+    margin-top: 3rem;
+    line-height: initial !important;
+  }
+}

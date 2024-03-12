@@ -291,7 +291,7 @@ ul.wp-block-list li {
   display: inline-block;
   width: 28px;
   height: 28px;
-  background-image: url('dist/assets/img/icon/icon_attention.png');
+  background-image: url('dist/dist/img/icon/icon_attention.png');
   flex-shrink: 0;
   background-size: contain;
   background-repeat: no-repeat;
@@ -356,7 +356,7 @@ ul.wp-block-list li {
   display: inline-block;
   width: 28px;
   height: 28px;
-  background-image: url('dist/assets/img/icon/icon_question.png');
+  background-image: url('dist/dist/img/icon/icon_question.png');
   flex-shrink: 0;
   background-size: contain;
   background-repeat: no-repeat;
@@ -555,7 +555,7 @@ ul.wp-block-list li {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background-image: url('dist/assets/img/icon/icon_liststyle.png');
+  background-image: url('dist/dist/img/icon/icon_liststyle.png');
   flex-shrink: 0;
   background-size: contain;
   background-repeat: no-repeat;
@@ -605,7 +605,7 @@ ul.wp-block-list li {
   display: inline-block;
   width: 12px;
   height: 12px;
-  background-image: url('dist/assets/img/icon/icon_modified.png');
+  background-image: url('dist/dist/img/icon/icon_modified.png');
   background-size: contain;
 }
 @media screen and (min-width: 769px) {
@@ -720,7 +720,7 @@ ul.wp-block-list li {
   display: inline-block;
   width: 15px;
   height: 7px;
-  background-image: url('dist/assets/img/icon/arrow_right_brown.svg');
+  background-image: url('dist/dist/img/icon/arrow_right_brown.svg');
   flex-shrink: 0;
   background-size: contain;
   background-repeat: no-repeat;
@@ -977,7 +977,7 @@ ul.wp-block-list li {
 
 /* CTA */
 .p-cta__bg {
-  background-image: url("dist/assets/img/common/cta_bg.png");
+  background-image: url("dist/dist/img/common/cta_bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

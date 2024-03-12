@@ -16,7 +16,7 @@
 
     <div class="p-singleMenu__body">
       <figure class="p-singleMenu__mainimg">
-        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/supplements_main.png" alt="オリジナルサプリメント">
+        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/supplements_main.png" alt="オリジナルサプリメント">
       </figure>
 
       <!-- とは -->
@@ -24,7 +24,7 @@
         <h2 class="p-singleMenu__title">オリジナルサプリメント 「LALOC」とは</h2>
         <div class="p-singleMenu__box">
           <figure class="p-singleMenu__figure _supplements">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/supplements_01.png" alt="オリジナルサプリメント 「LALOC」とは">
+            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/supplements_01.png" alt="オリジナルサプリメント 「LALOC」とは">
           </figure>
           <div class="p-singleMenu__text _supplements">
             「厳選された次世代サプリメント」をテーマに、当院オリジナルのサプリメントを開発しました。<br>

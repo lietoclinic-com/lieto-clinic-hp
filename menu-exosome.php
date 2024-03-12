@@ -16,8 +16,8 @@
     <div class="p-singleMenu__body p-exosome">
       <figure class="p-exosomeFigure">
         <picture>
-          <source media="(max-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/exosome_main_sp.png">
-          <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/exosome_main.png" alt="エクソソーム点滴">
+          <source media="(max-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/exosome_main_sp.png">
+          <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/exosome_main.png" alt="エクソソーム点滴">
         </picture>
       </figure>
 
@@ -85,7 +85,7 @@
           <div class="p-exosomeAbout__body">
             <p class="p-exosomeAbout__message">再生医療とは、自然には回復しない組織・臓器の回復を促す医療です</p>
             <figure class="p-exosomeAbout__figure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/exosome_about_main.png" alt="再生医療とは、自然には回復しない組織・臓器の回復を促す医療です">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/exosome_about_main.png" alt="再生医療とは、自然には回復しない組織・臓器の回復を促す医療です">
             </figure>
             <p class="p-exosomeAbout__text">
               体の自然な修復力を活用し、細胞や組織を修復または再生するための革新的な美容技術の一環として注目を集めています。<br>
@@ -96,7 +96,7 @@
 
             <div class="p-exosomeAbout__content">
               <figure class="p-exosomeAbout__contentFigure">
-                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/exosome_about_desc.png" alt="再生を促す”幹細胞”は年齢とともに減少していきます">
+                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/exosome_about_desc.png" alt="再生を促す”幹細胞”は年齢とともに減少していきます">
               </figure>
               <div class="p-exosomeAbout__contentDesc">
                 <h3 class="p-exosomeAbout__contentTitle">再生を促す”幹細胞”は<br>年齢とともに減少していきます</h3>
@@ -163,13 +163,13 @@
                         <div class="p-case__image">
                           <div class="p-case__imageTitle">BEFORE</div>
                           <figure class="p-case__figure">
-                            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/case/case_01_before.png" alt="before">
+                            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case_01_before.png" alt="before">
                           </figure>
                         </div>
                         <div class="p-case__image">
                           <div class="p-case__imageTitle">AFTER</div>
                           <figure class="p-case__figure">
-                            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/case/case_01_after.png" alt="after">
+                            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case_01_after.png" alt="after">
                           </figure>
                         </div>
                       </div>
@@ -209,13 +209,13 @@
                         <div class="p-case__image">
                           <div class="p-case__imageTitle">BEFORE</div>
                           <figure class="p-case__figure">
-                            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/case/case_02_before.png" alt="before">
+                            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case_02_before.png" alt="before">
                           </figure>
                         </div>
                         <div class="p-case__image">
                           <div class="p-case__imageTitle">AFTER</div>
                           <figure class="p-case__figure">
-                            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/case/case_02_after.png" alt="after">
+                            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case_02_after.png" alt="after">
                           </figure>
                         </div>
                       </div>
@@ -265,7 +265,7 @@
             <ul class="p-exosomeFlow__list">
               <li class="p-exosomeFlow__item">
                 <figure class="p-exosomeFlow__figure">
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/exosome_flow_01.png" alt="問診・ヒアリング">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/exosome_flow_01.png" alt="問診・ヒアリング">
                 </figure>
                 <div class="p-exosomeFlow__desc">
                   <div class="p-exosomeFlow__descHead">
@@ -279,7 +279,7 @@
 
               <li class="p-exosomeFlow__item">
                 <figure class="p-exosomeFlow__figure">
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/exosome_flow_02.png" alt="点滴">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/exosome_flow_02.png" alt="点滴">
                 </figure>
                 <div class="p-exosomeFlow__desc">
                   <div class="p-exosomeFlow__descHead">
@@ -292,7 +292,7 @@
               </li>
               <li class="p-exosomeFlow__item">
                 <figure class="p-exosomeFlow__figure">
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/exosome_flow_03.png" alt="そのままご帰宅いただけます">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/exosome_flow_03.png" alt="そのままご帰宅いただけます">
                 </figure>
                 <div class="p-exosomeFlow__desc">
                   <div class="p-exosomeFlow__descHead">
@@ -370,7 +370,7 @@
 
           <div class="p-exosomeMessage__body">
             <figure class="p-exosomeMessage__figure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/common/doctor.png" alt="リエートクリニック横浜院医師 白川 巧">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/doctor.png" alt="リエートクリニック横浜院医師 白川 巧">
             </figure>
             <div class="p-exosomeMessage__desc">
               <p class="p-exosomeMessage__text">

@@ -19,39 +19,39 @@
           <ul class="p-pageColumn__articlesList">
 
             <?php
-              $paged = (get_query_var('paged')) ? absint(get_query_var('paged')) : 1;
-              $args = array(
-                'paged' => $paged,
-                'post_type' => 'column',
-                'posts_per_page' => 10,
-                'tax_query' => array(
-                  array(
-                    'taxonomy' => 'column_cat',
-                    'field' => 'slug',
-                    'terms' => $term,
-                  )
+            $paged = (get_query_var('paged')) ? absint(get_query_var('paged')) : 1;
+            $args = array(
+              'paged' => $paged,
+              'post_type' => 'column',
+              'posts_per_page' => 10,
+              'tax_query' => array(
+                array(
+                  'taxonomy' => 'column_cat',
+                  'field' => 'slug',
+                  'terms' => $term,
                 )
-              );
-              $query = new WP_Query($args);
+              )
+            );
+            $query = new WP_Query($args);
             ?>
-            
-            <?php if($query->have_posts()): ?>
-              <?php while($query->have_posts()): $query->the_post(); ?>
-              
+
+            <?php if ($query->have_posts()) : ?>
+              <?php while ($query->have_posts()) : $query->the_post(); ?>
+
                 <li class="p-pageColumn__articlesItem">
                   <a href="<?php the_permalink(); ?>">
                     <figure class="p-pageColumn__articlesFigure">
-                      <?php if(has_post_thumbnail()): ?>
+                      <?php if (has_post_thumbnail()) : ?>
                         <?php the_post_thumbnail(); ?>
-                      <?php else: ?>
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/common/sample_01.png">
+                      <?php else : ?>
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/sample_01.png">
                       <?php endif; ?>
                     </figure>
-                    
+
                     <div class="p-pageColumn__articlesDesc">
-                      <div class="p-pageColumn__articlesCat"><?php echo get_the_terms($post->ID,'column_cat')[0]->name; ?></div>
+                      <div class="p-pageColumn__articlesCat"><?php echo get_the_terms($post->ID, 'column_cat')[0]->name; ?></div>
                       <div class="p-pageColumn__dates c-articleDates">
-                      <div class="c-articleDates__modified">
+                        <div class="c-articleDates__modified">
                           <div class="c-articleDates__modifiedTtl">更新日</div>
                           <time class="c-articleDates__modifiedNum" datetime="<?php the_modified_time('Y-m-d'); ?>" itemprop="datemodified"><?php the_modified_time('Y.m.d') ?></time>
                         </div>
@@ -63,19 +63,20 @@
 
                       <h3 class="p-pageColumn__articlesTitle">
                         <?php
-                          if(mb_strlen($post->post_title) >39) {
-                            $title= mb_substr($post->post_title,0,39) ;
-                            echo $title . '...';
-                          } else {
-                            echo $post->post_title;
-                          }
+                        if (mb_strlen($post->post_title) > 39) {
+                          $title = mb_substr($post->post_title, 0, 39);
+                          echo $title . '...';
+                        } else {
+                          echo $post->post_title;
+                        }
                         ?>
                       </h3>
                     </div>
                   </a>
                 </li>
-                  
-              <?php endwhile; wp_reset_postdata() ?>
+
+              <?php endwhile;
+              wp_reset_postdata() ?>
             <?php endif; ?>
           </ul>
 

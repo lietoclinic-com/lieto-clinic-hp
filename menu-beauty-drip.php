@@ -16,7 +16,7 @@
 
     <div class="p-singleMenu__body">
       <figure class="p-singleMenu__mainimg">
-        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/beauty-drip_main.png" alt="ダイエット美容点滴">
+        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/beauty-drip_main.png" alt="ダイエット美容点滴">
       </figure>
 
       <!-- ダイエット美容点滴とは -->
@@ -25,7 +25,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/beauty-drip_01.png" alt="ダイエット美容点滴とは">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/beauty-drip_01.png" alt="ダイエット美容点滴とは">
             </figure>
             <div class="p-singleMenu__flexText">
               当院で行う美容点滴（グルタチオン点滴）は、ダイエット効果の向上だけではなく、健康状態の向上や体調の改善、美容への効果も期待されています。
@@ -40,7 +40,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/beauty-drip_02.png" alt="こんなお悩みに">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/beauty-drip_02.png" alt="こんなお悩みに">
             </figure>
             <ul class="p-singleMenu__flexList">
               <li class="p-singleMenu__flexItem">ダイエットをより効果的にしたい</li>
@@ -58,7 +58,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/beauty-drip_03.png" alt="肝機能の改善によるデトックス能力の向上">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/beauty-drip_03.png" alt="肝機能の改善によるデトックス能力の向上">
             </figure>
             <div class="p-singleMenu__flexDesc">
               <div class="p-singleMenu__subtitle">肝機能の改善によるデトックス能力の向上</div>
@@ -74,7 +74,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/beauty-drip_04.png" alt="脂肪溶解専用の線状照射HIFU 抗酸化作用と美肌効果">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/beauty-drip_04.png" alt="脂肪溶解専用の線状照射HIFU 抗酸化作用と美肌効果">
             </figure>
             <div class="p-singleMenu__flexDesc">
               <div class="p-singleMenu__subtitle">抗酸化作用と美肌効果</div>
@@ -91,7 +91,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/beauty-drip_05.png" alt="筋肉疲労やストレスの緩和">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/beauty-drip_05.png" alt="筋肉疲労やストレスの緩和">
             </figure>
             <div class="p-singleMenu__flexDesc">
               <div class="p-singleMenu__subtitle">筋肉疲労やストレスの緩和</div>
@@ -107,7 +107,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/beauty-drip_06.png" alt="アンチエイジングや生活習慣病予防に">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/beauty-drip_06.png" alt="アンチエイジングや生活習慣病予防に">
             </figure>
             <div class="p-singleMenu__flexDesc">
               <div class="p-singleMenu__subtitle">アンチエイジングや生活習慣病予防に</div>

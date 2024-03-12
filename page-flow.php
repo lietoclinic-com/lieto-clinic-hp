@@ -28,7 +28,7 @@
                 <li class="p-flow__item">
                   <div class="p-flow__itemFlex">
                     <figure class="p-flow__figure">
-                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/flow/flow_01.png" alt="ご予約・無料カウンセリング">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/flow/flow_01.png" alt="ご予約・無料カウンセリング">
                     </figure>
 
                     <div class="p-flow__desc">
@@ -45,15 +45,15 @@
                   </div>
 
                   <div class="p-flow__itemBtns">
-                    <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p" class="c-btn _orange"><img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_counseling.png" alt="counseling">無料カウンセリング予約</a>
-                    <a href="tel:<?php echo get_field('toll-free', 94); ?>" class="c-btn"><img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_tel.png" alt="tel">お電話からのご予約</a>
+                    <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p" class="c-btn _orange"><img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_counseling.png" alt="counseling">無料カウンセリング予約</a>
+                    <a href="tel:<?php echo get_field('toll-free', 94); ?>" class="c-btn"><img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_tel.png" alt="tel">お電話からのご予約</a>
                   </div>
                 </li>
 
                 <li class="p-flow__item">
                   <div class="p-flow__itemFlex">
                     <figure class="p-flow__figure">
-                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/flow/flow_02.png" alt="採血・遺伝子検査">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/flow/flow_02.png" alt="採血・遺伝子検査">
                     </figure>
 
                     <div class="p-flow__desc">
@@ -72,7 +72,7 @@
                 <li class="p-flow__item">
                   <div class="p-flow__itemFlex">
                     <figure class="p-flow__figure">
-                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/flow/flow_03.png" alt="inbody測定">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/flow/flow_03.png" alt="inbody測定">
                     </figure>
 
                     <div class="p-flow__desc">
@@ -91,7 +91,7 @@
                 <li class="p-flow__item">
                   <div class="p-flow__itemFlex">
                     <figure class="p-flow__figure">
-                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/flow/flow_04.png" alt="問診・ダイエット食事指導">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/flow/flow_04.png" alt="問診・ダイエット食事指導">
                     </figure>
 
                     <div class="p-flow__desc">
@@ -109,7 +109,7 @@
                 <li class="p-flow__item">
                   <div class="p-flow__itemFlex">
                     <figure class="p-flow__figure">
-                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/flow/flow_05.png" alt="医療機器施術">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/flow/flow_05.png" alt="医療機器施術">
                     </figure>
 
                     <div class="p-flow__desc">
@@ -127,7 +127,7 @@
                 <li class="p-flow__item">
                   <div class="p-flow__itemFlex">
                     <figure class="p-flow__figure">
-                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/flow/flow_06.png" alt="注射・点滴施術">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/flow/flow_06.png" alt="注射・点滴施術">
                     </figure>
 
                     <div class="p-flow__desc">
@@ -145,7 +145,7 @@
                 <li class="p-flow__item">
                   <div class="p-flow__itemFlex">
                     <figure class="p-flow__figure">
-                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/flow/flow_07.png" alt="ダイエット薬・サプリメント処方">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/flow/flow_07.png" alt="ダイエット薬・サプリメント処方">
                     </figure>
 
                     <div class="p-flow__desc">

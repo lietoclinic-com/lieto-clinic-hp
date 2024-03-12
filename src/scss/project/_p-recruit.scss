@@ -1,0 +1,274 @@
+// TOP背景画像 
+.p-recruitBody {
+  padding-top: 5rem;
+  @include mq(tab){
+    padding-top: 8rem;
+
+    background-image: url(../../dist/img/message/bg_img.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 56rem 85.6rem;
+  }
+}
+
+// recruit タイトル
+.c-recruitHead {
+  text-align: center;
+  font-family: $font-zenold;
+  font-weight: 700;
+  font-size: 2rem;
+  color: cl(brown);
+
+  span {
+    line-height: 1;
+    font-size: 1.5rem;
+  }
+
+  @include mq(tab){
+    font-size: 3.2rem;
+    span {
+      font-size: 2rem;
+    }
+  }
+
+  &.p-access__head {
+    margin-bottom: 3rem;
+    @include mq(tab){
+      margin-bottom: 5.6rem;
+    }
+  }
+}
+
+// TOPメッセージ
+.p-recruitMessage {
+  word-break: break-all;
+  font-family: $font-zenold;
+  letter-spacing: -0.02em;
+  line-height: 1.8;
+  font-weight: 700;
+  font-size: 2rem;
+  color: cl(brown);
+
+  @include mq(tab){
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 2;
+    font-size: 3.2rem;
+  }
+}
+
+.p-recruitMessage__inner {
+  padding: 0 2rem;
+}
+
+// 採用の流れ
+.p-recruitFlow {
+
+}
+
+.p-recruitFlow__inner {
+  max-width: 126rem;
+}
+
+.p-recruitFlow__body {
+  margin-top: 3rem;
+  @include mq(tab){
+    margin-top: 4rem;
+  }
+}
+
+.p-recruitFlow__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem 3rem;
+}
+
+.p-recruitFlow__item {
+  position: relative;
+  width: 100%;
+  @include mq(tab){
+    width: calc((100% - 3rem) / 2);
+  }
+  
+  @include mq(pc){
+    width: calc((100% - 3rem * 3) / 4);
+  }
+}
+
+.p-recruitFlow__figure {
+  position: relative;
+
+  @include mq(tab){
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: -2rem;
+      margin: auto;
+      width: 1rem;
+      height: 1.2rem;
+      background-color: cl(orange);
+      clip-path: polygon(0 0, 0% 100%, 100% 50%);
+    }
+    .p-recruitFlow__item:nth-child(even) & {
+      &::after {
+        display: none;
+      }
+    }
+  }
+
+  @include mq(pc){
+    .p-recruitFlow__item:nth-child(2) & {
+      &::after {
+        display: block;
+      }
+    }
+  }
+
+  img {
+    border-radius: 0.4rem;
+  }
+}
+
+.p-recruitFlow__desc {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0 1.6rem;
+
+  @include mq(tab){
+    gap: 0 2.0rem;
+  }
+}
+
+.p-recruitFlow__descNum {
+  padding-top: 0.6rem;
+  padding-bottom: 0.2rem;
+  padding-right: 1.6rem;
+  border-right: 1px solid cl(brown);
+  font-family: $font-cinzel;
+  font-size: 4rem;
+  color: cl(gray);
+  line-height: 4.1rem;
+  
+  @include mq(tab){
+    padding-right: 1.8rem;
+    font-size: 4.8rem;
+  }
+
+  &::before {
+    content: "STEP";
+    display: block;
+    margin-bottom: 0.7rem;
+    text-align: center;
+    line-height: 1;
+    font-size: 1.8rem;
+  }
+}
+
+.p-recruitFlow__descText {
+  font-family: $font-zenold;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: cl(brown);
+
+  @include mq(tab){
+    font-size: 1.8rem;
+  }
+}
+
+// 採用応募フォーム
+.p-recruitForm {
+
+}
+
+.p-recruitForm__bg {
+  background-image: url(../../dist/img/recruit/recruit_form_btn_sp.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 33.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  
+  @include mq(tab){
+    background-image: url(../../dist/img/recruit/recruit_form_btn.png);
+    height: 26.3rem;
+    
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5rem;
+  }
+  
+  @include mq(pc){
+    padding-right: 8rem;
+  }
+}
+
+.p-recruitForm__desc {
+  margin-bottom: 3rem;
+  @include mq(tab){
+    margin-bottom: 0;
+  }
+}
+
+.p-recruitForm__text {
+  text-align: center;
+  font-family: $font-zenold;
+  font-weight: 700;
+  font-size: 2.2rem;
+  color: #fff;
+  
+  @include mq(pc){
+    text-align: left;
+    font-size: 3.2rem;
+  }
+}
+
+.p-recruitForm__link {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 1.0rem;
+
+  width: 28rem;
+  height: 5.4rem;
+  border-radius: 2px;
+
+  border: 1px solid #fff;
+  background: #8A652F;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+
+  color: #fff;
+  font-family: $font-zenold;
+  font-weight: 700;
+
+  font-size: 17px;
+  font-weight: 700;
+  
+  img {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+
+  @include mq(pc){
+    justify-content: flex-start;
+    gap: 0 2.0rem;
+    padding-left: 3rem;
+
+    width: 33rem;
+    height: 6rem;
+
+    font-size: 19px;
+
+    img {
+      width: 3.6rem;
+      height: 3.6rem;
+    }
+  }
+}

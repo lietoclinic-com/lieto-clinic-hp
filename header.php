@@ -46,7 +46,7 @@
   <meta property="og:title" content="<?php the_title(); ?>">
   <meta property="og:type" content="website">
   <meta property="og:url" content="<?php echo $current_url ?>">
-  <meta property="og:image" content="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/common/ogp.jpg">
+  <meta property="og:image" content="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/ogp.jpg">
   <meta property="og:site_name" content="リエートクリニック｜横浜・名古屋での医療痩身・メディカルダイエット">
   <meta property="og:locale" content="ja_JP">
   <meta name="twitter:card" content="summary">
@@ -72,7 +72,7 @@
         "name": "スペーム株式会社",
         "logo": {
           "@type": "ImageObject",
-          "url": "<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/common/logo_orange.png"
+          "url": "<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/logo_orange.png"
         }
       },
       "copyrightYear": "2024-02-02T12:00:00+0000",
@@ -101,7 +101,7 @@
       {
         "@context": "https://schema.org",
         "@type": "MedicalClinic",
-        "image": ["<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/common/ogp.jpg"],
+        "image": ["<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/ogp.jpg"],
         "name": "<?php the_field("clinic_name"); ?>院",
         "description": "<?php bloginfo('description'); ?>",
         "address": {
@@ -143,118 +143,118 @@
     $imageobject = wp_get_attachment_image_src($img_id, 'full');
   ?>
 
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "BlogPosting",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "<?php the_permalink(); ?>"
-      },
-      "headline": "<?php the_title(); ?>",
-      "image": [
-        "<?php echo $imageobject[0]; ?>"
-      ],
-      "datePublished": "<?php echo get_date_from_gmt(get_post_time('c', true), 'c'); ?>",
-      "dateModified": "<?php echo get_date_from_gmt(get_post_modified_time('c', true), 'c'); ?>",
-      "author": {
-        "@type": "Organization",
-        "name": "白川 巧"
-      },
-      "publisher": {
-        "@type": "Organization", //個人の場合は"Person"と記入
-        "name": "リエートクリニック", //ここに社名や個人名を記入
-        "logo": {
-          "@type": "ImageObject",
-          "url": "<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/common/logo.png"
-        }
-      },
-      "description": "<?php echo get_the_excerpt(); ?>"
-    }
-  </script>
-<?php endif; ?>
-
-<?php
-if (is_singular('recruit')) : // 募集要項
-  $recruit_name = get_field('recruit_name'); // 医院名
-  $page_data = get_page_by_path($recruit_name, null, "clinic"); //クリニックdata 
-  $page_id = $page_data->ID; //クリニックID
-  $address = get_field("clinic_info", $page_id)['clinic_info_address']; //IDの住所
-  $code = get_field("clinic_info", $page_id)['clinic_info_post']; // IDの郵便番号
-
-  $address = str_replace(array("\r\n", "\r", "\n", '<br>', '<br />', "&nbsp;"), '', $address); // 改行を無視
-  $state = separate_address($address)['state']; // 県
-  $city = separate_address($address)['city']; // 市町村
-  $other = separate_address($address)['other']; // その他
-
-  $job = get_field('recruit_job')['label'];
-  $wage = "MONTH";
-  if ($job == "医師") {
-    $wage = "HOUR";
-    $minValue = 10000;
-    $maxValue = 10000;
-    $employmentType = "PART_TIME";
-  } elseif ($job == "看護師") {
-    $minValue = 300000;
-    $maxValue = 450000;
-    $employmentType = "FULL_TIME";
-  } elseif ($job == "管理栄養士") {
-    $minValue = 250000;
-    $maxValue = 300000;
-    $employmentType = "FULL_TIME";
-  } elseif ($job == "カウンセラー") {
-    $minValue = 300000;
-    $maxValue = 400000;
-    $employmentType = "PART_TIME";
-  } elseif ($job == "受付事務") {
-    $minValue = 240000;
-    $maxValue = 300000;
-    $employmentType = "PART_TIME";
-  }
-?>
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "JobPosting",
-      "title": "<?php the_title(); ?>",
-
-      "baseSalary": {
-        "@type": "MonetaryAmount",
-        "currency": "JPY",
-        "value": {
-          "@type": "QuantitativeValue",
-          "unitText": "<?php echo $wage; ?>", //日給（HOUR）週休（WEEK）月給（MONTH）年収（YEAR）
-          "minValue": "<?php echo $minValue; ?>",
-          "maxValue": "<?php echo $maxValue; ?>"
-        }
-      },
-
-      "employmentType": "<?php echo $employmentType; ?>", //正社員（FULL_TIME）パート（PART_TIME）契約（CONTRACTOR）インターン（INTERN）
-      "datePosted": "2022-02-02", //求人掲載日
-      "description": "<?php bloginfo('description'); ?>",
-      "jobLocation": { //勤務地 リモートのみの場合は削除可能
-        "@type": "Place",
-        "address": {
-          "@type": "PostalAddress",
-          "addressCountry": "JP",
-          "postalCode": "<?php echo $code; ?>",
-          "addressRegion": "<?php echo $city; ?>",
-          "addressLocality": "<?php echo $state; ?>",
-          "streetAddress": "<?php echo $other; ?>"
-        }
-      },
-
-      "hiringOrganization": { //募集している企業情報
-        "@type": "Organization",
-        "name": "リエートクリニック",
-        "sameAs": "<? echo home_url(); ?>",
-        "logo": "<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/common/logo.png"
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "<?php the_permalink(); ?>"
+        },
+        "headline": "<?php the_title(); ?>",
+        "image": [
+          "<?php echo $imageobject[0]; ?>"
+        ],
+        "datePublished": "<?php echo get_date_from_gmt(get_post_time('c', true), 'c'); ?>",
+        "dateModified": "<?php echo get_date_from_gmt(get_post_modified_time('c', true), 'c'); ?>",
+        "author": {
+          "@type": "Organization",
+          "name": "白川 巧"
+        },
+        "publisher": {
+          "@type": "Organization", //個人の場合は"Person"と記入
+          "name": "リエートクリニック", //ここに社名や個人名を記入
+          "logo": {
+            "@type": "ImageObject",
+            "url": "<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/logo.png"
+          }
+        },
+        "description": "<?php echo get_the_excerpt(); ?>"
       }
-    }
-  </script>
-<?php endif; ?>
+    </script>
+  <?php endif; ?>
 
-<?php wp_head(); ?>
+  <?php
+  if (is_singular('recruit')) : // 募集要項
+    $recruit_name = get_field('recruit_name'); // 医院名
+    $page_data = get_page_by_path($recruit_name, null, "clinic"); //クリニックdata 
+    $page_id = $page_data->ID; //クリニックID
+    $address = get_field("clinic_info", $page_id)['clinic_info_address']; //IDの住所
+    $code = get_field("clinic_info", $page_id)['clinic_info_post']; // IDの郵便番号
+
+    $address = str_replace(array("\r\n", "\r", "\n", '<br>', '<br />', "&nbsp;"), '', $address); // 改行を無視
+    $state = separate_address($address)['state']; // 県
+    $city = separate_address($address)['city']; // 市町村
+    $other = separate_address($address)['other']; // その他
+
+    $job = get_field('recruit_job')['label'];
+    $wage = "MONTH";
+    if ($job == "医師") {
+      $wage = "HOUR";
+      $minValue = 10000;
+      $maxValue = 10000;
+      $employmentType = "PART_TIME";
+    } elseif ($job == "看護師") {
+      $minValue = 300000;
+      $maxValue = 450000;
+      $employmentType = "FULL_TIME";
+    } elseif ($job == "管理栄養士") {
+      $minValue = 250000;
+      $maxValue = 300000;
+      $employmentType = "FULL_TIME";
+    } elseif ($job == "カウンセラー") {
+      $minValue = 300000;
+      $maxValue = 400000;
+      $employmentType = "PART_TIME";
+    } elseif ($job == "受付事務") {
+      $minValue = 240000;
+      $maxValue = 300000;
+      $employmentType = "PART_TIME";
+    }
+  ?>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "JobPosting",
+        "title": "<?php the_title(); ?>",
+
+        "baseSalary": {
+          "@type": "MonetaryAmount",
+          "currency": "JPY",
+          "value": {
+            "@type": "QuantitativeValue",
+            "unitText": "<?php echo $wage; ?>", //日給（HOUR）週休（WEEK）月給（MONTH）年収（YEAR）
+            "minValue": "<?php echo $minValue; ?>",
+            "maxValue": "<?php echo $maxValue; ?>"
+          }
+        },
+
+        "employmentType": "<?php echo $employmentType; ?>", //正社員（FULL_TIME）パート（PART_TIME）契約（CONTRACTOR）インターン（INTERN）
+        "datePosted": "2022-02-02", //求人掲載日
+        "description": "<?php bloginfo('description'); ?>",
+        "jobLocation": { //勤務地 リモートのみの場合は削除可能
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "JP",
+            "postalCode": "<?php echo $code; ?>",
+            "addressRegion": "<?php echo $city; ?>",
+            "addressLocality": "<?php echo $state; ?>",
+            "streetAddress": "<?php echo $other; ?>"
+          }
+        },
+
+        "hiringOrganization": { //募集している企業情報
+          "@type": "Organization",
+          "name": "リエートクリニック",
+          "sameAs": "<? echo home_url(); ?>",
+          "logo": "<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/logo.png"
+        }
+      }
+    </script>
+  <?php endif; ?>
+
+  <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
@@ -270,7 +270,7 @@ if (is_singular('recruit')) : // 募集要項
         <div class="l-header__left">
           <div class="l-header__logo">
             <a href="/">
-              <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/common/logo_orange.png" alt="Lieto Clinic">
+              <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/logo_orange.png" alt="Lieto Clinic">
             </a>
           </div>
           <div class="l-header__clinic">
@@ -297,7 +297,7 @@ if (is_singular('recruit')) : // 募集要項
               $query = new WP_Query(
                 array(
                   'post_type' => 'post',
-                  'post_status' => 'publish',  
+                  'post_status' => 'publish',
                 )
               );
               ?>
@@ -329,7 +329,7 @@ if (is_singular('recruit')) : // 募集要項
       <div class="l-spHeader__top">
         <div class="l-spHeader__logo">
           <a href="/">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/common/logo_sp_orange.png" alt="Lieto Clinic">
+            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/logo_sp_orange.png" alt="Lieto Clinic">
           </a>
         </div>
 
@@ -374,7 +374,7 @@ if (is_singular('recruit')) : // 募集要項
         </ul>
 
         <div class="l-spHeader__btn">
-          <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p&_gl=1*1gvdhfb*_gcl_au*MTQxODQxMzY3Mi4xNzA3NDQ1MDg5" class="c-btn _orange"><img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_counseling.png">無料カウンセリング予約</a>
+          <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p&_gl=1*1gvdhfb*_gcl_au*MTQxODQxMzY3Mi4xNzA3NDQ1MDg5" class="c-btn _orange"><img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_counseling.png">無料カウンセリング予約</a>
         </div>
 
         <div class="l-spHeader__tel">
@@ -392,7 +392,7 @@ if (is_singular('recruit')) : // 募集要項
                 <li class="l-spHeader__telItem">
                   <div class="l-spHeader__itemTitle"><?php the_field("clinic_name") ?>院</div>
                   <a href="tel:<?php echo get_field('clinic_info')['clinic_info_tel']; ?>" class="l-spHeader__itemTel">
-                    <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_tel_orange.png'>
+                    <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_tel_orange.png'>
                     <div class="l-spHeader__itemNum"><?php echo get_field('clinic_info')['clinic_info_tel']; ?></div>
                   </a>
                   <div class="l-spHeader__itemTime">
@@ -415,14 +415,14 @@ if (is_singular('recruit')) : // 募集要項
       <ul class="c-fixedCta__List">
         <li class="c-fixedCta__Item c-fixedCta__Item--tel">
           <a href="javascript:void(0)" class="js-modal-open">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_tel_orange.png" alt="お電話">
+            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_tel_orange.png" alt="お電話">
             <div class="c-fixedCta__ItemText">お電話からの<br>ご予約はこちら</div>
           </a>
         </li>
 
         <li class="c-fixedCta__Item c-fixedCta__Item--counseling">
           <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p&_gl=1*1gvdhfb*_gcl_au*MTQxODQxMzY3Mi4xNzA3NDQ1MDg5">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_counseling.png" alt="無料カウンセリング">
+            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_counseling.png" alt="無料カウンセリング">
             <div class="c-fixedCta__ItemText">無料カウンセリング予約</div>
           </a>
         </li>
@@ -436,7 +436,7 @@ if (is_singular('recruit')) : // 募集要項
       <ul class="c-fixedCtaSp__list">
         <li class="c-fixedCtaSp__item">
           <a href="javascript:void(0)" class="c-fixedCtaSp__itemTelLink c-fixedCtaSp__itemTelLink--tel js-modal-open">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_tel_dark.png">
+            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_tel_dark.png">
             <span class="c-fixedCtaSp__itemCounseling--large">お電話からの<br>ご予約はこちら</span>
           </a>
         </li>
@@ -446,7 +446,7 @@ if (is_singular('recruit')) : // 募集要項
               <span class="_num">3</span>分でWeb予約!<span class="_num">24</span>時間受付中!
             </span>
             <span class="c-fixedCtaSp__itemCounseling--large">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_counseling.png">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_counseling.png">
               無料カウンセリング予約
             </span>
           </a>
@@ -463,7 +463,7 @@ if (is_singular('recruit')) : // 募集要項
         <li class="p-modal__item">
           <div class="p-modal__itemTitle">全院共通</div>
           <a href="tel:<?php echo get_field('toll-free', 94); ?>" class="p-modal__itemTel">
-            <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_tel_orange.png'>
+            <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_tel_orange.png'>
             <div class="p-modal__itemNum"><?php echo get_field('toll-free', 94); ?></div>
           </a>
           <div class="p-modal__itemTime">
@@ -473,7 +473,7 @@ if (is_singular('recruit')) : // 募集要項
       </ul>
 
       <div class="p-modal__closeBtn js-modal-close">
-        <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_closebtn.png'>
+        <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_closebtn.png'>
       </div>
     </div>
   </div>

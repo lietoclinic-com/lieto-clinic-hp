@@ -16,7 +16,7 @@
 
     <div class="p-singleMenu__body">
       <figure class="p-singleMenu__mainimg">
-        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/nutrition_main.png" alt="食事・栄養指導">
+        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/nutrition_main.png" alt="食事・栄養指導">
       </figure>
 
       <!-- とは -->
@@ -25,7 +25,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/nutrition_01.png" alt="食事・栄養指導とは">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/nutrition_01.png" alt="食事・栄養指導とは">
             </figure>
             <div class="p-singleMenu__flexText">
               昨今のインターネットでは誤った情報が多く、その結果努力しても効果が出なかったり、結果が出づらく継続できなかった方が多くいらっしゃいます。<br>
@@ -42,7 +42,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/nutrition_02.png" alt="こんなお悩みに">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/nutrition_02.png" alt="こんなお悩みに">
             </figure>
             <ul class="p-singleMenu__flexList">
               <li class="p-singleMenu__flexItem">衝動的なドカ食いをしてしまう</li>
@@ -64,7 +64,7 @@
           </p>
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/nutrition_03.png" alt="ひとりひとりに合わせたオーダーメイドな食事プラン">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/nutrition_03.png" alt="ひとりひとりに合わせたオーダーメイドな食事プラン">
             </figure>
             <div class="p-singleMenu__flexText">
               <div class="p-singleMenu__subtitle">ひとりひとりに合わせた<br>オーダーメイドな食事プラン</div>
@@ -80,7 +80,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/nutrition_04.png" alt="栄養不足の解消">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/nutrition_04.png" alt="栄養不足の解消">
             </figure>
             <div class="p-singleMenu__flexText">
               <div class="p-singleMenu__subtitle">栄養不足の解消</div>
@@ -96,7 +96,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/nutrition_05.png" alt="血糖管理と糖尿病予防">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/nutrition_05.png" alt="血糖管理と糖尿病予防">
             </figure>
 
             <div class="p-singleMenu__flexText">

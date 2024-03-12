@@ -1,0 +1,330 @@
+.p-singleColumn {
+
+}
+
+.p-singleColumn__body {
+  @include mq(pc){
+    display: flex;
+  }
+}
+
+.p-singleColumn__mainbar {
+  flex: 1;
+  max-width: 80rem;
+  padding: 4rem 0 6rem; 
+
+  @include mq(pc){
+    padding: 8.3rem 6.25% 12rem 0;
+  }
+}
+
+.p-singleColumn__sidebar {
+  margin: 0 auto;
+  padding-top: 6rem;
+  padding-bottom: 8rem;
+  border-top: 1px solid cl(lightgray);
+
+  @include mq(pc){
+    width: 32rem;
+    padding-left: 5rem;
+    padding-top: 8.3rem;
+    border-top: none;
+    border-left: 1px solid cl(lightgray);
+  }
+}
+
+.p-singleColumn__topInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.p-singleColumn__articlesCat {
+  display: inline-block;
+  padding: 0.5rem 2.4rem;
+  border-radius: 0.4rem;
+  border: 1px solid #99a9b0;
+  background: #fff;
+  line-height: 1;
+  font-size: 1.3rem;
+  color: #5c6e74;
+  
+  @include mq(tab){
+    font-size: 1.4rem;
+  }
+}
+
+.p-singleColumn__sns {
+  &._sp {
+    display: flex;
+    gap: 0 1.2rem;
+    a {
+      img {
+        width: 3rem;
+        height: 3rem;
+      }
+    }
+    @include mq(tab){
+      display: none;
+    }
+  }
+
+  &._overTab {
+    display: none;
+    @include mq(tab){
+      display: flex;
+      gap: 0 1.6rem;
+      a {
+        img {
+          width: 4rem;
+          height: 4rem;
+        }
+      }
+    }
+  }
+}
+
+.p-singleColumn__title {
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid cl(lightgray);
+
+  font-family: $font-zenold;
+  font-size: 2.4rem;
+  font-weight: 7;
+  line-height: 1.5;
+
+  @include mq(tab){
+    margin-top: 2rem;
+    padding-bottom: 5rem;
+    font-size: 3.2rem;
+  }
+}
+
+.p-singleColumn__info {
+  margin-top: 2.0rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+.p-singleColumn__dates {
+  flex: 1;
+}
+
+.p-singleColumn__main {
+  margin-top: 3rem;
+  @include mq(tab){
+    margin-top: 6rem;
+  }
+}
+
+.p-singleColumn__thumbnail {
+  img {
+    border-radius: 0.4rem;
+  }
+}
+
+.p-singleColumn__editor {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  
+  @include mq(tab){
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+  }
+}
+
+.p-singleColumn__content {
+  margin-top: 5rem;
+
+  @include mq(tab){
+    margin-top: 8.0rem;
+    padding-bottom: 12rem;
+    border-bottom: 0.1rem solid cl(lightgray)
+  }
+}
+
+.p-singleColumn__cta {
+  margin: 6rem 0;
+  @include mq(tab){
+    margin-top: 6.4rem;
+    margin-bottom: 5rem;
+  }
+}
+
+.p-singleColumn__btn {
+  margin: 6rem auto 0;
+  @include mq(tab){
+    margin-top: 8rem;
+  }
+}
+
+// TOC修正
+.lwptoc {
+  margin: 0 !important;
+}
+.lwptoc_i {
+  padding: 0 !important;
+  font-family: $font-zenold;
+}
+
+.lwptoc_header {
+  margin-bottom: 0 !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ED8500;
+  padding: 1.0rem 1.0rem 1.2rem;
+  @include mq(tab){
+    padding: 1.0rem 2.0rem 1.2rem; 
+  }
+  
+  .lwptoc_title {
+    display: flex;
+    align-items: center;
+    gap: 0 0.4rem;
+    color: #fff;
+    font-size: 1.6rem;
+    @include mq(tab){
+      gap: 0 1rem;
+      font-size: 2rem;
+    }
+
+    &::before {
+      content: '';
+      display: inline-block;
+      width: 2.0rem;
+      height: 2.0rem;
+      background-image: url(../../dist/img/icon/icon_toc.png);
+      flex-shrink: 0;
+      background-size: contain;
+      background-repeat: no-repeat;
+
+      @include mq(tab){
+        width: 2.8rem;
+        height: 2.8rem;
+      }
+    }
+  }
+
+  .lwptoc_toggle {
+    &::before, &::after {
+      display: none;
+    }
+    a {
+      position: relative;
+      display: block;
+      width: 2.0rem;
+      height: 2.0rem;
+      background-color: #fff;
+      border-radius: 50%;
+      &:hover {
+        opacity: 1;
+      }
+
+      &::before, &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 1.07rem;
+        height: 0.15rem;
+        background-color: cl(orange);
+      }
+      &::after {
+        transition: all 0.2s;
+      }
+      
+      @include mq(tab){
+        width: 2.8rem;
+        height: 2.8rem;
+        &::before, &::after {
+          width: 1.5rem;
+          height: 0.2rem;
+        }
+      }
+      
+      &.is-active {
+        &::after {
+          transform: rotate(-90deg);
+          // transform: rotate(0deg);
+        }
+      }
+    }
+  }
+
+}
+
+// body全体
+.lwptoc_items {
+  padding: 3rem 2.5rem 4rem 3.5rem;
+
+  >.lwptoc_itemWrap {
+    // h2全体
+    >.lwptoc_item {
+      font-weight: 700;
+      font-size: 1.3rem !important;
+      +.lwptoc_item {
+        margin-top: 2rem !important;
+      }
+      a {
+        display: flex;
+        gap: 0 0.8rem;
+        &:hover {
+          border-bottom: none !important;
+        }
+
+        .lwptoc_item_label {
+          padding-left: 0.8rem;
+          position: relative;
+          &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            
+            display: inline-block;
+            height: 100%;
+            width: 0.1rem;
+            background-color: cl(orange);
+          }
+          @include mq(tab){
+            padding-left: 1.5rem;
+          }
+        }
+      }
+
+      @include mq(tab){
+        font-size: 1.8rem !important;
+        a {
+          gap: 0 1.5rem;
+        }
+      }
+
+      // h3全体
+      >.lwptoc_itemWrap {
+        margin-top: 0 !important;
+        margin-left: 3.0rem !important;
+        // h3
+        >.lwptoc_item {
+          margin-top: 2.0rem !important;
+          font-weight: 400;
+          font-size: 1.3rem !important;
+          @include mq(tab){
+            font-size: 1.5rem !important;
+          }
+        }
+      }
+
+      .lwptoc_item_number {
+        color: cl(orange);
+        font-weight: 600;
+      }
+    }
+
+  }
+}
+

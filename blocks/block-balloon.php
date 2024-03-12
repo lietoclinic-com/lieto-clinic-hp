@@ -1,4 +1,3 @@
-
 <?php
 //----------------------------------------------------
 // Custom Block - 吹き出し -
@@ -12,25 +11,25 @@ $img_src = '';
 
 switch ($type) {
   case 'type1':
-    $img_src = esc_url(get_theme_file_uri()) . '/dist/assets/img/common/balloon_01.png';
+    $img_src = esc_url(get_theme_file_uri()) . '/dist/img/common/balloon_01.png';
     break;
   case 'type2':
-    $img_src = esc_url(get_theme_file_uri()) . '/dist/assets/img/common/balloon_01.png';
+    $img_src = esc_url(get_theme_file_uri()) . '/dist/img/common/balloon_01.png';
     break;
   case 'type3':
-    $img_src = esc_url(get_theme_file_uri()) . '/dist/assets/img/common/balloon_01.png';
+    $img_src = esc_url(get_theme_file_uri()) . '/dist/img/common/balloon_01.png';
     break;
   case 'type4':
-    $img_src = esc_url(get_theme_file_uri()) . '/dist/assets/img/common/balloon_01.png';
+    $img_src = esc_url(get_theme_file_uri()) . '/dist/img/common/balloon_01.png';
     break;
   case 'type5':
-    $img_src = esc_url(get_theme_file_uri()) . '/dist/assets/img/common/balloon_01.png';
+    $img_src = esc_url(get_theme_file_uri()) . '/dist/img/common/balloon_01.png';
     break;
   case 'type6':
-    $img_src = esc_url(get_theme_file_uri()) . '/dist/assets/img/common/balloon_01.png';
+    $img_src = esc_url(get_theme_file_uri()) . '/dist/img/common/balloon_01.png';
     break;
   default:
-    $img_src = esc_url(get_theme_file_uri()) . '/dist/assets/img/common/balloon_01.png';
+    $img_src = esc_url(get_theme_file_uri()) . '/dist/img/common/balloon_01.png';
 }
 ?>
 

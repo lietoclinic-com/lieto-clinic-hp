@@ -16,7 +16,7 @@
 
     <div class="p-singleMenu__body">
       <figure class="p-singleMenu__mainimg">
-        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/injection_main.png" alt="脂肪溶解注射">
+        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/injection_main.png" alt="脂肪溶解注射">
       </figure>
 
       <!-- とは -->
@@ -25,7 +25,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/injection_01.png" alt="脂肪溶解注射とは">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/injection_01.png" alt="脂肪溶解注射とは">
             </figure>
             <div class="p-singleMenu__flexText">
               脂肪溶解注射は、脂肪細胞を直接破壊することで部分的なダイエット効果を期待できる施術方法です。<br>
@@ -44,7 +44,7 @@
         <h2 class="p-singleMenu__title">当院の脂肪溶解注射について</h2>
         <div class="p-singleMenu__box">
           <figure class="p-singleMenu__figure _injection">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/injection_02.png" alt="当院の脂肪溶解注射について">
+            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/injection_02.png" alt="当院の脂肪溶解注射について">
           </figure>
           <div class="p-singleMenu__text _injection">
             当院で使用されるカベリンは、米国FDAが承認した脂肪溶解成分である「デオキシコール酸」がBNLS-neoの5000倍という高配合で含まれています。<br>
@@ -61,7 +61,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/injection_03.png" alt="こんなお悩みに">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/injection_03.png" alt="こんなお悩みに">
             </figure>
             <ul class="p-singleMenu__flexList">
               <li class="p-singleMenu__flexItem">脂肪吸引などの手術は避けたい</li>
@@ -79,7 +79,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/injection_04.png" alt="脂肪細胞の破壊でリバウンドしにくいカラダに">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/injection_04.png" alt="脂肪細胞の破壊でリバウンドしにくいカラダに">
             </figure>
             <div class="p-singleMenu__flexText">
               <div class="p-singleMenu__subtitle">脂肪細胞の破壊で<br>リバウンドしにくいカラダに</div>
@@ -95,7 +95,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/injection_05.png" alt="フェイスラインも施術可能">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/injection_05.png" alt="フェイスラインも施術可能">
             </figure>
             <div class="p-singleMenu__flexText">
               <div class="p-singleMenu__subtitle">フェイスラインも施術可能</div>
@@ -112,7 +112,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/injection_06.png" alt="最短翌日に効果を実感">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/injection_06.png" alt="最短翌日に効果を実感">
             </figure>
 
             <div class="p-singleMenu__flexText">

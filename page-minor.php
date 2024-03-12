@@ -28,9 +28,9 @@
             ご自宅で印刷し、親権者様の直筆にて「必要事項・ご署名」をいただき、<br>
             初回カウンセリング時にご持参いただきますとご案内がスムーズです。
           </p>
-          
+
           <!-- <a href="http://lietoclinic.com/wp-content/uploads/2023/12/親権者同意書.pdf" class="p-pageMinorAge__btn" download="親権者同意書" target="_blank"> -->
-          <a href="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/minor/親権者同意書.pdf" class="p-pageMinorAge__btn" download="親権者同意書" target="_blank">
+          <a href="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/minor/親権者同意書.pdf" class="p-pageMinorAge__btn" download="親権者同意書" target="_blank">
             親権者同意書の<br class="_sp">ダウンロードはこちら
           </a>
         </div>
@@ -42,7 +42,7 @@
             <h2 class="p-pageMinorHead__title">同意書の記入例</h2>
           </div>
           <figure class="p-pageMinorDocument__figure">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/minor/agreement_form.png" alt="親権者同意書">
+            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/minor/agreement_form.png" alt="親権者同意書">
           </figure>
         </div>
       </div>

@@ -119,7 +119,7 @@
       <div class="p-reason__body">
         <ul class="p-reason__list">
           <li class="p-reason__item">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/top/top_reason_01.png" alt="有資格者が施術するから安心の医療痩身">
+            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/top_reason_01.png" alt="有資格者が施術するから安心の医療痩身">
             <h3 class="p-reason__itemTitle">有資格者が施術するから<br>安心の医療痩身</h3>
             <p class="p-reason__itemText">
               医師・看護師などの有資格者が施術を行うことで、お客様の健康状態や体質に合わせたプランをご提案させていただきます。<br>
@@ -129,7 +129,7 @@
           </li>
 
           <li class="p-reason__item">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/top/top_reason_02.png" alt="短期間での痩身や難しい部分痩せも対応">
+            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/top_reason_02.png" alt="短期間での痩身や難しい部分痩せも対応">
             <h3 class="p-reason__itemTitle">短期間での痩身や<br>難しい部分痩せも対応</h3>
             <p class="p-reason__itemText">
               短期間での効果的な痩身や、通常難しいとされる部分痩せにも対応することができます。<br>
@@ -139,7 +139,7 @@
           </li>
 
           <li class="p-reason__item">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/top/top_reason_03.png" alt="切らない施術で安心して痩身">
+            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/top_reason_03.png" alt="切らない施術で安心して痩身">
             <h3 class="p-reason__itemTitle">切らない施術で<br>安心して痩身</h3>
             <p class="p-reason__itemText _letter">
               リエートクリニックでは、最先端の医療痩身機器や注射・点滴治療、ダイエット薬などを用いた切らない施術を行っています。<br>
@@ -239,19 +239,19 @@
               </div>
               <dl class="p-access__list">
                 <div class="p-access__listRow">
-                  <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_access_brown.png'>住所</dt>
+                  <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_access_brown.png'>住所</dt>
                   <dd>〒<?php echo get_field("clinic_info")['clinic_info_post']; ?><br><?php echo get_field("clinic_info")['clinic_info_address']; ?></dd>
                 </div>
                 <div class="p-access__listRow">
-                  <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_train_brown.png'>最寄駅</dt>
+                  <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_train_brown.png'>最寄駅</dt>
                   <dd><?php echo get_field("clinic_info")['clinic_info_station'] ?></dd>
                 </div>
                 <div class="p-access__listRow">
-                  <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_tel_brown.png'>電話番号</dt>
+                  <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_tel_brown.png'>電話番号</dt>
                   <dd><a href="tel:<?php echo get_field("clinic_info")['clinic_info_tel'] ?>"><?php echo get_field("clinic_info")['clinic_info_tel'] ?></a></dd>
                 </div>
                 <div class="p-access__listRow">
-                  <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_time_brown.png'>診療時間</dt>
+                  <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_time_brown.png'>診療時間</dt>
                   <dd><?php echo get_field("clinic_info")['clinic_info_time'] ?></dd>
                 </div>
                 <div class="p-access__listRow">
@@ -372,7 +372,7 @@
 
                   <li class="p-treatment__contentItem">
                     <a href="/menu/stimsure/">
-                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/treatment/treatment_01.png" alt="医療電磁場機器">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_01.png" alt="医療電磁場機器">
                       <div class="p-treatment__contentItemDesc">
                         <div class="p-treatment__contentItemText">メリハリのある理想のボディラインを</div>
                         <div class="p-treatment__contentItemHead">
@@ -385,7 +385,7 @@
 
                   <li class="p-treatment__contentItem">
                     <a href="/menu/clatuu-a/">
-                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/treatment/treatment_02.png" alt="医療脂肪冷却機器">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_02.png" alt="医療脂肪冷却機器">
                       <div class="p-treatment__contentItemDesc">
                         <div class="p-treatment__contentItemText">脂肪細胞のみ狙いうちで凍結排出</div>
                         <div class="p-treatment__contentItemHead">
@@ -398,7 +398,7 @@
 
                   <li class="p-treatment__contentItem">
                     <a href="/menu/hifu/">
-                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/treatment/treatment_03.png" alt="医療HIFU">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_03.png" alt="医療HIFU">
                       <div class="p-treatment__contentItemDesc">
                         <div class="p-treatment__contentItemText">引き締めながら脂肪細胞を破壊</div>
                         <div class="p-treatment__contentItemHead">
@@ -411,7 +411,7 @@
 
                   <li class="p-treatment__contentItem">
                     <a href="/menu/fat-dissolving-injection/">
-                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/treatment/treatment_04.png" alt="脂肪溶解注射">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_04.png" alt="脂肪溶解注射">
                       <div class="p-treatment__contentItemDesc">
                         <div class="p-treatment__contentItemText">気になる部位を切らずに部分痩せ</div>
                         <div class="p-treatment__contentItemHead">
@@ -432,7 +432,7 @@
 
                   <li class="p-treatment__contentItem">
                     <a href="/menu/glp-1/">
-                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/treatment/treatment_05.png" alt="GLP-1">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_05.png" alt="GLP-1">
                       <div class="p-treatment__contentItemDesc">
                         <div class="p-treatment__contentItemHead">
                           <h3 class="p-treatment__contentItemTitle">GLP-1</h3>
@@ -443,7 +443,7 @@
 
                   <li class="p-treatment__contentItem">
                     <a href="/menu/beauty-drip/">
-                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/treatment/treatment_06.png" alt="ダイエット美容点滴">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_06.png" alt="ダイエット美容点滴">
                       <div class="p-treatment__contentItemDesc">
                         <div class="p-treatment__contentItemHead">
                           <h3 class="p-treatment__contentItemTitle">ダイエット美容点滴</h3>
@@ -454,7 +454,7 @@
 
                   <li class="p-treatment__contentItem">
                     <a href="/menu/original-supplement/">
-                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/treatment/treatment_07.jpg" alt="オリジナルサプリメント">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_07.jpg" alt="オリジナルサプリメント">
                       <div class="p-treatment__contentItemDesc">
                         <div class="p-treatment__contentItemHead">
                           <h3 class="p-treatment__contentItemTitle">オリジナルサプリメント</h3>
@@ -465,7 +465,7 @@
 
                   <li class="p-treatment__contentItem">
                     <a href="/menu/original-protein/">
-                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/treatment/treatment_08.png" alt="オリジナルプロテイン">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_08.png" alt="オリジナルプロテイン">
                       <div class="p-treatment__contentItemDesc">
                         <div class="p-treatment__contentItemHead">
                           <h3 class="p-treatment__contentItemTitle">オリジナルプロテイン</h3>
@@ -476,7 +476,7 @@
 
                   <li class="p-treatment__contentItem">
                     <a href="/menu/diet-supplement/">
-                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/treatment/treatment_09.png" alt="ダイエット薬">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_09.png" alt="ダイエット薬">
                       <div class="p-treatment__contentItemDesc">
                         <div class="p-treatment__contentItemHead">
                           <h3 class="p-treatment__contentItemTitle">ダイエット薬</h3>
@@ -487,7 +487,7 @@
 
                   <li class="p-treatment__contentItem">
                     <a href="/menu/guidance/">
-                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/treatment/treatment_10.png" alt="食事・栄養指導">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_10.png" alt="食事・栄養指導">
                       <div class="p-treatment__contentItemDesc">
                         <div class="p-treatment__contentItemHead">
                           <h3 class="p-treatment__contentItemTitle">食事・栄養指導</h3>
@@ -501,8 +501,8 @@
 
             <div class="p-singleClinicTreatment__banner">
               <a href="/menu/exosome/">
-                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/common/treatment_banner.png" alt="エクソソーム点滴" class="_overTab">
-                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/common/treatment_banner_sp.png" alt="エクソソーム点滴" class="_sp">
+                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/treatment_banner.png" alt="エクソソーム点滴" class="_overTab">
+                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/treatment_banner_sp.png" alt="エクソソーム点滴" class="_sp">
               </a>
             </div>
 
@@ -537,7 +537,7 @@
             <li class="p-flow__item">
               <div class="p-flow__itemFlex">
                 <figure class="p-flow__figure">
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/flow/flow_01.png" alt="ご予約・無料カウンセリング">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/flow/flow_01.png" alt="ご予約・無料カウンセリング">
                 </figure>
 
                 <div class="p-flow__desc">
@@ -554,15 +554,15 @@
               </div>
 
               <div class="p-flow__itemBtns">
-                <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p" class="c-btn _orange"><img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_counseling.png" alt="counseling">無料カウンセリング予約</a>
-                <a href="tel:<?php echo get_field('toll-free', 94); ?>" class="c-btn"><img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_tel.png" alt="tel">お電話からのご予約</a>
+                <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p" class="c-btn _orange"><img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_counseling.png" alt="counseling">無料カウンセリング予約</a>
+                <a href="tel:<?php echo get_field('toll-free', 94); ?>" class="c-btn"><img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_tel.png" alt="tel">お電話からのご予約</a>
               </div>
             </li>
 
             <li class="p-flow__item">
               <div class="p-flow__itemFlex">
                 <figure class="p-flow__figure">
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/flow/flow_02.png" alt="採血・遺伝子検査">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/flow/flow_02.png" alt="採血・遺伝子検査">
                 </figure>
 
                 <div class="p-flow__desc">
@@ -581,7 +581,7 @@
             <li class="p-flow__item">
               <div class="p-flow__itemFlex">
                 <figure class="p-flow__figure">
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/flow/flow_03.png" alt="inbody測定">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/flow/flow_03.png" alt="inbody測定">
                 </figure>
 
                 <div class="p-flow__desc">
@@ -600,7 +600,7 @@
             <li class="p-flow__item">
               <div class="p-flow__itemFlex">
                 <figure class="p-flow__figure">
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/flow/flow_04.png" alt="問診・ダイエット食事指導">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/flow/flow_04.png" alt="問診・ダイエット食事指導">
                 </figure>
 
                 <div class="p-flow__desc">
@@ -618,7 +618,7 @@
             <li class="p-flow__item">
               <div class="p-flow__itemFlex">
                 <figure class="p-flow__figure">
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/flow/flow_05.png" alt="医療機器施術">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/flow/flow_05.png" alt="医療機器施術">
                 </figure>
 
                 <div class="p-flow__desc">
@@ -636,7 +636,7 @@
             <li class="p-flow__item">
               <div class="p-flow__itemFlex">
                 <figure class="p-flow__figure">
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/flow/flow_06.png" alt="注射・点滴施術">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/flow/flow_06.png" alt="注射・点滴施術">
                 </figure>
 
                 <div class="p-flow__desc">
@@ -654,7 +654,7 @@
             <li class="p-flow__item">
               <div class="p-flow__itemFlex">
                 <figure class="p-flow__figure">
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/flow/flow_07.png" alt="ダイエット薬・サプリメント処方">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/flow/flow_07.png" alt="ダイエット薬・サプリメント処方">
                 </figure>
 
                 <div class="p-flow__desc">

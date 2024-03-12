@@ -24,16 +24,16 @@
           <!-- SP版 SNSリンク -->
           <div class="p-singleColumn__sns _sp">
             <a href="http://www.facebook.com/share.php?u=<?php echo get_the_permalink(); ?>" rel="nofollow noopener" target="_blank">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/sns_facebook.png" alt="facebook">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/sns_facebook.png" alt="facebook">
             </a>
             <a href="http://b.hatena.ne.jp/add?mode=confirm&url=<?php echo get_the_permalink(); ?>&title=<?php echo get_the_title(); ?>" rel="nofollow noopener" target="_blank">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/sns_hatena.png" alt="b.hatena">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/sns_hatena.png" alt="b.hatena">
             </a>
             <a href="https://twitter.com/share?url=<?php echo get_the_permalink(); ?>" rel="nofollow noopener" target="_blank">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/sns_twitter.png" alt="Twitter">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/sns_twitter.png" alt="Twitter">
             </a>
             <a href="http://line.me/R/msg/text/?<?php echo get_the_permalink(); ?>%0a<?php echo get_the_title(); ?>" target="_blank" rel="nofollow noopener">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/sns_line.png" alt="LINE">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/sns_line.png" alt="LINE">
             </a>
           </div>
         </div>
@@ -55,16 +55,16 @@
           <!-- PC版 SNSリンク -->
           <div class="p-singleColumn__sns _overTab">
             <a href="http://www.facebook.com/share.php?u=<?php echo get_the_permalink(); ?>" rel="nofollow noopener" target="_blank">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/sns_facebook.png" alt="facebook">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/sns_facebook.png" alt="facebook">
             </a>
             <a href="http://b.hatena.ne.jp/add?mode=confirm&url=<?php echo get_the_permalink(); ?>&title=<?php echo get_the_title(); ?>" rel="nofollow noopener" target="_blank">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/sns_hatena.png" alt="b.hatena">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/sns_hatena.png" alt="b.hatena">
             </a>
             <a href="https://twitter.com/share?url=<?php echo get_the_permalink(); ?>" rel="nofollow noopener" target="_blank">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/sns_twitter.png" alt="Twitter">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/sns_twitter.png" alt="Twitter">
             </a>
             <a href="http://line.me/R/msg/text/?<?php echo get_the_permalink(); ?>%0a<?php echo get_the_title(); ?>" target="_blank" rel="nofollow noopener">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/sns_line.png" alt="LINE">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/sns_line.png" alt="LINE">
             </a>
           </div>
         </div>
@@ -80,7 +80,7 @@
             <div class="p-editor__box">
               <div class="p-editor__content">
                 <figure class="p-editor__figure">
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/common/doctor.png" alt="リエートクリニック横浜院医師 白川 巧">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/doctor.png" alt="リエートクリニック横浜院医師 白川 巧">
                 </figure>
                 <div class="p-editor__desc">
                   <div class="p-editor__profile">監修者プロフィール</div>
@@ -114,7 +114,7 @@
               <div class="p-editor__box">
                 <div class="p-editor__content">
                   <figure class="p-editor__figure">
-                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/common/doctor.png" alt="リエートクリニック横浜院医師 白川 巧">
+                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/doctor.png" alt="リエートクリニック横浜院医師 白川 巧">
                   </figure>
                   <div class="p-editor__desc">
                     <div class="p-editor__profile">監修者プロフィール</div>
@@ -174,7 +174,7 @@
                         <?php if (has_post_thumbnail()) : ?>
                           <?php the_post_thumbnail(); ?>
                         <?php else : ?>
-                          <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/common/sample_01.png">
+                          <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/sample_01.png">
                         <?php endif; ?>
                       </figure>
                       <div class="p-pageColumn__articlesDesc">

@@ -16,7 +16,7 @@
       <div class="p-pageFaq__area">
         <div class="p-pageFaq__areaInner">
           <div class="p-pageFaq__areaHead">
-            <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_faq.png'>
+            <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_faq.png'>
             <h2 class="p-pageFaq__areaTitle">当院について</h2>
           </div>
 
@@ -29,7 +29,7 @@
       <div class="p-pageFaq__area">
         <div class="p-pageFaq__areaInner">
           <div class="p-pageFaq__areaHead">
-            <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_faq.png'>
+            <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_faq.png'>
             <h2 class="p-pageFaq__areaTitle">スティムシュアーについて</h2>
           </div>
           <div class="p-pageFaq__content p-faq">
@@ -41,7 +41,7 @@
       <div class="p-pageFaq__area">
         <div class="p-pageFaq__areaInner">
           <div class="p-pageFaq__areaHead">
-            <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_faq.png'>
+            <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_faq.png'>
             <h2 class="p-pageFaq__areaTitle">クラツーアルファについて</h2>
           </div>
           <div class="p-pageFaq__content p-faq">
@@ -53,7 +53,7 @@
       <div class="p-pageFaq__area">
         <div class="p-pageFaq__areaInner">
           <div class="p-pageFaq__areaHead">
-            <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_faq.png'>
+            <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_faq.png'>
             <h2 class="p-pageFaq__areaTitle">医療HIFU ULTRAcel [zíː] について</h2>
           </div>
           <div class="p-pageFaq__content p-faq">
@@ -65,7 +65,7 @@
       <div class="p-pageFaq__area">
         <div class="p-pageFaq__areaInner">
           <div class="p-pageFaq__areaHead">
-            <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_faq.png'>
+            <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_faq.png'>
             <h2 class="p-pageFaq__areaTitle">脂肪溶解注射について</h2>
           </div>
           <div class="p-pageFaq__content p-faq">
@@ -77,7 +77,7 @@
       <div class="p-pageFaq__area">
         <div class="p-pageFaq__areaInner">
           <div class="p-pageFaq__areaHead">
-            <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_faq.png'>
+            <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_faq.png'>
             <h2 class="p-pageFaq__areaTitle">GLP-1について</h2>
           </div>
           <div class="p-pageFaq__content p-faq">
@@ -89,7 +89,7 @@
       <div class="p-pageFaq__area">
         <div class="p-pageFaq__areaInner">
           <div class="p-pageFaq__areaHead">
-            <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_faq.png'>
+            <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_faq.png'>
             <h2 class="p-pageFaq__areaTitle">ダイエット美容点滴について</h2>
           </div>
           <div class="p-pageFaq__content p-faq">
@@ -101,7 +101,7 @@
       <div class="p-pageFaq__area">
         <div class="p-pageFaq__areaInner">
           <div class="p-pageFaq__areaHead">
-            <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_faq.png'>
+            <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_faq.png'>
             <h2 class="p-pageFaq__areaTitle">オリジナルサプリメントについて</h2>
           </div>
           <div class="p-pageFaq__content p-faq">
@@ -113,7 +113,7 @@
       <div class="p-pageFaq__area">
         <div class="p-pageFaq__areaInner">
           <div class="p-pageFaq__areaHead">
-            <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_faq.png'>
+            <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_faq.png'>
             <h2 class="p-pageFaq__areaTitle">オリジナルプロテインについて</h2>
           </div>
           <div class="p-pageFaq__content p-faq">
@@ -125,7 +125,7 @@
       <div class="p-pageFaq__area">
         <div class="p-pageFaq__areaInner">
           <div class="p-pageFaq__areaHead">
-            <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_faq.png'>
+            <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_faq.png'>
             <h2 class="p-pageFaq__areaTitle">ダイエット薬について</h2>
           </div>
           <div class="p-pageFaq__content p-faq">
@@ -137,7 +137,7 @@
       <div class="p-pageFaq__area">
         <div class="p-pageFaq__areaInner">
           <div class="p-pageFaq__areaHead">
-            <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_faq.png'>
+            <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_faq.png'>
             <h2 class="p-pageFaq__areaTitle">食事・栄養指導について</h2>
           </div>
           <div class="p-pageFaq__content p-faq">
@@ -149,7 +149,7 @@
       <div class="p-pageFaq__area">
         <div class="p-pageFaq__areaInner">
           <div class="p-pageFaq__areaHead">
-            <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_faq.png'>
+            <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_faq.png'>
             <h2 class="p-pageFaq__areaTitle">エクソソーム点滴について</h2>
           </div>
           <div class="p-pageFaq__content p-faq">

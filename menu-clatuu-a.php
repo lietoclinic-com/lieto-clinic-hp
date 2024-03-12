@@ -16,7 +16,7 @@
 
     <div class="p-singleMenu__body">
       <figure class="p-singleMenu__mainimg">
-        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/clatuu-a_main.png" alt="クラツーアルファ">
+        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/clatuu-a_main.png" alt="クラツーアルファ">
       </figure>
 
       <!-- クラツーアルファとは -->
@@ -25,7 +25,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/clatuu-a_01.png" alt="クラツーアルファとは">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/clatuu-a_01.png" alt="クラツーアルファとは">
             </figure>
             <div class="p-singleMenu__flexText">
               「クラツーアルファ」は、特殊なカップ状の装置を使用して脂肪細胞を冷却し、脂肪を凍らせます。この凍った脂肪細胞は、不要な細胞を排出する性質であるアポトーシスによって排除され、寝ている間に理想のボディラインを実現します。<br>
@@ -45,7 +45,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/clatuu-a_02.png" alt="こんなお悩みに">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/clatuu-a_02.png" alt="こんなお悩みに">
             </figure>
             <ul class="p-singleMenu__flexList">
               <li class="p-singleMenu__flexItem">脂肪吸引などの手術は避けたい</li>
@@ -57,7 +57,7 @@
 
           <div class="p-singleMenu__box">
             <figure class="p-singleMenu__figure _stimsure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/clatuu-a_part.png" alt="クラツーアルファの対応部位">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/clatuu-a_part.png" alt="クラツーアルファの対応部位">
             </figure>
           </div>
 
@@ -70,7 +70,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/clatuu-a_03.png" alt="脂肪細胞の破壊でリバウンドしにくいカラダに">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/clatuu-a_03.png" alt="脂肪細胞の破壊でリバウンドしにくいカラダに">
             </figure>
             <div class="p-singleMenu__flexDesc">
               <div class="p-singleMenu__subtitle">脂肪細胞の破壊で<br>リバウンドしにくいカラダに</div>
@@ -87,7 +87,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/clatuu-a_04.png" alt="運動によるダイエットでは難しい部分痩せを実現">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/clatuu-a_04.png" alt="運動によるダイエットでは難しい部分痩せを実現">
             </figure>
             <div class="p-singleMenu__flexDesc">
               <div class="p-singleMenu__subtitle">運動によるダイエットでは難しい<br>部分痩せを実現</div>
@@ -104,7 +104,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/clatuu-a_05.png" alt="ハードなトレーニングの必要なしで筋トレと同等の効果を期待できる">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/clatuu-a_05.png" alt="ハードなトレーニングの必要なしで筋トレと同等の効果を期待できる">
             </figure>
             <div class="p-singleMenu__flexDesc">
               <div class="p-singleMenu__subtitle">切らない施術で<br>痛みやダウンタイムはほとんどなし</div>
