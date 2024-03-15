@@ -132,7 +132,7 @@
           ],
           "opens": "10:00",
           "closes": "20:00"
-        }, ]
+        }]
       }
     </script>
   <?php endif; ?>
