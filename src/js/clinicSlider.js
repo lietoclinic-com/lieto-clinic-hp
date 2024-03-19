@@ -16,8 +16,8 @@ $('.p-access__mainSlider').each(function(index) {
     
     dots: false,
     arrows: true,
-    prevArrow: '<img sizes=auto loading="lazy" src="http://lietoclinic.com/wp-content/themes/lieto-clinic/dist/img/icon/arrow_bottom_white.png" class="slick-slide-arrow _archive slick-prev-arrow">',
-    nextArrow: '<img sizes=auto loading="lazy" src="http://lietoclinic.com/wp-content/themes/lieto-clinic/dist/img/icon/arrow_bottom_white.png" class="slick-slide-arrow _archive slick-next-arrow">',
+    prevArrow: '<buton sizes=auto class="slick-slide-arrow _archive slick-prev-arrow">',
+    nextArrow: '<buton sizes=auto class="slick-slide-arrow _archive slick-next-arrow">',
 
     asNavFor: subClassName,
 
@@ -57,8 +57,8 @@ $('.p-singleClinicAlbum__list').slick({
   
   dots: true,
   arrows: true,
-  prevArrow: '<img sizes=auto loading="lazy" src="http://lietoclinic.com/wp-content/themes/lieto-clinic/dist/img/icon/arrow_bottom_white.png" class="slick-slide-arrow _single slick-prev-arrow">',
-  nextArrow: '<img sizes=auto loading="lazy" src="http://lietoclinic.com/wp-content/themes/lieto-clinic/dist/img/icon/arrow_bottom_white.png" class="slick-slide-arrow _single slick-next-arrow">',
+  prevArrow: '<buton sizes=auto class="slick-slide-arrow _archive slick-prev-arrow">',
+  nextArrow: '<buton sizes=auto class="slick-slide-arrow _archive slick-next-arrow">',
 
   pauseOnFocus: false,
   pauseOnHover: false,

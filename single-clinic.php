@@ -239,19 +239,19 @@
               </div>
               <dl class="p-access__list">
                 <div class="p-access__listRow">
-                  <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_access_brown.png'>住所</dt>
+                  <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_access_brown.png' alt="icon">住所</dt>
                   <dd>〒<?php echo get_field("clinic_info")['clinic_info_post']; ?><br><?php echo get_field("clinic_info")['clinic_info_address']; ?></dd>
                 </div>
                 <div class="p-access__listRow">
-                  <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_train_brown.png'>最寄駅</dt>
+                  <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_train_brown.png' alt="icon">最寄駅</dt>
                   <dd><?php echo get_field("clinic_info")['clinic_info_station'] ?></dd>
                 </div>
                 <div class="p-access__listRow">
-                  <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_tel_brown.png'>電話番号</dt>
+                  <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_tel_brown.png' alt="icon">電話番号</dt>
                   <dd><a href="tel:<?php echo get_field("clinic_info")['clinic_info_tel'] ?>"><?php echo get_field("clinic_info")['clinic_info_tel'] ?></a></dd>
                 </div>
                 <div class="p-access__listRow">
-                  <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_time_brown.png'>診療時間</dt>
+                  <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_time_brown.png' alt="icon">診療時間</dt>
                   <dd><?php echo get_field("clinic_info")['clinic_info_time'] ?></dd>
                 </div>
                 <div class="p-access__listRow">
@@ -305,7 +305,7 @@
                         <li class="p-singleClinichow__box">
                           <figure class="p-singleClinichow__boxFigure">
                             <div class="p-singleClinichow__boxNum"></div>
-                            <img loading="lazy" src="<?php the_sub_field('clinic_access_image'); ?>">
+                            <img loading="lazy" src="<?php the_sub_field('clinic_access_image'); ?>" alt="アクセス画像">
                           </figure>
                           <p class="p-singleClinichow__boxText">
                             <?php the_sub_field('clinic_access_desc'); ?>
@@ -339,7 +339,7 @@
             foreach ($images as $image) :
             ?>
               <li class="p-singleClinicAlbum__item">
-                <img loading="lazy" src="<?php echo $image; ?>">
+                <img loading="lazy" src="<?php echo $image; ?>" alt="内観">
               </li>
             <?php
             endforeach;

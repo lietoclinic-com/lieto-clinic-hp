@@ -1,5 +1,7 @@
 // arrowを画像に変更
 .slick-slide-arrow {
+  background-image: url(../../dist/img/icon/arrow_bottom_white.png);
+  background-size: contain;
   z-index: 100;
   cursor: pointer;
   position: absolute;
@@ -21,7 +23,6 @@
       margin: auto;
     }
   }
-
 }
 
 .slick-prev-arrow {
@@ -37,6 +38,7 @@
   }
 }
 .slick-next-arrow {
+
   transform: rotate(-90deg);
   right: -1.2rem;
   // single

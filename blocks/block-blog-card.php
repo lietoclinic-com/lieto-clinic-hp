@@ -24,7 +24,7 @@ $target_post = get_posts($args);
           <?php if (has_post_thumbnail()) : ?>
             <?php the_post_thumbnail(); ?>
           <?php else : ?>
-            <img sizes=auto loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/sample_01.png">
+            <img sizes=auto loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/sample_01.png" alt="記事サムネイル">
           <?php endif; ?>
         </figure>
         <div class="p-pageColumn__articlesDesc">

@@ -179,7 +179,7 @@
             <span>こ</span><span>ん</span><span>な</span><span>方</span>に選ばれています
           </div>
           <div class="p-topTreatment__selectLine">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/treatment_select_line.png" alt="">
+            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/treatment_select_line.png" alt="line">
           </div>
 
           <ul class="p-topTreatment__selectBox">
@@ -391,22 +391,22 @@
                     </div>
                     <dl class="p-access__list">
                       <div class="p-access__listRow">
-                        <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_access_brown.png'>住所</dt>
+                        <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_access_brown.png' alt="icon">住所</dt>
                         <dd>〒<?php echo get_field("clinic_info")['clinic_info_post']; ?><br><?php echo get_field('clinic_info')['clinic_info_address']; ?></dd>
                       </div>
 
                       <div class="p-access__listRow">
-                        <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_train_brown.png'>最寄駅</dt>
+                        <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_train_brown.png' alt="icon">最寄駅</dt>
                         <dd><?php echo get_field('clinic_info')['clinic_info_station']; ?></dd>
                       </div>
 
                       <div class="p-access__listRow">
-                        <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_tel_brown.png'>電話番号</dt>
+                        <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_tel_brown.png' alt="icon">電話番号</dt>
                         <dd><a href="tel:<?php echo get_field('clinic_info')['clinic_info_tel']; ?>"><?php echo get_field('clinic_info')['clinic_info_tel']; ?></a></dd>
                       </div>
 
                       <div class="p-access__listRow">
-                        <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_time_brown.png'>診療時間</dt>
+                        <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_time_brown.png' alt="icon">診療時間</dt>
                         <dd><?php echo get_field('clinic_info')['clinic_info_time']; ?></dd>
                       </div>
 
@@ -558,7 +558,7 @@
               <?php endif; ?>
             </ul>
             <a href="/news/" class="p-topInformation__contentLink">
-              <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_news.png'>
+              <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_news.png' alt="icon">
               <span>他のお知らせをみる</span>
             </a>
           </div>
@@ -601,7 +601,7 @@
               </ul>
 
               <a href="/column/" class="p-topInformation__contentLink">
-                <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_column.png'>
+                <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_column.png' alt="icon">
                 <span>他のコラムをみる</span>
               </a>
             </div>

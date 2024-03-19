@@ -28,7 +28,7 @@
             </p>
           </div>
           <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p" class="p-pageMonitorRecruit__btn c-btn">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_mail.png">
+            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_mail.png" alt="icon">
             お問い合わせはこちら</a>
         </div>
       </section>

@@ -39,7 +39,7 @@
                       <?php if (has_post_thumbnail()) : ?>
                         <?php the_post_thumbnail(); ?>
                       <?php else : ?>
-                        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/sample_01.png">
+                        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/sample_01.png" alt="記事サムネイル">
                       <?php endif; ?>
                     </figure>
 

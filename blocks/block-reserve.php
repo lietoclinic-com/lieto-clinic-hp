@@ -12,7 +12,7 @@
     <div class="p-cta__bg">
 
       <div class="p-cta__top">
-        <img sizes=auto loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_alltime.png'>
+        <img sizes=auto loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_alltime.png' alt="icon">
         <div class="p-cta__reserve">
           <div class="p-cta__reserveText">
             簡単<span class="_num">3</span>分で<span class="_en">Web予約!</span>

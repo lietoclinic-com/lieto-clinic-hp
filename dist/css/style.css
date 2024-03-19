@@ -1888,6 +1888,8 @@ button {
 }
 
 .slick-slide-arrow {
+  background-image: url(../../dist/img/icon/arrow_bottom_white.png);
+  background-size: contain;
   z-index: 100;
   cursor: pointer;
   position: absolute;
