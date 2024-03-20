@@ -16,7 +16,7 @@
 
     <div class="p-singleMenu__body">
       <figure class="p-singleMenu__mainimg">
-        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/beauty-drip_main.png" alt="ダイエット美容点滴">
+        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/beauty-drip_main.png" alt="美容点滴">
       </figure>
 
       <!-- ダイエット美容点滴とは -->

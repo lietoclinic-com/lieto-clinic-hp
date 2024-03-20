@@ -2,42 +2,43 @@
 //----------------------------------------------------
 // CSSとJSのスクリプト読み込み
 //----------------------------------------------------
-function my_scripts() {
 
-  //【JSファイル】---------------------------------------
+function my_script() {
+  wp_deregister_script('jquery');
   // jquery
-  wp_deregister_script('jquery'); // デフォルトは削除
+  // wp_enqueue_script('jquery-js', '//code.jquery.com/jquery-3.6.0.min.js', array(), '1.0.0', true);
   wp_enqueue_script('jquery', get_template_directory_uri() . '/dist/js/jquery-3.7.1.min.js', array(), '1.0.0', true);
 
   // ajaxzip3
   wp_enqueue_script('ajaxzip3', '//ajaxzip3.github.io/ajaxzip3.js', array('jquery'), '1.0.0', true);
 
-  // slick-js
+  // slick.js
+  // wp_enqueue_script('slick-js', '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js', array('jquery-js'), '1.0.0', true);
   wp_enqueue_script('slick', get_template_directory_uri() . '/dist/js/slick.min.js', array('jquery'), '1.0.0', true);
-
-  // main-js
+  // main.js
   wp_enqueue_script('main', get_template_directory_uri() . '/dist/js/main.min.js', array('jquery'), '1.0.0', true);
 
   // jsの遅延読み込み
-  function add_defer_attribute($tag, $handle) {
-    $defer_scripts = array('jquery', 'ajaxzip3', 'slick', 'main'); // 遅延読み込みにしたいスクリプトのハンドルを指定
-    foreach ($defer_scripts as $defer_script) {
-      if (strpos($tag, $defer_script) !== false) {
-        return str_replace(' src', ' defer="defer" src', $tag);
-      }
-    }
-    return $tag;
-  }
-  add_filter('script_loader_tag', 'add_defer_attribute', 10, 2);
+  // function add_defer_attribute($tag, $handle)
+  // {
+  //   $defer_scripts = array('jquery', 'ajaxzip3', 'slick', 'main'); // 遅延読み込みにしたいスクリプトのハンドルを指定
+  //   foreach ($defer_scripts as $defer_script) {
+  //     if (strpos($tag, $defer_script) !== false) {
+  //       return str_replace(' src', ' defer="defer" src', $tag);
+  //     }
+  //   }
+  //   return $tag;
+  // }
+  // add_filter('script_loader_tag', 'add_defer_attribute', 10, 2);
 
-
-  //【CSSファイル】---------------------------------------
-  // slick-css
+  // slick.css
+  // wp_enqueue_style('slick_css', '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css', array(), '1.0.0');
+  // wp_enqueue_style('slick-theme_css', '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css', array(), '1.0.0');
   wp_enqueue_style('slick-style', get_template_directory_uri() . '/dist/css/slick.css', array(), '1.0.0');
   wp_enqueue_style('slick-theme-style', get_template_directory_uri() . '/dist/css/slick-theme.css', array('slick-style'), '1.0.0');
 
-  // style-css
-  wp_enqueue_style('style', get_template_directory_uri().'/dist/css/style.min.css', array(), '1.0.0');
+  // style.css
+  wp_enqueue_style('style-css', get_template_directory_uri() . '/dist/css/style.min.css', array(), '1.0.0');
 
   //トップの場合はCSSを非同期で読み込む
   function load_css_async_top($html, $handle, $href, $media) {
@@ -54,6 +55,5 @@ function my_scripts() {
     return $html;
   }
   add_filter( 'style_loader_tag', 'load_css_async_top', 10, 4 );
-
 }
 add_action('wp_enqueue_scripts', 'my_scripts');

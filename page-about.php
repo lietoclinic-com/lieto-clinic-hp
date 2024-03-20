@@ -109,19 +109,19 @@
               <ul class="p-pageAboutReason__selectBox">
                 <li class="p-pageAboutReason__selectItem">
                   <div class="p-pageAboutReason__selectItemText">食事制限<br>が苦手な方</div>
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/treatment_select_01.png" alt="食事制限が苦手な方">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/treatment_select_01.png" alt="食事制限">
                 </li>
                 <li class="p-pageAboutReason__selectItem">
                   <div class="p-pageAboutReason__selectItemText">運動が<br>苦手な方</div>
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/treatment_select_02.png" alt="運動が苦手な方">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/treatment_select_02.png" alt="運動">
                 </li>
                 <li class="p-pageAboutReason__selectItem">
                   <div class="p-pageAboutReason__selectItemText">ダイエットに<br>失敗ばかりする方</div>
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/treatment_select_03.png" alt="ダイエットに失敗ばかりする方">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/treatment_select_03.png" alt="ダイエット">
                 </li>
                 <li class="p-pageAboutReason__selectItem">
                   <div class="p-pageAboutReason__selectItemText">人生最後の<br>ダイエットにしたい方</div>
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/treatment_select_04.png" alt="人生最後のダイエットにしたい方">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/treatment_select_04.png" alt="人生最後">
                 </li>
               </ul>
             </div>

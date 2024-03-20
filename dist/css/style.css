@@ -15,13 +15,6 @@
 }
 @font-face {
   font-display: swap;
-  font-weight: 700;
-  font-style: bold;
-  font-family: "Cardo";
-  src: url("../../../dist/fonts/Cardo-Bold.woff") format("woff");
-}
-@font-face {
-  font-display: swap;
   font-weight: 400;
   font-style: regular;
   font-family: "Cardo";
@@ -280,13 +273,6 @@ table {
   font-style: regular;
   font-family: "BIZ UDGothic";
   src: url("../../../dist/fonts/BIZUDGothic-Regular.woff") format("woff");
-}
-@font-face {
-  font-display: swap;
-  font-weight: 700;
-  font-style: bold;
-  font-family: "Cardo";
-  src: url("../../../dist/fonts/Cardo-Bold.woff") format("woff");
 }
 @font-face {
   font-display: swap;
@@ -755,7 +741,7 @@ button {
 .l-spHeader__item:last-of-type {
   border-bottom: none;
 }
-.l-spHeader__item > a {
+.l-spHeader__item > a, .l-spHeader__item > div {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -773,17 +759,17 @@ button {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
-.l-spHeader__item > a:hover {
+.l-spHeader__item > a:hover, .l-spHeader__item > div:hover {
   opacity: 1;
 }
-.l-spHeader__item > a .l-spHeader__itemOpen {
+.l-spHeader__item > a .l-spHeader__itemOpen, .l-spHeader__item > div .l-spHeader__itemOpen {
   position: relative;
   width: 2.5rem;
   height: 2.5rem;
   background-color: #442906;
   border-radius: 50%;
 }
-.l-spHeader__item > a .l-spHeader__itemOpen::before, .l-spHeader__item > a .l-spHeader__itemOpen::after {
+.l-spHeader__item > a .l-spHeader__itemOpen::before, .l-spHeader__item > a .l-spHeader__itemOpen::after, .l-spHeader__item > div .l-spHeader__itemOpen::before, .l-spHeader__item > div .l-spHeader__itemOpen::after {
   content: "";
   position: absolute;
   right: 0;
@@ -797,18 +783,18 @@ button {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-.l-spHeader__item > a .l-spHeader__itemOpen::after {
+.l-spHeader__item > a .l-spHeader__itemOpen::after, .l-spHeader__item > div .l-spHeader__itemOpen::after {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
 }
-.l-spHeader__item > a.is-active {
+.l-spHeader__item > a.is-active, .l-spHeader__item > div.is-active {
   background-color: #442906;
   color: #fff;
 }
-.l-spHeader__item > a.is-active .l-spHeader__itemOpen {
+.l-spHeader__item > a.is-active .l-spHeader__itemOpen, .l-spHeader__item > div.is-active .l-spHeader__itemOpen {
   background-color: #fff;
 }
-.l-spHeader__item > a.is-active .l-spHeader__itemOpen::before, .l-spHeader__item > a.is-active .l-spHeader__itemOpen::after {
+.l-spHeader__item > a.is-active .l-spHeader__itemOpen::before, .l-spHeader__item > a.is-active .l-spHeader__itemOpen::after, .l-spHeader__item > div.is-active .l-spHeader__itemOpen::before, .l-spHeader__item > div.is-active .l-spHeader__itemOpen::after {
   background-color: #442906;
   -webkit-transform: rotate(0);
           transform: rotate(0);
@@ -1995,8 +1981,9 @@ button {
 .c-fixedCta__Item {
   -webkit-filter: drop-shadow(-4px 4px 20px rgba(0, 0, 0, .3));
           filter: drop-shadow(-4px 4px 20px rgba(0, 0, 0, .3));
+  letter-spacing: -0.45em;
 }
-.c-fixedCta__Item a {
+.c-fixedCta__Item > a, .c-fixedCta__Item > div {
   width: 6.3rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2021,12 +2008,12 @@ button {
   border: 1px solid #ED8500;
   border-right: none;
 }
-.c-fixedCta__Item--tel a {
+.c-fixedCta__Item--tel > a, .c-fixedCta__Item--tel > div {
   height: 17rem;
   color: #ED8500;
   cursor: pointer;
 }
-.c-fixedCta__Item--tel a img {
+.c-fixedCta__Item--tel > a img, .c-fixedCta__Item--tel > div img {
   width: 2.6rem;
 }
 

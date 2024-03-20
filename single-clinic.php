@@ -432,7 +432,7 @@
 
                   <li class="p-treatment__contentItem">
                     <a href="/menu/glp-1/">
-                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_05.png" alt="GLP-1">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_05.png" alt="GLP1">
                       <div class="p-treatment__contentItemDesc">
                         <div class="p-treatment__contentItemHead">
                           <h3 class="p-treatment__contentItemTitle">GLP-1</h3>
@@ -443,7 +443,7 @@
 
                   <li class="p-treatment__contentItem">
                     <a href="/menu/beauty-drip/">
-                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_06.png" alt="ダイエット美容点滴">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_06.png" alt="美容点滴">
                       <div class="p-treatment__contentItemDesc">
                         <div class="p-treatment__contentItemHead">
                           <h3 class="p-treatment__contentItemTitle">ダイエット美容点滴</h3>
@@ -454,7 +454,7 @@
 
                   <li class="p-treatment__contentItem">
                     <a href="/menu/original-supplement/">
-                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_07.jpg" alt="オリジナルサプリメント">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_07.jpg" alt="サプリメント">
                       <div class="p-treatment__contentItemDesc">
                         <div class="p-treatment__contentItemHead">
                           <h3 class="p-treatment__contentItemTitle">オリジナルサプリメント</h3>
@@ -465,7 +465,7 @@
 
                   <li class="p-treatment__contentItem">
                     <a href="/menu/original-protein/">
-                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_08.png" alt="オリジナルプロテイン">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_08.png" alt="プロテイン">
                       <div class="p-treatment__contentItemDesc">
                         <div class="p-treatment__contentItemHead">
                           <h3 class="p-treatment__contentItemTitle">オリジナルプロテイン</h3>
@@ -476,7 +476,7 @@
 
                   <li class="p-treatment__contentItem">
                     <a href="/menu/diet-supplement/">
-                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_09.png" alt="ダイエット薬">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_09.png" alt="薬">
                       <div class="p-treatment__contentItemDesc">
                         <div class="p-treatment__contentItemHead">
                           <h3 class="p-treatment__contentItemTitle">ダイエット薬</h3>
@@ -487,7 +487,7 @@
 
                   <li class="p-treatment__contentItem">
                     <a href="/menu/guidance/">
-                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_10.png" alt="食事・栄養指導">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_10.png" alt="指導">
                       <div class="p-treatment__contentItemDesc">
                         <div class="p-treatment__contentItemHead">
                           <h3 class="p-treatment__contentItemTitle">食事・栄養指導</h3>

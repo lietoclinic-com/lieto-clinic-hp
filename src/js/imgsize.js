@@ -39,10 +39,10 @@ for (const img of imgs) {
   .then(function(res){
 
       //img要素のwidth属性に値を設定
-      img.setAttribute('width', res.width);
+      img.setAttribute('width', res.width / 2);
 
       //img要素のheight属性に値を設定
-      img.setAttribute('height', res.height);
+      img.setAttribute('height', res.height / 2);
   })
 
   //画像読み込みエラー時の処理

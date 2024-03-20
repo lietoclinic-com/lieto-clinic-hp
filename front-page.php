@@ -56,26 +56,26 @@
   <div class="p-topBanner">
     <div class="p-topSlider">
       <div class="p-topSlider__inner">
-        <ul class="p-topSliderList" id="p-topSlider__slick">
-          <li class="p-topSliderItem">
+        <div class="p-topSliderList" id="p-topSlider__slick">
+          <div class="p-topSliderItem">
             <a href="<?php echo esc_url(home_url('news/open-campaign/')); ?>"><img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/slider_01.png" alt="オープン記念キャンペーン"></a>
-          </li>
-          <li class="p-topSliderItem">
+          </div>
+          <div class="p-topSliderItem">
             <a href="<?php echo esc_url(home_url('news/cash-back/')); ?>"><img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/slider_02.png" alt="全額返金保証付"></a>
-          </li>
-          <li class="p-topSliderItem">
+          </div>
+          <div class="p-topSliderItem">
             <a href="<?php echo esc_url(home_url('news/gift-campaign/')); ?>"><img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/slider_03.png" alt="ご来店でAmazonギフト 1,000円分をプレゼント"></a>
-          </li>
-          <li class="p-topSliderItem">
+          </div>
+          <div class="p-topSliderItem">
             <a href="<?php echo esc_url(home_url('monitor/')); ?>"><img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/slider_04.png" alt="モニター募集ページへの誘導バナー"></a>
-          </li>
-          <li class="p-topSliderItem">
+          </div>
+          <div class="p-topSliderItem">
             <a href="<?php echo esc_url(home_url('news/present-campaign/')); ?>"><img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/slider_05.png" alt="旅行券プレゼントキャンペーン"></a>
-          </li>
-          <li class="p-topSliderItem">
+          </div>
+          <div class="p-topSliderItem">
             <a href="<?php echo esc_url(home_url('news/tenmonth-campaign/')); ?>"><img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/slider_06.png" alt="12ヶ月分0円キャンペーン"></a>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -177,19 +177,19 @@
           <ul class="p-topTreatment__selectBox">
             <li class="p-topTreatment__selectItem">
               <div class="p-topTreatment__selectItemText">食事制限<br>が苦手な方</div>
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/treatment_select_01.png" alt="食事制限が苦手な方">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/treatment_select_01.png" alt="食事制限">
             </li>
             <li class="p-topTreatment__selectItem">
               <div class="p-topTreatment__selectItemText">運動が<br>苦手な方</div>
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/treatment_select_02.png" alt="運動が苦手な方">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/treatment_select_02.png" alt="運動">
             </li>
             <li class="p-topTreatment__selectItem">
               <div class="p-topTreatment__selectItemText">ダイエットに<br>失敗ばかりする方</div>
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/treatment_select_03.png" alt="ダイエットに失敗ばかりする方">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/treatment_select_03.png" alt="ダイエット">
             </li>
             <li class="p-topTreatment__selectItem">
               <div class="p-topTreatment__selectItemText">人生最後の<br>ダイエットにしたい方</div>
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/treatment_select_04.png" alt="人生最後のダイエットにしたい方">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/treatment_select_04.png" alt="人生最後">
             </li>
           </ul>
         </div>
@@ -269,7 +269,7 @@
 
                 <li class="p-treatment__contentItem">
                   <a href="/menu/glp-1/">
-                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_05.png" alt="GLP-1">
+                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_05.png" alt="GLP1">
                     <div class="p-treatment__contentItemDesc">
                       <div class="p-treatment__contentItemHead">
                         <h3 class="p-treatment__contentItemTitle">GLP-1</h3>
@@ -280,7 +280,7 @@
 
                 <li class="p-treatment__contentItem">
                   <a href="/menu/beauty-drip/">
-                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_06.png" alt="ダイエット美容点滴">
+                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_06.png" alt="美容点滴">
                     <div class="p-treatment__contentItemDesc">
                       <div class="p-treatment__contentItemHead">
                         <h3 class="p-treatment__contentItemTitle">ダイエット美容点滴</h3>
@@ -291,7 +291,7 @@
 
                 <li class="p-treatment__contentItem">
                   <a href="/menu/original-supplement/">
-                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_07.jpg" alt="オリジナルサプリメント">
+                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_07.jpg" alt="サプリメント">
                     <div class="p-treatment__contentItemDesc">
                       <div class="p-treatment__contentItemHead">
                         <h3 class="p-treatment__contentItemTitle">オリジナルサプリメント</h3>
@@ -302,7 +302,7 @@
 
                 <li class="p-treatment__contentItem">
                   <a href="/menu/original-protein/">
-                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_08.png" alt="オリジナルプロテイン">
+                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_08.png" alt="プロテイン">
                     <div class="p-treatment__contentItemDesc">
                       <div class="p-treatment__contentItemHead">
                         <h3 class="p-treatment__contentItemTitle">オリジナルプロテイン</h3>
@@ -313,7 +313,7 @@
 
                 <li class="p-treatment__contentItem">
                   <a href="/menu/diet-supplement/">
-                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_09.png" alt="ダイエット薬">
+                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_09.png" alt="薬">
                     <div class="p-treatment__contentItemDesc">
                       <div class="p-treatment__contentItemHead">
                         <h3 class="p-treatment__contentItemTitle">ダイエット薬</h3>
@@ -324,7 +324,7 @@
 
                 <li class="p-treatment__contentItem">
                   <a href="/menu/guidance/">
-                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_10.png" alt="食事・栄養指導">
+                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_10.png" alt="指導">
                     <div class="p-treatment__contentItemDesc">
                       <div class="p-treatment__contentItemHead">
                         <h3 class="p-treatment__contentItemTitle">食事・栄養指導</h3>

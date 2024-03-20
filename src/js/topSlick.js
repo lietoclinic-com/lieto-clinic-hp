@@ -9,8 +9,8 @@ $(function(){
       arrows: true,         // 左右の移動ボタン
       dots: false, // ドット（ページ送り）を表示する(デフォルトfalse)
       adaptiveHeight: true,
-      prevArrow: '<button class="slide-arrow prev-arrow"></button>',
-      nextArrow: '<button class="slide-arrow next-arrow"></button>',
+      prevArrow: '<button class="slide-arrow prev-arrow" aria-label="arrow" aria-label="arrow"></button>',
+      nextArrow: '<button class="slide-arrow next-arrow" aria-label="arrow" aria-label="arrow"></button>',
 
       responsive: [
         {

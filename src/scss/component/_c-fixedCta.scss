@@ -20,7 +20,9 @@
 
 .c-fixedCta__Item {
   filter: drop-shadow(-4px 4px 20px rgba(0, 0, 0, 0.30));
-  a {
+  letter-spacing: -0.45em;
+
+  >a, >div {
     width: 6.3rem;
     display: flex;
     justify-content: center;
@@ -38,7 +40,7 @@
   background-color: #fff;
   border: 1px solid cl(orange);
   border-right: none;
-  a {
+  >a, >div {
     height: 17rem;
     color: cl(orange);
     cursor: pointer;

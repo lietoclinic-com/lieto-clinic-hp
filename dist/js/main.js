@@ -21,8 +21,8 @@ $('.p-access__mainSlider').each(function(index) {
     
     dots: false,
     arrows: true,
-    prevArrow: '<buton sizes=auto class="slick-slide-arrow _archive slick-prev-arrow">',
-    nextArrow: '<buton sizes=auto class="slick-slide-arrow _archive slick-next-arrow">',
+    prevArrow: '<button sizes=auto class="slick-slide-arrow _archive slick-prev-arrow">',
+    nextArrow: '<button sizes=auto class="slick-slide-arrow _archive slick-next-arrow">',
 
     asNavFor: subClassName,
 
@@ -62,8 +62,8 @@ $('.p-singleClinicAlbum__list').slick({
   
   dots: true,
   arrows: true,
-  prevArrow: '<buton sizes=auto class="slick-slide-arrow _archive slick-prev-arrow">',
-  nextArrow: '<buton sizes=auto class="slick-slide-arrow _archive slick-next-arrow">',
+  prevArrow: '<button sizes=auto class="slick-slide-arrow _archive slick-prev-arrow" aria-label="arrow">',
+  nextArrow: '<button sizes=auto class="slick-slide-arrow _archive slick-next-arrow" aria-label="arrow">',
 
   pauseOnFocus: false,
   pauseOnHover: false,
@@ -157,10 +157,10 @@ for (const img of imgs) {
   .then(function(res){
 
       //img要素のwidth属性に値を設定
-      img.setAttribute('width', res.width);
+      img.setAttribute('width', res.width / 2);
 
       //img要素のheight属性に値を設定
-      img.setAttribute('height', res.height);
+      img.setAttribute('height', res.height / 2);
   })
 
   //画像読み込みエラー時の処理
@@ -255,8 +255,8 @@ $(function(){
       arrows: true,         // 左右の移動ボタン
       dots: false, // ドット（ページ送り）を表示する(デフォルトfalse)
       adaptiveHeight: true,
-      prevArrow: '<button class="slide-arrow prev-arrow"></button>',
-      nextArrow: '<button class="slide-arrow next-arrow"></button>',
+      prevArrow: '<button class="slide-arrow prev-arrow" aria-label="arrow" aria-label="arrow"></button>',
+      nextArrow: '<button class="slide-arrow next-arrow" aria-label="arrow" aria-label="arrow"></button>',
 
       responsive: [
         {

@@ -16,8 +16,8 @@ $('.p-access__mainSlider').each(function(index) {
     
     dots: false,
     arrows: true,
-    prevArrow: '<buton sizes=auto class="slick-slide-arrow _archive slick-prev-arrow">',
-    nextArrow: '<buton sizes=auto class="slick-slide-arrow _archive slick-next-arrow">',
+    prevArrow: '<button sizes=auto class="slick-slide-arrow _archive slick-prev-arrow">',
+    nextArrow: '<button sizes=auto class="slick-slide-arrow _archive slick-next-arrow">',
 
     asNavFor: subClassName,
 
@@ -57,8 +57,8 @@ $('.p-singleClinicAlbum__list').slick({
   
   dots: true,
   arrows: true,
-  prevArrow: '<buton sizes=auto class="slick-slide-arrow _archive slick-prev-arrow">',
-  nextArrow: '<buton sizes=auto class="slick-slide-arrow _archive slick-next-arrow">',
+  prevArrow: '<button sizes=auto class="slick-slide-arrow _archive slick-prev-arrow" aria-label="arrow">',
+  nextArrow: '<button sizes=auto class="slick-slide-arrow _archive slick-next-arrow" aria-label="arrow">',
 
   pauseOnFocus: false,
   pauseOnHover: false,
