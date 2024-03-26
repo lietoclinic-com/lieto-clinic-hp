@@ -50,32 +50,32 @@ $breakpoints: (
 @font-face {
     font-display: swap;
     font-weight: 700;
-    font-style: bold;
-    font-family: 'BIZ UDGothic';
-    src: url("../../../dist/fonts/BIZUDGothic-Bold.woff") format("woff");
+    font-style: normal;
+    font-family: "BIZ UDGothic";
+    src: url("../../dist/fonts/BIZUDGothic-Bold.woff") format("woff");
 }
 @font-face {
     font-display: swap;
     font-weight: 400;
-    font-style: regular;
-    font-family: 'BIZ UDGothic';
-    src: url("../../../dist/fonts/BIZUDGothic-Regular.woff") format("woff");
+    font-style: normal;
+    font-family: "BIZ UDGothic";
+    src: url("../../dist/fonts/BIZUDGothic-Regular.woff") format("woff");
 }
 
 // Cardo
-// @font-face {
-//     font-display: swap;
-//     font-weight: 700;
-//     font-style: bold;
-//     font-family: 'Cardo';
-//     src: url("../../../dist/fonts/Cardo-Bold.woff") format("woff");
-// }
+@font-face {
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Cardo";
+    src: url("../../dist/fonts/Cardo-Bold.woff") format("woff");
+}
 @font-face {
     font-display: swap;
     font-weight: 400;
-    font-style: regular;
-    font-family: 'Cardo';
-    src: url("../../../dist/fonts/Cardo-Regular.woff") format("woff");
+    font-style: normal;
+    font-family: "Cardo";
+    src: url("../../dist/fonts/Cardo-Regular.woff") format("woff");
 }
 
 // Cinzel
@@ -83,43 +83,43 @@ $breakpoints: (
     font-display: swap;
     font-weight: 900;
     font-style: normal;
-    font-family: 'Cinzel';
-    src: url("../../../dist/fonts/Cinzel-Black.woff") format("woff");
+    font-family: "Cinzel";
+    src: url("../../dist/fonts/Cinzel-Black.woff") format("woff");
 }
 @font-face {
     font-display: swap;
     font-weight: 800;
     font-style: normal;
-    font-family: 'Cinzel';
-    src: url("../../../dist/fonts/Cinzel-ExtraBold.woff") format("woff");
+    font-family: "Cinzel";
+    src: url("../../dist/fonts/Cinzel-ExtraBold.woff") format("woff");
 }
 @font-face {
     font-display: swap;
     font-weight: 700;
     font-style: normal;
-    font-family: 'Cinzel';
-    src: url("../../../dist/fonts/Cinzel-Bold.woff") format("woff");
+    font-family: "Cinzel";
+    src: url("../../dist/fonts/Cinzel-Bold.woff") format("woff");
 }
 @font-face {
     font-display: swap;
     font-weight: 600;
     font-style: normal;
-    font-family: 'Cinzel';
-    src: url("../../../dist/fonts/Cinzel-SemiBold.woff") format("woff");
+    font-family: "Cinzel";
+    src: url("../../dist/fonts/Cinzel-SemiBold.woff") format("woff");
 }
 @font-face {
     font-display: swap;
     font-weight: 500;
     font-style: normal;
-    font-family: 'Cinzel';
-    src: url("../../../dist/fonts/Cinzel-Medium.woff") format("woff");
+    font-family: "Cinzel";
+    src: url("../../dist/fonts/Cinzel-Medium.woff") format("woff");
 }
 @font-face {
     font-display: swap;
     font-weight: 400;
     font-style: normal;
-    font-family: 'Cinzel';
-    src: url("../../../dist/fonts/Cinzel-Regular.woff") format("woff");
+    font-family: "Cinzel";
+    src: url("../../dist/fonts/Cinzel-Regular.woff") format("woff");
 }
 
 // Lora
@@ -127,29 +127,29 @@ $breakpoints: (
     font-display: swap;
     font-weight: 700;
     font-style: normal;
-    font-family: 'Lora';
-    src: url("../../../dist/fonts/Lora-Bold.woff") format("woff");
+    font-family: "Lora";
+    src: url("../../dist/fonts/Lora-Bold.woff") format("woff");
 }
 @font-face {
     font-display: swap;
     font-weight: 600;
     font-style: normal;
-    font-family: 'Lora';
-    src: url("../../../dist/fonts/Lora-SemiBold.woff") format("woff");
+    font-family: "Lora";
+    src: url("../../dist/fonts/Lora-SemiBold.woff") format("woff");
 }
 @font-face {
     font-display: swap;
     font-weight: 500;
     font-style: normal;
-    font-family: 'Lora';
-    src: url("../../../dist/fonts/Lora-Medium.woff") format("woff");
+    font-family: "Lora";
+    src: url("../../dist/fonts/Lora-Medium.woff") format("woff");
 }
 @font-face {
     font-display: swap;
     font-weight: 400;
     font-style: normal;
-    font-family: 'Lora';
-    src: url("../../../dist/fonts/Lora-Regular.woff") format("woff");
+    font-family: "Lora";
+    src: url("../../dist/fonts/Lora-Regular.woff") format("woff");
 }
 
 // ShipporiMincho
@@ -157,36 +157,36 @@ $breakpoints: (
     font-display: swap;
     font-weight: 800;
     font-style: normal;
-    font-family: 'Shippori Mincho';
-    src: url("../../../dist/fonts/ShipporiMincho-ExtraBold.woff") format("woff");
+    font-family: "Shippori Mincho";
+    src: url("../../dist/fonts/ShipporiMincho-ExtraBold.woff") format("woff");
 }
 @font-face {
     font-display: swap;
     font-weight: 700;
     font-style: normal;
-    font-family: 'Shippori Mincho';
-    src: url("../../../dist/fonts/ShipporiMincho-Bold.woff") format("woff");
+    font-family: "Shippori Mincho";
+    src: url("../../dist/fonts/ShipporiMincho-Bold.woff") format("woff");
 }
 @font-face {
     font-display: swap;
     font-weight: 600;
     font-style: normal;
-    font-family: 'Shippori Mincho';
-    src: url("../../../dist/fonts/ShipporiMincho-SemiBold.woff") format("woff");
+    font-family: "Shippori Mincho";
+    src: url("../../dist/fonts/ShipporiMincho-SemiBold.woff") format("woff");
 }
 @font-face {
     font-display: swap;
     font-weight: 500;
     font-style: normal;
-    font-family: 'Shippori Mincho';
-    src: url("../../../dist/fonts/ShipporiMincho-Medium.woff") format("woff");
+    font-family: "Shippori Mincho";
+    src: url("../../dist/fonts/ShipporiMincho-Medium.woff") format("woff");
 }
 @font-face {
     font-display: swap;
     font-weight: 400;
     font-style: normal;
-    font-family: 'Shippori Mincho';
-    src: url("../../../dist/fonts/ShipporiMincho-Regular.woff") format("woff");
+    font-family: "Shippori Mincho";
+    src: url("../../dist/fonts/ShipporiMincho-Regular.woff") format("woff");
 }
 
 // ZenKakuGothicNew
@@ -194,37 +194,37 @@ $breakpoints: (
     font-display: swap;
     font-weight: 900;
     font-style: normal;
-    font-family: 'Zen Kaku Gothic New';
-    src: url("../../../dist/fonts/ZenKakuGothicNew-Black.woff") format("woff");
+    font-family: "Zen Kaku Gothic New";
+    src: url("../../dist/fonts/ZenKakuGothicNew-Black.woff") format("woff");
 }
 @font-face {
     font-display: swap;
     font-weight: 700;
     font-style: normal;
-    font-family: 'Zen Kaku Gothic New';
-    src: url("../../../dist/fonts/ZenKakuGothicNew-Bold.woff") format("woff");
+    font-family: "Zen Kaku Gothic New";
+    src: url("../../dist/fonts/ZenKakuGothicNew-Bold.woff") format("woff");
 }
 
 @font-face {
     font-display: swap;
     font-weight: 500;
     font-style: normal;
-    font-family: 'Zen Kaku Gothic New';
-    src: url("../../../dist/fonts/ZenKakuGothicNew-Medium.woff") format("woff");
+    font-family: "Zen Kaku Gothic New";
+    src: url("../../dist/fonts/ZenKakuGothicNew-Medium.woff") format("woff");
 }
 @font-face {
     font-display: swap;
     font-weight: 400;
     font-style: normal;
-    font-family: 'Zen Kaku Gothic New';
-    src: url("../../../dist/fonts/ZenKakuGothicNew-Regular.woff") format("woff");
+    font-family: "Zen Kaku Gothic New";
+    src: url("../../dist/fonts/ZenKakuGothicNew-Regular.woff") format("woff");
 }
 @font-face {
     font-display: swap;
     font-weight: 300;
     font-style: normal;
-    font-family: 'Zen Kaku Gothic New';
-    src: url("../../../dist/fonts/ZenKakuGothicNew-light.woff") format("woff");
+    font-family: "Zen Kaku Gothic New";
+    src: url("../../dist/fonts/ZenKakuGothicNew-light.woff") format("woff");
 }
 
 // ZenOldMincho
@@ -232,43 +232,43 @@ $breakpoints: (
     font-display: swap;
     font-weight: 900;
     font-style: normal;
-    font-family: 'Zen Old Mincho';
-    src: url("../../../dist/fonts/ZenOldMincho-Black.woff") format("woff");
+    font-family: "Zen Old Mincho";
+    src: url("../../dist/fonts/ZenOldMincho-Black.woff") format("woff");
 }
 @font-face {
     font-display: swap;
     font-weight: 700;
     font-style: normal;
-    font-family: 'Zen Old Mincho';
-    src: url("../../../dist/fonts/ZenOldMincho-Bold.woff") format("woff");
+    font-family: "Zen Old Mincho";
+    src: url("../../dist/fonts/ZenOldMincho-Bold.woff") format("woff");
 }
 @font-face {
     font-display: swap;
     font-weight: 600;
     font-style: normal;
-    font-family: 'Zen Old Mincho';
-    src: url("../../../dist/fonts/ZenOldMincho-SemiBold.woff") format("woff");
+    font-family: "Zen Old Mincho";
+    src: url("../../dist/fonts/ZenOldMincho-SemiBold.woff") format("woff");
 }
 @font-face {
     font-display: swap;
     font-weight: 500;
     font-style: normal;
-    font-family: 'Zen Old Mincho';
-    src: url("../../../dist/fonts/ZenOldMincho-Medium.woff") format("woff");
+    font-family: "Zen Old Mincho";
+    src: url("../../dist/fonts/ZenOldMincho-Medium.woff") format("woff");
 }
 @font-face {
     font-display: swap;
     font-weight: 400;
     font-style: normal;
-    font-family: 'Zen Old Mincho';
-    src: url("../../../dist/fonts/ZenOldMincho-Regular.woff") format("woff");
+    font-family: "Zen Old Mincho";
+    src: url("../../dist/fonts/ZenOldMincho-Regular.woff") format("woff");
 }
 
-$font-biz: 'BIZ UDGothic', sans-serif; // 
-$font-cardo: 'Cardo', serif; // 数字
-$font-cinzel: 'Cinzel', serif; // 英語数字
-$font-lora: 'Lora', serif; // 英語
-$font-shippori: 'Shippori Mincho', serif;
-$font-zenkaku: 'Zen Kaku Gothic New', sans-serif;
-$font-zenold: 'Zen Old Mincho', serif;
+$font-biz: "BIZ UDGothic", sans-serif; // 
+$font-cardo: "Cardo", serif; // 数字
+$font-cinzel: "Cinzel", serif; // 英語数字
+$font-lora: "Lora", serif; // 英語
+$font-shippori: "Shippori Mincho", serif;
+$font-zenkaku: "Zen Kaku Gothic New", sans-serif;
+$font-zenold: "Zen Old Mincho", serif;
 
