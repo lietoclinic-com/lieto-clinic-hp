@@ -58,7 +58,7 @@
       <div class="p-topSlider__inner">
         <div class="p-topSliderList" id="p-topSlider__slick">
           <div class="p-topSliderItem">
-            <a href="<?php echo esc_url(home_url('news/open-campaign/')); ?>"><img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/slider_01.png" alt="オープン記念キャンペーン"></a>
+            <a href="<?php echo esc_url(home_url('news/open-campaign/')); ?>"><img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/slider_01a.png" alt="オープン記念キャンペーン"></a>
           </div>
           <div class="p-topSliderItem">
             <a href="<?php echo esc_url(home_url('news/cash-back/')); ?>"><img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/slider_02.png" alt="全額返金保証付"></a>
