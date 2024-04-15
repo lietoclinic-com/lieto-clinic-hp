@@ -1573,7 +1573,7 @@ button {
   margin: auto;
   width: 1.6rem;
   height: 0.8rem;
-  background-image: url("../../dist/img/icon/arrow_right.png");
+  background-image: url(../../dist/img/icon/arrow_right.png);
   background-size: contain;
 }
 .c-btn.c-btnReturn {
@@ -2240,7 +2240,7 @@ button {
 }
 
 .p-topFv {
-  background-image: url("../../dist/img/top/fv_bg_sp.png");
+  background-image: url("../../dist/img/top/fv_bg_sp.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -2262,7 +2262,7 @@ button {
 }
 
 .p-topFv__img {
-  background-image: url("../../dist/img/top/fv_sp.png");
+  background-image: url("../../dist/img/top/fv_sp.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -10716,7 +10716,7 @@ button {
   margin: auto;
   width: 1.6rem;
   height: 0.8rem;
-  background-image: url("../../dist/img/icon/arrow_right.png");
+  background-image: url(../../dist/img/icon/arrow_right.png);
   background-size: contain;
 }
 .p-form__btn input[type=submit] {
