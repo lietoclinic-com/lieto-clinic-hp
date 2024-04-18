@@ -35,7 +35,7 @@
         <div class="p-pageRecruitConcept__inner l-inner">
           <div class="p-pageRecruitConcept__body p-concept">
             <figure class="p-concept__figure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/top/top_about.png" alt="コンセプト">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/top_about.png" alt="コンセプト">
             </figure>
             <div class="p-concept__desc">
               <div class="p-concept__message">
@@ -60,7 +60,7 @@
 
               <li class="p-pageRecruitJob__item">
                 <figure class="p-pageRecruitJob__figure">
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/recruit/job_01.png" alt="医師">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/recruit/job_01.png" alt="医師">
                 </figure>
                 <div class="p-pageRecruitJob__desc">
                   <h3 class="p-pageRecruitJob__title">医師</h3>
@@ -88,7 +88,7 @@
 
               <li class="p-pageRecruitJob__item">
                 <figure class="p-pageRecruitJob__figure">
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/recruit/job_02.png" alt="看護師">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/recruit/job_02.png" alt="看護師">
                 </figure>
                 <div class="p-pageRecruitJob__desc">
                   <h3 class="p-pageRecruitJob__title">看護師</h3>
@@ -116,7 +116,7 @@
 
               <li class="p-pageRecruitJob__item">
                 <figure class="p-pageRecruitJob__figure">
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/recruit/job_03.png" alt="管理栄養士">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/recruit/job_03.png" alt="管理栄養士">
                 </figure>
                 <div class="p-pageRecruitJob__desc">
                   <h3 class="p-pageRecruitJob__title">管理栄養士</h3>
@@ -144,7 +144,7 @@
 
               <li class="p-pageRecruitJob__item">
                 <figure class="p-pageRecruitJob__figure">
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/recruit/job_04.png" alt="カウンセラー">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/recruit/job_04.png" alt="カウンセラー">
                 </figure>
                 <div class="p-pageRecruitJob__desc">
                   <h3 class="p-pageRecruitJob__title">カウンセラー</h3>
@@ -172,7 +172,7 @@
 
               <li class="p-pageRecruitJob__item">
                 <figure class="p-pageRecruitJob__figure">
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/recruit/job_05.png" alt="受付事務">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/recruit/job_05.png" alt="受付事務">
                 </figure>
                 <div class="p-pageRecruitJob__desc">
                   <h3 class="p-pageRecruitJob__title">受付事務</h3>
@@ -211,7 +211,7 @@
 
               <li class="p-recruitFlow__item">
                 <figure class="p-recruitFlow__figure">
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/recruit/flow_01.png" alt="採用応募フォームよりご応募ください">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/recruit/flow_01.png" alt="採用応募フォームよりご応募ください">
                 </figure>
                 <div class="p-recruitFlow__desc">
                   <div class="p-recruitFlow__descNum">01</div>
@@ -223,7 +223,7 @@
 
               <li class="p-recruitFlow__item">
                 <figure class="p-recruitFlow__figure">
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/recruit/flow_02.png" alt="採用担当者よりご連絡いたします">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/recruit/flow_02.png" alt="採用担当者よりご連絡いたします">
                 </figure>
                 <div class="p-recruitFlow__desc">
                   <div class="p-recruitFlow__descNum">02</div>
@@ -235,7 +235,7 @@
 
               <li class="p-recruitFlow__item">
                 <figure class="p-recruitFlow__figure">
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/recruit/flow_03.png" alt="オンライン面談後複数回の面接">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/recruit/flow_03.png" alt="オンライン面談後複数回の面接">
                 </figure>
                 <div class="p-recruitFlow__desc">
                   <div class="p-recruitFlow__descNum">03</div>
@@ -247,7 +247,7 @@
 
               <li class="p-recruitFlow__item">
                 <figure class="p-recruitFlow__figure">
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/recruit/flow_04.png" alt="採用・内定のご連絡">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/recruit/flow_04.png" alt="採用・内定のご連絡">
                 </figure>
                 <div class="p-recruitFlow__desc">
                   <div class="p-recruitFlow__descNum">04</div>
@@ -269,7 +269,7 @@
             <div class="p-recruitForm__desc">
               <div class="p-recruitForm__text">採用応募フォーム</div>
               <a href="/recruit/entry/" class="p-recruitForm__link">
-                <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_counseling_circle.png'>採用応募はこちらから
+                <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_counseling_circle.png' alt="icon">採用応募はこちらから
               </a>
             </div>
           </div>
@@ -305,22 +305,22 @@
                         </div>
                         <dl class="p-access__list">
                           <div class="p-access__listRow">
-                            <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_access_brown.png'>住所</dt>
+                            <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_access_brown.png' alt="icon">住所</dt>
                             <dd>〒<?php echo get_field("clinic_info")['clinic_info_post']; ?><br><?php echo get_field('clinic_info')['clinic_info_address']; ?></dd>
                           </div>
 
                           <div class="p-access__listRow">
-                            <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_train_brown.png'>最寄駅</dt>
+                            <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_train_brown.png' alt="icon">最寄駅</dt>
                             <dd><?php echo get_field('clinic_info')['clinic_info_station']; ?></dd>
                           </div>
 
                           <div class="p-access__listRow">
-                            <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_tel_brown.png'>電話番号</dt>
+                            <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_tel_brown.png' alt="icon">電話番号</dt>
                             <dd><a href="tel:<?php echo get_field('clinic_info')['clinic_info_tel']; ?>"><?php echo get_field('clinic_info')['clinic_info_tel']; ?></a></dd>
                           </div>
 
                           <div class="p-access__listRow">
-                            <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_time_brown.png'>診療時間</dt>
+                            <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_time_brown.png' alt="icon">診療時間</dt>
                             <dd><?php echo get_field('clinic_info')['clinic_info_time']; ?></dd>
                           </div>
 

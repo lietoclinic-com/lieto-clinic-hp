@@ -16,7 +16,7 @@
 
     <div class="p-singleMenu__body">
       <figure class="p-singleMenu__mainimg">
-        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/protein_main.png" alt="オリジナルプロテイン">
+        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/protein_main.png" alt="プロテイン">
       </figure>
 
       <!-- とは -->
@@ -24,7 +24,7 @@
         <h2 class="p-singleMenu__title">オリジナルプロテイン 「Liend」とは</h2>
         <div class="p-singleMenu__box">
           <figure class="p-singleMenu__figure _protein">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/protein_01.png" alt="オリジナルプロテイン 「Liend」とは">
+            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/protein_01.png" alt="オリジナルプロテイン 「Liend」とは">
           </figure>
           <div class="p-singleMenu__text _protein">
             「理想の身体を実現」「無理なく継続できるダイエットをサポート」をテーマに、当院オリジナルのプロテインを開発しました。<br>

@@ -1,0 +1,274 @@
+// [カラー]  cl(black);
+//-----------------------------------------
+$colors: (
+	black: #393327,
+    orange: #ED8500,
+    gray: #BCBCBC,
+    lightgray: #E3E3E3,
+    brown: #AE8954,
+    beige: #FFF4E3,
+    dark: #442906,
+
+    green: #069753,
+    lightgreen: #E6F6ED,
+    red: #EB5757,
+    blue: #1F73B7,
+    lightblue: #57ACD1,
+    pink: #FD4477,
+
+    exo: #1C6177,
+    exolight: #E3F7FF,
+);
+
+@function cl($key) {
+	@return map-get($colors, $key);
+}
+
+// [レスポンシブ]; @include mq(pc) {...}
+//-----------------------------------------
+$breakpoints: (
+
+    min: 'screen and (min-width: 480px)',
+    sp: 'screen and (min-width: 600px)',
+    tab: 'screen and (min-width: 769px)',
+    pc: 'screen and (min-width: 1025px)',
+    // max: 'screen and (min-width: 1160px)', // header,footer用
+    max: 'screen and (min-width: 1200px)', // header,footer用
+);
+
+@mixin mq($breakpoint) {
+    @media #{map-get($breakpoints, $breakpoint)} {
+        @content;
+    }
+}
+
+
+// [font-family]; font-family: $font-○○○;
+//-----------------------------------------
+
+// BIZ UDGothic
+@font-face {
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "BIZ UDGothic";
+    src: url("../../dist/fonts/BIZUDGothic-Bold.woff") format("woff");
+}
+@font-face {
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "BIZ UDGothic";
+    src: url("../../dist/fonts/BIZUDGothic-Regular.woff") format("woff");
+}
+
+// Cardo
+@font-face {
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Cardo";
+    src: url("../../dist/fonts/Cardo-Bold.woff") format("woff");
+}
+@font-face {
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Cardo";
+    src: url("../../dist/fonts/Cardo-Regular.woff") format("woff");
+}
+
+// Cinzel
+@font-face {
+    font-display: swap;
+    font-weight: 900;
+    font-style: normal;
+    font-family: "Cinzel";
+    src: url("../../dist/fonts/Cinzel-Black.woff") format("woff");
+}
+@font-face {
+    font-display: swap;
+    font-weight: 800;
+    font-style: normal;
+    font-family: "Cinzel";
+    src: url("../../dist/fonts/Cinzel-ExtraBold.woff") format("woff");
+}
+@font-face {
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Cinzel";
+    src: url("../../dist/fonts/Cinzel-Bold.woff") format("woff");
+}
+@font-face {
+    font-display: swap;
+    font-weight: 600;
+    font-style: normal;
+    font-family: "Cinzel";
+    src: url("../../dist/fonts/Cinzel-SemiBold.woff") format("woff");
+}
+@font-face {
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Cinzel";
+    src: url("../../dist/fonts/Cinzel-Medium.woff") format("woff");
+}
+@font-face {
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Cinzel";
+    src: url("../../dist/fonts/Cinzel-Regular.woff") format("woff");
+}
+
+// Lora
+@font-face {
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Lora";
+    src: url("../../dist/fonts/Lora-Bold.woff") format("woff");
+}
+@font-face {
+    font-display: swap;
+    font-weight: 600;
+    font-style: normal;
+    font-family: "Lora";
+    src: url("../../dist/fonts/Lora-SemiBold.woff") format("woff");
+}
+@font-face {
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Lora";
+    src: url("../../dist/fonts/Lora-Medium.woff") format("woff");
+}
+@font-face {
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Lora";
+    src: url("../../dist/fonts/Lora-Regular.woff") format("woff");
+}
+
+// ShipporiMincho
+@font-face {
+    font-display: swap;
+    font-weight: 800;
+    font-style: normal;
+    font-family: "Shippori Mincho";
+    src: url("../../dist/fonts/ShipporiMincho-ExtraBold.woff") format("woff");
+}
+@font-face {
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Shippori Mincho";
+    src: url("../../dist/fonts/ShipporiMincho-Bold.woff") format("woff");
+}
+@font-face {
+    font-display: swap;
+    font-weight: 600;
+    font-style: normal;
+    font-family: "Shippori Mincho";
+    src: url("../../dist/fonts/ShipporiMincho-SemiBold.woff") format("woff");
+}
+@font-face {
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Shippori Mincho";
+    src: url("../../dist/fonts/ShipporiMincho-Medium.woff") format("woff");
+}
+@font-face {
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Shippori Mincho";
+    src: url("../../dist/fonts/ShipporiMincho-Regular.woff") format("woff");
+}
+
+// ZenKakuGothicNew
+@font-face {
+    font-display: swap;
+    font-weight: 900;
+    font-style: normal;
+    font-family: "Zen Kaku Gothic New";
+    src: url("../../dist/fonts/ZenKakuGothicNew-Black.woff") format("woff");
+}
+@font-face {
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Zen Kaku Gothic New";
+    src: url("../../dist/fonts/ZenKakuGothicNew-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Zen Kaku Gothic New";
+    src: url("../../dist/fonts/ZenKakuGothicNew-Medium.woff") format("woff");
+}
+@font-face {
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Zen Kaku Gothic New";
+    src: url("../../dist/fonts/ZenKakuGothicNew-Regular.woff") format("woff");
+}
+@font-face {
+    font-display: swap;
+    font-weight: 300;
+    font-style: normal;
+    font-family: "Zen Kaku Gothic New";
+    src: url("../../dist/fonts/ZenKakuGothicNew-light.woff") format("woff");
+}
+
+// ZenOldMincho
+@font-face {
+    font-display: swap;
+    font-weight: 900;
+    font-style: normal;
+    font-family: "Zen Old Mincho";
+    src: url("../../dist/fonts/ZenOldMincho-Black.woff") format("woff");
+}
+@font-face {
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Zen Old Mincho";
+    src: url("../../dist/fonts/ZenOldMincho-Bold.woff") format("woff");
+}
+@font-face {
+    font-display: swap;
+    font-weight: 600;
+    font-style: normal;
+    font-family: "Zen Old Mincho";
+    src: url("../../dist/fonts/ZenOldMincho-SemiBold.woff") format("woff");
+}
+@font-face {
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Zen Old Mincho";
+    src: url("../../dist/fonts/ZenOldMincho-Medium.woff") format("woff");
+}
+@font-face {
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Zen Old Mincho";
+    src: url("../../dist/fonts/ZenOldMincho-Regular.woff") format("woff");
+}
+
+$font-biz: "BIZ UDGothic", sans-serif; // 
+$font-cardo: "Cardo", serif; // 数字
+$font-cinzel: "Cinzel", serif; // 英語数字
+$font-lora: "Lora", serif; // 英語
+$font-shippori: "Shippori Mincho", serif;
+$font-zenkaku: "Zen Kaku Gothic New", sans-serif;
+$font-zenold: "Zen Old Mincho", serif;
+

@@ -1,0 +1,626 @@
+.p-singleRecruit__body {
+  padding-bottom: 8rem;
+
+  @include mq(tab){
+    padding-bottom: 12rem;
+  }
+}
+
+// コンセプト
+.p-singleRecruitConcept {
+  margin-top: 4rem;
+  @include mq(tab){
+    margin-top: 12.8rem;
+  }
+}
+
+
+// こだわり
+.p-singleRecruitParticular {
+  margin-top: 6rem;
+  @include mq(tab){
+    margin-top: 10rem;
+  }
+}
+
+.p-singleRecruitParticular__inner {
+  padding-left: 1.5rem;
+}
+
+.p-singleRecruitParticular__head {
+  line-height: 1.5;
+  @include mq(tab){
+    line-height: 2;
+  }
+}
+
+.p-singleRecruitParticular__body {
+  margin-top: 3rem;
+}
+
+.p-singleRecruitParticular__list {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 0.5rem;
+  padding: 2.5rem 1.5rem 1.5rem 2.5rem;
+  border: 1px solid #8A652F;
+  
+  @include mq(tab){
+    gap: 2rem 3rem;
+    padding: 5rem 4.5rem 4rem;
+  }
+
+  &::after {
+    z-index: -1;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    content: "";
+    width: 100%;
+    height: 100%;
+    border: 1px solid cl(orange);
+  }
+}
+
+.p-singleRecruitParticular__item {
+  width: calc((100% - 0.5rem) / 2);
+  height: 3.8rem;
+  border-radius: 0.4rem;
+  background: rgb(205,185,160);
+  background: linear-gradient(270deg, rgba(205,185,160,1) 0%, rgba(174,137,84,1) 100%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.4rem;
+
+  text-align: center;
+  line-height: 1.2;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #fff;
+
+  @include mq(tab){
+    font-size: 2rem;
+    height: 5.4rem;
+    width: calc((100% - 3rem * 2) / 3);
+  }
+}
+
+// メニュー
+.p-singleRecruitMenu {
+  margin-top: 7rem;
+  @include mq(tab){
+    margin-top: 11rem;
+  }
+}
+
+.p-singleRecruitMenu__inner {
+
+}
+
+.p-singleRecruitMenu__list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem 1.5rem;
+  
+  @include mq(tab){
+    gap: 0 calc(8rem / 3);
+  }
+}
+
+.p-singleRecruitMenu__item {
+  width: calc((100% - 1.5rem) / 2);
+  @include mq(tab){
+    width: calc((100% - 8rem) / 4);
+  }
+
+  a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    border-bottom: 1px solid cl(brown);
+
+    font-family: $font-zenold;
+    line-height: 4rem;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: cl(brown);
+
+    &::after {
+      content: "";
+      display: inline-block;
+      width: 1.6rem;
+      height: 0.8rem;
+      background-image: url("../../dist/img/icon/arrow_right_brown.svg");
+      flex-shrink: 0;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    @include mq(tab){
+      padding-bottom: 1rem;
+      font-size: 2.4rem;
+
+      &::after {
+        width: 2.4rem;
+        height: 1.2rem;
+      }
+    }
+  }
+}
+
+// 仕事内容
+.p-singleRecruitJob {
+  padding-top: 8rem; // リンクアンカー調整
+  margin-top: -2rem;
+  @include mq(tab){
+    padding-top: 2rem;
+    margin-top: 8rem;
+  }
+}
+
+.p-singleRecruitJob__inner {
+
+}
+
+.p-singleRecruitJob__body {
+  margin-top: 3rem;
+  @include mq(tab){
+    margin-top: 5rem;
+  }
+}
+
+.p-singleRecruitJob__box {
+  position: relative;
+  background-color: cl(beige);
+  display: flex;
+  flex-direction: column;
+
+  @include mq(tab){
+    flex-direction: row;
+    height: 24rem;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: calc(100% - 0.5rem * 2);
+    height: calc(100% - 0.5rem * 2);
+    background-color: transparent;
+    border: 1px solid cl(brown);
+
+    @include mq(tab){
+      width: calc(100% - 1rem * 2);
+      height: calc(100% - 1rem * 2);
+    }
+  }
+}
+
+.p-singleRecruitJob__boxFigure {
+  @include mq(tab){
+    width: 50%;
+  }
+
+  img {
+    object-fit: cover;
+    height: 14rem;
+
+    @include mq(tab){
+      height: 24rem;
+    }
+  }
+}
+
+.p-singleRecruitJob__boxDesc {
+  padding: 2rem 2.5rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: $font-zenold;
+  @include mq(tab){
+    padding: 0 3rem;
+    width: 50%;
+  }
+}
+
+.p-singleRecruitJob__boxTitle {
+  margin-bottom: 0.6rem;
+  color: cl(brown);
+  line-height: 1.33;
+  font-weight: 700;
+  font-size: 1.6rem;
+
+  @include mq(tab){
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+  }
+}
+
+.p-singleRecruitJob__boxText {
+  line-height: 2.2rem;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+// 1日の流れの例
+.p-singleRecruitJob__subtitle {
+  margin-top: 6rem;
+  line-height: 3rem;
+  @include mq(tab){
+    line-height: 6.4rem;
+  }
+}
+
+.p-singleRecruitJob__content {
+  margin-top: 3rem;
+  padding: 2rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #F5F5F5;
+  @include mq(tab){
+    padding: 5rem 1.5rem;
+    margin-top: 4rem;
+  }
+}
+
+.p-singleRecruitJob__list {
+  max-width: 83.4rem;
+  width: 100%;
+}
+
+.p-singleRecruitJob__item {
+  display: flex;
+  gap: 0 1.6rem;
+  @include mq(tab){
+    gap: 0 4.3rem;
+  }
+
+  +.p-singleRecruitJob__item {
+    margin-top: 0.6rem;
+    @include mq(tab){
+      margin-top: 0.5rem;
+      
+    }
+  }
+}
+
+.p-singleRecruitJob__itemTime {
+  width: 5.1rem;
+  line-height: 1;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: cl(brown);
+  @include mq(tab){
+    width: 6.8rem;
+    font-size: 2rem;
+  }
+}
+
+.p-singleRecruitJob__itemDesc {
+  flex: 1;
+}
+
+.p-singleRecruitJob__itemTitle {
+  position: relative;
+  padding-left: 1.8rem;
+  line-height: 1;
+  font-size: 1.4rem;
+  color: #000;
+
+  @include mq(tab){
+    padding-left: 3rem;
+    font-size: 1.8rem;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -0.4rem;
+    margin: auto;
+    width: 0.95rem;
+    height: 0.95rem;
+    background-color: cl(brown);
+    transform: rotate(45deg);
+    
+    @include mq(tab){
+      left: -0.6rem;
+      width: 1.35rem;
+      height: 1.35rem;
+    }
+  }
+
+  .p-singleRecruitJob__item:last-child & {
+    &::before {
+      background-color: #fff;
+      border: 3px solid cl(brown);
+
+      @include mq(tab){
+        border-width: 4px;
+      }
+    }
+  }
+}
+
+.p-singleRecruitJob__itemText {
+  border-left: 1px solid cl(brown);
+  padding: 1.4rem 0 2.2rem 1.8rem;
+
+  line-height: 2rem;
+  font-size: 1.3rem;
+  color: #5C6E74;
+
+  @include mq(tab){
+    padding: 1.4rem 0 3rem 3rem;
+    letter-spacing: 0.03rem;
+    line-height: 2.6rem;
+    font-size: 1.5rem;
+  }
+
+  .p-singleRecruitJob__item:last-child & {
+    border: none;
+    padding-bottom: 0;
+  }
+}
+
+// 研修制度
+.p-singleRecruitTraining {
+  padding-top: 6rem;
+  @include mq(tab){
+    padding-top: 2rem;
+    margin-top: 8rem;
+  }
+}
+
+.p-singleRecruitTraining__inner {
+
+}
+
+.p-singleRecruitTraining__body {
+  margin-top: 3rem;
+  @include mq(tab){
+    margin-top: 5rem;
+  }
+} 
+
+.p-singleRecruitTraining__list {
+
+}
+
+.p-singleRecruitTraining__item {
+  @include mq(tab){
+    display: flex;
+    &:nth-of-type(even) {
+      flex-direction: row-reverse;
+    }
+  }
+
+  +.p-singleRecruitTraining__item {
+    margin-top: 4rem;
+  }
+}
+
+.p-singleRecruitTraining__figure {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  
+  @include mq(tab){
+    max-width: 42.5rem;
+    flex-shrink: 0;
+    width: 45%;
+  }
+
+
+  img {
+    object-fit: cover;
+    aspect-ratio: 435 / 287;
+    border-radius: 0.4rem;
+  }
+}
+
+.p-singleRecruitTraining__box {
+  margin-top: 1.5rem;
+
+  @include mq(tab){
+    border-top: 4px solid cl(orange);
+    background-color: cl(beige);
+    margin-top: 4.6rem;
+    margin-left: -5rem;
+    padding: 4rem 5.357143% 4rem 9.9910714%;
+
+    .p-singleRecruitTraining__item:nth-of-type(even) & {
+      margin-left: 0;
+      margin-right: -5rem;
+      padding: 4rem 9.9910714% 4rem 5.357143%;
+    }
+  }
+}
+
+.p-singleRecruitTraining__boxTitle {
+  text-align: center;
+  font-family: $font-zenold;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  font-size: 2.0rem;
+  color: cl(orange);
+
+  @include mq(tab){
+    text-align: left;
+    font-size: 2.8rem;
+  }
+}
+
+.p-singleRecruitTraining__boxText {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  line-height: 2;
+
+  @include mq(tab){
+    margin-top: 3rem;
+    line-height: 3.6rem;
+    font-size: 1.6rem;
+  } 
+}
+
+// 求人情報
+.p-singleRecruitInfo {
+  padding-top: 8rem;
+  margin-top: -2rem;
+  @include mq(tab){
+    padding-top: 2rem;
+    margin-top: 8rem;
+  }
+}
+
+.p-singleRecruitInfo__inner {
+  max-width: 90rem;
+}
+
+.p-singleRecruitInfo__head {
+  margin: 0 -1rem;
+}
+
+.p-singleRecruitInfo__body {
+  margin-top: 1rem;
+  @include mq(tab){
+    margin-top: 2rem;
+  }
+}
+
+.p-singleRecruitInfo__list {
+
+}
+
+.p-singleRecruitInfo__row {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem 0rem;
+  
+  letter-spacing: 0.02em;
+  line-height: 1.6;
+  font-size: 1.5rem;
+  
+  @include mq(tab) {
+    flex-direction: row;
+  
+  }
+
+  dt {
+    padding-top: 2rem;
+    font-weight: 700;
+
+    @include mq(tab){
+      padding-bottom: 1.8rem;
+      width: 10rem;
+      border-bottom: 2px solid cl(brown);
+    }
+  }
+
+  dd {
+    padding-bottom: 1.8rem;
+    flex: 1;
+    border-bottom: 1px solid #D6D6D5;
+
+    @include mq(tab){
+      padding-top: 2rem;
+      padding-left: 2.9rem;
+    }
+  }
+}
+
+.p-singleRecruitInfo__text {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.p-singleRecruitInfo__attention {
+  font-size: 1.3rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.02em;
+}
+
+// 採用の流れ
+.p-singleRecruitFlow {
+  padding-top: 8rem;
+  margin-top: -2rem;
+  @include mq(tab){
+    padding-top: 2rem;
+    margin-top: 8rem;
+  }
+}
+
+.p-recruitFlow__head {
+  @include mq(tab){
+    line-height: 2;
+  }
+}
+
+// よくある質問
+.p-singleRecruitFaq {
+  margin-top: 6rem;
+  @include mq(tab){
+    margin-top: 12rem;
+  }
+}
+
+.p-singleRecruitFaq__inner {
+  max-width: 97rem;
+}
+
+.p-singleRecruitFaq__body {
+  margin-top: 3rem;
+  @include mq(tab){
+    margin-top: 4rem;
+  }
+}
+
+// 勤務先情報
+.p-singleRecruitAccess {
+  margin-top: 6rem;
+  @include mq(tab){
+    margin-top: 12rem;
+  }
+}
+
+.p-singleRecruitAccess__body {
+  margin-top: 3rem;
+  @include mq(tab){
+    margin-top: 6rem;
+  }
+}
+
+.p-singleRecruitAccess__area {
+  +.p-singleRecruitAccess__area {
+    margin-top: 5rem;
+    @include mq(tab){
+      margin-top: 8rem;
+    }
+  }
+}
+
+// 採用応募フォーム
+.p-singleRecruitForm {
+  margin-top: 6rem;
+  @include mq(tab){
+    margin-top: 8rem;
+  }
+}

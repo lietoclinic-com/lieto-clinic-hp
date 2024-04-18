@@ -18,7 +18,7 @@
       <section class="p-pageMessageGreeting">
         <div class="p-pageMessageGreeting__inner l-inner">
           <figure class="p-pageMessageGreeting__mainimg">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/message/message.png" alt="「幸せ=Lieto」Clinicとの出逢いが  皆様の僥倖でありますように。">
+            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/message/message.png" alt="「幸せ=Lieto」Clinicとの出逢いが  皆様の僥倖でありますように。">
           </figure>
 
           <div class="p-pageMessageGreeting__head">
@@ -78,22 +78,22 @@
                         </div>
                         <dl class="p-access__list">
                           <div class="p-access__listRow">
-                            <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_access_brown.png'>住所</dt>
+                            <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_access_brown.png' alt="icon">住所</dt>
                             <dd>〒<?php echo get_field("clinic_info")['clinic_info_post']; ?><br><?php echo get_field('clinic_info')['clinic_info_address']; ?></dd>
                           </div>
 
                           <div class="p-access__listRow">
-                            <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_train_brown.png'>最寄駅</dt>
+                            <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_train_brown.png' alt="icon">最寄駅</dt>
                             <dd><?php echo get_field('clinic_info')['clinic_info_station']; ?></dd>
                           </div>
 
                           <div class="p-access__listRow">
-                            <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_tel_brown.png'>電話番号</dt>
+                            <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_tel_brown.png' alt="icon">電話番号</dt>
                             <dd><a href="tel:<?php echo get_field('clinic_info')['clinic_info_tel']; ?>"><?php echo get_field('clinic_info')['clinic_info_tel']; ?></a></dd>
                           </div>
 
                           <div class="p-access__listRow">
-                            <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_time_brown.png'>診療時間</dt>
+                            <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_time_brown.png' alt="icon">診療時間</dt>
                             <dd><?php echo get_field('clinic_info')['clinic_info_time']; ?></dd>
                           </div>
 

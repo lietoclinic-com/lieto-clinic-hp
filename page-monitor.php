@@ -17,7 +17,7 @@
           <h2 class="p-pageMonitorRecruit__title">医療痩身プログラム<br class="_sp">モニター募集中！</h2>
           <div class="p-pageMonitorRecruit__content">
             <div class="p-pageMonitorRecruit__figure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/monitor/monitor_01.png" alt="医療痩身プログラムモニター募集中">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/monitor/monitor_01.png" alt="医療痩身プログラムモニター募集中">
             </div>
             <p class="p-pageMonitorRecruit__text">
               当院では、最新の医療痩身プログラムのモニターを募集しております。<br>
@@ -28,7 +28,7 @@
             </p>
           </div>
           <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p" class="p-pageMonitorRecruit__btn c-btn">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_mail.png">
+            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_mail.png" alt="icon">
             お問い合わせはこちら</a>
         </div>
       </section>
@@ -41,7 +41,7 @@
           <ul class="p-pageMonitorCampaige__list">
             <li class="p-pageMonitorCampaige__item">
               <figure class="p-pageMonitorCampaige__figure">
-                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/monitor/monitor_campaign_01.png" alt="料金が最大80％OFF!">
+                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/monitor/monitor_campaign_01.png" alt="料金が最大80％OFF!">
               </figure>
               <p class="p-pageMonitorCampaige__itemTitle">
                 <span class="_row">料金が最大<span class="_large">80％</span>OFF!
@@ -50,14 +50,14 @@
 
             <li class="p-pageMonitorCampaige__item">
               <figure class="p-pageMonitorCampaige__figure">
-                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/monitor/monitor_campaign_02.png" alt="医師監修の医療痩身プログラム">
+                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/monitor/monitor_campaign_02.png" alt="医師監修の医療痩身プログラム">
               </figure>
               <p class="p-pageMonitorCampaige__itemTitle">医師監修の<br>医療痩身プログラム</p>
             </li>
 
             <li class="p-pageMonitorCampaige__item">
               <figure class="p-pageMonitorCampaige__figure">
-                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/monitor/monitor_campaign_03.png" alt="医師による個別カウンセリング">
+                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/monitor/monitor_campaign_03.png" alt="医師による個別カウンセリング">
               </figure>
               <p class="p-pageMonitorCampaige__itemTitle">医師による<br>個別カウンセリング</p>
             </li>

@@ -22,7 +22,7 @@
           <div class="p-editor__box">
             <div class="p-editor__content">
               <figure class="p-editor__figure">
-                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/common/profile.png" alt='リエートクリニック横浜院院長 由利直樹'>
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/profile.png" alt='リエートクリニック横浜院院長 由利直樹'>
               </figure>
               <div class="p-editor__desc">
                 <div class="p-editor__profile">監修者プロフィール</div>
@@ -47,38 +47,38 @@
           </div>
           <ul class="p-pageColumn__articlesList">
 
-            <?php 
-              $args = array(
-                'post_type' => 'column',
-                'posts_per_page' => 5,
-                'tax_query' => array(
-                  array(
-                    'taxonomy' => 'recommend',
-                    'field' => 'slug',
-                    'terms' => 'recommend',
-                  )
+            <?php
+            $args = array(
+              'post_type' => 'column',
+              'posts_per_page' => 5,
+              'tax_query' => array(
+                array(
+                  'taxonomy' => 'recommend',
+                  'field' => 'slug',
+                  'terms' => 'recommend',
                 )
-              );
-              $query = new WP_Query($args);
+              )
+            );
+            $query = new WP_Query($args);
             ?>
-            
-            <?php if($query->have_posts()): ?>
-              <?php while($query->have_posts()): $query->the_post(); ?>
-          
+
+            <?php if ($query->have_posts()) : ?>
+              <?php while ($query->have_posts()) : $query->the_post(); ?>
+
                 <li class="p-pageColumn__articlesItem">
                   <a href="<?php the_permalink(); ?>">
                     <figure class="p-pageColumn__articlesFigure">
-                      <?php if(has_post_thumbnail()): ?>
+                      <?php if (has_post_thumbnail()) : ?>
                         <?php the_post_thumbnail(); ?>
-                      <?php else: ?>
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/common/sample_01.png">
+                      <?php else : ?>
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/sample_01.png" alt="記事サムネイル">
                       <?php endif; ?>
                     </figure>
                     <div class="p-pageColumn__articlesDesc">
                       <div class="p-pageColumn__articlesCat">
-                        <?php 
-                          $term_obj = get_the_terms( $post->ID, 'column_cat'); 
-                          echo $term_obj[0]->name;
+                        <?php
+                        $term_obj = get_the_terms($post->ID, 'column_cat');
+                        echo $term_obj[0]->name;
                         ?>
                       </div>
                       <div class="p-pageColumn__dates c-articleDates">
@@ -93,19 +93,20 @@
                       </div>
                       <h3 class="p-pageColumn__articlesTitle">
                         <?php
-                          if(mb_strlen($post->post_title) >39) {
-                            $title= mb_substr($post->post_title,0,39) ;
-                            echo $title . '...';
-                          } else {
-                            echo $post->post_title;
-                          }
+                        if (mb_strlen($post->post_title) > 39) {
+                          $title = mb_substr($post->post_title, 0, 39);
+                          echo $title . '...';
+                        } else {
+                          echo $post->post_title;
+                        }
                         ?>
                       </h3>
                     </div>
                   </a>
                 </li>
-                  
-              <?php endwhile; wp_reset_postdata() ?>
+
+              <?php endwhile;
+              wp_reset_postdata() ?>
             <?php endif; ?>
 
           </ul>
@@ -119,34 +120,34 @@
           <ul class="p-pageColumn__articlesList">
 
             <?php
-              if (!is_user_logged_in() && !is_robots()) {
-                setPostViews(get_the_ID());
-              }
-              $args = array(
-                'post_type' => 'column',
-                'meta_key' => 'post_views_count',
-                'orderby' => 'meta_value_num',
-                'order' => 'DESC',
-                'posts_per_page' => 5
-              );
+            if (!is_user_logged_in() && !is_robots()) {
+              setPostViews(get_the_ID());
+            }
+            $args = array(
+              'post_type' => 'column',
+              'meta_key' => 'post_views_count',
+              'orderby' => 'meta_value_num',
+              'order' => 'DESC',
+              'posts_per_page' => 5
+            );
             ?>
-            
-            <?php if($query->have_posts()): ?>
-              <?php while($query->have_posts()): $query->the_post(); ?>
+
+            <?php if ($query->have_posts()) : ?>
+              <?php while ($query->have_posts()) : $query->the_post(); ?>
                 <li class="p-pageColumn__articlesItem">
                   <a href="<?php the_permalink(); ?>">
                     <figure class="p-pageColumn__articlesFigure">
-                      <?php if(has_post_thumbnail()): ?>
+                      <?php if (has_post_thumbnail()) : ?>
                         <?php the_post_thumbnail(); ?>
-                      <?php else: ?>
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/common/sample_01.png">
+                      <?php else : ?>
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/sample_01.png" alt="記事サムネイル">
                       <?php endif; ?>
                     </figure>
                     <div class="p-pageColumn__articlesDesc">
                       <div class="p-pageColumn__articlesCat">
-                        <?php 
-                          $term_obj = get_the_terms( $post->ID, 'column_cat'); 
-                          echo $term_obj[0]->name;
+                        <?php
+                        $term_obj = get_the_terms($post->ID, 'column_cat');
+                        echo $term_obj[0]->name;
                         ?>
                       </div>
                       <div class="p-pageColumn__dates c-articleDates">
@@ -161,18 +162,19 @@
                       </div>
                       <h3 class="p-pageColumn__articlesTitle">
                         <?php
-                          if(mb_strlen($post->post_title) >39) {
-                            $title= mb_substr($post->post_title,0,39) ;
-                            echo $title . '...';
-                          } else {
-                            echo $post->post_title;
-                          }
+                        if (mb_strlen($post->post_title) > 39) {
+                          $title = mb_substr($post->post_title, 0, 39);
+                          echo $title . '...';
+                        } else {
+                          echo $post->post_title;
+                        }
                         ?>
                       </h3>
                     </div>
                   </a>
                 </li>
-              <?php endwhile; wp_reset_postdata() ?>
+              <?php endwhile;
+              wp_reset_postdata() ?>
             <?php endif; ?>
           </ul>
         </section>
@@ -184,30 +186,30 @@
           </div>
           <ul class="p-pageColumn__articlesList">
 
-            <?php 
-              $args = array(
-                'post_type' => 'column',
-                'posts_per_page' => 5,
-              );
-              $query = new WP_Query($args);
+            <?php
+            $args = array(
+              'post_type' => 'column',
+              'posts_per_page' => 5,
+            );
+            $query = new WP_Query($args);
             ?>
-            
-            <?php if($query->have_posts()): ?>
-              <?php while($query->have_posts()): $query->the_post(); ?>
+
+            <?php if ($query->have_posts()) : ?>
+              <?php while ($query->have_posts()) : $query->the_post(); ?>
                 <li class="p-pageColumn__articlesItem">
                   <a href="<?php the_permalink(); ?>">
                     <figure class="p-pageColumn__articlesFigure">
-                      <?php if(has_post_thumbnail()): ?>
+                      <?php if (has_post_thumbnail()) : ?>
                         <?php the_post_thumbnail(); ?>
-                      <?php else: ?>
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/common/sample_01.png">
+                      <?php else : ?>
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/sample_01.png" alt="記事サムネイル">
                       <?php endif; ?>
                     </figure>
                     <div class="p-pageColumn__articlesDesc">
                       <div class="p-pageColumn__articlesCat">
-                        <?php 
-                          $term_obj = get_the_terms( $post->ID, 'column_cat'); 
-                          echo $term_obj[0]->name;
+                        <?php
+                        $term_obj = get_the_terms($post->ID, 'column_cat');
+                        echo $term_obj[0]->name;
                         ?>
                       </div>
                       <div class="p-pageColumn__dates c-articleDates">
@@ -222,18 +224,19 @@
                       </div>
                       <h3 class="p-pageColumn__articlesTitle">
                         <?php
-                          if(mb_strlen($post->post_title) >39) {
-                            $title= mb_substr($post->post_title,0,39) ;
-                            echo $title . '...';
-                          } else {
-                            echo $post->post_title;
-                          }
+                        if (mb_strlen($post->post_title) > 39) {
+                          $title = mb_substr($post->post_title, 0, 39);
+                          echo $title . '...';
+                        } else {
+                          echo $post->post_title;
+                        }
                         ?>
                       </h3>
                     </div>
                   </a>
                 </li>
-              <?php endwhile; wp_reset_postdata() ?>
+              <?php endwhile;
+              wp_reset_postdata() ?>
             <?php endif; ?>
           </ul>
           <div class="p-pageColumn__articlesBtn">

@@ -16,7 +16,7 @@
 
     <div class="p-singleMenu__body">
       <figure class="p-singleMenu__mainimg">
-        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/diet-supplement_main.png" alt="ダイエット薬">
+        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/diet-supplement_main.png" alt="薬">
       </figure>
 
       <!-- 個別に合わせたダイエット薬をご用意 -->
@@ -25,7 +25,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/diet-supplement_01.png" alt="医療HIFUとは">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/diet-supplement_01.png" alt="医療HIFUとは">
             </figure>
             <div class="p-singleMenu__flexText">
               当院では、お客様一人ひとりの状態や目標に合わせて、適切なダイエット薬をご提供いたします。<br>

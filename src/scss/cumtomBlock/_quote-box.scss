@@ -1,0 +1,88 @@
+.c-quoteBox {
+  position: relative;
+  margin: 3.0rem 0 4.0rem;
+  padding: 2.0rem;
+  border-radius: 1.0rem;
+  background-color: #ECECEC;
+  
+  @include mq(tab){
+    margin: 5rem 0;
+    padding: 4.0rem 4.0rem 5.0rem;
+    border-radius: 2.0rem;
+
+
+    &::before ,&::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 3.1rem;
+    left: 2.6rem;
+    width: 2.9rem;
+    height: 2.4rem;
+    background-image: url(../../dist/img/icon/icon_quote.png);
+    flex-shrink: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+    &::after {
+      top: initial;
+      left: initial;
+      bottom: 9.4rem;
+      right: 2.6rem;
+      transform: rotate(180deg);
+    }
+  }
+
+}
+
+.c-quoteBox__text {
+  position: relative;
+  z-index: 5;
+  line-height: 2.2rem;
+  font-family: $font-zenold;
+  color: #5C6E74;
+
+  @include mq(tab){
+    line-height: 2.6rem;
+  }
+
+  p {
+    margin: 0;
+    line-height: 2.2rem;
+    font-size: 1.3rem;
+
+    @include mq(tab){
+      line-height: 2.6rem;
+      font-size: 1.4rem;
+    }
+  }
+}
+
+.c-quoteBox__siteList {
+  margin-top: 2.0rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  
+  @include mq(tab){
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 4.0rem;
+    font-size: 1.3rem;
+  }
+}
+
+.c-quoteBox__siteDate {
+
+}
+
+.c-quoteBox__siteLink {
+  color: cl(lightblue);
+  font-size: 1.2rem;
+  text-decoration: underline;
+
+  @include mq(tab){
+    font-size: 1.4rem;
+  }
+}
+

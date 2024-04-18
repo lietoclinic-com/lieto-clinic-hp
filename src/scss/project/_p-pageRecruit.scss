@@ -1,0 +1,180 @@
+.p-pageRecruit {
+  
+}
+
+
+
+// コンセプト
+.p-pageRecruitConcept {
+  margin-top: 4rem;
+  padding-bottom: 6rem;
+  @include mq(tab){
+    margin-top: 12.8rem;
+    padding-bottom: 10rem;
+  }
+}
+
+// 採用職種
+.p-pageRecruitJob {
+  padding: 6rem 0;
+  background-color: #FFF4E3;
+
+  @include mq(tab){
+    padding: 8rem 0 10rem;
+  }
+}
+
+.p-pageRecruitJob__inner {
+  max-width: 96rem;
+}
+
+.p-pageRecruitJob__head {
+  // text-align: center;
+  // font-family: $font-zenold;
+  // font-weight: 700;
+  // font-size: 2rem;
+  // color: cl(brown);
+
+  // @include mq(tab){
+  //   font-size: 3.2rem;
+  // }
+}
+
+.p-pageRecruitJob__body {
+  margin-top: 4rem;
+}
+
+.p-pageRecruitJob__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem 6rem;
+
+  @include mq(tab){
+    gap: 5rem 6rem;
+  }
+}
+
+.p-pageRecruitJob__item {
+  @include mq(tab){
+    width: calc((100% - 6rem) / 2);
+  }
+}
+
+.p-pageRecruitJob__figure {
+  img {
+    border-radius: 1.2rem;
+    box-shadow: 0 0 12px rgba($color: #000000, $alpha: 0.1);
+  }
+}
+
+.p-pageRecruitJob__desc {
+  margin-top: 1rem;
+}
+
+.p-pageRecruitJob__title {
+  padding-bottom: 0.9rem;
+  font-family: $font-zenold;
+  line-height: 3.2rem;
+  font-weight: 600;
+  font-size: 2rem;
+  border-bottom: 1px solid cl(black);
+
+  @include mq(tab){
+    line-height: 4rem;
+    font-size: 3.2rem;
+  }
+}
+
+.p-pageRecruitJob__clinics {
+  margin-top: 2rem;
+}
+
+.p-pageRecruitJob__clinic {
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    line-height: 3.8rem;
+    letter-spacing: 0.02em;
+    color: cl(orange);
+    font-size: 1.6rem;
+  
+    @include mq(tab){
+      font-size: 1.8rem;
+    }
+
+    &::after {
+      content: '';
+      display: inline-block;
+      width: 1.6rem;
+      height: 0.8rem;
+      background-image: url(../../dist/img/icon/arrow_right_orange.png);
+      flex-shrink: 0;
+      background-size: contain;
+      background-repeat: no-repeat;
+  
+      @include mq(tab){
+        width: 2.4rem;
+        height: 1.2rem;
+      }
+    }
+  }
+
+  +.p-pageRecruitJob__clinic {
+    margin-top: 0.5rem;
+  }
+}
+
+// 採用の流れ
+.p-pageRecruitFlow {
+  margin-top: 6rem;
+  @include mq(tab){
+    margin-top: 10rem;
+  }
+}
+
+
+
+// 採用応募フォーム
+.p-pageRecruitForm {
+  margin-top: 6rem;
+  @include mq(tab){
+    margin-top: 12rem;
+  }
+}
+
+
+// 勤務先情報
+.p-pageRecruitAccess {
+  margin-top: 6rem;
+  @include mq(tab){
+    margin-top: 12rem;
+  }
+}
+
+.p-pageRecruitAccess__body {
+  margin-top: 3rem;
+  @include mq(tab){
+    margin-top: 6rem;
+  }
+}
+
+.p-pageRecruitAccess__area {
+  +.p-pageRecruitAccess__area {
+    margin-top: 6rem;
+    @include mq(tab){
+      margin-top: 10rem;
+    }
+  }
+}
+
+.p-pageRecruit__cta {
+  margin-top: 6rem;
+  margin-bottom: 8rem;
+
+  @include mq(tab){
+    margin-top: 12rem;
+  }
+}

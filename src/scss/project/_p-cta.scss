@@ -1,0 +1,272 @@
+.p-topCta {
+  margin-top: 4rem;
+  @include mq(tab){
+    margin-top: 8rem;
+  }
+}
+
+.p-cta {
+}
+
+.p-cta__bg {
+  background-image: url("../../dist/img/common/cta_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  padding: 2.5rem 0 4rem;
+  
+  border-radius: 0.6rem;
+  overflow: hidden;
+  
+  @include mq(pc){
+    padding: 3.8rem 0 4.2rem;
+  }
+
+
+  .p-singleColumn__cta & {
+    padding: 2.5rem 0 3.4rem;
+    @include mq(pc){
+      padding: 3.8rem 0 4.2rem;
+    }
+  }
+}
+
+.p-cta__top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 1rem;
+  
+  img {
+    width: 8.68rem;
+    height: 8rem;
+  }
+  
+  @include mq(tab){
+    gap: 0 4rem;
+    img {
+      width: 14.1rem;
+      height: 13rem;
+    }
+  }
+}
+
+.p-cta__reserve {
+
+}
+
+.p-cta__reserveText {
+  color: #fff;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.40);
+  font-family: $font-zenold;
+  font-size: 16px;
+  font-weight: 700;
+
+  ._num {
+    font-size: 24px;
+    font-family: $font-cardo;
+  }
+  ._en {
+    font-size: 20px;
+  }
+
+  @include mq(tab){
+    font-size: 28px;
+    letter-spacing: 2.8px;
+    ._num {
+      font-size: 46px;
+      font-family: $font-cardo;
+      letter-spacing: 4.6px;
+    }
+    ._en {
+      font-size: 36px;
+      letter-spacing: 3.6px;
+    }
+  }
+}
+
+.p-cta__reserveBtn {
+  margin-top: 0.6rem;
+
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 1.2rem;
+    margin: 2rem auto 0;
+
+    width: 28rem;
+    height: 5.4rem;
+    border-radius: 2px;
+
+    background: cl(orange);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+
+    color: #fff;
+    font-family: $font-zenold;
+    font-weight: 700;
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 15px; /* 83.333% */
+    letter-spacing: -1.44px;
+    
+    img {
+      width: 3.6rem;
+      height: 3.6rem;
+    }
+
+    @include mq(tab){
+      justify-content: flex-start;
+      margin: initial;
+      padding-left: 3rem;
+
+      border: 1px solid #fff;
+      width: 33rem;
+      height: 6rem;
+
+      font-size: 19px;
+      letter-spacing: normal;
+      line-height: normal;
+    }
+  }
+}
+
+.p-cta__bottom {
+  margin: 3rem auto 0;
+  padding: 0 1rem;
+  max-width: 82.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem 7.4rem;
+  
+  @include mq(pc){
+    row-gap: 4rem;
+    flex-direction: row;
+    // justify-content: flex-start; // 1つのときは削除
+    margin-top: 5.8rem;
+
+    .p-singleColumn__cta & {
+      margin-top: 4.0rem;
+      gap: 2.0rem 3.0rem;
+      max-width: 65.5rem;
+    }
+  }
+
+}
+
+.p-cta__clinic {
+
+  a {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem 2rem;
+    align-items: center;
+    color: #fff;
+  
+    @include mq(tab){
+      flex-direction: row;
+
+      .p-singleColumn__cta & {
+        gap: 0.8rem 1rem;
+      }
+    }
+  }
+}
+
+.p-cta__clinicName {
+  width: 16rem;
+  height: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #8A652F;
+  border-radius: 2rem;
+  
+  font-family: $font-zenold;
+  font-weight: 600;
+  font-size: 1.4rem;
+  
+  @include mq(tab){
+    width: 12rem;
+    height: 6.8rem;
+    border-radius: 0.1rem;
+    font-size: 1.6rem;
+
+    .p-singleColumn__cta & {
+      width: 10rem;
+      height: 5rem;
+    }
+  }
+}
+
+.p-cta__clinicInfo {
+
+}
+
+.p-cta__clinicTel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 0.7rem;
+  img {
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+  @include mq(tab){
+    gap: 0 1rem;
+    img {
+      width: 2.4rem;
+      height: 2.4rem;
+    }
+
+    .p-singleColumn__cta & {
+      img {
+        width: 2.0rem;
+        height: 2.0rem;
+      }
+    }
+  }
+
+  .p-cta__clinicTelNum {
+    font-family: $font-cardo;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    line-height: 1.36;
+    span {
+      font-weight: 400;
+    }
+    @include mq(tab){
+      font-size: 30px;
+
+      .p-singleColumn__cta & {
+        font-size: 25px;
+      }
+    }
+  }
+}
+
+.p-cta__clinicTime {
+  margin-top: 0.2rem;
+  text-align: center;
+  //font-family: $font-shippori;
+  font-size: 13px;
+  letter-spacing: 0.07em;
+  line-height: 1;
+  
+  @include mq(tab){
+    text-align: left;
+    font-size: 14px;
+    line-height: normal;
+    .p-singleColumn__cta & {
+      font-size: 13px;
+    }
+  }
+}
+

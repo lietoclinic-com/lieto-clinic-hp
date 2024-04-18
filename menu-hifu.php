@@ -16,7 +16,7 @@
 
     <div class="p-singleMenu__body">
       <figure class="p-singleMenu__mainimg">
-        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/hifu_main.png" alt="医療HIFU">
+        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/hifu_main.png" alt="医療HIFU">
       </figure>
 
       <!-- 医療HIFU ULTRAcel [zíː] とは -->
@@ -25,7 +25,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/hifu_01.png" alt="医療HIFUとは">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/hifu_01.png" alt="医療HIFUとは">
             </figure>
             <div class="p-singleMenu__flexText">
               ULTRAcel [zíː]は、超音波を使用してターゲットをピンポイントで加熱することで、コラーゲンや線維芽細胞などの再生と活性化を促し、リフトアップ効果をもたらします。<br>
@@ -45,7 +45,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/hifu_02.png" alt="こんなお悩みに">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/hifu_02.png" alt="こんなお悩みに">
             </figure>
             <ul class="p-singleMenu__flexList">
               <li class="p-singleMenu__flexItem">二の腕、お腹、お尻などのサイズダウンをしたい</li>
@@ -64,7 +64,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/hifu_03.png" alt="脂肪溶解効果でリバウンドしにくいカラダに">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/hifu_03.png" alt="脂肪溶解効果でリバウンドしにくいカラダに">
             </figure>
             <div class="p-singleMenu__flexDesc">
               <div class="p-singleMenu__subtitle">脂肪溶解効果で<br>リバウンドしにくいカラダに</div>
@@ -80,7 +80,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/hifu_04.png" alt="脂肪溶解専用の線状照射HIFU LinearFirm（リニアファーム）で部分痩せを実現">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/hifu_04.png" alt="脂肪溶解専用の線状照射HIFU LinearFirm（リニアファーム）で部分痩せを実現">
             </figure>
             <div class="p-singleMenu__flexDesc">
               <div class="p-singleMenu__subtitle">脂肪溶解専用の線状照射HIFU <br>LinearFirm（リニアファーム）で部分痩せを実現</div>
@@ -96,7 +96,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/hifu_05.png" alt="ハードなトレーニングの必要なしで筋トレと同等の効果を期待できる">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/hifu_05.png" alt="ハードなトレーニングの必要なしで筋トレと同等の効果を期待できる">
             </figure>
             <div class="p-singleMenu__flexDesc">
               <div class="p-singleMenu__subtitle">通常のHIFUよりも痛み軽減<br>麻酔不要で効果的にリフトアップ</div>
@@ -127,13 +127,13 @@
                   <div class="p-case__image">
                     <div class="p-case__imageTitle">BEFORE</div>
                     <figure class="p-case__figure">
-                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/case/case_01_before.png" alt="before">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case_01_before.png" alt="before">
                     </figure>
                   </div>
                   <div class="p-case__image">
                     <div class="p-case__imageTitle">AFTER</div>
                     <figure class="p-case__figure">
-                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/case/case_01_after.png" alt="after">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case_01_after.png" alt="after">
                     </figure>
                   </div>
                 </div>
@@ -173,13 +173,13 @@
                   <div class="p-case__image">
                     <div class="p-case__imageTitle">BEFORE</div>
                     <figure class="p-case__figure">
-                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/case/case_02_before.png" alt="before">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case_02_before.png" alt="before">
                     </figure>
                   </div>
                   <div class="p-case__image">
                     <div class="p-case__imageTitle">AFTER</div>
                     <figure class="p-case__figure">
-                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/case/case_02_after.png" alt="after">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case_02_after.png" alt="after">
                     </figure>
                   </div>
                 </div>

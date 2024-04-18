@@ -26,13 +26,13 @@
                 <div class="p-case__image">
                   <div class="p-case__imageTitle">BEFORE</div>
                   <figure class="p-case__figure">
-                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/case/case_01_before.png" alt="before">
+                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case_01_before.png" alt="before">
                   </figure>
                 </div>
                 <div class="p-case__image">
                   <div class="p-case__imageTitle">AFTER</div>
                   <figure class="p-case__figure">
-                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/case/case_01_after.png" alt="after">
+                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case_01_after.png" alt="after">
                   </figure>
                 </div>
               </div>
@@ -72,13 +72,13 @@
                 <div class="p-case__image">
                   <div class="p-case__imageTitle">BEFORE</div>
                   <figure class="p-case__figure">
-                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/case/case_02_before.png" alt="before">
+                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case_02_before.png" alt="before">
                   </figure>
                 </div>
                 <div class="p-case__image">
                   <div class="p-case__imageTitle">AFTER</div>
                   <figure class="p-case__figure">
-                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/case/case_02_after.png" alt="after">
+                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case_02_after.png" alt="after">
                   </figure>
                 </div>
               </div>
@@ -118,13 +118,13 @@
                 <div class="p-case__image">
                   <div class="p-case__imageTitle">BEFORE</div>
                   <figure class="p-case__figure">
-                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/case/case_01_before.png" alt="before">
+                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case_01_before.png" alt="before">
                   </figure>
                 </div>
                 <div class="p-case__image">
                   <div class="p-case__imageTitle">AFTER</div>
                   <figure class="p-case__figure">
-                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/case/case_01_after.png" alt="after">
+                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case_01_after.png" alt="after">
                   </figure>
                 </div>
               </div>

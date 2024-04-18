@@ -27,7 +27,7 @@
         <div class="p-pageAboutConcept__inner l-inner">
           <div class="p-pageAboutConcept__body p-concept">
             <figure class="p-concept__figure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/top/top_about.png" alt="コンセプト">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/top_about.png" alt="コンセプト">
             </figure>
             <div class="p-concept__desc">
               <div class="p-concept__message">
@@ -56,7 +56,7 @@
 
               <li class="p-pageAboutReason__item">
                 <figure class="p-pageAboutReason__figure">
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/top/top_reason_01.png" alt="有資格者が施術するから安心の医療痩身">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/top_reason_01.png" alt="有資格者が施術するから安心の医療痩身">
                 </figure>
                 <div class="p-pageAboutReason__desc">
                   <h3 class="p-pageAboutReason__title">有資格者が施術するから<br>安心の医療痩身</h3>
@@ -70,7 +70,7 @@
 
               <li class="p-pageAboutReason__item">
                 <figure class="p-pageAboutReason__figure">
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/top/top_reason_02.png" alt="短期間での痩身や難しい部分痩せも対応">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/top_reason_02.png" alt="短期間での痩身や難しい部分痩せも対応">
                 </figure>
                 <div class="p-pageAboutReason__desc">
                   <h3 class="p-pageAboutReason__title">短期間での痩身や<br>難しい部分痩せも対応</h3>
@@ -84,7 +84,7 @@
 
               <li class="p-pageAboutReason__item">
                 <figure class="p-pageAboutReason__figure">
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/top/top_reason_03.png" alt="切らない施術で安心して痩身">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/top_reason_03.png" alt="切らない施術で安心して痩身">
                 </figure>
                 <div class="p-pageAboutReason__desc">
                   <h3 class="p-pageAboutReason__title">切らない施術で<br>安心して痩身</h3>
@@ -103,25 +103,25 @@
                 <span>こ</span><span>ん</span><span>な</span><span>方</span>に選ばれています
               </div>
               <div class="p-pageAboutReason__selectLine">
-                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/top/treatment_select_line.png" alt="">
+                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/treatment_select_line.png" alt="line">
               </div>
 
               <ul class="p-pageAboutReason__selectBox">
                 <li class="p-pageAboutReason__selectItem">
                   <div class="p-pageAboutReason__selectItemText">食事制限<br>が苦手な方</div>
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/top/treatment_select_01.png" alt="食事制限が苦手な方">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/treatment_select_01.png" alt="食事制限">
                 </li>
                 <li class="p-pageAboutReason__selectItem">
                   <div class="p-pageAboutReason__selectItemText">運動が<br>苦手な方</div>
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/top/treatment_select_02.png" alt="運動が苦手な方">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/treatment_select_02.png" alt="運動">
                 </li>
                 <li class="p-pageAboutReason__selectItem">
                   <div class="p-pageAboutReason__selectItemText">ダイエットに<br>失敗ばかりする方</div>
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/top/treatment_select_03.png" alt="ダイエットに失敗ばかりする方">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/treatment_select_03.png" alt="ダイエット">
                 </li>
                 <li class="p-pageAboutReason__selectItem">
                   <div class="p-pageAboutReason__selectItemText">人生最後の<br>ダイエットにしたい方</div>
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/top/treatment_select_04.png" alt="人生最後のダイエットにしたい方">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/treatment_select_04.png" alt="人生最後">
                 </li>
               </ul>
             </div>
@@ -164,22 +164,22 @@
                         </div>
                         <dl class="p-access__list">
                           <div class="p-access__listRow">
-                            <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_access_brown.png'>住所</dt>
+                            <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_access_brown.png' alt="icon">住所</dt>
                             <dd>〒<?php echo get_field("clinic_info")['clinic_info_post']; ?><br><?php echo get_field('clinic_info')['clinic_info_address']; ?></dd>
                           </div>
 
                           <div class="p-access__listRow">
-                            <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_train_brown.png'>最寄駅</dt>
+                            <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_train_brown.png' alt="icon">最寄駅</dt>
                             <dd><?php echo get_field('clinic_info')['clinic_info_station']; ?></dd>
                           </div>
 
                           <div class="p-access__listRow">
-                            <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_tel_brown.png'>電話番号</dt>
+                            <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_tel_brown.png' alt="icon">電話番号</dt>
                             <dd><a href="tel:<?php echo get_field('clinic_info')['clinic_info_tel']; ?>"><?php echo get_field('clinic_info')['clinic_info_tel']; ?></a></dd>
                           </div>
 
                           <div class="p-access__listRow">
-                            <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/icon/icon_time_brown.png'>診療時間</dt>
+                            <dt><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_time_brown.png' alt="icon">診療時間</dt>
                             <dd><?php echo get_field('clinic_info')['clinic_info_time']; ?></dd>
                           </div>
 

@@ -16,7 +16,7 @@
 
     <div class="p-singleMenu__body">
       <figure class="p-singleMenu__mainimg">
-        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/stimsure_main.png" alt="スティムシュアー">
+        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/stimsure_main.png" alt="スティムシュアー">
       </figure>
 
       <!-- スティムシュアーとは -->
@@ -25,7 +25,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/stimsure_01.png" alt="スティムシュアーとは">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/stimsure_01.png" alt="スティムシュアーとは">
             </figure>
             <div class="p-singleMenu__flexText">
               「スティムシュアー」は、電磁場を利用した筋肉痩身マシンで、1回の施術で通常24,000回分の筋肉運動の効果を得ることができ、腹部、臀部、二の腕、太もも、ふくらはぎなど、さまざまな部位に施術することができます。<br>
@@ -44,7 +44,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/stimsure_02.png" alt="こんなお悩みに">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/stimsure_02.png" alt="こんなお悩みに">
             </figure>
             <ul class="p-singleMenu__flexList">
               <li class="p-singleMenu__flexItem">激しいトレーニングは向いていない</li>
@@ -75,7 +75,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/stimsure_03.png" alt="普段の生活では鍛えられない部位を集中して鍛えられる">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/stimsure_03.png" alt="普段の生活では鍛えられない部位を集中して鍛えられる">
             </figure>
             <div class="p-singleMenu__flexDesc">
               <div class="p-singleMenu__subtitle">普段の生活では鍛えられない部位を<br>集中して鍛えられる</div>
@@ -89,7 +89,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/stimsure_04.png" alt="メリハリのある理想の体型を目指せる">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/stimsure_04.png" alt="メリハリのある理想の体型を目指せる">
             </figure>
             <div class="p-singleMenu__flexDesc">
               <div class="p-singleMenu__subtitle">メリハリのある理想の体型を目指せる</div>
@@ -105,7 +105,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/stimsure_05.png" alt="ハードなトレーニングの必要なしで筋トレと同等の効果を期待できる">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/stimsure_05.png" alt="ハードなトレーニングの必要なしで筋トレと同等の効果を期待できる">
             </figure>
             <div class="p-singleMenu__flexDesc">
               <div class="p-singleMenu__subtitle">ハードなトレーニングの必要なしで<br>筋トレと同等の効果を期待できる</div>
@@ -123,7 +123,7 @@
         <h2 class="p-singleMenu__title">スティムシュアーの対応部位</h2>
         <div class="p-singleMenu__box">
           <figure class="p-singleMenu__figure _stimsure">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/stimsure_part.png" alt="スティムシュアーの対応部位">
+            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/stimsure_part.png" alt="スティムシュアーの対応部位">
           </figure>
         </div>
       </div>
@@ -143,13 +143,13 @@
                   <div class="p-case__image">
                     <div class="p-case__imageTitle">BEFORE</div>
                     <figure class="p-case__figure">
-                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/case/case_01_before.png" alt="before">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case_01_before.png" alt="before">
                     </figure>
                   </div>
                   <div class="p-case__image">
                     <div class="p-case__imageTitle">AFTER</div>
                     <figure class="p-case__figure">
-                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/case/case_01_after.png" alt="after">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case_01_after.png" alt="after">
                     </figure>
                   </div>
                 </div>
@@ -189,13 +189,13 @@
                   <div class="p-case__image">
                     <div class="p-case__imageTitle">BEFORE</div>
                     <figure class="p-case__figure">
-                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/case/case_02_before.png" alt="before">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case_02_before.png" alt="before">
                     </figure>
                   </div>
                   <div class="p-case__image">
                     <div class="p-case__imageTitle">AFTER</div>
                     <figure class="p-case__figure">
-                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/case/case_02_after.png" alt="after">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case_02_after.png" alt="after">
                     </figure>
                   </div>
                 </div>

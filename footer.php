@@ -5,7 +5,7 @@
 
         <div class="l-footer__menu">
           <div class="l-footer__logo">
-            <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/common/logo_orange.png' alt='lieto Clinic'>
+            <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/logo_orange.png' alt='lieto Clinic'>
           </div>
 
           <nav class="l-footer__nav">
@@ -77,7 +77,7 @@
                 $query = new WP_Query(
                   array(
                     'post_type' => 'post',
-                    'post_status' => 'publish',  
+                    'post_status' => 'publish',
                   )
                 );
                 ?>

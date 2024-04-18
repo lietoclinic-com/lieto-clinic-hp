@@ -22,7 +22,7 @@
           <div class="p-editor__box">
             <div class="p-editor__content">
               <figure class="p-editor__figure">
-                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/common/doctor.png" alt='リエートクリニック横浜院医師 白川 巧'>
+                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/doctor.png" alt='リエートクリニック横浜院医師 白川 巧'>
               </figure>
               <div class="p-editor__desc">
                 <div class="p-editor__profile">監修者プロフィール</div>
@@ -71,7 +71,7 @@
                       <?php if (has_post_thumbnail()) : ?>
                         <?php the_post_thumbnail(); ?>
                       <?php else : ?>
-                        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/common/sample_01.png">
+                        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/sample_01.png" alt="記事サムネイル">
                       <?php endif; ?>
                     </figure>
                     <div class="p-pageColumn__articlesDesc">
@@ -140,7 +140,7 @@
                       <?php if (has_post_thumbnail()) : ?>
                         <?php the_post_thumbnail(); ?>
                       <?php else : ?>
-                        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/common/sample_01.png">
+                        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/sample_01.png" alt="記事サムネイル">
                       <?php endif; ?>
                     </figure>
                     <div class="p-pageColumn__articlesDesc">
@@ -202,7 +202,7 @@
                       <?php if (has_post_thumbnail()) : ?>
                         <?php the_post_thumbnail(); ?>
                       <?php else : ?>
-                        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/common/sample_01.png">
+                        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/sample_01.png" alt="記事サムネイル">
                       <?php endif; ?>
                     </figure>
                     <div class="p-pageColumn__articlesDesc">

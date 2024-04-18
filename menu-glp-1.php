@@ -16,7 +16,7 @@
 
     <div class="p-singleMenu__body">
       <figure class="p-singleMenu__mainimg">
-        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/glp-1_main.png" alt="GLP-1痩身療法">
+        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/glp-1_main.png" alt="GLP-1痩身療法">
       </figure>
 
       <!-- とは -->
@@ -25,7 +25,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/glp-1_01.png" alt="GLP-1痩身療法とは">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/glp-1_01.png" alt="GLP-1痩身療法とは">
             </figure>
             <div class="p-singleMenu__flexText">
               GLP-1（グルカゴン様ペプチド-1）とは、「食欲抑制ホルモン」とも呼ばれる本来人体内に存在するホルモンの一種で、主に食事の摂取によって小腸から分泌されます。<br>
@@ -45,7 +45,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/glp-1_02.png" alt="こんなお悩みに">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/glp-1_02.png" alt="こんなお悩みに">
             </figure>
             <ul class="p-singleMenu__flexList">
               <li class="p-singleMenu__flexItem">食欲が抑えられない</li>
@@ -63,7 +63,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/glp-1_03.png" alt="無理せず食事制限でリバウンドしないカラダに">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/glp-1_03.png" alt="無理せず食事制限でリバウンドしないカラダに">
             </figure>
             <div class="p-singleMenu__flexText">
               <div class="p-singleMenu__subtitle">無理せず食事制限で<br>リバウンドしないカラダに</div>
@@ -79,7 +79,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/glp-1_04.png" alt="痛みが少なくわずか数秒で注射可能">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/glp-1_04.png" alt="痛みが少なくわずか数秒で注射可能">
             </figure>
             <div class="p-singleMenu__flexText">
               <div class="p-singleMenu__subtitle">痛みが少なく<br>わずか数秒で注射可能</div>
@@ -95,7 +95,7 @@
         <div class="p-singleMenu__box">
           <div class="p-singleMenu__flex">
             <figure class="p-singleMenu__flexFigure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/assets/img/menu/glp-1_05.png" alt="処方後も寄り添った安心のアフターフォロー">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/glp-1_05.png" alt="処方後も寄り添った安心のアフターフォロー">
             </figure>
 
             <div class="p-singleMenu__flexText">

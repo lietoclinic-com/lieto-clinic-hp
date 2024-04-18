@@ -1,10 +1,17 @@
+## ディレクトリ変更
+cd gulp
+コンパイルはgulpディレクトリで行う
+
 ## セットアップ(初回のみ)
+npm init -y
+package.jsonファイルの読み込み
+
 npm i
+npm i -D gulp (gulpもインストールする場合)
+node_modulesと、package-lock.jsonファイルの作成
 
 ## 立ち上げ
-yarn build
-yarnのインストールはこちらを参照
-https://qiita.com/uttiy3/items/1b89446e03991c7c2c3d
+npx gulp default
 
 ## 画像
 src/img/内に格納すると、dist/img/内に圧縮されたものを生成
@@ -12,8 +19,7 @@ src内のファイルを削除してもdist内の画像は削除されない。
 パス指定はdistのものを指定する。
 
 ## css
-src/scss/内に記述
-ページに読み込むのは[dist/assets/css/common.css]
+src/scss/内に記述し、style.min.cssでまとめる
 CSS設計はFLOCSSを使用
 
 ## js
