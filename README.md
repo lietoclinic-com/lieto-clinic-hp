@@ -23,5 +23,8 @@ src/scss/内に記述し、style.min.cssでまとめる
 CSS設計はFLOCSSを使用
 
 ## js
-src/js/内に記述
-機能ごとにファイルを分割し、main.min.jsでまとめる
+機能ごとにファイルを分割し、main.jsでまとめる。
+ページに読み込むのは[dist/assets/js/main.js]
+
+## Git
+[main]ブランチ：本番環境
