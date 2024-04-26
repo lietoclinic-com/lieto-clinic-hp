@@ -134,6 +134,11 @@ ul.wp-block-list li {
   list-style: disc;
 }
 
+.p-content ol li a, .p-content ul li a {
+  color: #57acd1;
+  text-decoration: underline;
+}
+
 
 /* 引用ボックス */
 .c-quoteBox {

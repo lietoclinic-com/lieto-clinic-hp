@@ -9159,6 +9159,10 @@ button {
     margin-top: 2rem;
   }
 }
+.p-content ol li a, .p-content ul li a {
+  color: #57acd1;
+  text-decoration: underline;
+}
 .p-content ol li {
   list-style: decimal;
 }
