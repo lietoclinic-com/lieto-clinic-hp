@@ -247,6 +247,11 @@
   }
 }
 
+.p-singleMenu__subText a{
+  color: #57acd1;
+  text-decoration: underline;
+}
+
 // box内box
 .p-singleMenu__subBox {
   +.p-singleMenu__subBox{

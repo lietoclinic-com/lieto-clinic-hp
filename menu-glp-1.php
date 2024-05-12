@@ -116,6 +116,37 @@
         <?php get_template_part('template-parts/part', 'cta'); ?>
       </div>
 
+      <!-- GLP-1について -->
+      <div class="p-singleMenu__area l-inner">
+        <h2 class="p-singleMenu__title">GLP-1について</h2>
+        <div class="p-singleMenu__box">
+          <dl class="p-singleMenu__detail">
+            <div class="p-singleMenu__detailRow">
+              <dt>商品名</dt>
+              <dd>サクセンダ</dd>
+            </div>
+            <div class="p-singleMenu__detailRow">
+              <dt>商品の説明</dt>
+              <dd>注射により血糖値の急激な上昇を抑えることで食欲を抑制する医薬品です。</dd>
+            </div>
+            <div class="p-singleMenu__detailRow">
+              <dt>商品の価格</dt>
+              <dd>初回17日分24,800円→1本 33,000円</dd>
+            </div>
+          </dl>
+        </div>
+        <p class="p-singleMenu__subText">本施術は、日本国内未承認医薬品または医療機器を用いて処置を行います。<br>治療に際し使用する医薬品、機器等はリエートクリニックに所属する医師の判断の元、個人輸入手続きを行っています。</p>
+        <p class="p-singleMenu__subText">
+          ※サクセンダは国内未承認薬となっています。
+          <br>※当院では、サクセンダ（novonordisk社デンマーク製）を海外から輸入しております。
+          <br>※サクセンダは<a href="https://www.fda.gov/" target="_blank">FDA</a>やEU諸国では肥満治療薬として承認されており安全性が認められておりますが、国内未承認薬のため、国内では効能・効果への承認が下りてない旨ご留意の上、ご使用いただきますようお願いいたします。
+          <br>※同一の成分や性能を有する他の国内承認医薬品等はありません。
+          <br>※サクセンダは2014年にアメリカFDAで承認されています。
+          <br>※諸外国にて重大なリスクとしてアレルギー反応(アナフィラキシー)や膵炎が報告されています。
+          <br>※サクセンダは日本の医薬品副作用の被害救済制度の対象ではありません。
+        </p>
+      </div>
+
       <!-- 詳細情報とリスク・副作用 -->
       <div class="p-singleMenu__area l-inner">
         <h2 class="p-singleMenu__title">リスク・副作用</h2>

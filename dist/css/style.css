@@ -7794,6 +7794,11 @@ button {
   }
 }
 
+.p-singleMenu__subText a {
+  color: #57acd1;
+  text-decoration: underline;
+}
+
 .p-singleMenu__subBox + .p-singleMenu__subBox {
   margin-top: 4rem;
 }
