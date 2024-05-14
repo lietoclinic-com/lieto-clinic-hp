@@ -271,15 +271,27 @@
   <?php wp_body_open(); ?>
 
   <!-- PC header -->
-  <header class="l-header">
+  <?php if(is_front_page()): ?>
+    <header class="l-header _top">
+  <?php else: ?>
+    <header class="l-header">
+  <?php endif; ?>
     <div class="l-header__inner">
       <div class="l-header__body">
         <div class="l-header__left">
-          <div class="l-header__logo">
-            <a href="/">
-              <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/logo_orange.png" alt="Lieto Clinic">
-            </a>
-          </div>
+          <?php if(is_front_page()): ?>
+            <h1 class="l-header__logo">	<div class="l-header__logo">
+              <a href="/">	<a href="/">
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/logo_white.png" alt="Lieto Clinic">
+              </a>
+            </h1>
+          <?php else: ?>
+            <div class="l-header__logo">
+              <a href="/">
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/logo_orange.png" alt="Lieto Clinic">
+              </a>
+            </div>
+          <?php endif; ?>
           <div class="l-header__clinic">
             <?php
             $args = array(
@@ -297,7 +309,9 @@
         </div>
 
         <nav class="l-header__nav">
-          <div class="l-header__topListWrap">
+          <?php if(!is_front_page()): ?>
+            <div class="l-header__topListWrap">
+          <?php endif; ?>
             <ul class="l-header__topList">
               <li class="l-header__topItem"><a href="/news/">新着情報</a></li>
               <?php
@@ -314,7 +328,9 @@
               wp_reset_postdata(); ?>
               <li class="l-header__topItem"><a href="/recruit/">採用情報</a></li>
             </ul>
-          </div>
+          <?php if(!is_front_page()): ?>
+            </div>
+          <?php endif; ?>
           <ul class="l-header__bottomList">
             <li class="l-header__bottomItem"><a href="/greeting/">担当医師挨拶</a></li>
             <li class="l-header__bottomItem"><a href="/about/">当院について</a></li>
@@ -355,10 +371,17 @@
           <li class="l-spHeader__item"><a href="/about/">当院について</a></li>
           <li class="l-spHeader__item"><a href="/flow/">施術の流れ</a></li>
           <li class="l-spHeader__item has-child">
-            <a href="javascript:void(0)" class="js-accordion">
-              施術一覧
-              <span class="l-spHeader__itemOpen"></span>
-            </a>
+            <?php if(is_front_page()): ?>
+              <div href="javascript:void(0)" class="js-accordion">
+                施術一覧
+                <span class="l-spHeader__itemOpen"></span>
+              </div>
+            <?php else: ?>
+              <a href="javascript:void(0)" class="js-accordion">
+                施術一覧
+                <span class="l-spHeader__itemOpen"></span>
+              </a>
+            <?php endif; ?>
             <ul class="l-spHeader__sublist">
               <li class="l-spHeader__subitem"><a href="/menu/stimsure/">医療痩身機器<span>StimSure-スティムシュアー</span></a></li>
               <li class="l-spHeader__subitem"><a href="/menu/clatuu-a/">医療脂肪冷却機器<span>CLATUU α -クラツーアルファ-</span></a></li>
@@ -380,8 +403,14 @@
           <li class="l-spHeader__item"><a href="/clinic/">クリニック一覧</a></li>
         </ul>
 
+        <!--
         <div class="l-spHeader__btn">
           <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p&_gl=1*1gvdhfb*_gcl_au*MTQxODQxMzY3Mi4xNzA3NDQ1MDg5" class="c-btn _orange"><img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_counseling.png" alt="icon">無料カウンセリング予約</a>
+        </div>
+        -->
+
+        <div class="l-spHeader__btn--lp">
+          <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=a5ram6628mb28d3d&_gl=1*1lva8ke*_gcl_au*MTE1NDkzMzQ1NC4xNzEzMzI4MDIw" target="_blank"><img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/toLPbtn.png" alt=" 無料カウンセリングに申し込む"></a>
         </div>
 
         <div class="l-spHeader__tel">

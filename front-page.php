@@ -1,4 +1,4 @@
-<?php get_header('top'); ?>
+<?php get_header(''); ?>
 
 <main class="l-main _top">
 

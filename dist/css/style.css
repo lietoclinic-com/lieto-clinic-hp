@@ -863,6 +863,15 @@ button {
   height: 2.8rem;
 }
 
+.l-spHeader__btn--lp {
+  margin-top: 3rem;
+}
+.l-spHeader__btn--lp a {
+  width: 32rem;
+  margin: 0 auto;
+  display: block;
+}
+
 .l-spHeader__tel {
   margin-top: 3.4rem;
 }
