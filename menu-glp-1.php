@@ -131,7 +131,7 @@
             </div>
             <div class="p-singleMenu__detailRow">
               <dt>商品の価格</dt>
-              <dd>初回17日分24,800円→1本 33,000円</dd>
+              <dd>1本 33,000円</dd>
             </div>
           </dl>
         </div>
