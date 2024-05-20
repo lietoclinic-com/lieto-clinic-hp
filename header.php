@@ -37,7 +37,7 @@
       if (!isExec) {
         gtm(window, document, 'script', 'dataLayer', 'GTM-M3J28DV');
       }
-    }, 3500);
+    }, 5000);
   </script>
   <!-- End Google Tag Manager -->
 
@@ -262,11 +262,12 @@
   <?php endif; ?>
 
   <?php wp_head(); ?>
+  <?php get_template_part('template-parts/part', 'top-css'); ?>
 </head>
 
 <body <?php body_class(); ?>>
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M3J28DV" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M3J28DV" height="0" width="0" style="display:none;visibility:hidden" loading="lazy"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <?php wp_body_open(); ?>
 
@@ -352,7 +353,7 @@
       <div class="l-spHeader__top">
         <div class="l-spHeader__logo">
           <a href="/">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/logo_sp_orange.png" alt="Lieto Clinic">
+            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/logo_sp_orange.png" alt="Lieto Clinic">
           </a>
         </div>
 
@@ -405,12 +406,12 @@
 
         <!--
         <div class="l-spHeader__btn">
-          <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p&_gl=1*1gvdhfb*_gcl_au*MTQxODQxMzY3Mi4xNzA3NDQ1MDg5" class="c-btn _orange"><img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_counseling.png" alt="icon">無料カウンセリング予約</a>
+          <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p&_gl=1*1gvdhfb*_gcl_au*MTQxODQxMzY3Mi4xNzA3NDQ1MDg5" class="c-btn _orange"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_counseling.png" alt="icon">無料カウンセリング予約</a>
         </div>
         -->
 
         <div class="l-spHeader__btn--lp">
-          <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=a5ram6628mb28d3d&_gl=1*1lva8ke*_gcl_au*MTE1NDkzMzQ1NC4xNzEzMzI4MDIw" target="_blank"><img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/toLPbtn.png" alt=" 無料カウンセリングに申し込む"></a>
+          <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=a5ram6628mb28d3d&_gl=1*1lva8ke*_gcl_au*MTE1NDkzMzQ1NC4xNzEzMzI4MDIw" target="_blank"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/toLPbtn.png" alt=" 無料カウンセリングに申し込む"></a>
         </div>
 
         <div class="l-spHeader__tel">
@@ -428,7 +429,7 @@
                 <li class="l-spHeader__telItem">
                   <div class="l-spHeader__itemTitle"><?php the_field("clinic_name") ?>院</div>
                   <a href="tel:<?php echo get_field('clinic_info')['clinic_info_tel']; ?>" class="l-spHeader__itemTel">
-                    <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_tel_orange.png' alt="icon">
+                    <img src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_tel_orange.png' alt="icon">
                     <div class="l-spHeader__itemNum"><?php echo get_field('clinic_info')['clinic_info_tel']; ?></div>
                   </a>
                   <div class="l-spHeader__itemTime">
@@ -451,14 +452,14 @@
       <ul class="c-fixedCta__List">
         <li class="c-fixedCta__Item c-fixedCta__Item--tel">
           <a href="javascript:void(0)" class="js-modal-open">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_tel_orange.png" alt="お電話">
+            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_tel_orange.png" alt="お電話">
             <div class="c-fixedCta__ItemText">お電話からの<br>ご予約はこちら</div>
           </a>
         </li>
 
         <li class="c-fixedCta__Item c-fixedCta__Item--counseling">
           <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p&_gl=1*1gvdhfb*_gcl_au*MTQxODQxMzY3Mi4xNzA3NDQ1MDg5">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_counseling.png" alt="無料カウンセリング">
+            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_counseling.png" alt="無料カウンセリング">
             <div class="c-fixedCta__ItemText">無料カウンセリング予約</div>
           </a>
         </li>
@@ -472,7 +473,7 @@
       <ul class="c-fixedCtaSp__list">
         <li class="c-fixedCtaSp__item">
           <a href="javascript:void(0)" class="c-fixedCtaSp__itemTelLink c-fixedCtaSp__itemTelLink--tel js-modal-open">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_tel_dark.png" alt="icon">
+            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_tel_dark.png" alt="icon">
             <span class="c-fixedCtaSp__itemCounseling--large">お電話からの<br>ご予約はこちら</span>
           </a>
         </li>
@@ -482,7 +483,7 @@
               <span class="_num">3</span>分でWeb予約!<span class="_num">24</span>時間受付中!
             </span>
             <span class="c-fixedCtaSp__itemCounseling--large">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_counseling.png" alt="icon">
+              <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_counseling.png" alt="icon">
               無料カウンセリング予約
             </span>
           </a>
@@ -499,7 +500,7 @@
         <li class="p-modal__item">
           <div class="p-modal__itemTitle">全院共通</div>
           <a href="tel:<?php echo get_field('toll-free', 94); ?>" class="p-modal__itemTel">
-            <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_tel_orange.png' alt="icon">
+            <img src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_tel_orange.png' alt="icon">
             <div class="p-modal__itemNum"><?php echo get_field('toll-free', 94); ?></div>
           </a>
           <div class="p-modal__itemTime">
@@ -509,7 +510,7 @@
       </ul>
 
       <div class="p-modal__closeBtn js-modal-close">
-        <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_closebtn.png' alt="close">
+        <img src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_closebtn.png' alt="close">
       </div>
     </div>
   </div>

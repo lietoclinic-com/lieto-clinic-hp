@@ -31,3 +31,17 @@ function custom_birthdate_form_tag_handler( $tag ) {
   $name = $tag->options[0];
   return '<input type="time" name="'.$name.'" step="1800">';
 }
+
+function my_wpcf7_enqueue_scripts() {
+	global $post;
+
+	if ( is_singular() && has_shortcode( $post->post_content, 'contact-form-7' ) ) {
+		return;
+	}
+
+	wp_dequeue_style( 'contact-form-7' );
+	wp_deregister_script( 'contact-form-7' );
+	wp_deregister_script( 'google-recaptcha' );
+
+}
+add_action( 'wp_enqueue_scripts', 'my_wpcf7_enqueue_scripts', 100 );
