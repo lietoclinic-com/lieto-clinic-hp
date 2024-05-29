@@ -130,6 +130,7 @@
               'order' => 'DESC',
               'posts_per_page' => 5
             );
+            $query = new WP_Query($args);
             ?>
 
             <?php if ($query->have_posts()) : ?>
