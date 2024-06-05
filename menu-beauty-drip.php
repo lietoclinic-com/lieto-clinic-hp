@@ -28,7 +28,8 @@
               <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/beauty-drip_01.png" alt="ダイエット美容点滴とは">
             </figure>
             <div class="p-singleMenu__flexText">
-              当院で行う美容点滴（グルタチオン点滴）は、ダイエット効果の向上だけではなく、健康状態の向上や体調の改善、美容への効果も期待されています。
+              当院で行う美容点滴は、L-カルニチンの効果により脂肪燃焼も促進されます。
+              <br><br>それによるダイエット効果の向上だけではなく、グルタチオンによる健康状態の向上や体調の改善、美容への効果も期待されています。
             </div>
           </div>
         </div>
@@ -115,6 +116,24 @@
                 グルタチオンは、抗酸化作用により動脈硬化や心血管疾患を引き起こす活性酸素の生成を抑制するだけではなく、インスリンの感受性の向上による糖尿病予防や、デトックス効果による発癌性物質の排出促進などの効果が期待されています。<br>
                 <br>
                 痩身や疲労回復だけではなく、健康維持においても効果が期待できます。
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-singleMenu__box">
+          <div class="p-singleMenu__flex">
+            <figure class="p-singleMenu__flexFigure">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/beauty-drip_07.png" alt="脂肪燃焼効果の向上">
+            </figure>
+            <div class="p-singleMenu__flexDesc">
+              <div class="p-singleMenu__subtitle">脂肪燃焼効果の向上</div>
+              <p class="p-singleMenu__subText">
+                L-カルニチンは、体内で脂肪をエネルギーに変える役割を果たします。
+                <br>これにより、脂肪燃焼が促進され、ダイエット効果が高まります。
+                <br>
+                <br>また、エネルギー生成が活発になることで、運動時の持久力が向上し、より効率的に脂肪を燃焼させることが可能です。
+                <br>ダイエット美容点滴は、健康維持や美容の向上、さらには脂肪燃焼効果の高いL-カルニチンの効果も得られるため、多角的に効果を期待することができます。
               </p>
             </div>
           </div>
