@@ -6050,7 +6050,7 @@ button {
   position: relative;
   padding: 2rem 1.25rem;
   height: 47rem;
-  background-image: url(../../dist/img/clinic/clinic_fv_sp.png);
+  background-image: url(../../dist/img/clinic/clinic_fv_sp.png.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -6059,7 +6059,25 @@ button {
   .p-singleClinicFv {
     padding: 2rem;
     height: 58rem;
-    background-image: url(../../dist/img/clinic/clinic_fv.png);
+    background-image: url(../../dist/img/clinic/clinic_fv.png.webp);
+    background-position: center right;
+  }
+}
+
+.p-singleClinicFv.nagoya {
+  position: relative;
+  padding: 2rem 1.25rem;
+  height: 47rem;
+  background-image: url(../../dist/img/clinic/clinic_fv2_sp.png.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (min-width: 769px) {
+  .p-singleClinicFv.nagoya {
+    padding: 2rem;
+    height: 58rem;
+    background-image: url(../../dist/img/clinic/clinic_fv2.png.webp);
     background-position: center right;
   }
 }
@@ -7427,6 +7445,10 @@ button {
       -ms-flex: 1;
           flex: 1;
   border-bottom: 1px solid #D6D6D5;
+}
+.p-singleRecruitInfo__row dd a {
+  color: blue;
+  text-decoration: underline;
 }
 @media screen and (min-width: 769px) {
   .p-singleRecruitInfo__row dd {
