@@ -17,9 +17,9 @@
       <!-- 担当医師挨拶 -->
       <section class="p-pageMessageGreeting">
         <div class="p-pageMessageGreeting__inner l-inner">
-          <figure class="p-pageMessageGreeting__mainimg">
+          <!--<figure class="p-pageMessageGreeting__mainimg">
             <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/message/message.png" alt="「幸せ=Lieto」Clinicとの出逢いが  皆様の僥倖でありますように。">
-          </figure>
+          </figure>-->
 
           <div class="p-pageMessageGreeting__head">
             <h2 class="p-pageMessageGreeting__title">
