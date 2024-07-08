@@ -691,6 +691,7 @@
         </div>
       </div>
 
+      <!--
       <div class="p-message__inner l-inner">
         <div class="p-message__body">
           <figure class="p-message__figure">
@@ -707,6 +708,24 @@
           </div>
         </div>
       </div>
+      -->
+
+      <div class="p-message__inner l-inner">
+        <div class="p-message__body">
+          <div class="p-message__desc">
+            <figure class="p-message__figure">
+              <div class="p-message__post">
+                <div class="p-message__clinic">リエートクリニック<?php echo get_field("clinic_name"); ?>院</div>
+                <div class="p-message__name"><span>医師</span><?php echo get_field("clinic_doctor")['clinic_doctor_name'] ?></div>
+              </div>
+            </figure>
+            <p class="p-message__text">
+              <?php echo get_field("clinic_doctor")['clinic_doctor_desc'] ?>
+            </p>
+          </div>
+        </div>
+      </div>
+      
     </section>
   <?php endif; ?>
 
