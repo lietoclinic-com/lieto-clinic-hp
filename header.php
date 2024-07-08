@@ -337,7 +337,7 @@
             <li class="l-header__bottomItem"><a href="/about/">当院について</a></li>
             <li class="l-header__bottomItem"><a href="/flow/">施術の流れ</a></li>
             <li class="l-header__bottomItem"><a href="/menu/">施術一覧</a></li>
-            <!-- <li class="l-header__bottomItem"><a href="/case/">当院の症例</a></li> -->
+            <li class="l-header__bottomItem"><a href="/case/">当院の症例</a></li>
             <li class="l-header__bottomItem"><a href="/minor/">未成年者の方へ</a></li>
             <li class="l-header__bottomItem"><a href="/faq/">よくある質問</a></li>
             <li class="l-header__bottomItem"><a href="/clinic/">クリニック一覧</a></li>
@@ -398,7 +398,7 @@
               <li class="l-spHeader__subitem"><a href="/menu/exosome/">細胞レベルで美しく<span>エクソソーム点滴</span></a></li>
             </ul>
           </li>
-          <!-- <li class="l-spHeader__item"><a href="/case/">当院の症例</a></li> -->
+          <li class="l-spHeader__item"><a href="/case/">当院の症例</a></li>
           <li class="l-spHeader__item"><a href="/minor/">未成年者の方へ</a></li>
           <li class="l-spHeader__item"><a href="/faq/">よくある質問</a></li>
           <li class="l-spHeader__item"><a href="/clinic/">クリニック一覧</a></li>
