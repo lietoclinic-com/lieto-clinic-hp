@@ -132,7 +132,7 @@
             <div class="l-footer__sns-wrap">
               <ul class="l-footer__sns">
                 <li><a href="https://www.instagram.com/lietoclinic/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/dist/img/top/icon-instagram.svg" alt="Instagram"></a></li>
-                <li><a href="https://twitter.com/lietoclinic" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/dist/img/top/icon-x.svg" alt="X"></a></li>
+                <li><a href="https://twitter.com/lietoclinic" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/dist/img/top/icon-X.svg" alt="X"></a></li>
               </ul>
             </div>
 
