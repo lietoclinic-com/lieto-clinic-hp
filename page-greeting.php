@@ -21,11 +21,11 @@
             <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/message/message.png" alt="「幸せ=Lieto」Clinicとの出逢いが  皆様の僥倖でありますように。">
           </figure>-->
 
-          <div class="p-pageMessageGreeting__head">
-            <h2 class="p-pageMessageGreeting__title">
+          <h2 class="p-pageMessageGreeting__head">
+            <p class="p-pageMessageGreeting__title">
               「幸せ=Lieto」Clinicとの出逢いが<br>&thinsp;&thinsp;皆様の僥倖でありますように。
-            </h2>
-          </div>
+            </p>
+          </h2>
 
           <div class="p-pageMessageGreeting__desc">
             <p class="p-pageMessageGreeting__text">
@@ -43,11 +43,47 @@
               <br>スタッフ一同、皆様のご来院を心からお待ちしております。
             </p>
 
-            <div class="p-pageMessageGreeting__post">
+            <h2 class="p-pageMessageGreeting__post">
               <div class="p-pageMessageGreeting__clinic">リエートクリニック横浜院</div>
               <div class="p-pageMessageGreeting__name"><span>医師</span>白川 巧</div>
-            </div>
+            </h2>
+
           </div>
+
+            <!--
+            <div class="p-pageMinorAge__head p-pageMinorHead" style="margin-top: 48px;">
+              <h3 class="p-pageMinorHead__title">経歴</h3>
+            </div>
+            <div class="p-singleRecruitInfo__body">
+              <div class="p-singleRecruitInfo__list">
+                <div class="p-singleRecruitInfo__row">
+                  <dt>20xx.01</dt>
+                  <dd><a href="https://www.med.kanazawa-u.ac.jp/" target="_blank">金沢大学医学部</a> 卒</dd>
+                </div>
+                <div class="p-singleRecruitInfo__row">
+                  <dt>20xx.01</dt>
+                  <dd><a href="https://www.kouseiren-ta.or.jp/index.html" target="_blank">厚生連高岡病院</a> 勤務</dd>
+                </div>
+                <div class="p-singleRecruitInfo__row">
+                  <dt>20xx.01</dt>
+                  <dd><a href="https://web.hosp.kanazawa-u.ac.jp/" target="_blank">金沢大学附属病院</a> 勤務</dd>
+                </div>
+                <div class="p-singleRecruitInfo__row">
+                  <dt>20xx.01</dt>
+                  <dd>美容クリニック 勤務</dd>
+                </div>
+                <div class="p-singleRecruitInfo__row">
+                  <dt>2024.04</dt>
+                  <dd>リエートクリニック横浜院 就任</dd>
+                </div>
+                <div class="p-singleRecruitInfo__row">
+                  <dt>2024.06</dt>
+                  <dd>リエートクリニック横浜院院長 就任</dd>
+                </div>
+              </div>
+            </div>
+            -->
+
         </div>
       </section>
 

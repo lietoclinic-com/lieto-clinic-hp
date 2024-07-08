@@ -1,8 +1,12 @@
 <?php get_header(); ?>
 
 <main class="l-main">
-
-  <section class="p-singleClinicFv">
+  
+  <?php
+    $page = get_post( get_the_ID() );
+    $slug = $page->post_name;
+  ?>
+  <section class="p-singleClinicFv <?php echo $slug; ?>">
     <?php get_template_part('template-parts/part', 'breadcrumb'); ?>
 
     <div class="p-singleClinicFv__inner">

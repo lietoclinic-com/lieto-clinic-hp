@@ -7467,6 +7467,10 @@ button {
           flex: 1;
   border-bottom: 1px solid #D6D6D5;
 }
+.p-singleRecruitInfo__row dd a {
+  color: blue;
+  text-decoration: underline;
+}
 @media screen and (min-width: 769px) {
   .p-singleRecruitInfo__row dd {
     padding-top: 2rem;
