@@ -7,9 +7,9 @@
 }
 
 .l-footer__body {
-  padding: 6rem 0 5rem;
+  padding: 6rem 0 1rem;
   @include mq(tab){
-    padding: 8rem 0 6rem;
+    padding: 8rem 0 1rem;
   }
 }
 
@@ -186,6 +186,29 @@
       margin-top: 4.1rem;
     }
   }
+}
+
+.l-footer__sns-wrap{
+  margin-top: 1rem;
+}
+.l-footer__sns{
+  display: flex;
+  width: fit-content;
+  gap: 18px;
+  margin-left: auto;
+}
+.l-footer__sns li{
+  display: block;
+  width: fit-content;
+}
+.l-footer__sns li a{
+  display: block;
+  width: fit-content;
+}
+.l-footer__sns li a img{
+  display: block;
+  width: 32px;
+  height: auto;
 }
 
 .l-footer__copy {

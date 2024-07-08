@@ -957,7 +957,7 @@ table {
     .c-fixedCta {
     position: fixed;
     right: 0;
-    height: 100%;
+    height: fit-content;
     top: 17.4rem;
     z-index: 99;
     display: none;
@@ -977,7 +977,7 @@ table {
         -ms-flex-direction: column;
             flex-direction: column;
     gap: 1rem 0;
-    height: 100%;
+    height: fit-content;
     }
 
     .c-fixedCta__Item {
