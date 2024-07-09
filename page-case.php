@@ -275,7 +275,7 @@
 
               <div class="p-case__box">
                 <div class="p-case__boxTitle js-accordion">
-                  IF様 リエートクリニックオリジナルプログラム
+                  Y.A様 リエートクリニックオリジナルプログラム
                   <div class="p-case__boxTitleMark"></div>
                 </div>
                 <div class="p-case__boxDescWrap">
@@ -288,7 +288,7 @@
                       <dt>金額</dt>
                       <dd>400,000円〜1,500,000円</dd>
                       <dt>期間・回数</dt>
-                      <dd>3ヶ月/10回</dd>
+                      <dd>4ヶ月/14回</dd>
                       <dt>リスク・副作用</dt>
                       <dd>糖尿病予防に効果的で、インスリン分泌促進により血糖値上昇抑制と糖尿病リスク低減が期待できます。</dd>
                     </dl>
