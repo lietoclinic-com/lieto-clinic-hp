@@ -430,7 +430,7 @@
     </div>
   </section>
 
-  <!-- 担当医師挨拶
+  <!-- 担当医師挨拶 -->
   <section class="p-topMessage p-message" id="top-message">
     <div class="p-message__head c-wideTitle">
       <div class="p-message__headInner l-inner">
@@ -472,9 +472,9 @@
       </div>
     </div>
   </section>
-  -->
+
   <!-- 担当医師挨拶 -->
-  <section class="p-topMessage p-message" id="top-message">
+  <!-- <section class="p-topMessage p-message" id="top-message">
     <div class="p-message__head c-wideTitle">
       <div class="p-message__headInner l-inner">
         <div class="c-wideTitle__content">
@@ -513,7 +513,7 @@
         <a href="/greeting/" class="c-btn">担当医師について詳しくみる</a>
       </div>
     </div>
-  </section>
+  </section> -->
   
 
   <!-- よくあるご質問 -->
