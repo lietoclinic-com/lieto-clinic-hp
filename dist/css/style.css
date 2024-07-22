@@ -950,11 +950,11 @@ button {
 }
 
 .l-footer__body {
-  padding: 6rem 0 5rem;
+  padding: 6rem 0 1rem;
 }
 @media screen and (min-width: 769px) {
   .l-footer__body {
-    padding: 8rem 0 6rem;
+    padding: 8rem 0 1rem;
   }
 }
 
@@ -1167,6 +1167,41 @@ button {
   .l-footer__infoRow + .l-footer__infoRow {
     margin-top: 4.1rem;
   }
+}
+
+.l-footer__sns-wrap {
+  margin-top: 1rem;
+}
+
+.l-footer__sns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  gap: 18px;
+  margin-left: auto;
+}
+
+.l-footer__sns li {
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.l-footer__sns li a {
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.l-footer__sns li a img {
+  display: block;
+  width: 32px;
+  height: auto;
 }
 
 .l-footer__copy {
