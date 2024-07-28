@@ -146,28 +146,57 @@
         </li>
 
         <?php elseif(is_singular('post')): // コラム詳細ページ
-        $term_obj = get_the_terms($post->ID, 'category');
+          $term_obj = get_the_terms($post->ID, 'category');
+          // ⑤-1 タグがあるコラム詳細ページ
+          if(has_tag(( array('stimsure', 'clatuu-a', 'hifu', 'glp-1', 'fat-dissolving-injection', 'original-protein', 'guidance', 'original-supplement', 'diet-supplement', 'beauty-drip', 'exosome')))) { 
+            $tags = get_the_tags();
+            foreach($tags as $post_tag){
+              $count = 0;
+              if($count == 0) {
+                $tag = $post_tag;
+              }
+              $count++;
+            }
         ?>
-        <!-- ⑤コラム詳細ページ -->
-        <li class="c-breadcrumb__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-          <a href="/column/" itemprop="item">
-            <span itemprop="name">コラム一覧</span>
-          </a>
-          <meta itemprop="position" content="2" />
-        </li>
-        <span>/</span>
+          <li class="c-breadcrumb__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/menu/" itemprop="item">
+              <span itemprop="name">施術一覧</span>
+            </a>
+            <meta itemprop="position" content="2" />
+          </li>
+          <span>/</span>
 
-        <li class="c-breadcrumb__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-          <a href="<?php echo esc_url(home_url()); ?>/<?php echo $term_obj[0]->slug; ?>/" itemprop="item">
-            <span itemprop="name"><?php echo $term_obj[0]->name; ?></span>  
-          </a>
-          <meta itemprop="position" content="3" />
-        </li>
-        <span>/</span>
+          <li class="c-breadcrumb__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="<?php echo esc_url(home_url()); ?>/menu/<?php echo $tag->slug; ?>/" itemprop="item">
+              <span itemprop="name"><?php echo $tag->name; ?></span>  
+            </a>
+            <meta itemprop="position" content="3" />
+          </li>
+          <span>/</span>
+
+
+        <?php // ⑤-2 タグがないコラム詳細ページ
+          } else {
+        ?>
+          <li class="c-breadcrumb__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/column/" itemprop="item">
+              <span itemprop="name">コラム一覧</span>
+            </a>
+            <meta itemprop="position" content="2" />
+          </li>
+          <span>/</span>
+
+          <li class="c-breadcrumb__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="<?php echo esc_url(home_url()); ?>/<?php echo $term_obj[0]->slug; ?>/" itemprop="item">
+              <span itemprop="name"><?php echo $term_obj[0]->name; ?></span>  
+            </a>
+            <meta itemprop="position" content="3" />
+          </li>
+          <span>/</span>
+        <?php } ?>
 
         <li class="c-breadcrumb__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
           <span class="current-item" itemprop="name">
-            <?php //single_post_title(); ?>
             <?php
               if(mb_strlen($post->post_title) >39) {
                 $title= mb_substr($post->post_title,0,39) ;

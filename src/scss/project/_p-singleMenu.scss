@@ -90,6 +90,11 @@
       margin-top: 5rem;
     }
   }
+
+  &._relatedColumn {
+    max-width: 92rem;
+    margin-inline: auto;
+  }
 }
 
 // テキストのみ

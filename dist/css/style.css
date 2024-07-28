@@ -7772,6 +7772,10 @@ button {
     margin-top: 5rem;
   }
 }
+.p-singleMenu__box._relatedColumn {
+  max-width: 92rem;
+  margin-inline: auto;
+}
 
 .p-singleMenu__text {
   margin-right: auto;
