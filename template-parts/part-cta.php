@@ -1,6 +1,19 @@
 <div class="p-cta">
   <div class="p-cta__bg">
 
+    <div class="p-cta__campaign">
+      <div class="p-cta-campaign__read">新店舗会員キャンペーン</div>
+      <p class="p-cta-campaign__text">
+        <span class="big">12</span>
+        ヶ月分の医療ダイエットが
+        <span class="span big orange">0</span>
+        <span class="orange add-caution01">円</span>
+      </p>
+      <p class="p-cta-campaign__caution">※ 当社指定の信販会社をご利用した分割料金の割引額</p>
+    </div>
+
+    <div class="p-cta__top--comment">＼ 無理な勧誘は一切ございません! ／</div>
+
     <div class="p-cta__top">
       <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_alltime.png' alt="icon">
       <div class="p-cta__reserve">
