@@ -81,9 +81,11 @@
   </div>
 
   <!-- CTA -->
-  <div class="p-topCta l-inner">
+  <div class="p-topCta l-inner" style="margin-bottom: 48px;">
     <?php get_template_part('template-parts/part', 'cta'); ?>
   </div>
+
+  <?php get_template_part('template-parts/part-lp-con'); ?>
 
   <!-- 選ばれる理由 -->
   <section class="p-topReason p-reason" id="top-reason">
