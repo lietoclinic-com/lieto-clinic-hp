@@ -2,10 +2,10 @@
 <html <?php language_attributes(); ?>>
 
 <head>
-  <!-- LandingHub Dispatcher -->
+  <!-- LandingHub Dispatcher 
   <script data-landinghub="dispatcher-helper-tag">(function(w,d,i,wl){const u=new URL('https://airport.landinghub.cloud/dispatcher/manifest.json');u.searchParams.set('id',i);u.searchParams.set('location',w.location.href);wl.length&&u.searchParams.set('wl',wl.join(','));const l=d.createElement('link');l.rel='preload';l.as='fetch';l.crossOrigin='anonymous';l.href=u.href;d.head.prepend(l)})(window,document,'4e8641f9-b859-4033-aad1-93a7f2771f87',[])</script>
   <script src="https://airport.landinghub.cloud/dispatcher/latest/index.js?id=4e8641f9-b859-4033-aad1-93a7f2771f87" data-landinghub="dispatcher-tag" referrerpolicy="strict-origin"></script>
-  <!-- End of LandingHub Dispatcher -->
+   End of LandingHub Dispatcher -->
   
   <!-- Google Tag Manager -->
   <script defer="">

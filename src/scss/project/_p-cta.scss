@@ -270,3 +270,67 @@
   }
 }
 
+.p-cta__campaign{
+  width: 94%;
+  max-width: 820px;
+  padding: 10px 10px 24px;
+  margin: 0 auto;
+  background-color: #fff;
+  @include mq(tab){
+
+  }
+}
+
+.p-cta-campaign__read {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  background-color: #ED8500;
+  font-family: "Zen Kaku Gothic New";
+  padding: 4px 0;
+  font-size: 18px;
+  @include mq(tab){
+    font-size: 28px;
+    width: 100%;
+  }
+}
+.p-cta-campaign__text {
+  text-align: center;
+  color: #8A652F;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  @include mq(tab){
+    font-size: 24px;
+  }
+}
+.p-cta-campaign__text .big {
+  font-size: 32px;
+  @include mq(tab){
+    font-size: 50px;
+  }
+}
+.p-cta-campaign__text .orange {
+  color: #ED8500;
+}
+.p-cta-campaign__text .add-caution01::after {
+  content: '※';
+}
+.p-cta-campaign__caution {
+  font-family: "Zen Kaku Gothic New";
+  text-align: center;
+  font-size: 11px;
+  margin-top: 1em;
+  @include mq(tab){
+    font-size: 13px;
+  }
+}
+.p-cta__top--comment {
+  font-size: 16px;
+  margin-top: 1em;
+  margin-bottom: 0.2em;
+  text-align: center;
+  color: #fff;
+  @include mq(tab){
+    font-size: 20px;
+  }
+}

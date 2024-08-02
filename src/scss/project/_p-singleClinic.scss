@@ -2,36 +2,32 @@
 .p-singleClinicFv {
   position: relative;
   padding: 2rem 1.25rem;
-  height: 47rem;
+  height: 26rem;
   background-image: url(../../dist/img/clinic/clinic_fv_sp.png.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
   @include mq(tab){
     padding: 2rem;
     height: 58rem;
     background-image: url(../../dist/img/clinic/clinic_fv.png.webp);
     background-position: center right;
-    
   }
 }
 
 .p-singleClinicFv.nagoya {
   position: relative;
   padding: 2rem 1.25rem;
-  height: 47rem;
+  height: 26rem;
   background-image: url(../../dist/img/clinic/clinic_fv2_sp.png.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
   @include mq(tab){
     padding: 2rem;
     height: 58rem;
     background-image: url(../../dist/img/clinic/clinic_fv2.png.webp);
     background-position: center right;
-    
   }
 }
 
@@ -42,7 +38,6 @@
   right: 0;
   height: 33rem;
   width: auto;
-  
   @include mq(tab){
     top: 0;
     right: initial;
@@ -57,16 +52,14 @@
   position: relative;
   max-width: 114rem;
   margin: 0 auto;
-  
   padding-top: 2.3rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 13rem 0;
-  
+  display: block;
   @include mq(tab){
     flex-direction: row;
     padding-top: 12.3rem;
+    justify-content: space-between;
+    gap: 13rem 0;
+    display: flex;
   }
 }
 
@@ -100,11 +93,10 @@
   background-size: contain;
   width: 12rem;
   height: 12rem;
-  
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  margin-top: -5rem;
   @include mq(tab){
     margin-left: initial;
     margin-top: 16.2rem;
@@ -145,12 +137,15 @@
   }
 }
 
+.bg01{
+  background-color: #FFF4E3;
+}
+
 // 診療時間
 .p-singleClinicTime {
   margin-top: -2.4rem;
   position: relative;
   z-index: 5;
-  
   @include mq(tab){
     margin-top: -6.05rem;
   }

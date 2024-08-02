@@ -6,38 +6,69 @@
     $page = get_post( get_the_ID() );
     $slug = $page->post_name;
   ?>
-  <section class="p-singleClinicFv <?php echo $slug; ?>">
-    <?php get_template_part('template-parts/part', 'breadcrumb'); ?>
 
-    <div class="p-singleClinicFv__inner">
-      <h1 class="p-singleClinicFv__title">リエートクリニック<br><span><?php the_field("clinic_name"); ?>院</span></h1>
-      <div class="p-singleClinicFv__walktime">
-        <span class="p-singleClinicFv__walktimeText">
-          <?php echo get_field("clinic_time")['clinic_near_station'] ?>駅から<br>
-          徒歩<span class="_num"><?php echo get_field("clinic_time")['clinic_walktime'] ?></span>分
-        </span>
+  <div class="bg01">
+
+    <section class="p-singleClinicFv <?php echo $slug; ?>">
+      <?php get_template_part('template-parts/part', 'breadcrumb'); ?>
+
+      <div class="p-singleClinicFv__inner">
+        <h1 class="p-singleClinicFv__title">リエートクリニック<br><span><?php the_field("clinic_name"); ?>院</span></h1>
+        <div class="p-singleClinicFv__walktime">
+          <span class="p-singleClinicFv__walktimeText">
+            <?php echo get_field("clinic_time")['clinic_near_station'] ?>駅から<br>
+            徒歩<span class="_num"><?php echo get_field("clinic_time")['clinic_walktime'] ?></span>分
+          </span>
+        </div>
+
       </div>
+    </section>
 
-    </div>
-  </section>
+    <!-- 診療時間 -->
+    <div class="p-singleClinicTime">
+      <div class="p-singleClinicTime__inner l-inner">
 
-  <!-- 診療時間 -->
-  <div class="p-singleClinicTime">
-    <div class="p-singleClinicTime__inner l-inner">
+        <!-- PC版 -->
+        <table class="p-singleClinicTime__table">
+          <tr>
+            <th>診療時間</th>
+            <th>日</th>
+            <th>月</th>
+            <th>火</th>
+            <th>水</th>
+            <th>木</th>
+            <th>金</th>
+            <th>土</th>
+          </tr>
+          <?php
+          while (have_rows('clinic_open')) : the_row();
+            while (have_rows('clinic_open_table')) : the_row();
+              $time = get_sub_field('clinic_open_time');
+              $sun = get_sub_field('clinic_open_sun');
+              $mon = get_sub_field('clinic_open_mon');
+              $tue = get_sub_field('clinic_open_tue');
+              $wed = get_sub_field('clinic_open_wed');
+              $thu = get_sub_field('clinic_open_thu');
+              $fri = get_sub_field('clinic_open_fri');
+              $sat = get_sub_field('clinic_open_sat');
+          ?>
+              <tr>
+                <td><?php echo $time; ?></td>
+                <td><?php echo $sun; ?></td>
+                <td><?php echo $mon; ?></td>
+                <td><?php echo $tue; ?></td>
+                <td><?php echo $wed; ?></td>
+                <td><?php echo $thu; ?></td>
+                <td><?php echo $fri; ?></td>
+                <td><?php echo $sat; ?></td>
+              </tr>
+          <?php
+            endwhile;
+          endwhile;
+          ?>
+        </table>
 
-      <!-- PC版 -->
-      <table class="p-singleClinicTime__table">
-        <tr>
-          <th>診療時間</th>
-          <th>日</th>
-          <th>月</th>
-          <th>火</th>
-          <th>水</th>
-          <th>木</th>
-          <th>金</th>
-          <th>土</th>
-        </tr>
-        <?php
+        <?php // SP版
         while (have_rows('clinic_open')) : the_row();
           while (have_rows('clinic_open_table')) : the_row();
             $time = get_sub_field('clinic_open_time');
@@ -49,69 +80,45 @@
             $fri = get_sub_field('clinic_open_fri');
             $sat = get_sub_field('clinic_open_sat');
         ?>
-            <tr>
-              <td><?php echo $time; ?></td>
-              <td><?php echo $sun; ?></td>
-              <td><?php echo $mon; ?></td>
-              <td><?php echo $tue; ?></td>
-              <td><?php echo $wed; ?></td>
-              <td><?php echo $thu; ?></td>
-              <td><?php echo $fri; ?></td>
-              <td><?php echo $sat; ?></td>
-            </tr>
+            <div class="p-singleClinicTime__spTable _sp">
+              <div class="p-singleClinicTime__spHead">
+                <div class="p-singleClinicTime__spHeadBox">診療時間</div>
+                <div class="p-singleClinicTime__spHeadBox"><?php echo $time; ?></div>
+              </div>
+
+              <table class="p-singleClinicTime__spBody">
+                <tr>
+                  <th>日</th>
+                  <th>月</th>
+                  <th>火</th>
+                  <th>水</th>
+                  <th>木</th>
+                  <th>金</th>
+                  <th>土</th>
+                </tr>
+                <tr>
+                  <td><?php echo $sun; ?></td>
+                  <td><?php echo $mon; ?></td>
+                  <td><?php echo $tue; ?></td>
+                  <td><?php echo $wed; ?></td>
+                  <td><?php echo $thu; ?></td>
+                  <td><?php echo $fri; ?></td>
+                  <td><?php echo $sat; ?></td>
+                </tr>
+              </table>
+            </div>
         <?php
           endwhile;
         endwhile;
         ?>
-      </table>
 
-      <?php // SP版
-      while (have_rows('clinic_open')) : the_row();
-        while (have_rows('clinic_open_table')) : the_row();
-          $time = get_sub_field('clinic_open_time');
-          $sun = get_sub_field('clinic_open_sun');
-          $mon = get_sub_field('clinic_open_mon');
-          $tue = get_sub_field('clinic_open_tue');
-          $wed = get_sub_field('clinic_open_wed');
-          $thu = get_sub_field('clinic_open_thu');
-          $fri = get_sub_field('clinic_open_fri');
-          $sat = get_sub_field('clinic_open_sat');
-      ?>
-          <div class="p-singleClinicTime__spTable _sp">
-            <div class="p-singleClinicTime__spHead">
-              <div class="p-singleClinicTime__spHeadBox">診療時間</div>
-              <div class="p-singleClinicTime__spHeadBox"><?php echo $time; ?></div>
-            </div>
-
-            <table class="p-singleClinicTime__spBody">
-              <tr>
-                <th>日</th>
-                <th>月</th>
-                <th>火</th>
-                <th>水</th>
-                <th>木</th>
-                <th>金</th>
-                <th>土</th>
-              </tr>
-              <tr>
-                <td><?php echo $sun; ?></td>
-                <td><?php echo $mon; ?></td>
-                <td><?php echo $tue; ?></td>
-                <td><?php echo $wed; ?></td>
-                <td><?php echo $thu; ?></td>
-                <td><?php echo $fri; ?></td>
-                <td><?php echo $sat; ?></td>
-              </tr>
-            </table>
-          </div>
-      <?php
-        endwhile;
-      endwhile;
-      ?>
-
-      <div class="p-singleClinicTime__text"><?php echo get_field("clinic_open")["clinic_open_text"]; ?></div>
+        <div class="p-singleClinicTime__text"><?php echo get_field("clinic_open")["clinic_open_text"]; ?></div>
+      </div>
     </div>
+  
   </div>
+
+  <?php get_template_part('template-parts/part-lp-con'); ?>
 
   <!-- 選ばれる理由 -->
   <section class="p-singleClinicReason p-reason">
