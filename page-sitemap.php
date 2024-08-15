@@ -28,7 +28,7 @@
             </li> -->
             <li class="p-pageSitemap__item"><a href="<?php echo esc_url(home_url()); ?>#top-treatment">施術内容</a></li>
             <li class="p-pageSitemap__item"><a href="<?php echo esc_url(home_url()); ?>#top-access">アクセス</a></li>
-            <li class="p-pageSitemap__item"><a href="<?php echo esc_url(home_url()); ?>#top-message">担当医師挨拶</a></li>
+            <li class="p-pageSitemap__item"><a href="<?php echo esc_url(home_url()); ?>#top-message">院長挨拶</a></li>
             <li class="p-pageSitemap__item"><a href="<?php echo esc_url(home_url()); ?>#top-faq">よくあるご質問</a></li>
             <li class="p-pageSitemap__item"><a href="<?php echo esc_url(home_url()); ?>#top-information">新着情報</a></li>
           </ul>
@@ -37,7 +37,7 @@
         <div class="p-pageSitemap__box">
           <div class="p-pageSitemap__boxTitle">当院について</div>
           <ul class="p-pageSitemap__list">
-            <li class="p-pageSitemap__item"><a href="/greeting/">担当医師挨拶</a></li>
+            <li class="p-pageSitemap__item"><a href="/greeting/">院長挨拶</a></li>
             <li class="p-pageSitemap__item"><a href="/about/">当院について</a></li>
             <li class="p-pageSitemap__item"><a href="/menu/">施術の流れ</a></li>
             <li class="p-pageSitemap__item"><a href="/minor/">未成年者の方へ</a></li>

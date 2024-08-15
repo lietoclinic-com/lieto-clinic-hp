@@ -166,7 +166,7 @@
         "dateModified": "<?php echo get_date_from_gmt(get_post_modified_time('c', true), 'c'); ?>",
         "author": {
           "@type": "Organization",
-          "name": "白川 巧"
+          "name": "松永 宏之"
         },
         "publisher": {
           "@type": "Organization", //個人の場合は"Person"と記入
@@ -333,7 +333,7 @@
             </div>
           <?php endif; ?>
           <ul class="l-header__bottomList">
-            <li class="l-header__bottomItem"><a href="/greeting/">担当医師挨拶</a></li>
+            <li class="l-header__bottomItem"><a href="/greeting/">院長挨拶</a></li>
             <li class="l-header__bottomItem"><a href="/about/">当院について</a></li>
             <li class="l-header__bottomItem"><a href="/flow/">施術の流れ</a></li>
             <!-- <li class="l-header__bottomItem"><a href="/menu/">施術一覧</a></li> -->
@@ -388,7 +388,7 @@
 
       <nav class="l-spHeader__nav">
         <ul class="l-spHeader__list">
-          <li class="l-spHeader__item"><a href="/greeting/">担当医師挨拶</a></li>
+          <li class="l-spHeader__item"><a href="/greeting/">院長挨拶</a></li>
           <li class="l-spHeader__item"><a href="/about/">当院について</a></li>
           <li class="l-spHeader__item"><a href="/flow/">施術の流れ</a></li>
           <li class="l-spHeader__item has-child">

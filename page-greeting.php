@@ -8,18 +8,18 @@
       <?php get_template_part('template-parts/part', 'breadcrumb'); ?>
       <div class="c-pageTitle">
         <div class="c-pageTitle__en">MESSAGE</div>
-        <h1 class="c-pageTitle__ja">担当医師挨拶</h2>
+        <h1 class="c-pageTitle__ja">院長挨拶</h2>
       </div>
     </div>
 
     <div class="p-pageMessage__body">
 
-      <!-- 担当医師挨拶 -->
+      <!-- 院長挨拶 -->
       <section class="p-pageMessageGreeting">
         <div class="p-pageMessageGreeting__inner l-inner">
-          <!--<figure class="p-pageMessageGreeting__mainimg">
+          <figure class="p-pageMessageGreeting__mainimg">
             <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/message/message.png" alt="「幸せ=Lieto」Clinicとの出逢いが  皆様の僥倖でありますように。">
-          </figure>-->
+          </figure>
 
           <h2 class="p-pageMessageGreeting__head">
             <p class="p-pageMessageGreeting__title">
@@ -44,8 +44,8 @@
             </p>
 
             <h2 class="p-pageMessageGreeting__post">
-              <div class="p-pageMessageGreeting__clinic">リエートクリニック横浜院</div>
-              <div class="p-pageMessageGreeting__name"><span>医師</span>白川 巧</div>
+              <div class="p-pageMessageGreeting__clinic">リエートクリニック</div>
+              <div class="p-pageMessageGreeting__name"><span>院長</span>松永 宏之</div>
             </h2>
 
           </div>

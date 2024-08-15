@@ -230,22 +230,3 @@
     }
   }
 }
-
-/*
-院長写真非表示に伴う追加スタイル（表示時に以下削除）
-*/
-.p-message .c-wideTitle__content{
-  margin: 0 auto;
-}
-.p-message .p-message__desc{
-  margin-left: auto;
-  margin-right: auto;
-}
-.p-message .p-message__figure .p-message__post{
-  margin-top: 3rem;
-}
-@include mq(tab){
-  .p-message .p-message__figure .p-message__post{
-    margin-top: 0;
-  }
-}

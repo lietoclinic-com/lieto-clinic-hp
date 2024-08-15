@@ -686,46 +686,28 @@
     </div>
   </section>
 
-  <!-- 担当医師挨拶 -->
+  <!-- 院長挨拶 -->
   <?php if (get_field("clinic_doctor")['clinic_doctor_image']) : ?>
     <section class="p-singleClinicMessage p-message">
       <div class="p-message__head c-wideTitle">
         <div class="p-message__headInner l-inner">
           <div class="c-wideTitle__content">
             <div class="c-wideTitle__en">MESSAGE</div>
-            <h2 class="c-wideTitle__ja">担当医師挨拶</h2>
+            <h2 class="c-wideTitle__ja">院長挨拶</h2>
           </div>
         </div>
       </div>
 
-      <!--
       <div class="p-message__inner l-inner">
         <div class="p-message__body">
           <figure class="p-message__figure">
-            <img loading="lazy" src="<?php echo get_field("clinic_doctor")['clinic_doctor_image']; ?>" alt="担当医師写真">
+            <img loading="lazy" src="<?php echo get_field("clinic_doctor")['clinic_doctor_image']; ?>" alt="院長写真">
             <div class="p-message__post">
               <div class="p-message__clinic">リエートクリニック<?php echo get_field("clinic_name"); ?>院</div>
-              <div class="p-message__name"><span>医師</span><?php echo get_field("clinic_doctor")['clinic_doctor_name'] ?></div>
+              <div class="p-message__name"><span>院長</span><?php echo get_field("clinic_doctor")['clinic_doctor_name'] ?></div>
             </div>
           </figure>
           <div class="p-message__desc">
-            <p class="p-message__text">
-              <?php echo get_field("clinic_doctor")['clinic_doctor_desc'] ?>
-            </p>
-          </div>
-        </div>
-      </div>
-      -->
-
-      <div class="p-message__inner l-inner">
-        <div class="p-message__body">
-          <div class="p-message__desc">
-            <figure class="p-message__figure">
-              <div class="p-message__post">
-                <div class="p-message__clinic">リエートクリニック<?php echo get_field("clinic_name"); ?>院</div>
-                <div class="p-message__name"><span>医師</span><?php echo get_field("clinic_doctor")['clinic_doctor_name'] ?></div>
-              </div>
-            </figure>
             <p class="p-message__text">
               <?php echo get_field("clinic_doctor")['clinic_doctor_desc'] ?>
             </p>

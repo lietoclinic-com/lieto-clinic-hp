@@ -365,12 +365,12 @@
         <div class="p-exosomeMessage__inner l-inner">
           <div class="p-exosomeFlow__head c-secTitle _exosome">
             <div class="c-secTitle__en">MESSAGE</div>
-            <h2 class="c-secTitle__ja">担当医師挨拶</h2>
+            <h2 class="c-secTitle__ja">院長挨拶</h2>
           </div>
 
           <div class="p-exosomeMessage__body">
             <figure class="p-exosomeMessage__figure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/doctor.png" alt="リエートクリニック横浜院医師 白川 巧">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/doctor.png" alt="リエートクリニック横浜院院長 松永 宏之">
             </figure>
             <div class="p-exosomeMessage__desc">
               <p class="p-exosomeMessage__text">
@@ -388,7 +388,7 @@
 
               <div class="p-exosomeMessage__post">
                 <div class="p-exosomeMessage__clinic">リエートクリニック横浜院</div>
-                <div class="p-exosomeMessage__name"><span>医師</span>白川 巧</div>
+                <div class="p-exosomeMessage__name"><span>院長</span>松永 宏之</div>
               </div>
             </div>
           </div>

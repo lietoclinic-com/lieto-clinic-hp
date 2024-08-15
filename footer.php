@@ -13,7 +13,7 @@
               <div class="l-footer__boxTitle">当院について</div>
               <ul class="l-footer__list">
                 <li class="l-footer__item"><a href="/">TOP</a></li>
-                <li class="l-footer__item"><a href="/greeting/">担当医師挨拶</a></li>
+                <li class="l-footer__item"><a href="/greeting/">院長挨拶</a></li>
                 <li class="l-footer__item"><a href="/about/">当院について</a></li>
                 <li class="l-footer__item"><a href="/flow/">施術の流れ</a></li>
                 <li class="l-footer__item"><a href="/minor/">未成年者の方へ</a></li>
