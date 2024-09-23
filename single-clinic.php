@@ -275,9 +275,11 @@
                 </div>
               </dl>
             </div>
-            <div class="p-access__map">
-              <?php echo get_field("clinic_info")['clinic_info_map'] ?>
-            </div>
+            <?php if(get_field('clinic_gallery')): ?>
+              <div class="p-access__map">
+                <?php echo get_field("clinic_info")['clinic_info_map'] ?>
+              </div>
+            <?php endif; ?>
           </div>
         </div>
       </div>
@@ -336,28 +338,30 @@
         </div>
       <?php endif; ?>
 
-      <!-- 外観・内観 -->
-      <div class="p-singleClinicAlbum">
-        <div class="l-inner">
-          <div class="p-singleClinicAlbum__head p-clinicHead">
-            <h3 class="p-clinicHead__title"><?php echo get_field("clinic_name"); ?>院の外観・内観</h3>
+      <?php if(get_field('clinic_gallery')): ?>
+        <!-- 外観・内観 -->
+        <div class="p-singleClinicAlbum">
+          <div class="l-inner">
+            <div class="p-singleClinicAlbum__head p-clinicHead">
+              <h3 class="p-clinicHead__title"><?php echo get_field("clinic_name"); ?>院の外観・内観</h3>
+            </div>
+          </div>
+          <div class="p-singleClinicAlbum__body">
+            <ul class="p-singleClinicAlbum__list">
+              <?php
+              $images = get_field('clinic_gallery');
+              foreach ($images as $image) :
+              ?>
+                <li class="p-singleClinicAlbum__item">
+                  <img loading="lazy" src="<?php echo $image; ?>" alt="内観">
+                </li>
+              <?php
+              endforeach;
+              ?>
+            </ul>
           </div>
         </div>
-        <div class="p-singleClinicAlbum__body">
-          <ul class="p-singleClinicAlbum__list">
-            <?php
-            $images = get_field('clinic_gallery');
-            foreach ($images as $image) :
-            ?>
-              <li class="p-singleClinicAlbum__item">
-                <img loading="lazy" src="<?php echo $image; ?>" alt="内観">
-              </li>
-            <?php
-            endforeach;
-            ?>
-          </ul>
-        </div>
-      </div>
+      <?php endif; ?>
 
     </div>
   </section>

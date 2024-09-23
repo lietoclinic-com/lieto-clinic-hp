@@ -56,39 +56,41 @@
                   </div>
 
                   <div class="p-access__sliders">
-                    <ul class="p-access__mainSlider js-clinic-mainslick_0<?php echo $ans; ?>">
-                      <?php
-                      $image_num = 0;
-                      $images = get_field('clinic_gallery');
-                      foreach ($images as $image) :
-                        $image_num++;
-                        if ($image_num < 5) :
-                      ?>
-                          <li class="p-access__mainSliderItem">
-                            <img loading="lazy" src="<?php echo $image; ?>" alt="医院内観">
-                          </li>
-                      <?php
-                        endif;
-                      endforeach;
-                      ?>
-                    </ul>
+                    <?php if(get_field('clinic_gallery')): ?>
+                      <ul class="p-access__mainSlider js-clinic-mainslick_0<?php echo $ans; ?>">
+                        <?php
+                        $image_num = 0;
+                        $images = get_field('clinic_gallery');
+                        foreach ($images as $image) :
+                          $image_num++;
+                          if ($image_num < 5) :
+                        ?>
+                            <li class="p-access__mainSliderItem">
+                              <img loading="lazy" src="<?php echo $image; ?>" alt="医院内観">
+                            </li>
+                        <?php
+                          endif;
+                        endforeach;
+                        ?>
+                      </ul>
 
-                    <ul class="p-access__subSlider js-clinic-subslick_0<?php echo $ans; ?>">
-                      <?php
-                      $subimage_num = 0;
-                      $images = get_field('clinic_gallery');
-                      foreach ($images as $image) :
-                        $subimage_num++;
-                        if ($subimage_num < 5) :
-                      ?>
-                          <li class="p-access__subSliderItem">
-                            <img loading="lazy" src="<?php echo $image; ?>" alt="医院内観">
-                          </li>
-                      <?php
-                        endif;
-                      endforeach;
-                      ?>
-                    </ul>
+                      <ul class="p-access__subSlider js-clinic-subslick_0<?php echo $ans; ?>">
+                        <?php
+                        $subimage_num = 0;
+                        $images = get_field('clinic_gallery');
+                        foreach ($images as $image) :
+                          $subimage_num++;
+                          if ($subimage_num < 5) :
+                        ?>
+                            <li class="p-access__subSliderItem">
+                              <img loading="lazy" src="<?php echo $image; ?>" alt="医院内観">
+                            </li>
+                        <?php
+                          endif;
+                        endforeach;
+                        ?>
+                      </ul>
+                    <?php endif; ?>
                   </div>
 
                   <div class="p-access__clinic">

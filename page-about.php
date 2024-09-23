@@ -157,7 +157,7 @@
               <?php if ($query->have_posts()) : ?>
                 <?php while ($query->have_posts()) : $query->the_post(); ?>
                   <div class="p-access__area">
-                    <div class="p-access__clinic">
+                    <div >
                       <div class="p-access__desc">
                         <div class="p-access__title">
                           <span><?php the_field("clinic_name") ?>院</span>
