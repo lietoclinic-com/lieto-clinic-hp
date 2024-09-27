@@ -68,7 +68,7 @@
       <br>
       また当院では肥満のもとになる脂肪細胞を破壊するため一般的なダイエットと比べてリバウンドのリスクが大幅に低くなっています。
       <video src="https://eam-sez-n3su8bc7.landinghub.site/.landinghub/https%3A%2F%2Flietoclinic.com%2Flpbot%2Fimg%2F4.mp4?landinghub-codec=avc%2Cvp9" autoplay muted playsinline loop class="p-faq__answerVideo"></video>
-      以下の通り、実績も以下の通り多数出ております。
+      実績も以下の通り多数出ております。
       <img class="p-faq__answerImg" loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/faq/faq_achievement.jpg' alt="実績">
     </span>
   </div>
