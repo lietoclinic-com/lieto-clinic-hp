@@ -16,6 +16,7 @@
     <div class="p-faq__answerMark">A</div>
     <span class="p-faq__answerText" itemprop="text">
     医療ダイエットの効果は個人によって異なりますが、多くのお客様は施術開始から約3ヶ月程度で顕著な変化を感じて頂いていることが一般的です。当クリニックでは、お客様ごとの体質やライフスタイルに合わせたカスタマイズされたプログラムをご提供し、効果的かつ安全なダイエットをサポートしています。
+    <img class="p-faq__answerImg" loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/faq/faq_money_back.jpg' alt="返金保証">
     </span>
   </div>
 </div>
@@ -37,7 +38,11 @@
   <div class="p-faq__answerDesc">
     <div class="p-faq__answerMark">A</div>
     <span class="p-faq__answerText" itemprop="text">
-    通院の頻度は、お客様の個々の状況やプログラムに基づいて異なりますが、当院が推奨させて頂いている通院ペースは週に1回のペースとなります。週に1回通院して頂く事で必要に応じてダイエットプログラムの計画の調整を行わさせて頂いております。
+    通院の頻度は、お客様の個々の状況やプログラムに基づいて異なりますが、当院が推奨させて頂いている通院ペースは週に1回のペースとなります。週に1回通院して頂く事で必要に応じてダイエットプログラムの計画の調整を行わさせて頂いております。<br>
+    <br>
+    以下で実際に週1回のペースでダイエットに成功した症例をご紹介します。
+    <img class="p-faq__answerImg" loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/faq/faq_case_01.jpg' alt="症例1">
+    <img class="p-faq__answerImg" loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/faq/faq_case_02.jpg' alt="症例2">
     </span>
   </div>
 </div>
@@ -59,7 +64,12 @@
   <div class="p-faq__answerDesc">
     <div class="p-faq__answerMark">A</div>
     <span class="p-faq__answerText" itemprop="text">
-    医療ダイエットの目的は、ただ体重を減らすだけでなく、長期的な健康的な生活習慣を構築することにあります。当クリニックのプログラムでは、体重減少は勿論ですが、体重減少後の体重とお身体の維持を最重要視しております。
+      当クリニックのプログラムでは、体重減少は勿論ですが、体重減少後の体重とお身体の維持を最重要視しております。 <br>
+      <br>
+      また当院では肥満のもとになる脂肪細胞を破壊するため一般的なダイエットと比べてリバウンドのリスクが大幅に低くなっています。
+      <video src="https://eam-sez-n3su8bc7.landinghub.site/.landinghub/https%3A%2F%2Flietoclinic.com%2Flpbot%2Fimg%2F4.mp4?landinghub-codec=avc%2Cvp9" autoplay muted playsinline loop class="p-faq__answerVideo"></video>
+      実績も以下の通り多数出ております。
+      <img class="p-faq__answerImg" loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/faq/faq_achievement.jpg' alt="実績">
     </span>
   </div>
 </div>
