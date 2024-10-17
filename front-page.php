@@ -130,6 +130,161 @@
     </div>
   </section>
 
+  <!-- 当院の症例 -->
+  <section class="p-topFaq" id="top-case">
+    <div class="p-pageCase__body">
+      <div class="l-inner">
+
+        <div class="p-topFaq__head c-secTitle">
+          <div class="c-secTitle__en">CASE</div>
+          <h2 class="c-secTitle__ja">当院の症例</h2>
+        </div>
+
+        <ul class="p-pageCase__list p-case">
+
+          <li class="p-case__item">
+            <div class="p-case__head">
+              <div class="p-case__headName">症例</div>
+              <div class="p-case__headNum">01</div>
+            </div>
+            <div class="p-case__body">
+              <div class="p-case__images">
+                <div class="p-case__image">
+                  <div class="p-case__imageTitle">BEFORE</div>
+                  <figure class="p-case__figure">
+                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case01-before.jpg" alt="before">
+                  </figure>
+                </div>
+                <div class="p-case__image">
+                  <div class="p-case__imageTitle">AFTER</div>
+                  <figure class="p-case__figure">
+                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case01-after.jpg" alt="after">
+                  </figure>
+                </div>
+              </div>
+
+              <div class="p-case__box">
+                <div class="p-case__boxTitle js-accordion">
+                  リエートクリニックオリジナルプログラム
+                  <div class="p-case__boxTitleMark"></div>
+                </div>
+                <div class="p-case__boxDescWrap">
+                  <div class="p-case__boxDesc">
+                    <dl class="p-case__boxContent">
+                      <dt>治療内容</dt>
+                      <dd>施術内容：医療脂肪冷却機器、医療電磁場機器、医療用HIFU、脂肪溶解注射、エクソソーム注射、ダイエット美容点滴、ダイエット薬セット、医師による投薬指導、オリジナルプロテイン、医師監修サプリメント、管理栄養士によるパーソナル食事指導</dd>
+                    </dl>
+                    <dl class="p-case__boxDetail">
+                      <dt>金額</dt>
+                      <dd>400,000円〜1,500,000円</dd>
+                      <dt>期間・回数</dt>
+                      <dd>3ヶ月/10回</dd>
+                      <dt>リスク・副作用</dt>
+                      <dd>便秘、下痢、筋肉痛、赤み、腫れ、内出血、しこり、低血糖、吐気、嘔吐</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="p-case__item">
+            <div class="p-case__head">
+              <div class="p-case__headName">症例</div>
+              <div class="p-case__headNum">02</div>
+            </div>
+            <div class="p-case__body">
+              <div class="p-case__images">
+                <div class="p-case__image">
+                  <div class="p-case__imageTitle">BEFORE</div>
+                  <figure class="p-case__figure">
+                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case02-before.jpg" alt="before">
+                  </figure>
+                </div>
+                <div class="p-case__image">
+                  <div class="p-case__imageTitle">AFTER</div>
+                  <figure class="p-case__figure">
+                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case02-after.jpg" alt="after">
+                  </figure>
+                </div>
+              </div>
+
+              <div class="p-case__box">
+                <div class="p-case__boxTitle js-accordion">
+                  リエートクリニックオリジナルプログラム
+                  <div class="p-case__boxTitleMark"></div>
+                </div>
+                <div class="p-case__boxDescWrap">
+                  <div class="p-case__boxDesc">
+                    <dl class="p-case__boxContent">
+                      <dt>治療内容</dt>
+                      <dd>施術内容：医療脂肪冷却機器、医療電磁場機器、医療用HIFU、脂肪溶解注射、エクソソーム注射、ダイエット美容点滴、ダイエット薬セット、医師による投薬指導、オリジナルプロテイン、医師監修サプリメント、管理栄養士によるパーソナル食事指導</dd>
+                    </dl>
+                    <dl class="p-case__boxDetail">
+                      <dt>金額</dt>
+                      <dd>400,000円〜1,500,000円</dd>
+                      <dt>期間・回数</dt>
+                      <dd>3ヶ月/10回</dd>
+                      <dt>リスク・副作用</dt>
+                      <dd>便秘、下痢、筋肉痛、赤み、腫れ、内出血、しこり、低血糖、吐気、嘔吐</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="p-case__item">
+            <div class="p-case__head">
+              <div class="p-case__headName">症例</div>
+              <div class="p-case__headNum">03</div>
+            </div>
+            <div class="p-case__body">
+              <div class="p-case__images">
+                <div class="p-case__image">
+                  <div class="p-case__imageTitle">BEFORE</div>
+                  <figure class="p-case__figure">
+                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case03-before.jpg" alt="before">
+                  </figure>
+                </div>
+                <div class="p-case__image">
+                  <div class="p-case__imageTitle">AFTER</div>
+                  <figure class="p-case__figure">
+                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case03-after.jpg" alt="after">
+                  </figure>
+                </div>
+              </div>
+
+              <div class="p-case__box">
+                <div class="p-case__boxTitle js-accordion">
+                  リエートクリニックオリジナルプログラム
+                  <div class="p-case__boxTitleMark"></div>
+                </div>
+                <div class="p-case__boxDescWrap">
+                  <div class="p-case__boxDesc">
+                    <dl class="p-case__boxContent">
+                      <dt>治療内容</dt>
+                      <dd>施術内容：医療脂肪冷却機器、医療電磁場機器、医療用HIFU、脂肪溶解注射、エクソソーム注射、ダイエット美容点滴、ダイエット薬セット、医師による投薬指導、オリジナルプロテイン、医師監修サプリメント、管理栄養士によるパーソナル食事指導</dd>
+                    </dl>
+                    <dl class="p-case__boxDetail">
+                      <dt>金額</dt>
+                      <dd>400,000円〜1,500,000円</dd>
+                      <dt>期間・回数</dt>
+                      <dd>4ヶ月/14回</dd>
+                      <dt>リスク・副作用</dt>
+                      <dd>便秘、下痢、筋肉痛、赤み、腫れ、内出血、しこり、低血糖、吐気、嘔吐</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </section>
+
   <!-- About us -->
   <section class="p-topAbout" id="top-about">
     <div class="p-topAbout__head c-wideTitle">
@@ -513,160 +668,6 @@
       </div>
       <div class="p-message__btn">
         <a href="/greeting/" class="c-btn">担当医師について詳しくみる</a>
-      </div>
-    </div>
-  </section>
-  
-  <section class="p-topFaq" id="top-case">
-    <div class="p-pageCase__body">
-      <div class="l-inner">
-
-        <div class="p-topFaq__head c-secTitle">
-          <div class="c-secTitle__en">CASE</div>
-          <h2 class="c-secTitle__ja">当院の症例</h2>
-        </div>
-
-        <ul class="p-pageCase__list p-case">
-
-          <li class="p-case__item">
-            <div class="p-case__head">
-              <div class="p-case__headName">症例</div>
-              <div class="p-case__headNum">01</div>
-            </div>
-            <div class="p-case__body">
-              <div class="p-case__images">
-                <div class="p-case__image">
-                  <div class="p-case__imageTitle">BEFORE</div>
-                  <figure class="p-case__figure">
-                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case01-before.jpg" alt="before">
-                  </figure>
-                </div>
-                <div class="p-case__image">
-                  <div class="p-case__imageTitle">AFTER</div>
-                  <figure class="p-case__figure">
-                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case01-after.jpg" alt="after">
-                  </figure>
-                </div>
-              </div>
-
-              <div class="p-case__box">
-                <div class="p-case__boxTitle js-accordion">
-                  リエートクリニックオリジナルプログラム
-                  <div class="p-case__boxTitleMark"></div>
-                </div>
-                <div class="p-case__boxDescWrap">
-                  <div class="p-case__boxDesc">
-                    <dl class="p-case__boxContent">
-                      <dt>治療内容</dt>
-                      <dd>施術内容：医療脂肪冷却機器、医療電磁場機器、医療用HIFU、脂肪溶解注射、エクソソーム注射、ダイエット美容点滴、ダイエット薬セット、医師による投薬指導、オリジナルプロテイン、医師監修サプリメント、管理栄養士によるパーソナル食事指導</dd>
-                    </dl>
-                    <dl class="p-case__boxDetail">
-                      <dt>金額</dt>
-                      <dd>400,000円〜1,500,000円</dd>
-                      <dt>期間・回数</dt>
-                      <dd>3ヶ月/10回</dd>
-                      <dt>リスク・副作用</dt>
-                      <dd>便秘、下痢、筋肉痛、赤み、腫れ、内出血、しこり、低血糖、吐気、嘔吐</dd>
-                    </dl>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-
-          <li class="p-case__item">
-            <div class="p-case__head">
-              <div class="p-case__headName">症例</div>
-              <div class="p-case__headNum">02</div>
-            </div>
-            <div class="p-case__body">
-              <div class="p-case__images">
-                <div class="p-case__image">
-                  <div class="p-case__imageTitle">BEFORE</div>
-                  <figure class="p-case__figure">
-                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case02-before.jpg" alt="before">
-                  </figure>
-                </div>
-                <div class="p-case__image">
-                  <div class="p-case__imageTitle">AFTER</div>
-                  <figure class="p-case__figure">
-                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case02-after.jpg" alt="after">
-                  </figure>
-                </div>
-              </div>
-
-              <div class="p-case__box">
-                <div class="p-case__boxTitle js-accordion">
-                  リエートクリニックオリジナルプログラム
-                  <div class="p-case__boxTitleMark"></div>
-                </div>
-                <div class="p-case__boxDescWrap">
-                  <div class="p-case__boxDesc">
-                    <dl class="p-case__boxContent">
-                      <dt>治療内容</dt>
-                      <dd>施術内容：医療脂肪冷却機器、医療電磁場機器、医療用HIFU、脂肪溶解注射、エクソソーム注射、ダイエット美容点滴、ダイエット薬セット、医師による投薬指導、オリジナルプロテイン、医師監修サプリメント、管理栄養士によるパーソナル食事指導</dd>
-                    </dl>
-                    <dl class="p-case__boxDetail">
-                      <dt>金額</dt>
-                      <dd>400,000円〜1,500,000円</dd>
-                      <dt>期間・回数</dt>
-                      <dd>3ヶ月/10回</dd>
-                      <dt>リスク・副作用</dt>
-                      <dd>便秘、下痢、筋肉痛、赤み、腫れ、内出血、しこり、低血糖、吐気、嘔吐</dd>
-                    </dl>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-
-          <li class="p-case__item">
-            <div class="p-case__head">
-              <div class="p-case__headName">症例</div>
-              <div class="p-case__headNum">03</div>
-            </div>
-            <div class="p-case__body">
-              <div class="p-case__images">
-                <div class="p-case__image">
-                  <div class="p-case__imageTitle">BEFORE</div>
-                  <figure class="p-case__figure">
-                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case03-before.jpg" alt="before">
-                  </figure>
-                </div>
-                <div class="p-case__image">
-                  <div class="p-case__imageTitle">AFTER</div>
-                  <figure class="p-case__figure">
-                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case03-after.jpg" alt="after">
-                  </figure>
-                </div>
-              </div>
-
-              <div class="p-case__box">
-                <div class="p-case__boxTitle js-accordion">
-                  リエートクリニックオリジナルプログラム
-                  <div class="p-case__boxTitleMark"></div>
-                </div>
-                <div class="p-case__boxDescWrap">
-                  <div class="p-case__boxDesc">
-                    <dl class="p-case__boxContent">
-                      <dt>治療内容</dt>
-                      <dd>施術内容：医療脂肪冷却機器、医療電磁場機器、医療用HIFU、脂肪溶解注射、エクソソーム注射、ダイエット美容点滴、ダイエット薬セット、医師による投薬指導、オリジナルプロテイン、医師監修サプリメント、管理栄養士によるパーソナル食事指導</dd>
-                    </dl>
-                    <dl class="p-case__boxDetail">
-                      <dt>金額</dt>
-                      <dd>400,000円〜1,500,000円</dd>
-                      <dt>期間・回数</dt>
-                      <dd>4ヶ月/14回</dd>
-                      <dt>リスク・副作用</dt>
-                      <dd>便秘、下痢、筋肉痛、赤み、腫れ、内出血、しこり、低血糖、吐気、嘔吐</dd>
-                    </dl>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-
-        </ul>
       </div>
     </div>
   </section>
