@@ -19,7 +19,7 @@ p > a {
   text-decoration: underline;
 }
 strong {
-  color: #ed8500;
+  /* color: #ed8500; */
 }
 
 /* H1タイトル */
@@ -55,7 +55,7 @@ h3.wp-block-heading {
   font-size: 18px;
   font-weight: 700;
   line-height: 28px;
-  color: #ed8500;
+  /* color: #ed8500; */
 }
 @media screen and (min-width: 769px) {
   h3.wp-block-heading {
