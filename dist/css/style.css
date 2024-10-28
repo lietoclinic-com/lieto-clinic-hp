@@ -5805,7 +5805,6 @@ button {
   }
 }
 .p-singleNews__content strong {
-  color: #ED8500;
   font-weight: 700;
 }
 .p-singleNews__content em {
@@ -9305,7 +9304,6 @@ button {
 }
 .p-content p strong {
   font-weight: 700;
-  color: #ED8500;
 }
 .p-content ol, .p-content ul {
   margin-top: 3rem;
