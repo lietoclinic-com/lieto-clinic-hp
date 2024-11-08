@@ -76,6 +76,12 @@
     font-size: 2.6rem;
     line-height: 40px;
   }
+
+  br {
+    @include mq(tab){
+      display: none;
+    }
+  }
 }
 
 

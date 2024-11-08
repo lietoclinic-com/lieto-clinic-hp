@@ -1,0 +1,1310 @@
+// クラツーアルファ
+.p-clatuuFigure {
+  width: 100%;
+  margin-top: -2rem;
+  @include mq(tab){
+    margin-top: -4rem;
+  }
+
+  img {
+    max-height: 43rem;
+    object-fit: cover;
+
+    @media screen and (min-width: 1800px) {
+      max-height: initial;
+      object-fit: contain;
+    }
+  }
+}
+
+figure {
+  figcaption {
+    word-break: break-all;
+    font-size: 1.3rem;
+    @include mq(tab){
+      font-size: 1.5rem;
+    }
+    a {
+      color: #57ACD1;
+      text-decoration: underline;
+    }
+  }
+}
+
+.p-clatuuMenu {
+
+}
+
+.p-clatuuMenu__list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2.7rem 1.5rem;
+
+  @include mq(tab){
+    column-gap: 5.5rem;
+  }
+}
+
+.p-clatuuMenu__item {
+  width: calc((100% - 1.5rem) / 2);
+  border-bottom: 0.1rem solid cl(exo);
+  padding-bottom: 1rem;
+  @include mq(tab){
+    width: calc((100% - 5.5rem * 2) / 3);
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 0.6rem;
+    height: 4.0rem;
+    line-height: 1;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: cl(exo);
+
+    @include mq(tab){
+      padding-right: 0.75rem;
+      font-size: 1.8rem;
+    }
+
+    &::after {
+      content: '';
+      display: inline-block;
+      width: 0.8rem;
+      height: 1.6rem;
+      background-image: url(../../dist/img/icon/arrow_blue.png);
+      flex-shrink: 0;
+      background-size: contain;
+      background-repeat: no-repeat;
+      
+      @include mq(tab){
+        width: 1.2rem;
+        height: 2.93rem;
+      }
+    }
+  }
+}
+
+
+.p-clatuuAbout {
+  padding-top: 6rem;
+  @include mq(tab){
+    padding-top: 8rem;
+  }
+}
+
+.p-clatuuAbout__inner {
+
+}
+
+.p-clatuuAbout__head {
+
+}
+
+.p-clatuuAbout__body {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem 6rem;
+  
+  @include mq(tab) {
+    flex-direction: row;
+    margin-top: 4rem;
+  }
+}
+
+.p-clatuuAbout__figure {
+  width: 100%;
+  @include mq(tab){
+    width: 44.6429%;
+  }
+}
+
+.p-clatuuAbout__desc {
+  width: 100%;
+  line-height: 2.8rem;
+  @include mq(tab){
+    width: 50%;
+  }
+}
+
+// FEATURES
+.p-clatuuFeature {
+  padding: 4.2rem 0;
+  @include mq(tab){
+    padding: 5rem 0;
+  }
+}
+
+.p-clatuuFeature__inner {
+
+}
+
+.p-clatuuFeature__head {
+
+}
+
+.p-clatuuFeature__body {
+  margin-top: 3rem;
+  @include mq(tab){
+    margin-top: 4rem;
+  }
+}
+
+.p-clatuuFeature__list {
+
+}
+
+.p-clatuuFeature__item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.6rem 6.5rem;
+
+  @include mq(tab) {
+    gap: 3.2rem 6.5rem;
+  }
+  
+  @include mq(pc){
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  +.p-clatuuFeature__item {
+    margin-top: 3rem;
+    @include mq(tab){
+      margin-top: 9rem;
+    }
+  }
+}
+
+.p-clatuuFeature__itemHead {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 8.9rem;
+  color: cl(exo);
+  
+  @include mq(tab){
+    width: 12.5rem;
+  }
+}
+
+.p-clatuuFeature__itemName {
+  position: relative;
+  font-family: $font-zenold;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  font-size: 2rem;
+
+  @include mq(tab){
+    font-size: 2.6rem;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 4rem;
+    right: -5rem;
+    width: 10rem;
+    height: 0.1rem;
+    background-color: #BCBCBC;
+    transform: rotate(-45deg);
+
+    @include mq(tab){
+      top: 5.5rem;
+      right: -8.5rem;
+      width: 16rem;
+    }
+  }
+}
+
+.p-clatuuFeature__itemNum {
+  margin-top: 4.5rem;
+  font-family: $font-cinzel;
+  line-height: 1;
+  font-size: 3.2rem;
+
+  @include mq(tab){
+    margin-top: 6.3rem;
+    font-size: 5.2rem;
+  }
+}
+
+.p-clatuuFeature__itemBody {
+  @include mq(tab){
+    flex: 1;
+  }
+}
+
+.p-clatuuFeature__itemFlex {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem 5rem;
+  
+  @include mq(tab) {
+    flex-direction: row;
+
+    &._reverse {
+      flex-direction: row-reverse;
+    }
+  }
+}
+
+.p-clatuuFeature__itemDesc {
+  width: 100%;
+  @include mq(tab) {
+    ._second &, ._third & {
+      width: 50.5376%;
+    }
+    ._fourth & {
+      width: 46.6667%;
+    }
+  }
+}
+
+.p-clatuuFeature__itemTitle {
+  // word-break: keep-all;
+  display: flex;
+  column-gap: 1rem;
+  line-height: 3.0rem;
+  font-weight: 700;
+  font-size: 2.2rem;
+  color: cl(exo);
+  
+  @include mq(tab){
+    line-height: 3.8rem;
+  }
+  
+
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-image: url(../../dist/img/icon/icon_menu_mark.jpg);
+    flex-shrink: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: translateY(6px);
+    @include mq(tab){
+      transform: translateY(8px);
+    }
+    
+  }
+
+  br {
+    display: none;
+    @include mq(tab){
+      display: block;
+    }
+    
+  }
+}
+
+.p-clatuuFeature__itemText {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  line-height: 2.8rem;
+
+  @include mq(tab){
+    margin-top: 3rem;
+  }
+}
+
+.p-clatuuFeature__itemFigure {
+  ._first & {
+    margin-top: 3rem;
+    @include mq(tab){
+      text-align: right;
+      margin-top: 7rem;
+    }
+
+    img {
+      max-width: 90rem;
+    }
+
+    figcaption {
+      margin-top: 1rem;
+    }
+  }
+
+  @include mq(tab){
+    ._second &, ._third & {
+      width: 44.086%;
+    }
+    ._fourth & {
+      width: 48.3871%;
+    }
+  }
+}
+
+.p-clatuuFeature__itemBtn {
+  margin-top: 2rem;
+}
+
+.p-clatuuFeature__itemBtnLink {
+  width: unquote('min(43.5rem, 100%)');
+  background-color: cl(exo);
+  line-height: 1.2;
+
+  @include mq(tab){
+    br {
+      display: none;
+    }
+  }
+}
+
+
+.p-clatuuMechanism {
+  padding: 6rem 0 6rem;
+  @include mq(tab){
+    padding: 6rem 0 8rem;
+  }
+}
+
+.p-clatuuMechanism__inner {
+
+}
+
+.p-clatuuMechanism__head {
+
+}
+
+.p-clatuuMechanism__body {
+  margin-top: 3rem;
+  @include mq(tab){
+    margin-top: 5rem;
+  }
+}
+
+.p-clatuuMechanism__area {
+  max-width: 98.3rem;
+  // width: unquote('min(98.3rem,100%)');
+  padding: 3rem 2.4rem;
+  margin: 0 -2.4rem;
+  width: calc(100% + 2.4rem * 2);
+  background-color: cl(exolight);
+  
+  @include mq(tab){
+    margin: 0 auto;
+    width: 100%;
+    padding: 5rem;
+  }
+}
+
+.p-clatuuMechanism__box {
+  display: contents;
+  max-width: 88.3rem;
+  // width: unquote('min(88.3rem,100%)');
+  padding: 5rem;
+  background-color: #fff;
+
+  @include mq(tab){
+    display: block;
+  }
+}
+
+.p-clatuuMechanism__list {
+
+}
+
+.p-clatuuMechanism__item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem 2.4rem;
+  background-color: #fff;
+  padding: 1.6rem;
+  
+  @include mq(tab) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0;
+  }
+
+  &:not(:first-child) {
+    margin-top: 7rem;
+    @include mq(tab){
+      margin-top: 9rem;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      right: 0;
+      left: 0;
+      margin-inline: auto;
+      top: -4.2rem;
+      width: 7.5rem;
+      height: 2.2rem;
+      background-color: cl(exo);
+      clip-path: polygon(0 0, 100% 0, 50% 100%);
+      @include mq(tab){
+        top: -5.2rem;
+      }
+    }
+  }
+}
+
+.p-clatuuMechanism__itemDesc {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  column-gap: 1.6rem;
+
+  @include mq(pc){
+    min-width: 31rem;
+    column-gap: 2.4rem;
+  }
+}
+
+.p-clatuuMechanism__itemHead {
+  display: flex;
+  align-items: center;
+  gap: 0 1.6rem;
+
+  @include mq(pc){
+    gap: 0 3.2rem;
+  }
+}
+
+.p-clatuuMechanism__itemNum {
+  padding-top: 0.6rem;
+  padding-bottom: 0.2rem;
+  padding-right: 1.6rem;
+  border-right: 1px solid cl(exo);
+  font-family: $font-cinzel;
+  font-size: 4rem;
+  color: cl(exo);
+  line-height: 4.1rem;
+
+  @include mq(pc){
+    padding-right: 1.8rem;
+    font-size: 4.8rem;
+  }
+
+  &::before {
+    content: "STEP";
+    display: block;
+    margin-bottom: 0.7rem;
+    text-align: center;
+    line-height: 1;
+    font-size: 1.8rem;
+  }
+}
+
+
+.p-clatuuMechanism__itemText {
+  font-size: 1.5rem;
+  line-height: 2.8rem;
+}
+
+.p-clatuuMechanism__itemFigure {
+  img {
+    height: 13.6rem;
+    width: auto;
+    @include mq(pc){
+      height: 16.8rem;
+    }
+  }
+
+  figcaption {
+    margin-top: 1.0rem;
+    text-align: center;
+    font-size: 1.3rem;
+    @include mq(tab){
+      font-size: 1.5rem;
+    }
+    a {
+      text-decoration: underline;
+      color: #57ACD1;
+    }
+  }
+}
+
+.p-clatuuMechanism__text {
+  margin-top: 3rem;
+  margin-inline: auto;
+  max-width: 88.3rem;
+  line-height: 3.6rem;
+  font-size: 1.6rem;
+
+  @include mq(tab){
+    margin-top: 4rem;
+    font-size: 1.8rem;
+  }
+}
+
+
+.p-clatuuMechanism__recommend {
+  position: relative;
+  margin-top: 3rem;
+  border: 0.1rem solid cl(exo);
+  padding: 4rem 2rem;
+  @include mq(tab){
+    margin-top: 8rem;
+    padding: 5rem 5rem;
+  }
+  @include mq(pc){
+    padding: 5rem 8rem;
+  }
+  
+
+  &::after {
+    z-index: -1;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background-color: transparent;
+    border: 1px solid #4BCCBE;
+  }
+}
+
+.p-clatuuMechanism__recommendTitle {
+  text-align: center;
+  padding-bottom: 0.7rem;
+  border-bottom: 0.1rem solid cl(exo);
+  line-height: 6.4rem;
+  font-weight: 700;
+  font-size: 2.8rem;
+  color: cl(exo);
+  @include mq(tab){
+    padding-bottom: 1.2rem;
+    font-size: 3.2rem;
+  }
+}
+
+.p-clatuuMechanism__recommendList {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0.8rem 8rem;
+
+  @include mq(tab){
+    gap: 2.4rem 8rem;
+    max-width: 81.4rem;
+    margin-inline: auto;
+    margin-top: 4rem;
+    column-gap: 4rem;
+    max-height: 22rem;
+  }
+  
+  @include mq(pc){
+    max-height: 28rem;
+  }
+}
+
+.p-clatuuMechanism__recommendItem {
+  display: flex;
+  align-items: start;
+  column-gap: 0.8rem;
+
+  font-weight: 700;
+  line-height: 2.6rem;
+  font-size: 1.6rem;
+  @include mq(pc){
+    column-gap: 1.0rem;
+    font-size: 2rem;
+  }
+  
+
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 2.6rem;
+    height: 2.6rem;
+    background-image: url(../../dist/img/icon/icon_liststyle_blue.png);
+    flex-shrink: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    @include mq(pc){
+      width: 3.7rem;
+      height: 3.7rem;
+    }
+  }
+}
+
+
+.p-clatuuChange {
+
+}   
+
+.p-clatuuChange__inner {
+
+}
+
+.p-clatuuChange__area {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem 4rem;
+  
+  @include mq(tab) {
+    margin-top: 4rem;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+}
+
+.p-clatuuChange__about {
+  @include mq(tab){
+    margin-bottom: 2.3rem;
+    min-width: 35.7rem;
+  }
+}
+
+.p-clatuuChange__aboutList {
+  display: flex;
+  align-items: center;
+  column-gap: 1.0rem;
+
+  font-weight: 700;
+  font-size: 1.6rem;
+  @include mq(tab){
+    font-size: 2rem;
+  }
+
+  &:not(:first-child) {
+    margin-top: 1.2rem;
+    @include mq(tab){
+      margin-top: 2.4rem;
+    }
+  }
+  
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 2.6rem;
+    height: 2.6rem;
+    background-image: url(../../dist/img/icon/icon_liststyle_pink.png);
+    flex-shrink: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    @include mq(pc){
+      width: 3.7rem;
+      height: 3.7rem;
+    }
+  }
+}
+
+
+.p-clatuuChange__figure {
+  margin: 0 -2.4rem;
+  width: calc(100% + 2.4rem * 2);
+  @include mq(tab){
+    margin: 0;
+    width: 100%;
+    flex: 1;
+  }
+}
+
+.p-clatuuChange__text {
+  margin-top: 3rem;
+  text-align: center;
+  line-height: 3.4rem;
+  font-size: 1.6rem;
+
+  @include mq(tab){
+    font-size: 2rem;
+    margin-top: 4rem;
+  }
+}
+
+.p-clatuuChange__list {
+  margin-top: 3rem;
+  @include mq(tab){
+    margin-top: 5rem;
+  }
+}
+
+.p-clatuuChange__item {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem 5rem;
+  
+  @include mq(tab) {
+    flex-direction: row;
+    &:nth-child(odd) {
+      flex-direction: row-reverse;
+    }
+  }
+
+  &:not(:first-of-type) {
+    margin-top: 3rem;
+    @include mq(tab){
+      margin-top: 5rem;
+    }
+  }
+}
+
+.p-clatuuChange__itemFigure {
+  @include mq(tab){
+    width: 44.6429%;
+  }
+
+  figcaption {
+    text-align: center;
+  }
+} 
+
+.p-clatuuChange__itemDesc {
+  @include mq(tab){
+    width: 50%;
+  }
+}
+
+.p-clatuuChange__itemHead {
+  display: flex;
+  align-items: center;
+  gap: 0 1.6rem;
+
+  @include mq(tab){
+    gap: 0 1.8rem;
+  }
+}
+
+.p-clatuuChange__itemNum {
+  padding-top: 0.6rem;
+  padding-bottom: 0.2rem;
+  padding-right: 1.6rem;
+  border-right: 1px solid cl(exo);
+  font-family: $font-cinzel;
+  font-size: 4rem;
+  color: cl(exo);
+  line-height: 4.1rem;
+  
+  @include mq(tab){
+    padding-right: 1.8rem;
+    font-size: 4.8rem;
+  }
+}
+
+.p-clatuuChange__itemTitle {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: cl(exo);
+  @include mq(tab){
+    font-size: 2.2rem;
+  }
+
+  br {
+    display: block;
+    @include mq(tab){
+      display: none;
+    }
+  }
+}
+
+.p-clatuuChange__itemText {
+  margin-top: 1.6rem;
+  line-height: 2.8rem;
+  font-size: 1.5rem;
+  @include mq(tab){
+    margin-top: 3.0rem;
+  }
+}
+
+// クールスカルプティングとの違い
+.p-clatuuDifference {
+  padding-top: 6rem;
+  @include mq(tab){
+    padding-top: 8rem;
+  }
+}
+
+.p-clatuuDifference__inner {
+
+}
+
+.p-clatuuDifference__body {
+  margin-top: 3.2rem;
+  @include mq(tab){
+    margin-top: 4rem;
+  }
+}
+
+.p-clatuuDifference__area {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 3.2rem 3.6rem;
+  
+  @include mq(tab) {
+    flex-direction: row;
+  
+  }
+}
+
+.p-clatuuDifference__figure {
+  @include mq(tab){
+    width: 57.1429%;
+  }
+
+  img {
+    border: 1px solid #000;
+  }
+
+  figcaption {
+    text-align: center;
+    margin-top: 0.8rem;
+    @include mq(tab){
+      margin-top: 1.0rem;
+    }
+  }
+}
+
+.p-clatuuDifference__text {
+  font-size: 1.5rem;
+  line-height: 3.6rem;
+  @include mq(tab){
+    width: 39.5536%;
+    font-size: 1.8rem;
+  }
+}
+
+// クラツーアルファの適応部位
+.p-clatuuPart {
+  margin-top: 6rem;
+  @include mq(tab){
+    margin-top: 8rem;
+  }
+}
+
+.p-clatuuPart__inner {
+
+}
+
+.p-clatuuPart__body {
+  margin-top: 3rem;
+  @include mq(tab){
+    margin-top: 4rem;
+  }
+}
+
+.p-clatuuPart__text {
+  font-size: 1.6rem;
+  line-height: 3.6rem;
+  @include mq(tab){
+    text-align: center;
+    font-size: 1.8rem;
+  }
+}
+
+.p-clatuuPart__figure {
+  max-width: 63rem;
+  margin-top: 3rem;
+  margin-inline: auto;
+  
+  @include mq(tab){
+    margin-top: 2rem;
+  }
+}
+
+// 部位
+.p-clatuuCase {
+  padding-top: 6rem;
+  @include mq(tab){
+    padding-top: 8rem;
+  }
+}
+
+.p-clatuuCase__inner {
+
+}
+
+.p-clatuuCase__body {
+}
+
+.p-clatuuCase__area {
+  margin-top: 3rem;
+  @include mq(tab){
+    margin-top: 4rem;
+  }
+}
+
+.p-clatuuCase__subtitle {
+  display: flex;
+  align-items: center;
+  column-gap: 1.0rem;
+  line-height: 5.13rem;
+  font-weight: 700;
+  font-size: 2.2rem;
+  color: cl(exo);
+
+  @include mq(tab){
+    column-gap: 1.3rem;
+    font-size: 3rem;
+  }
+
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-image: url(../img/icon/icon_menu_mark.jpg);
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    @include mq(tab){
+      width: 2.7rem;
+      height: 2.7rem;
+    }
+  }
+}
+
+.p-clatuuCase__list {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem 6rem;
+
+  @include mq(tab) {
+    margin-top: 2rem;
+    flex-direction: row;  
+  }
+}
+
+.p-clatuuCase__item {
+  width: 100%;
+  @include mq(tab){
+    width: calc((100% - 6rem) / 2);
+  }
+}
+
+.p-clatuuCase__figures {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem 0.5rem;
+  
+  @include mq(tab) {
+    flex-direction: row;
+  }
+}
+
+.p-clatuuCase__figure {
+  // width: 70%;
+  width: 80%;
+  margin-inline: auto;
+  @include mq(tab){
+    width: calc((100% - 0.5rem) / 2);
+  }
+
+  figcaption {
+    margin-top: 0.4rem;
+    text-align: center;
+    font-size: 1.5rem;
+    @include mq(tab){
+      margin-top: 1.0rem;
+    }
+  }
+}
+
+.p-clatuuCase__desc {
+  margin-top: 0.5rem;
+  padding: 2rem 1rem;
+  border: 0.1rem solid cl(exo);
+  @include mq(tab){
+    margin-top: 2rem;
+    padding: 3.2rem;
+  }
+}
+
+.p-clatuuCase__text {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: cl(exo);
+
+  &:not(:first-child) {
+    margin-top: 1.2rem;
+    @include mq(tab){
+      margin-top: 2rem;
+    }
+  }
+} 
+
+.p-clatuuCase__btn {
+  margin-top: 3rem;
+  @include mq(tab){
+    margin-top: 4rem;
+  }
+}
+
+.p-clatuuCase__btnLink {
+  width: unquote('min(43.5rem, 100%)');
+  margin-inline: auto;
+  background-color: cl(exo);
+}
+
+.p-clatuuCase__quote {
+  margin-top: 1rem;
+  line-height: 2.8rem;
+  word-break: break-all;
+  font-size: 1.3rem;
+
+  @include mq(tab){
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+  a {
+    text-decoration: underline;
+    color: #57ACD1;
+  }
+}
+
+// リエートクリニックが選ばれる理由
+.p-clatuuReason {
+  padding-top: 6rem;
+  @include mq(tab){
+    padding-top: 8rem;
+  }
+}
+
+.p-clatuuReason__inner {
+
+}
+
+.p-clatuuReason__body {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem 8rem;
+
+  @include mq(tab){
+    flex-direction: row;
+    margin-top: 4rem;
+  }
+} 
+
+.p-clatuuReason__figure {
+  border-radius: 0.4rem;
+  overflow: hidden;
+  // width: 70%;
+  width: 80%;
+  margin-inline: auto;
+
+  @include mq(tab){
+    width: 42.8571%;
+  }
+}
+
+.p-clatuuReason__desc {
+  @include mq(tab){
+    width: 49.6429%;
+  }
+}
+
+.p-clatuuReason__text {
+  font-size: 1.5rem;
+  line-height: 3.8rem;
+  letter-spacing: 0.02em;
+}
+
+.p-clatuuReason__btn {
+  margin-top: 3rem;
+}
+
+.ReasonCase__btnLink {
+  width: unquote('min(43.5rem, 100%)');
+  background-color: cl(exo);
+}
+
+
+// 料金
+.p-clatuuPrice {
+  padding-top: 6rem;
+  @include mq(tab){
+    padding-top: 8rem;
+  }
+}
+
+.p-clatuuPrice__inner {
+
+}
+
+.p-clatuuPrice__body {
+  margin-top: 3rem;
+  @include mq(tab){
+    margin-top: 4rem;
+  }
+}
+
+.p-clatuuPrice__text {
+  line-height: 3rem;
+  font-size: 1.6rem;
+  @include mq(tab){
+    text-align: center;
+    line-height: 4rem;
+    font-size: 2.2rem;
+  }
+}
+
+.p-clatuuPrice__cta {
+  margin-top: 3rem;
+  @include mq(tab){
+    margin-top: 4rem;
+  }
+}
+
+//施術の流れ
+.p-clatuuFlow {
+  padding-top: 6rem;
+  @include mq(tab){
+    padding-top: 8rem;
+  }
+}
+
+.p-clatuuFlow__inner {
+
+}
+
+.p-clatuuFlow__body {
+  margin-top: 3rem;
+  @include mq(tab){
+    margin-top: 4rem;
+  }
+}
+
+.p-clatuuFlow__list {
+  width: unquote('min(95rem, 100%)');
+  margin-inline: auto;
+}
+
+.p-clatuuFlow__item {
+  padding: 1.6rem;
+  background-color: cl(exolight);
+  @include mq(tab){
+    padding: 2.0rem;
+  }
+
+  &:not(:first-child) {
+    margin-top: 2rem;
+    @include mq(tab){
+      margin-top: 4rem;
+    }
+  }
+} 
+
+
+.p-clatuuFlow__itemIndex {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  column-gap: 1.6rem;
+  @include mq(tab){
+    column-gap: 2.4rem;
+  }
+}
+
+.p-clatuuFlow__itemHead {
+  display: flex;
+  align-items: center;
+  gap: 0 1.6rem;
+
+  @include mq(pc){
+    gap: 0 3.2rem;
+  }
+}
+
+.p-clatuuFlow__itemNum {
+  padding-top: 0.6rem;
+  padding-bottom: 0.2rem;
+  padding-right: 1.6rem;
+  border-right: 1px solid cl(exo);
+  font-family: $font-cinzel;
+  font-size: 4rem;
+  color: #BCBCBC;
+  line-height: 4.1rem;
+
+  @include mq(pc){
+    padding-right: 2.4rem;
+    font-size: 4.8rem;
+  }
+
+  &::before {
+    content: "STEP";
+    display: block;
+    margin-bottom: 0.7rem;
+    text-align: center;
+    line-height: 1;
+    font-size: 1.8rem;
+  }
+}
+
+.p-clatuuFlow__itemTitle {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: cl(exo);
+  @include mq(tab){
+    font-size: 2rem;
+  }
+}
+
+.p-clatuuFlow__itemText {
+  margin-top: 1.6rem;
+  line-height: 2;
+  font-size: 1.4rem;
+  @include mq(tab){
+    margin-top: 2.4rem;
+  }
+}
+
+// 安全性について
+.p-clatuuSafety {
+  padding-top: 6rem;
+  @include mq(tab){
+    padding-top: 8rem;
+  }
+}
+
+.p-clatuuSafety__inner {
+
+}
+
+.p-clatuuSafety__body {
+  margin-top: 3rem;
+  width: unquote('min(92rem, 100%)');
+  margin-inline: auto;
+  
+  @include mq(tab){
+    margin-top: 4rem;
+  }
+}
+
+.p-clatuuSafety__text {
+  line-height: 2.8rem;
+  font-size: 1.5rem;
+}
+
+.p-clatuuSafety__attention {
+  margin-top: 2rem;
+  line-height: 2.8rem;
+  font-size: 1.3rem;
+}
+
+.p-clatuuSafety__btn {
+  margin-top: 3rem;
+  @include mq(tab){
+    margin-top: 4rem;
+  }
+}
+
+.p-clatuuSafety__btnLink {
+  width: unquote('min(43.5rem, 100%)');
+  margin-inline: auto;
+  background-color: cl(exo);
+}
+
