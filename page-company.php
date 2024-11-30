@@ -42,6 +42,10 @@
               <dt>事業内容</dt>
               <dd>クリニック運営</dd>
             </div>
+            <div class="p-singleMenu__detailRow">
+              <dt>お問い合わせ先</dt>
+              <dd><a href="mailto:info@kounkai.clinic" target="_blank">info@kounkai.clinic</a></dd>
+            </div>
           </dl>
         </div>
       </div>
