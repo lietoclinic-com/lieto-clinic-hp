@@ -311,7 +311,7 @@
       <!-- CTA -->
       <div class="p-singleMenu__cta l-inner">
         <?php get_template_part('template-parts/part', 'cta'); ?>
-      </div>
+      </div>詳細情報とリスク・副作用
 
       <!-- 詳細情報とリスク・副作用 -->
       <div class="p-singleMenu__area l-inner _exo">

@@ -2,7 +2,7 @@
   <div class="p-cta__bg">
 
     <div class="p-cta__campaign">
-      <div class="p-cta-campaign__read">新店舗会員キャンペーン</div>
+      <div class="p-cta-campaign__read">新店舗開院キャンペーン</div>
       <p class="p-cta-campaign__text">
         <span class="big">12</span>
         ヶ月分の医療ダイエットが
