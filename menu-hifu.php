@@ -227,7 +227,7 @@
               <dd>10～15分程度</dd>
             </div>
             <div class="p-singleMenu__detailRow">
-              <dt>麻酔・通院</dt>
+              <dt>通院</dt>
               <dd>通院の必要は無し</dd>
             </div>
             <div class="p-singleMenu__detailRow">

@@ -182,13 +182,11 @@
 
                         <figure class="p-clatuuFeature__itemFigure">
                           <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/clatuu-a_feature_04.png" alt="運動によるダイエットでは難しい部分痩せを実現" decoding="async" loading="lazy">
-                          <figcaption>[画像引用] <a href="https://clatuu.com/wp-content/uploads/sites/436/2022/02/CP_L02_EN_191002_B-type.pdf" target="_blank">https://clatuu.com/wp-content/uploads/sites/436/2022/02/CP_L02_EN_191002_B-type.pdf</a></figcaption>
+                          <figcaption>[画像引用] <a href="https://clatuu.com/for-physicians/" target="_blank">https://clatuu.com/for-physicians/</a></figcaption>
                         </figure>
                       </div>
                     </div>
                   </li>
-
-
                 </ul>
               </div>
             </div>
@@ -379,13 +377,51 @@
           <h2 class="p-singleMenu__title">クールスカルプティングとの違い</h2>
           <div class="p-clatuuDifference__body">
             <div class="p-clatuuDifference__area">
-              <figure class="p-clatuuDifference__figure">
+              <!-- <figure class="p-clatuuDifference__figure">
                 <picture>
                   <source media="(max-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/clatuu-a_difference_sp.png">
                   <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/clatuu-a_difference.png" alt="クールスカルプティングとの違い" decoding="async" loading="lazy">
                 </picture>
                 <figcaption>[画像引用] <a href="https://www.coolsculpting.jp/hcp/" target="_blank">https://www.coolsculpting.jp/hcp/</a></figcaption>
-              </figure>
+              </figure> -->
+              <table class="p-clatuuDifference__table">
+                <tr>
+                  <th></th>
+                  <td class="p-clatuuDifference__tableImg">
+                    <span>クールスカルプティング エリート®️</span>
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/clatuu-a_device_01.png" alt="クールスカルプティング エリート®️">
+                  </td>
+                  <td class="p-clatuuDifference__tableImg">
+                    <span>クラツーアルファ</span>
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/clatuu-a_device_02.png" alt="クラツーアルファ">
+                  </td>
+                </tr>
+                <tr>
+                  <th>冷却範囲</th>
+                  <td>360°全方位</td>
+                  <td>360°全方位</td>
+                </tr>
+                <tr>
+                  <th>ハンドピース</th>
+                  <td>2つ</td>
+                  <td>2つ</td>
+                </tr>
+                <tr>
+                  <th>適応部位</th>
+                  <td>腹部、太もも、二の腕、背中、顔など</td>
+                  <td>腹部、太もも、二の腕、背中、顔など</td>
+                </tr>
+                <tr>
+                  <th>メーカー</th>
+                  <td>アラガン社</td>
+                  <td>CLASSYS社</td>
+                </tr>
+                <tr>
+                  <th>承認</th>
+                  <td>米国FDA・厚生労働省</td>
+                  <td>⁨⁩韓国KFDA・欧州CEマーク</td>
+                </tr>
+              </table>
               <div class="p-clatuuDifference__text">
                 クールスカルプティング エリート®︎とクラツーアルファは、どちらも2つのハンドピースを用いて360°全方位冷却ができる医療痩身機器です。対応部位も同じですが、メーカーや承認を出した国と機関が異なるという違いがあります。<br>
                 <br>
@@ -746,12 +782,12 @@
                     <div class="p-clatuuFlow__itemNum">05</div>
                   </div>
                   <div class="p-clatuuFlow__itemTitle">
-                  保温・マッサージ
+                  マッサージ
                   </div>
                 </div>
                 <div class="p-clatuuFlow__itemText">
-                全体を冷却した後は保温とマッサージをして完了です。<br>
-                所要時間は施術範囲によって異なりますが、目安は40〜80分程度です。
+                全体を冷却した後はマッサージをして完了です。<br>
+                所要時間は施術範囲によって異なりますが、目安は20〜40分程度です。
                 </div>
               </li>
             </ul>
@@ -772,11 +808,11 @@
           <dl class="p-singleMenu__detail">
             <div class="p-singleMenu__detailRow">
               <dt>施術時間</dt>
-              <dd>40分～80分　※治療範囲により異なります。</dd>
+              <dd>20分～40分　※治療範囲により異なります。</dd>
             </div>
             <div class="p-singleMenu__detailRow">
               <dt>麻酔・通院</dt>
-              <dd>1ヶ月～3ヶ月に1回を数回　※治療部位・ご状態により異なります。</dd>
+              <dd>1～3ヶ月に1回を数回　※治療部位・ご状態により異なります。</dd>
             </div>
             <div class="p-singleMenu__detailRow">
               <dt>ダウンタイム</dt>

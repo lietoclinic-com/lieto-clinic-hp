@@ -9987,22 +9987,40 @@ figure figcaption a {
   }
 }
 
+.p-clatuuDifference__table {
+  margin: 0 -2.5rem;
+  width: calc(100% + 5rem);
+  border: 0.1rem solid #333;
+}
 @media screen and (min-width: 769px) {
-  .p-clatuuDifference__figure {
+  .p-clatuuDifference__table {
+    margin: 0;
     width: 57.1429%;
   }
 }
-.p-clatuuDifference__figure img {
-  border: 1px solid #000;
+.p-clatuuDifference__table tr {
+  border-top: 0.1rem solid #333;
 }
-.p-clatuuDifference__figure figcaption {
+.p-clatuuDifference__table th {
+  background-color: #E6E6E6;
+  width: 24.5%;
+  font-size: 1.5rem;
+}
+.p-clatuuDifference__table td {
+  padding: 0.8rem;
+  line-height: 1.1;
+  border-left: 0.1rem solid #333;
+  width: 37.75%;
   text-align: center;
-  margin-top: 0.8rem;
+  font-size: 1.5rem;
 }
-@media screen and (min-width: 769px) {
-  .p-clatuuDifference__figure figcaption {
-    margin-top: 1rem;
-  }
+.p-clatuuDifference__table .p-clatuuDifference__tableImg span {
+  text-align: center;
+  display: block;
+}
+.p-clatuuDifference__table .p-clatuuDifference__tableImg img {
+  width: auto;
+  height: 16rem;
 }
 
 .p-clatuuDifference__text {
@@ -11618,6 +11636,10 @@ figure figcaption a {
     line-height: 30px;
     padding-top: 0.8rem;
   }
+}
+.p-faq__answerText a {
+  text-decoration: underline;
+  color: #1F73B7;
 }
 
 .p-faq__answerImg {

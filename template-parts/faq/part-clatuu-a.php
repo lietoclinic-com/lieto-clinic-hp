@@ -4,7 +4,7 @@
     <div class="p-faq__questionDesc">
       <div class="p-faq__questionMark">Q</div>
       <span class="p-faq__questionText" itemprop="name">
-      施術後どれくらいで効果がでますか？
+      クラツーアルファは施術後どれくらいで効果がでますか？
       </span>
     </div>
     <span class="p-faq__questionOpen"></span>
@@ -24,7 +24,7 @@
     <div class="p-faq__questionDesc">
       <div class="p-faq__questionMark">Q</div>
       <span class="p-faq__questionText" itemprop="name">
-      どれくらいの頻度が効果がでやすいですか？
+      クラツーアルファはどれくらいの頻度で行うと効果が出ますか？
       </span>
     </div>
     <span class="p-faq__questionOpen"></span>
@@ -44,7 +44,7 @@
     <div class="p-faq__questionDesc">
       <div class="p-faq__questionMark">Q</div>
       <span class="p-faq__questionText" itemprop="name">
-      1回でも効果はありますか？
+      クラツーアルファは1回でも効果はありますか？
       </span>
     </div>
     <span class="p-faq__questionOpen"></span>
@@ -64,7 +64,7 @@
     <div class="p-faq__questionDesc">
       <div class="p-faq__questionMark">Q</div>
       <span class="p-faq__questionText" itemprop="name">
-        痛みはありますか？
+      クラツーアルファは痛みがありますか？
       </span>
     </div>
     <span class="p-faq__questionOpen"></span>
@@ -73,13 +73,13 @@
     <div class="p-faq__answerDesc">
       <div class="p-faq__answerMark">A</div>
       <span class="p-faq__answerText" itemprop="text">
-      開始直後は強く吸引される感覚があり約10分間は違和感や不快感があります。その後は冷却による麻痺で感覚は和らぎ冷たさだけを感じます。
+      開始直後は強く吸引される感覚があり、約10分間は違和感や不快感があります。その後は冷却による麻痺で感覚は和らぎ、冷たさだけを感じます。
       </span>
     </div>
   </div>
 </div>
 
-<div class="p-faq__box js-faqAccordion" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+<!-- <div class="p-faq__box js-faqAccordion" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
   <div class="p-faq__question">
     <div class="p-faq__questionDesc">
       <div class="p-faq__questionMark">Q</div>
@@ -97,14 +97,14 @@
       </span>
     </div>
   </div>
-</div>
+</div> -->
 
 <div class="p-faq__box js-faqAccordion" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
   <div class="p-faq__question">
     <div class="p-faq__questionDesc">
       <div class="p-faq__questionMark">Q</div>
       <span class="p-faq__questionText" itemprop="name">
-      他の施術と併用できますか？
+      クラツーアルファは他の施術と併用できますか？
       </span>
     </div>
     <span class="p-faq__questionOpen"></span>
@@ -113,7 +113,7 @@
     <div class="p-faq__answerDesc">
       <div class="p-faq__answerMark">A</div>
       <span class="p-faq__answerText" itemprop="text">
-      他の施術プログラムとの併用は可能となります。
+      他の施術プログラムとの併用は可能です。
       </span>
     </div>
   </div>
@@ -124,7 +124,7 @@
     <div class="p-faq__questionDesc">
       <div class="p-faq__questionMark">Q</div>
       <span class="p-faq__questionText" itemprop="name">
-      生理中の施術は可能ですか？
+      生理中でもクラツーアルファは受けられますか？
       </span>
     </div>
     <span class="p-faq__questionOpen"></span>
@@ -133,13 +133,13 @@
     <div class="p-faq__answerDesc">
       <div class="p-faq__answerMark">A</div>
       <span class="p-faq__answerText" itemprop="text">
-      生理中の施術は可能ですが、生理中や体調不良によって施術を受けて頂けない場合、プログラムの入れ替えを行い、最適な施術計画をご提案させて頂きます。
+      生理中でもクラツーアルファの施術は可能ですが、生理中や体調不良によって施術を受けて頂けない場合、プログラムの入れ替えを行い、最適な施術計画をご提案させて頂きます。
       </span>
     </div>
   </div>
 </div>
 
-<div class="p-faq__box js-faqAccordion" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+<!-- <div class="p-faq__box js-faqAccordion" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
   <div class="p-faq__question">
     <div class="p-faq__questionDesc">
       <div class="p-faq__questionMark">Q</div>
@@ -157,9 +157,9 @@
       </span>
     </div>
   </div>
-</div>
+</div> -->
 
-<div class="p-faq__box js-faqAccordion" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+<!-- <div class="p-faq__box js-faqAccordion" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
   <div class="p-faq__question">
     <div class="p-faq__questionDesc">
       <div class="p-faq__questionMark">Q</div>
@@ -177,7 +177,7 @@
       </span>
     </div>
   </div>
-</div>
+</div> -->
 
 <div class="p-faq__text">
 ・CLATUU α（クラツーアルファ）について<br>

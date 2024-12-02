@@ -846,22 +846,52 @@ figure {
   }
 }
 
-.p-clatuuDifference__figure {
+.p-clatuuDifference__table {
+  margin: 0 -2.5rem;
+  width: calc(100% + 2.5rem * 2);
+  border: 0.1rem solid #333;
   @include mq(tab){
+    margin: 0;
     width: 57.1429%;
   }
 
-  img {
-    border: 1px solid #000;
+  tr {
+    border-top: 0.1rem solid #333;
   }
 
-  figcaption {
+  th {
+    background-color: #E6E6E6;
+    width: 24.5%;
+    font-size: 1.5rem;
+  }
+
+  td {
+    padding: 0.8rem;
+    line-height: 1.1;
+    border-left: 0.1rem solid #333;
+    width: 37.75%;
     text-align: center;
-    margin-top: 0.8rem;
-    @include mq(tab){
-      margin-top: 1.0rem;
+    font-size: 1.5rem;
+  }
+
+  .p-clatuuDifference__tableImg {
+    span {
+      text-align: center;
+      display: block;
+    }
+    img {
+      width: auto;
+      height: 16rem;
     }
   }
+
+  // figcaption {
+  //   text-align: center;
+  //   margin-top: 0.8rem;
+  //   @include mq(tab){
+  //     margin-top: 1.0rem;
+  //   }
+  // }
 }
 
 .p-clatuuDifference__text {

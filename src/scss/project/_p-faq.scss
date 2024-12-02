@@ -194,6 +194,11 @@
     line-height: 30px;
     padding-top: 0.8rem;
   }
+
+  a {
+    text-decoration: underline;
+    color: cl(blue);
+  }
 }
 
 .p-faq__answerImg {
