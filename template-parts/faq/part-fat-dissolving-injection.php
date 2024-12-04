@@ -140,3 +140,30 @@
     </div>
   </div>
 </div> -->
+
+<div class="p-faq__text">
+・脂肪溶解注射「カベリン」について<br>
+本剤は国内未承認医薬品であり、同一の性能を有する国内承認医薬品等はありません。<br>
+・入手経路等について<br>
+本剤は医薬品医療機器等法上の承認を得ていないものですが、医師等の個人輸入により適法な輸入許可を得ています。わが国においては、未承認医薬品を医師の責任のもとで使用することができます。<br>
+・諸外国の安全性等に係る情報について<br>
+諸外国で本剤による重篤な安全性情報の報告はありません。<br>
+本剤は米国FDA（アメリカ食品医薬品局）認証医薬品です。韓国食品医薬品安全処（KFDA）でも承認を受けています。<br>
+<br>
+<br>
+【参照元】<br>
+・Kabellineコントアセラム<br>
+・TNS「FatX Core」<br>
+・BNLS global「BNLS Ultimate」<br>
+<br>
+【未承認製剤に関するお問合せ】<br>
+カベリン（DEXLEVO社）<br>
+E-mail：diana.kim@dexlevo.com<br>
+電話番号：+82-2-6952-8780<br>
+<br>
+BNLS（株式会社BNLS）<br>
+https://bnls-global.com/?page_id=3156&lang=ja<br>
+<br>
+FAT X Core（TNS社）<br>
+電話番号：027800705
+</div>

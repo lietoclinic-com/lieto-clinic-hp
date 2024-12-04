@@ -1,0 +1,871 @@
+// クラツーアルファ
+.p-injectionFigure {
+  width: 100%;
+  margin-top: -2rem;
+  @include mq(tab){
+    margin-top: -4rem;
+  }
+
+  img {
+    max-height: 43rem;
+    object-fit: cover;
+
+    @media screen and (min-width: 1800px) {
+      max-height: initial;
+      object-fit: contain;
+    }
+  }
+}
+
+figure {
+  figcaption {
+    word-break: break-all;
+    font-size: 1.3rem;
+    @include mq(tab){
+      font-size: 1.5rem;
+    }
+    a {
+      color: #57ACD1;
+      text-decoration: underline;
+    }
+  }
+}
+
+.p-injectionMenu {
+
+}
+
+.p-injectionMenu__list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2.7rem 1.5rem;
+
+  @include mq(tab){
+    column-gap: 5.5rem;
+  }
+}
+
+.p-injectionMenu__item {
+  width: calc((100% - 1.5rem) / 2);
+  border-bottom: 0.1rem solid cl(brown);
+  padding-bottom: 1rem;
+  @include mq(tab){
+    width: calc((100% - 5.5rem * 2) / 3);
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 0.6rem;
+    height: 4.0rem;
+    line-height: 1;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: cl(brown);
+
+    @include mq(tab){
+      padding-right: 0.75rem;
+      font-size: 1.8rem;
+    }
+
+    &::after {
+      content: '';
+      display: inline-block;
+      width: 0.8rem;
+      height: 1.6rem;
+      background-image: url(../../dist/img/icon/arrow_line_brown.png);
+      flex-shrink: 0;
+      background-size: contain;
+      background-repeat: no-repeat;
+      
+      @include mq(tab){
+        width: 1.2rem;
+        height: 2.4rem;
+      }
+    }
+  }
+}
+
+
+.p-injectionAbout {
+  padding-top: 6rem;
+  @include mq(tab){
+    padding-top: 8rem;
+  }
+}
+
+.p-injectionAbout__inner {
+
+}
+
+.p-injectionAbout__head {
+
+}
+
+.p-injectionAbout__body {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem 6rem;
+  
+  @include mq(tab) {
+    flex-direction: row;
+    margin-top: 4rem;
+  }
+}
+
+.p-injectionAbout__figure {
+  width: 100%;
+  @include mq(tab){
+    width: 44.6429%;
+  }
+}
+
+.p-injectionAbout__desc {
+  width: 100%;
+  line-height: 2.8rem;
+  @include mq(tab){
+    width: 50%;
+  }
+}
+
+// MECHANISM
+.p-injectionMechanism {
+  padding: 4.2rem 0 0rem;
+  @include mq(tab){
+    padding: 5rem 0 4rem;
+  }
+}
+
+.p-injectionMechanism__inner {
+
+}
+
+.p-injectionMechanism__head {
+
+}
+
+.p-injectionMechanism__body {
+  margin-top: 3rem;
+  @include mq(tab){
+    margin-top: 4rem;
+  }
+}
+
+.p-injectionMechanism__figure {
+  max-width: 45rem;
+  width: 88%;
+  margin-inline: auto;
+  @include mq(tab){
+    max-width: 84rem;
+  }
+}
+
+.p-injectionMechanism__recommend {
+  position: relative;
+  margin-top: 3rem;
+  background-color: #fff;
+  border: 0.1rem solid cl(brown);
+  padding: 4rem 1rem 4rem 2rem;
+  @include mq(tab){
+    margin-top: 4rem;
+    padding: 5rem 5rem;
+  }
+  @include mq(pc){
+    padding: 5rem 8rem;
+  }
+  
+  &::after {
+    z-index: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background-color: transparent;
+    border: 0.1rem solid cl(brown);
+  }
+}
+
+.p-injectionMechanism__recommendTitle {
+  text-align: center;
+  padding-bottom: 0.7rem;
+  border-bottom: 0.1rem solid cl(brown);
+  line-height: 6.4rem;
+  font-weight: 700;
+  font-size: 2.8rem;
+  color: cl(brown);
+  @include mq(tab){
+    padding-bottom: 1.2rem;
+    font-size: 3.2rem;
+  }
+}
+
+.p-injectionMechanism__recommendList {
+  width: fit-content;
+  margin-top: 2rem;
+
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0.8rem 8rem;
+
+  @include mq(tab){
+    width: 100%;
+    gap: 2.4rem 8rem;
+    max-width: 72rem;
+    padding-left: 2rem;
+    margin-top: 4rem;
+    column-gap: 4rem;
+    max-height: 22rem;
+  }
+  
+  @include mq(pc){
+    max-height: 28rem;
+  }
+}
+
+.p-injectionMechanism__recommendItem {
+  display: flex;
+  align-items: center;
+  column-gap: 0.8rem;
+
+  font-weight: 700;
+  line-height: 2.6rem;
+  font-size: 1.6rem;
+  @include mq(pc){
+    column-gap: 1.0rem;
+    font-size: 2rem;
+  }
+  
+
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 2.6rem;
+    height: 2.6rem;
+    background-image: url(../../dist/img/icon/icon_liststyle_white.png);
+    flex-shrink: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    @include mq(pc){
+      width: 3.7rem;
+      height: 3.7rem;
+    }
+  }
+}
+
+.p-singleMenu__con {
+  margin: -5rem -2.5rem 0;
+}
+
+// 脂肪溶解注射のメリット
+.p-injectionMerit {
+  padding-top: 6rem;
+  @include mq(tab){
+    padding-top: 3rem;
+  }
+
+  +.p-injectionMerit {
+    padding-top: 7.6rem;
+    @include mq(tab){
+      padding-top: 8rem;
+    }
+  }
+}
+
+.p-injectionMerit__inner {
+
+}
+
+.p-injectionMerit__head {
+
+}
+
+.p-injectionMerit__body {
+  margin-top: 4.6rem;
+  @include mq(tab){
+    margin-top: 4rem;
+  }
+}
+
+.p-injectionMerit__list {
+
+}
+
+.p-injectionMerit__item {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem 5rem;
+  
+  @include mq(tab) {
+    flex-direction: row;
+    &:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+
+    &._reverse {
+      flex-direction: row-reverse;
+    }
+
+    ._kabeline & {
+      flex-direction: row-reverse;
+      &:nth-child(even) {
+        flex-direction: row;
+      }
+    }
+  }
+
+  &:not(:first-of-type) {
+    margin-top: 5.2rem;
+    @include mq(tab){
+      margin-top: 6rem;
+    }
+  }
+}
+
+.p-injectionMerit__itemFigure {
+  order: 2;
+  @include mq(tab){
+    width: 44.6429%;
+  }
+} 
+
+.p-injectionMerit__itemDesc {
+  display: contents;
+  @include mq(tab){
+    display: block;
+    width: 50%;
+  }
+}
+
+.p-injectionMerit__itemHead {
+  order: 1;
+  display: flex;
+  align-items: center;
+  gap: 0 1.6rem;
+
+  @include mq(tab){
+    gap: 0 1.8rem;
+    margin-bottom: 3.0rem;
+  }
+}
+
+.p-injectionMerit__itemNum {
+  padding-top: 0.6rem;
+  padding-bottom: 0.2rem;
+  padding-right: 1.6rem;
+  border-right: 1px solid cl(brown);
+  font-family: $font-cinzel;
+  font-size: 4rem;
+  color: cl(brown);
+  line-height: 4.1rem;
+  
+  @include mq(tab){
+    padding-right: 1.8rem;
+    font-size: 4.8rem;
+  }
+}
+
+.p-injectionMerit__itemTitle {
+  font-weight: 700;
+  font-size: 2.0rem;
+  color: cl(brown);
+  @include mq(tab){
+    font-size: 2.2rem;
+  }
+
+  br {
+    display: block;
+    @include mq(tab){
+      display: none;
+    }
+  }
+}
+
+.p-injectionMerit__itemText {
+  order: 3;
+  line-height: 2.8rem;
+  font-size: 1.5rem;
+}
+
+.p-injectionMerit__btn {
+  margin-top: 1.2rem;
+  @include mq(tab){
+    margin-top: 4rem;
+  }
+}
+
+.p-injectionMerit__btnLink {
+  width: unquote('min(43.5rem, 100%)');
+  margin-inline: auto;
+}
+
+// リエートクリニックが選ばれる理由
+.p-injectionReason {
+  padding-top: 6rem;
+  @include mq(tab){
+    padding-top: 8rem;
+  }
+}
+
+.p-injectionReason__inner {
+
+}
+
+.p-injectionReason__body {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem 8rem;
+
+  @include mq(tab){
+    flex-direction: row;
+    margin-top: 4rem;
+  }
+} 
+
+.p-injectionReason__figure {
+  border-radius: 0.4rem;
+  overflow: hidden;
+  // width: 70%;
+  width: 80%;
+  margin-inline: auto;
+
+  @include mq(tab){
+    width: 42.8571%;
+  }
+}
+
+.p-injectionReason__desc {
+  @include mq(tab){
+    width: 49.6429%;
+  }
+}
+
+.p-injectionReason__text {
+  font-size: 1.5rem;
+  line-height: 3.8rem;
+  letter-spacing: 0.02em;
+}
+
+.p-injectionReason__btn {
+  margin-top: 3rem;
+}
+
+.ReasonCase__btnLink {
+  width: unquote('min(43.5rem, 100%)');
+  background-color: cl(brown);
+}
+
+
+// 脂肪溶解注射の種類と特徴
+.p-injectionFeature {
+  padding-top: 6rem;
+  @include mq(tab){
+    padding-top: 8rem;
+  }
+}
+
+.p-injectionFeature__text {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  line-height: 3.6rem;
+  @include mq(tab){
+    margin-top: 4rem;
+    font-size: 1.8rem;
+  }
+}
+
+.p-injectionFeature__attention {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  line-height: 3.6rem;
+}
+
+.p-injection__table {
+  margin-top: 3rem;
+  margin-inline: -2.5rem;
+  width: calc(100% + 2.5rem * 2);
+  border: 1px solid #000;
+  line-height: 1.05;
+  font-size: 1.4rem;
+  
+  @include mq(tab){
+    margin-top: 2rem;
+    margin-inline: 0;    
+    width: unquote('min(100%, 87.7rem)');
+    font-size: 1.5rem;
+
+    &._ingredient {
+      width: unquote('min(100%, 61.2rem)');
+    }
+  }
+
+  tr {
+    border-top: 1px solid #000;
+  }
+
+  th {
+    padding: 1.5rem 0;
+    color: #fff;
+    background-color: cl(orange);
+    border-left: 1px solid #000;
+  }
+  td {
+    padding: 1.5rem 0;
+    text-align: center;
+    vertical-align: middle;
+    background-color: cl(beige);
+    border-left: 1px solid #000;
+
+    br {
+      @include mq(tab){
+        display: none;
+      }
+    }
+  }
+
+  &._ingredient {
+    td:first-child {
+      width: 33%;
+      @include mq(tab){
+        width: 30%;
+      }
+      
+    }
+  }
+}
+
+// 脂肪溶解注射「カベリン」の主要成分
+.p-injectionIngredient {
+  padding-top: 6rem;
+  @include mq(tab){
+    padding-top: 8rem;
+  }
+}
+
+.p-injectionIngredient__text {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  line-height: 3.6rem;
+  @include mq(tab){
+    margin-top: 4rem;
+    font-size: 1.8rem;
+  }
+}
+
+.p-injectionIngredient__attention {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  line-height: 3.6rem;
+}
+
+
+// 症例
+.p-injectionCase {
+  padding-top: 6rem;
+  @include mq(tab){
+    padding-top: 8rem;
+  }
+}
+
+.p-injectionCase__area {
+  margin-top: 3rem;
+  @include mq(tab){
+    margin-top: 2rem;
+  }
+}
+
+.p-injectionCase__subtitle {
+  display: flex;
+  align-items: center;
+  column-gap: 1.0rem;
+  line-height: 5.13rem;
+  font-weight: 700;
+  font-size: 2.2rem;
+  color: cl(brown);
+
+  @include mq(tab){
+    column-gap: 1.3rem;
+    font-size: 3rem;
+  }
+
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-image: url(../img/icon/icon_menu_mark.jpg);
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    @include mq(tab){
+      width: 2.7rem;
+      height: 2.7rem;
+    }
+  }
+}
+
+.p-injectionCase__list {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem 6rem;
+
+  @include mq(tab) {
+    flex-direction: row;  
+  }
+}
+
+.p-injectionCase__item {
+  width: 100%;
+  @include mq(tab){
+    width: calc((100% - 6rem) / 2);
+  }
+}
+
+.p-injectionCase__figures {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem 0.5rem;
+  
+  @include mq(tab) {
+    flex-direction: row;
+  }
+}
+
+.p-injectionCase__figure {
+  // width: 70%;
+  width: 80%;
+  margin-inline: auto;
+  @include mq(tab){
+    width: calc((100% - 0.5rem) / 2);
+  }
+
+  figcaption {
+    margin-top: 0.4rem;
+    text-align: center;
+    font-size: 1.5rem;
+    @include mq(tab){
+      margin-top: 1.0rem;
+    }
+  }
+}
+
+.p-injectionCase__desc {
+  margin-top: 0.5rem;
+  padding: 2rem 0.9rem;
+  border: 0.1rem solid cl(brown);
+  @include mq(tab){
+    margin-top: 2rem;
+    padding: 3.2rem;
+  }
+}
+
+.p-injectionCase__text {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: cl(brown);
+
+  &:not(:first-child) {
+    margin-top: 1.2rem;
+    @include mq(tab){
+      margin-top: 2rem;
+    }
+  }
+} 
+
+.p-injectionCase__btn {
+  margin-top: 3rem;
+  @include mq(tab){
+    margin-top: 4rem;
+  }
+}
+
+.p-injectionCase__btnLink {
+  width: unquote('min(43.5rem, 100%)');
+  margin-inline: auto;
+  background-color: cl(brown);
+}
+
+.p-injectionCase__quote {
+  margin-top: 0.5rem;
+  text-align: center;
+  line-height: 2.8rem;
+  font-size: 1.5rem;
+
+  a {
+    text-decoration: underline;
+    color: #57ACD1;
+  }
+}
+
+
+// 脂肪溶解注射の注入量目安
+.p-injectionPart {
+  padding-top: 6rem;
+  @include mq(tab){
+    padding-top: 8rem;
+  }
+}
+
+.p-injectionPart__body {
+  margin-top: 3rem;
+  @include mq(tab){
+    margin-top: 2.4rem;
+  }
+}
+
+.p-injectionPart__text {
+  font-size: 1.8rem;
+  line-height: 2;
+}
+
+.p-injectionPart__figure {
+  max-width: 63rem;
+  margin-top: 3rem;
+  margin-inline: auto;
+  
+  @include mq(tab){
+    margin-top: 2.4rem;
+  }
+}
+
+// 料金
+.p-injectionPrice {
+  padding-top: 6rem;
+  @include mq(tab){
+    padding-top: 8rem;
+  }
+}
+
+.p-injectionPrice__body {
+  margin-top: 3rem;
+  @include mq(tab){
+    margin-top: 4rem;
+  }
+}
+
+.p-injectionPrice__text {
+  line-height: 3rem;
+  font-size: 1.6rem;
+  @include mq(tab){
+    text-align: center;
+    line-height: 4rem;
+    font-size: 2.2rem;
+  }
+}
+
+.p-injectionPrice__cta {
+  margin-top: 3rem;
+  @include mq(tab){
+    margin-top: 4rem;
+  }
+}
+
+//施術の流れ
+.p-injectionFlow {
+  padding-top: 6rem;
+  @include mq(tab){
+    padding-top: 8rem;
+  }
+}
+
+.p-injectionFlow__body {
+  margin-top: 3rem;
+  @include mq(tab){
+    margin-top: 4rem;
+  }
+}
+
+.p-injectionFlow__list {
+  width: unquote('min(95rem, 100%)');
+  margin-inline: auto;
+}
+
+.p-injectionFlow__item {
+  padding: 1.6rem;
+  background-color: cl(beige);
+  @include mq(tab){
+    padding: 2.0rem;
+  }
+
+  &:not(:first-child) {
+    margin-top: 2rem;
+    @include mq(tab){
+      margin-top: 4rem;
+    }
+  }
+} 
+
+
+.p-injectionFlow__itemIndex {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  column-gap: 1.6rem;
+  @include mq(tab){
+    column-gap: 2.4rem;
+  }
+}
+
+.p-injectionFlow__itemHead {
+  display: flex;
+  align-items: center;
+  gap: 0 1.6rem;
+
+  @include mq(pc){
+    gap: 0 3.2rem;
+  }
+}
+
+.p-injectionFlow__itemNum {
+  padding-top: 0.6rem;
+  padding-bottom: 0.2rem;
+  padding-right: 1.6rem;
+  border-right: 1px solid cl(brown);
+  font-family: $font-cinzel;
+  font-size: 4rem;
+  color: #BCBCBC;
+  line-height: 4.1rem;
+
+  @include mq(pc){
+    padding-right: 2.4rem;
+    font-size: 4.8rem;
+  }
+
+  &::before {
+    content: "STEP";
+    display: block;
+    margin-bottom: 0.7rem;
+    text-align: center;
+    line-height: 1;
+    font-size: 1.8rem;
+  }
+}
+
+.p-injectionFlow__itemTitle {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: cl(brown);
+  @include mq(tab){
+    font-size: 2rem;
+  }
+}
+
+.p-injectionFlow__itemText {
+  margin-top: 1.6rem;
+  line-height: 2;
+  font-size: 1.4rem;
+  @include mq(tab){
+    margin-top: 2.4rem;
+  }
+}
