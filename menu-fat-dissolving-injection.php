@@ -218,7 +218,7 @@
               </div>
 
               <div class="p-injectionMerit__btn">
-                <a href="<?php echo esc_url(home_url()); ?>/" class="p-injectionMerit__btnLink c-btn">脂肪溶解注射は効果がないって本当？</a>
+                <a href="<?php echo esc_url(home_url()); ?>/medical-diet/no-effect-fat-freezing-injection/" class="p-injectionMerit__btnLink c-btn">脂肪溶解注射は効果がないって本当？</a>
               </div>
     
               <div class="p-injectionMerit__item _reverse">
@@ -466,7 +466,7 @@
                     </figure>
                   </div>
 
-                  <div class="p-injectionCase__quote">[画像引用] <a href="" target="_blank">Kabeline</a></div>
+                  <div class="p-injectionCase__quote">[画像引用] <a href="http://www.kabelline.jp/" target="_blank">Kabeline</a></div>
 
                   <div class="p-injectionCase__desc">
                     <div class="p-injectionCase__text">施術内容：脂肪溶解注射（カベリン使用）</div>
@@ -486,7 +486,7 @@
                     </figure>
                   </div>
 
-                  <div class="p-injectionCase__quote">[画像引用] <a href="" target="_blank">Kabeline</a></div>
+                  <div class="p-injectionCase__quote">[画像引用] <a href="http://www.kabelline.jp/" target="_blank">Kabeline</a></div>
 
                   <div class="p-injectionCase__desc">
                     <div class="p-injectionCase__text">施術内容：脂肪溶解注射（カベリン使用）</div>

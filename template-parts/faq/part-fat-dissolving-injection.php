@@ -105,7 +105,7 @@
     <div class="p-faq__questionDesc">
       <div class="p-faq__questionMark">Q</div>
       <span class="p-faq__questionText" itemprop="name">
-      妊娠中の施術は可能ですか？
+      妊娠中でも脂肪溶解注射は受けられますか？
       </span>
     </div>
     <span class="p-faq__questionOpen"></span>
@@ -114,8 +114,7 @@
     <div class="p-faq__answerDesc">
       <div class="p-faq__answerMark">A</div>
       <span class="p-faq__answerText" itemprop="text">
-      妊娠中の施術はできません。
-
+      妊娠中に脂肪溶解注射は受けられません。
       </span>
     </div>
   </div>

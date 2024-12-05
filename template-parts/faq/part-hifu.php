@@ -94,7 +94,8 @@
     <div class="p-faq__answerDesc">
       <div class="p-faq__answerMark">A</div>
       <span class="p-faq__answerText" itemprop="text">
-      同部位の2回目以降の施術は、初回施術の2週間後以降が望ましいです。回数は部位、治療内容により異なりますので詳しくはカウンセリングの際にご相談ください。
+      同部位の2回目以降の施術は、初回施術の2〜3週間以降が望ましいです。<br>
+      回数は部位、治療内容により異なりますので、詳しくはカウンセリングの際にご相談ください。
       </span>
     </div>
   </div>
