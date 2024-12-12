@@ -60,7 +60,7 @@
 
   <?php if (is_404()) : //404ページ 5秒後にルートに遷移 
   ?>
-    <meta http-equiv="refresh" content=" 5; url=/">
+    <!-- <meta http-equiv="refresh" content=" 5; url=/"> -->
   <?php endif; ?>
 
   <?php //構造化データ 

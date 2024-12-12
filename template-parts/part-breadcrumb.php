@@ -76,6 +76,70 @@
           <meta itemprop="position" content="2" />
         </li>
 
+      <?php elseif(is_post_type_archive('voice')): ?>
+        <!-- ③患者様の声アーカイブページ -->
+        <?php 
+          $age_obj = get_the_terms($post->ID, 'age'); // 年齢取得
+        ?>
+        <?php if (!empty($_GET['age'])): // 年齢が選択された場合 ?>
+          <li class="c-breadcrumb__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/voice/" itemprop="item">
+              <span itemprop="name">患者様の声</span>
+            </a>
+            <meta itemprop="position" content="2" />
+          </li>
+            <span>/</span>
+          <li class="c-breadcrumb__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name">
+              <?php 
+                $ages = $_GET['age'];
+                foreach( $ages as $age ) {
+                  if($age === 'twenty'){ echo '20代 '; }
+                  if($age === 'thirty'){ echo '30代 '; }
+                  if($age === 'fourty'){ echo '40代 '; }
+                  if($age === 'fifty'){ echo '50代 '; }
+                  if($age === 'sixty'){ echo '60代 '; }
+                }
+              ?>
+            </span>
+            <meta itemprop="position" content="3" />
+          </li>
+
+        <?php else: // 年齢が選択されない場合 ?>
+          <li class="c-breadcrumb__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span class="current-item" itemprop="name">患者様の声</span>
+            <meta itemprop="position" content="2" />
+          </li>
+        <?php endif; ?>
+
+      <?php elseif(is_tax('sex')): // ?>
+        <!-- ④患者様の声カテゴリ一覧ページ -->
+        <li class="c-breadcrumb__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/voice/" itemprop="item">
+            <span itemprop="name">患者様の声</span>
+          </a>
+          <meta itemprop="position" content="2" />
+        </li>
+          <span>/</span>
+        <li class="c-breadcrumb__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <span class="current-item" itemprop="name">
+            <?php single_term_title(); // 性別 ?>
+            <?php 
+              $ages = $_GET['age'];
+              if(!empty($ages)) {
+                foreach( $ages as $age ) {
+                  if($age === 'twenty'){ echo '20代 '; }
+                  if($age === 'thirty'){ echo '30代 '; }
+                  if($age === 'fourty'){ echo '40代 '; }
+                  if($age === 'fifty'){ echo '50代 '; }
+                  if($age === 'sixty'){ echo '60代 '; }
+                }
+              }
+            ?>
+          </span>
+          <meta itemprop="position" content="3" />
+        </li>
+
       <?php elseif(is_archive('column')): ?>
         <!-- ④コラムカテゴリ一覧ページ -->
         <li class="c-breadcrumb__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
@@ -143,6 +207,44 @@
             ?>
           </span>
           <meta itemprop="position" content="3" />
+        </li>
+
+      <?php elseif(is_singular('voice')): ?>
+        <!-- ⑦患者様の声詳細ページ -->
+        <li class="c-breadcrumb__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/voice/" itemprop="item">
+            <span itemprop="name">患者様の声</span>
+          </a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span>/</span>
+
+        <?php 
+          $sex_obj = get_the_terms($post->ID, 'sex'); // 性別取得
+          $age_obj = get_the_terms($post->ID, 'age'); // 年齢取得
+          ?>
+          <?php //if (!empty($_GET['age'])): // 年齢が選択された場合 ?>
+
+        <li class="c-breadcrumb__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="<?php echo esc_url(home_url()); ?>/voice/<?php echo $sex_obj[0]->slug; ?>/" itemprop="item">
+            <span itemprop="name"><?php echo $sex_obj[0]->name; ?></span>
+          </a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span>/</span>
+
+        <li class="c-breadcrumb__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <span class="current-item" itemprop="name">
+            <?php
+              if(mb_strlen($post->post_title) >60) {
+                $title= mb_substr($post->post_title,0,60) ;
+                echo $title . '...';
+              } else {
+                echo $post->post_title;
+              }
+            ?>
+          </span>
+          <meta itemprop="position" content="4" />
         </li>
 
         <?php elseif(is_singular('post')): // コラム詳細ページ

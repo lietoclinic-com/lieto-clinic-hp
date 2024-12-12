@@ -29,16 +29,7 @@
                 'paged' => $paged,
                 'post_type' => 'voice',
                 'posts_per_page' => 9,
-                'tax_query' => array(
-                  'relation' => 'AND',
-                  array(
-                    'taxonomy' => 'sex',
-                    'field' => 'slug',
-                    'terms' => $term,
-                  ),                  
-                ),
               );
-              // 
               if ( !empty( $_GET['age']) ) {
                 $args['tax_query'][] = [
                   'taxonomy' => 'age',

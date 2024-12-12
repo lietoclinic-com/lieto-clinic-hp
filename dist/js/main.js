@@ -3,6 +3,34 @@ $('.js-accordion').on('click', function(){
   $(this).next().slideToggle();
 });
 
+
+$('#p-topSlider__slick').slick({
+  infinite: true,          // スライドをループさせるか
+  slidesToShow: 3,   // スライドを画面に何枚見せるか
+  slidesToScroll: 1,   // 1回のスクロールで何枚見せるか
+  autoplay: true,      // 自動的に動き出すか。初期値false。
+  autoplaySpeed: 5000, // 次のスライドに切り替わる待ち時間
+  speed: 1000,          // 切り替え時のスピード(1000=1秒)
+  arrows: true,         // 左右の移動ボタン
+  dots: false, // ドット（ページ送り）を表示する(デフォルトfalse)
+  adaptiveHeight: true,
+  prevArrow: '<button class="slide-arrow prev-arrow" aria-label="arrow" aria-label="arrow"></button>',
+  nextArrow: '<button class="slide-arrow next-arrow" aria-label="arrow" aria-label="arrow"></button>',
+
+  responsive: [
+    {
+    breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,  // trueで、両端見切れ状態を作る
+        centerPadding: "22.5%", // 左右の見切れで表示される幅
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    }
+  ]
+});
+
 // クリニック一覧の複数スライダー
 $('.p-access__mainSlider').each(function(index) {
   index++;
@@ -79,6 +107,57 @@ $('.p-singleClinicAlbum__list').slick({
     }
   }]
 });
+
+// 性別の全ボタンを取得
+const buttons = document.querySelectorAll('.p-pageVoice__searchBtn');
+
+// 性別のボタンにクリックイベントを追加(radio)
+buttons.forEach(button => {
+  button.addEventListener('click', () => {
+    buttons.forEach(btn => btn.classList.remove('selected'));
+    button.classList.add('selected');
+  });
+});
+
+//年齢の全ボタンを取得
+const checkboxLabels = document.querySelectorAll('.checkbox__label');
+//年齢のボタンにクリックイベントを追加(checkbox)
+checkboxLabels.forEach(ages => {
+  ages.addEventListener('click', () => {
+    ages.classList.toggle('selected');
+  });
+});
+
+// 検索ボタンが押された時の遷移先URL
+const ageCheckboxes = document.querySelectorAll('.ageCheckbox');
+const buildUrl = () => { // URLを変更する
+  let url = '/voice/'; // 通常は/voice/に遷移
+  const categoryButtons = document.querySelectorAll('.p-pageVoice__searchBtn');
+  categoryButtons.forEach((button) => {
+    if (button.classList.contains('selected')) { // 年齢にselectedがあれば、タクソノミー遷移
+      url = '/voice/' + button.getAttribute('data-slug') + '/';
+    }
+  });
+
+  let i = 0;
+  let isFirst = true;
+  ageCheckboxes.forEach((checkbox) => {
+    if (checkbox.checked) {
+      url += `${isFirst ? '?' : '&'}age%5B%5D=${checkbox.value}`;
+      isFirst = false;
+    }
+  });
+  return url;
+}
+
+// 検索ボタンが押されたとき
+const filterForm = document.getElementById('voice-filter');
+if (filterForm) {
+  filterForm.onsubmit = function(e) {
+    e.preventDefault();
+    window.location.href = buildUrl();
+  };
+}
 
 $('.p-faq__question').on('click', function(){ 
   $(this).children('.p-faq__questionOpen').toggleClass('is-active');
@@ -269,33 +348,9 @@ if (tocLink) {
 }
 
 $(function(){
-  $('#p-topSlider__slick').slick({
-      infinite: true,          // スライドをループさせるか
-      slidesToShow: 3,   // スライドを画面に何枚見せるか
-      slidesToScroll: 1,   // 1回のスクロールで何枚見せるか
-      autoplay: true,      // 自動的に動き出すか。初期値false。
-      autoplaySpeed: 5000, // 次のスライドに切り替わる待ち時間
-      speed: 1000,          // 切り替え時のスピード(1000=1秒)
-      arrows: true,         // 左右の移動ボタン
-      dots: false, // ドット（ページ送り）を表示する(デフォルトfalse)
-      adaptiveHeight: true,
-      prevArrow: '<button class="slide-arrow prev-arrow" aria-label="arrow" aria-label="arrow"></button>',
-      nextArrow: '<button class="slide-arrow next-arrow" aria-label="arrow" aria-label="arrow"></button>',
-
-      responsive: [
-        {
-        breakpoint: 768,
-          settings: {
-            arrows: false,
-            centerMode: true,  // trueで、両端見切れ状態を作る
-            centerPadding: "22.5%", // 左右の見切れで表示される幅
-            slidesToShow: 1,
-            slidesToScroll: 1,
-          }
-        }
-      ]
-  });
 }); 
+
+console.log(123);
 
 // 症状をクリックした時の処理
 $('.p-topTreatment__tab').on('click', function() {

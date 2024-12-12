@@ -375,6 +375,7 @@
 
   @include mq(tab){
     right: initial;
+    width: 80%;
     margin-top: 2.6rem;
     font-size: 1.6rem;
     br {
@@ -382,10 +383,11 @@
     }
   }
   @include mq(pc){
-    margin-left: -5rem;
-    br {
-      display: none;
-    }
+    width: 60%;
+    // margin-left: -5rem;
+    // br {
+    //   display: none;
+    // }
   }
 }
 

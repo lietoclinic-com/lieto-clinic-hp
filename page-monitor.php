@@ -93,7 +93,10 @@
                 <li class="p-pageMonitorCondition__boxItem">当院が指定する日時での撮影</li>
                 <li class="p-pageMonitorCondition__boxItem">特定の疾患がない</li>
               </ul>
-              <div class="p-pageMonitorCondition__boxAttention">※上記すべての条件に同意いただける方のみ、<br>モニター価格で施術を受けていただけます。</div>
+              <div class="p-pageMonitorCondition__boxAttention">
+                <!-- ※上記すべての条件に同意いただける方のみ、<br>モニター価格で施術を受けていただけます。 -->
+                ※上記の条件に加え、細かい条件がございますので<br>カウンセリングの際に詳しくご説明させていただいております。
+              </div>
             </div>
           </div>
         </div>

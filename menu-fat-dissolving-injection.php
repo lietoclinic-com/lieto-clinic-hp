@@ -90,17 +90,19 @@
                   </picture>
                 </figure>
 
-                <div class="p-injectionMechanism__recommend" id="injection_recommend">
-                  <div class="p-injectionMechanism__recommendTitle">こんな人におすすめ</div>
-                  <ul class="p-injectionMechanism__recommendList">
-                    <li class="p-injectionMechanism__recommendItem">ダイエットが続かない</li>
-                    <li class="p-injectionMechanism__recommendItem">リバウンドを繰り返している</li>
-                    <li class="p-injectionMechanism__recommendItem">食事制限せずに楽に痩せたい</li>
-                    <li class="p-injectionMechanism__recommendItem">部分痩せしたい</li>
-                    <li class="p-injectionMechanism__recommendItem">小顔になりたい</li>
-                    <li class="p-injectionMechanism__recommendItem">セルライトをなくしたい</li>
-                    <li class="p-injectionMechanism__recommendItem">ダウンタイムの少ない施術をしたい</li>
-                  </ul>
+                <div class="p-injectionMechanism__recommendWrap" id="injection_recommend">
+                  <div class="p-injectionMechanism__recommend">
+                    <div class="p-injectionMechanism__recommendTitle">こんな人におすすめ</div>
+                    <ul class="p-injectionMechanism__recommendList">
+                      <li class="p-injectionMechanism__recommendItem">ダイエットが続かない</li>
+                      <li class="p-injectionMechanism__recommendItem">リバウンドを繰り返している</li>
+                      <li class="p-injectionMechanism__recommendItem">食事制限せずに楽に痩せたい</li>
+                      <li class="p-injectionMechanism__recommendItem">部分痩せしたい</li>
+                      <li class="p-injectionMechanism__recommendItem">小顔になりたい</li>
+                      <li class="p-injectionMechanism__recommendItem">セルライトをなくしたい</li>
+                      <li class="p-injectionMechanism__recommendItem">ダウンタイムの少ない施術をしたい</li>
+                    </ul>
+                  </div>
                 </div>
 
                 <!-- CTA -->
@@ -307,9 +309,9 @@
               </tr>
               <tr>
                 <td>メーカー</td>
-                <td>DEXLEVO社<br>（韓国）</td>
-                <td>TNS社<br>（韓国）</td>
-                <td>株式会社BNLS<br>（韓国）</td>
+                <td><a href="ttps://jp.dexlevo.co.kr/" target="_blank">DEXLEVO社<br>（韓国）</a></td>
+                <td><a href="https://tnsco.co.kr/" target="_blank">TNS社<br>（韓国）</a></td>
+                <td><a href="https://bnls-global.com/?page_id=3072&lang=ja" target="_blank">株式会社BNLS<br>（韓国）</a></td>
               </tr>
             </table>
             <div class="p-injectionFeature__attention">
@@ -379,7 +381,7 @@
                   <div class="p-injectionMerit__itemText">
                   カベリンは、顔と体のどちらにも使用できる汎用性の高さが魅力です。<br>
                   <br>
-                  フェイスラインの引き締めはもちろんのこと、腹部や太もも、二の腕などボディへの施術も可能です。顔と体の気になる部分をバランスよくシェイプアップできるので、全身のプロポーション改善に役立ちます。
+                  <a href="https://lietoclinic.com/medical-diet/face-fat-dissolving-injection/">フェイスラインの引き締め</a>はもちろんのこと、<a href="https://lietoclinic.com/medical-diet/abdominal-fat-bnls/">腹部</a>や太もも、二の腕などボディへの施術も可能です。顔と体の気になる部分をバランスよくシェイプアップできるので、全身のプロポーション改善に役立ちます。
                   </div>
                 </div>
               </div>
@@ -543,7 +545,7 @@
           <dl class="p-singleMenu__detail">
             <div class="p-singleMenu__detailRow">
               <dt>施術時間</dt>
-              <dd>20分～60分程度</dd>
+              <dd>20～60分</dd>
             </div>
             <div class="p-singleMenu__detailRow">
               <dt>通院</dt>
@@ -605,11 +607,11 @@
                     <div class="p-injectionFlow__itemNum">02</div>
                   </div>
                   <div class="p-injectionFlow__itemTitle">
-                  冷却
+                  麻酔
                   </div>
                 </div>
                 <div class="p-injectionFlow__itemText">
-                施術前はアイスパックで施術部位を冷却してから薬剤を注入します。
+                痛みを軽減するため、局所麻酔を行います。
                 </div>
               </li>
 
