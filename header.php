@@ -45,7 +45,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
+  <?php if(is_page('privacy-policy_koseikai')): ?>
+    <meta name="robots" content="noindex">
+  <?php endif; ?>
 
   <!-- OGP -->
   <?php $current_url =  get_pagenum_link(get_query_var('page')); ?>
