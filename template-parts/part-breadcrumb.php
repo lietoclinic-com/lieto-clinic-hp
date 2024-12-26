@@ -140,7 +140,8 @@
           <meta itemprop="position" content="3" />
         </li>
 
-      <?php elseif(is_archive('column')): ?>
+      
+        <?php elseif(is_archive('column')): ?>
         <!-- ④コラムカテゴリ一覧ページ -->
         <li class="c-breadcrumb__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
           <a href="/column/" itemprop="item">

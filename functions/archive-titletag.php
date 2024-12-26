@@ -45,7 +45,6 @@
       }
       $title .= 'の患者様の声 |リエートクリニック【公式】';
     }
-
     return $title;
   }
   add_filter('wpseo_title', 'change_title');

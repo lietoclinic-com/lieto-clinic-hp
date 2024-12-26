@@ -45,7 +45,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
+  <?php //ページネーションの場合のタイトル
+    if(is_page('latest') or is_category()): // コラム内ページネーション
+      if (is_paged()): //2ページ目かどうかの判別
+        $pagenum = get_query_var('paged'); //ページ番号の取得
+  ?>
+    <title>最新コラム一覧｜<?php echo $pagenum; ?>ページ目｜リエートクリニック【公式】</title>
+  <?php 
+      endif;
+    endif;
+  ?>
 
   <!-- OGP -->
   <?php $current_url =  get_pagenum_link(get_query_var('page')); ?>
@@ -283,7 +292,7 @@
           <?php if(is_front_page()): ?>
             <h1 class="l-header__logo">	<div class="l-header__logo">
               <a href="/">	<a href="/">
-                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/logo_white.png" alt="Lieto Clinic">
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/logo_white.png" alt="Lieto Clinic（リエートクリニック）｜医療ダイエット・医療痩身専門クリニック">
               </a>
             </h1>
           <?php else: ?>
@@ -373,7 +382,7 @@
       <div class="l-spHeader__top">
         <div class="l-spHeader__logo">
           <a href="/">
-            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/logo_sp_orange.png" alt="Lieto Clinic">
+            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/logo_sp_orange.png" alt="Lieto Clinic（リエートクリニック）｜医療ダイエット・医療痩身専門クリニック">
           </a>
         </div>
 
