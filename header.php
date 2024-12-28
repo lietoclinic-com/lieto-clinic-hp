@@ -67,9 +67,8 @@
   <meta property="og:locale" content="ja_JP">
   <meta name="twitter:card" content="summary">
 
-  <?php if (is_404()) : //404ページ 5秒後にルートに遷移 
-  ?>
-    <!-- <meta http-equiv="refresh" content=" 5; url=/"> -->
+  <?php if (is_404()) : ?>
+    <meta http-equiv="refresh" content=" 5; url=/">
   <?php endif; ?>
 
   <?php //構造化データ 
@@ -272,6 +271,10 @@
 
   <?php wp_head(); ?>
   <?php get_template_part('template-parts/part', 'top-css'); ?>
+
+  <?php if(is_post_type_archive('voice') || is_tax() || is_singular('voice')): ?>
+    <meta name="robots" content="noindex" />
+  <?php endif; ?>
 </head>
 
 <body <?php body_class(); ?>>
