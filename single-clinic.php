@@ -589,7 +589,7 @@
             <figure class="p-message__figure">
               <div class="p-message__post">
                 <div class="p-message__clinic">リエートクリニック<?php echo get_field("clinic_name"); ?>院</div>
-                <div class="p-message__name"><span>医師</span><?php echo get_field("clinic_doctor")['clinic_doctor_name'] ?></div>
+                <div class="p-message__name"><span>院長</span><?php echo get_field("clinic_doctor")['clinic_doctor_name'] ?></div>
               </div>
             </figure>
             <p class="p-message__text">
