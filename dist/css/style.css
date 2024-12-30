@@ -1655,27 +1655,6 @@ button {
   }
 }
 
-/*
-院長写真非表示に伴う追加スタイル（表示時に以下削除）
-*/
-.p-message .c-wideTitle__content {
-  margin: 0 auto;
-}
-
-.p-message .p-message__desc {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.p-message .p-message__figure .p-message__post {
-  margin-top: 3rem;
-}
-
-@media screen and (min-width: 769px) {
-  .p-message .p-message__figure .p-message__post {
-    margin-top: 0;
-  }
-}
 .c-btn {
   position: relative;
   display: -webkit-box;
@@ -4394,7 +4373,7 @@ button {
     margin-left: auto;
     margin-right: 0;
     margin-right: initial;
-    width: 42.7rem;
+    width: 45.7rem;
     height: 8.8rem;
   }
 }
@@ -4428,7 +4407,7 @@ button {
 
 .p-pageMessageGreeting__name {
   margin-top: auto;
-  font-size: 20px;
+  font-size: 16px;
 }
 .p-pageMessageGreeting__name span {
   margin-right: 1.3rem;
@@ -8941,7 +8920,7 @@ button {
     margin: 0;
     margin: initial;
     margin-top: 4rem;
-    width: 42.7rem;
+    width: 44.7rem;
     height: 8.6rem;
   }
 }
@@ -8975,7 +8954,7 @@ button {
 
 .p-exosomeMessage__name {
   margin-top: auto;
-  font-size: 20px;
+  font-size: 14px;
 }
 .p-exosomeMessage__name span {
   margin-right: 1.3rem;
@@ -13717,7 +13696,7 @@ figure figcaption a {
 @media screen and (min-width: 1025px) {
   .p-message__figure .p-message__post {
     margin: 5.1rem auto 0;
-    width: 42.7rem;
+    width: 44.7rem;
     height: 8.8rem;
   }
 }
@@ -13749,7 +13728,7 @@ figure figcaption a {
 }
 .p-message__figure .p-message__name {
   margin-top: auto;
-  font-size: 20px;
+  font-size: 14px;
 }
 .p-message__figure .p-message__name span {
   margin-right: 1.3rem;

@@ -311,7 +311,7 @@
       <!-- CTA -->
       <div class="p-singleMenu__cta l-inner">
         <?php get_template_part('template-parts/part', 'cta'); ?>
-      </div>詳細情報とリスク・副作用
+      </div>
 
       <!-- 詳細情報とリスク・副作用 -->
       <div class="p-singleMenu__area l-inner _exo">
@@ -370,7 +370,7 @@
 
           <div class="p-exosomeMessage__body">
             <figure class="p-exosomeMessage__figure">
-              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/doctor.png" alt="リエートクリニック横浜院医師 白川 巧">
+              <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/doctor.png" alt="リエートクリニック名古屋院院長 松永 宏之">
             </figure>
             <div class="p-exosomeMessage__desc">
               <p class="p-exosomeMessage__text">
@@ -387,8 +387,8 @@
               </p>
 
               <div class="p-exosomeMessage__post">
-                <div class="p-exosomeMessage__clinic">リエートクリニック横浜院</div>
-                <div class="p-exosomeMessage__name"><span>医師</span>白川 巧</div>
+                <div class="p-exosomeMessage__clinic">リエートクリニック名古屋院</div>
+                <div class="p-exosomeMessage__name"><span>院長</span>松永 宏之</div>
               </div>
             </div>
           </div>

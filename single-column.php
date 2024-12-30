@@ -79,12 +79,12 @@
             <div class="p-editor__box">
               <div class="p-editor__content">
                 <figure class="p-editor__figure">
-                  <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/profile.png" alt="リエートクリニック横浜院院長 由利直樹">
+                  <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/profile.png" alt="リエートクリニック名古屋院院長 松永 宏之">
                 </figure>
                 <div class="p-editor__desc">
                   <div class="p-editor__profile">監修者プロフィール</div>
-                  <div class="p-editor__post">リエートクリニック横浜院 <br class="_sp">院長</div>
-                  <div class="p-editor__name">由利 直樹</div>
+                  <div class="p-editor__post">リエートクリニック名古屋院 <br class="_sp">院長</div>
+                  <div class="p-editor__name">松永 宏之</div>
                   <div class="p-editor__btn _overTab">
                     <a href="" class="c-btn">監修者について詳しく見る</a>
                   </div>
@@ -111,12 +111,12 @@
               <div class="p-editor__box">
                 <div class="p-editor__content">
                   <figure class="p-editor__figure">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/profile.png" alt="リエートクリニック横浜院院長 由利直樹">
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/profile.png" alt="リエートクリニック名古屋院院長 松永 宏之">
                   </figure>
                   <div class="p-editor__desc">
                     <div class="p-editor__profile">監修者プロフィール</div>
-                    <div class="p-editor__post">リエートクリニック横浜院 <br class="_sp">院長</div>
-                    <div class="p-editor__name">由利 直樹</div>
+                    <div class="p-editor__post">リエートクリニック名古屋院 <br class="_sp">院長</div>
+                    <div class="p-editor__name">松永 宏之</div>
                     <div class="p-editor__btn _overTab">
                       <a href="" class="c-btn">監修者について詳しく見る</a>
                     </div>
