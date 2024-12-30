@@ -20,7 +20,7 @@
 
             <?php
             $category = get_the_terms($post->ID, 'category')[0]->slug;
-            $paged = (get_query_var('paged')) ? absint(get_query_var('paged')) : 1;
+            $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
             $args = array(
               'paged' => $paged,
               'post_type' => 'post',

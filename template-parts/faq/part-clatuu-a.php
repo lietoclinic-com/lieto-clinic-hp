@@ -4,7 +4,7 @@
     <div class="p-faq__questionDesc">
       <div class="p-faq__questionMark">Q</div>
       <span class="p-faq__questionText" itemprop="name">
-      施術後どれくらいで効果がでますか？
+      クラツーアルファは施術後どれくらいで効果がでますか？
       </span>
     </div>
     <span class="p-faq__questionOpen"></span>
@@ -24,7 +24,7 @@
     <div class="p-faq__questionDesc">
       <div class="p-faq__questionMark">Q</div>
       <span class="p-faq__questionText" itemprop="name">
-      どれくらいの頻度が効果がでやすいですか？
+      クラツーアルファはどれくらいの頻度で行うと効果が出ますか？
       </span>
     </div>
     <span class="p-faq__questionOpen"></span>
@@ -44,7 +44,7 @@
     <div class="p-faq__questionDesc">
       <div class="p-faq__questionMark">Q</div>
       <span class="p-faq__questionText" itemprop="name">
-      1回でも効果はありますか？
+      クラツーアルファは1回でも効果はありますか？
       </span>
     </div>
     <span class="p-faq__questionOpen"></span>
@@ -64,7 +64,7 @@
     <div class="p-faq__questionDesc">
       <div class="p-faq__questionMark">Q</div>
       <span class="p-faq__questionText" itemprop="name">
-        痛みはありますか？
+      クラツーアルファは痛みがありますか？
       </span>
     </div>
     <span class="p-faq__questionOpen"></span>
@@ -73,13 +73,13 @@
     <div class="p-faq__answerDesc">
       <div class="p-faq__answerMark">A</div>
       <span class="p-faq__answerText" itemprop="text">
-      開始直後は強く吸引される感覚があり約10分間は違和感や不快感があります。その後は冷却による麻痺で感覚は和らぎ冷たさだけを感じます。
+      開始直後は強く吸引される感覚があり、約10分間は違和感や不快感があります。その後は冷却による麻痺で感覚は和らぎ、冷たさだけを感じます。
       </span>
     </div>
   </div>
 </div>
 
-<div class="p-faq__box js-faqAccordion" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+<!-- <div class="p-faq__box js-faqAccordion" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
   <div class="p-faq__question">
     <div class="p-faq__questionDesc">
       <div class="p-faq__questionMark">Q</div>
@@ -97,14 +97,14 @@
       </span>
     </div>
   </div>
-</div>
+</div> -->
 
 <div class="p-faq__box js-faqAccordion" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
   <div class="p-faq__question">
     <div class="p-faq__questionDesc">
       <div class="p-faq__questionMark">Q</div>
       <span class="p-faq__questionText" itemprop="name">
-      他の施術と併用できますか？
+      クラツーアルファは他の施術と併用できますか？
       </span>
     </div>
     <span class="p-faq__questionOpen"></span>
@@ -113,7 +113,7 @@
     <div class="p-faq__answerDesc">
       <div class="p-faq__answerMark">A</div>
       <span class="p-faq__answerText" itemprop="text">
-      他の施術プログラムとの併用は可能となります。
+      他の施術プログラムとの併用は可能です。
       </span>
     </div>
   </div>
@@ -124,7 +124,7 @@
     <div class="p-faq__questionDesc">
       <div class="p-faq__questionMark">Q</div>
       <span class="p-faq__questionText" itemprop="name">
-      生理中の施術は可能ですか？
+      生理中でもクラツーアルファは受けられますか？
       </span>
     </div>
     <span class="p-faq__questionOpen"></span>
@@ -133,13 +133,13 @@
     <div class="p-faq__answerDesc">
       <div class="p-faq__answerMark">A</div>
       <span class="p-faq__answerText" itemprop="text">
-      生理中の施術は可能ですが、生理中や体調不良によって施術を受けて頂けない場合、プログラムの入れ替えを行い、最適な施術計画をご提案させて頂きます。
+      生理中でもクラツーアルファの施術は可能ですが、生理中や体調不良によって施術を受けて頂けない場合、プログラムの入れ替えを行い、最適な施術計画をご提案させて頂きます。
       </span>
     </div>
   </div>
 </div>
 
-<div class="p-faq__box js-faqAccordion" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+<!-- <div class="p-faq__box js-faqAccordion" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
   <div class="p-faq__question">
     <div class="p-faq__questionDesc">
       <div class="p-faq__questionMark">Q</div>
@@ -157,9 +157,9 @@
       </span>
     </div>
   </div>
-</div>
+</div> -->
 
-<div class="p-faq__box js-faqAccordion" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+<!-- <div class="p-faq__box js-faqAccordion" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
   <div class="p-faq__question">
     <div class="p-faq__questionDesc">
       <div class="p-faq__questionMark">Q</div>
@@ -177,15 +177,27 @@
       </span>
     </div>
   </div>
-</div>
+</div> -->
 
 <div class="p-faq__text">
-・CLATUU α（クラツーアルファ）について<br>
-本機器は国内未承認医療機器であり、同一の性能を有する国内承認医療機器等はありません。<br>
-・入手経路等について<br>
+【CLATUU α（クラツーアルファ）について】<br>
+・未承認医薬品等<br>
+当院が脂肪冷却で使用しているCLATUU αは医薬品医療機器等法上の承認を得ていない未承認医療機器です。<br>
+<br>
+・入手経路等<br>
 本機器は医薬品医療機器等法上の承認を得ていないものですが、医師等の個人輸入により適法な輸入許可を得ています。わが国においては、未承認医療機器を医師の責任のもとで使用することができます。<br>
+個人輸入された医薬品等の使用によるリスクに関する情報は下記URLをご確認ください。<br>
+https://www.yakubutsu.mhlw.go.jp/index.html<br>
+<br>
+・国内の承認医薬品等の有無<br>
+国内において承認されている医療機器にはクールスカルプティングがあります。<br>
+<br>
 ・諸外国の安全性等に係る情報について<br>
 諸外国で本機器による重篤な安全性情報の報告はありません。<br>
-本機器は米国FDA（アメリカ食品医薬品局）認証医療機器です。ヨーロッパにおける医療機器などの販売認証であるCEマークも取得しています。
+本機器は米国FDA（アメリカ食品医薬品局）認証医療機器です。ヨーロッパにおける医療機器などの販売認証であるCEマークも取得しています。<br>
+<br>
+・医薬品副作用被害救済制度について<br>
+万が一重篤な副作用が出た場合は、国の医薬品副作用被害救済制度の対象
+外となります。
 </div>
 

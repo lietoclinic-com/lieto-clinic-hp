@@ -62,7 +62,7 @@ const scssCompile = () => {
   //【style.min.css生成】
   .pipe(concat('style.min.css')) // 名前変更
   .pipe(cleancss()) // 1行生成
-  .pipe(sourcemaps.write('./')) // sourcemap 
+  // .pipe(sourcemaps.write('./')) // sourcemap 
   .pipe(dest(distPath.css))
 
   .pipe(notify({ // エラー発生時のアラート出力

@@ -374,6 +374,10 @@
     ._exo & {
       background-color: #E4F7FF;
     }
+    a {
+      color: cl(blue);
+      text-decoration: underline;
+    }
 
     @include mq(tab){
       padding: 1rem 1.2rem;

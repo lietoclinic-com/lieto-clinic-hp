@@ -143,7 +143,10 @@
 
     <div class="l-footer__copy">
       <div class="l-footer__copyInner l-inner">
-        <div class="l-footer__privacy"><a href="/privacy-policy/">個人情報保護方針</a></div>
+        <div class="l-footer__right">
+          <div class="l-footer__privacy"><a href="/privacy-policy/">個人情報保護方針</a></div>
+          <div class="l-footer__privacy"><a href="/privacy-policy_koseikai/">医療法人の個人情報保護方針</a></div>
+        </div>
         <div class="l-footer__coryright">Copyright 2023 Lieto Clinic All Rights Reserved.</div>
       </div>
     </div>

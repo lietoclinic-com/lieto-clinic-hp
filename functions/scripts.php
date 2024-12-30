@@ -15,6 +15,9 @@ function my_scripts() {
   // slick-js
   wp_enqueue_script('slick', get_template_directory_uri() . '/dist/js/slick.min.js', array('jquery'), '1.0.0', true);
 
+  // splide.js
+  wp_enqueue_script('splide', get_template_directory_uri().'/dist/js/splide.min.js', array('jquery'), '1.0.0', true);
+
   // main-js
   wp_enqueue_script('main', get_template_directory_uri() . '/dist/js/main.min.js', array('jquery'), '1.0.0', true);
 
@@ -35,6 +38,9 @@ function my_scripts() {
   // slick-css
   wp_enqueue_style('slick-style', get_template_directory_uri() . '/dist/css/slick.css', array(), '1.0.0');
   wp_enqueue_style('slick-theme-style', get_template_directory_uri() . '/dist/css/slick-theme.css', array('slick-style'), '1.0.0');
+
+  // slider.css
+  wp_enqueue_style('splide-css', get_template_directory_uri().'/dist/css/splide-core.min.css', array(), '1.0.0');
 
   // style-css
   wp_enqueue_style('style', get_template_directory_uri().'/dist/css/style.min.css', array(), '1.0.0');

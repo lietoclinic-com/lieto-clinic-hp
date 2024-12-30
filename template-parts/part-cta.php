@@ -4,7 +4,7 @@
     <div class="p-cta__campaign">
       <div class="p-cta-campaign__read">新店舗開院キャンペーン</div>
       <p class="p-cta-campaign__text">
-        <span class="big">12</span>
+        <span class="big">15</span>
         ヶ月分の医療ダイエットが
         <span class="span big orange">0</span>
         <span class="orange add-caution01">円</span>
