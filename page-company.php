@@ -46,6 +46,10 @@
               <dt>お問い合わせ先</dt>
               <dd><a href="mailto:info@kounkai.clinic" target="_blank">info@kounkai.clinic</a></dd>
             </div>
+            <div class="p-singleMenu__detailRow">
+              <dt>プライバシーポリシー</dt>
+              <dd><a href="https://lietoclinic.com/privacy-policy_koseikai/">https://lietoclinic.com/privacy-policy_koseikai/</a></dd>
+            </div>
           </dl>
         </div>
       </div>

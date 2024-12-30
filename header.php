@@ -55,6 +55,9 @@
       endif;
     endif;
   ?>
+  <?php if(is_page('privacy-policy_koseikai')): ?>
+    <meta name="robots" content="noindex">
+  <?php endif; ?>
 
   <!-- OGP -->
   <?php $current_url =  get_pagenum_link(get_query_var('page')); ?>
@@ -174,7 +177,7 @@
         "dateModified": "<?php echo get_date_from_gmt(get_post_modified_time('c', true), 'c'); ?>",
         "author": {
           "@type": "Organization",
-          "name": "白川 巧"
+          "name": "松永 宏之"
         },
         "publisher": {
           "@type": "Organization", //個人の場合は"Person"と記入
