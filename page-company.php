@@ -32,7 +32,7 @@
             </div>
             <div class="p-singleMenu__detailRow">
               <dt>住所</dt>
-              <dd>熊本県荒尾市原万田815番地2</dd>
+              <dd>〒450-0002 <br class="sp-block">愛知県名古屋市中村区名駅4丁目8−27 エニシオ名駅4F</dd>
             </div>
             <div class="p-singleMenu__detailRow">
               <dt>設立年月日</dt>
