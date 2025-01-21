@@ -32,7 +32,7 @@
             </div>
             <div class="p-singleMenu__detailRow">
               <dt>住所</dt>
-              <dd>〒450-0002 <br class="sp-block">愛知県名古屋市中村区名駅4丁目8−27 エニシオ名駅4F</dd>
+              <dd>〒450-0002 <br class="sp-block">愛知県名古屋市中村区名駅4-8-26 エニシオ名駅 4F</dd>
             </div>
             <div class="p-singleMenu__detailRow">
               <dt>設立年月日</dt>
