@@ -87,7 +87,7 @@
                     </div>
                     <div class="p-singleRecruitInfo__row">
                       <dt>2022年</dt>
-                      <dd>4月 某医療痩身クリニック入職<br>同病院院長就任</dd>
+                      <dd>4月 某医療痩身クリニック入職<br>同クリニック院長就任</dd>
                     </div>
                     <div class="p-singleRecruitInfo__row">
                       <dt>2024年</dt>
