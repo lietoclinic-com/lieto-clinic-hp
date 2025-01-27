@@ -248,29 +248,25 @@
             <dl class="p-singleRecruitInfo__list">
               <div class="p-singleRecruitInfo__row">
                 <dt>法人名</dt>
-                <dd>Lieto Clinic</dd>
+                <dd>医療法人社団高整会</dd>
               </div>
-              <!-- <div class="p-singleRecruitInfo__row">
-                <dt>代表者</dt>
-                <dd>由利 直樹</dd>
-              </div> -->
+              <div class="p-singleRecruitInfo__row">
+                <dt>理事長名</dt>
+                <dd>松永 宏之</dd>
+              </div>
               <div class="p-singleRecruitInfo__row">
                 <dt>住所</dt>
-                <dd>〒221-0835<br>
-                  神奈川県横浜市神奈川区鶴屋町3-29-4 CRANE CORNER 2階
+                <dd>〒450-0002<br>
+                  愛知県名古屋市中村区名駅4-8-26 エニシオ名駅 4F
                 </dd>
               </div>
               <div class="p-singleRecruitInfo__row">
                 <dt>設立</dt>
-                <dd>2023年</dd>
+                <dd>1989年10月24日</dd>
               </div>
               <div class="p-singleRecruitInfo__row">
                 <dt>事業内容</dt>
-                <dd>美容痩身クリニックの運営</dd>
-              </div>
-              <div class="p-singleRecruitInfo__row">
-                <dt>従業員</dt>
-                <dd>20名</dd>
+                <dd>クリニック運営</dd>
               </div>
             </dl>
           </div>
