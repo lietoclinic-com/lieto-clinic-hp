@@ -86,6 +86,14 @@
                       <dd>同病院 救急医療部長</dd>
                     </div>
                     <div class="p-singleRecruitInfo__row">
+                      <dt></dt>
+                      <dd><a href="" target="_blank">ICLS.JATEC.JPTEC.MCLSインストラクター</a></dd>
+                    </div>
+                    <div class="p-singleRecruitInfo__row">
+                      <dt></dt>
+                      <dd><a href="" target="_blank">DMAT統括資格.地域災害医療コーデイネーター</a></dd>
+                    </div>
+                    <div class="p-singleRecruitInfo__row">
                       <dt>2022年</dt>
                       <dd>4月 某医療痩身クリニック入職<br>同クリニック院長就任</dd>
                     </div>
@@ -114,12 +122,6 @@
                     <div class="p-singleRecruitInfo__row">
                       <dt>2015年</dt>
                       <dd><a href="https://www.jaam.jp/" target="_blank">日本救急医学会</a>救急科専門医取得</dd>
-                    </div>
-                    <div class="p-singleRecruitInfo__row">
-                      <dd><br class="sp-block"><a href="" target="_blank">ICLS.JATEC.JPTEC.MCLSインストラクター</a></dd>
-                    </div>
-                    <div class="p-singleRecruitInfo__row">
-                      <dd><br class="sp-block"><a href="" target="_blank">DMAT統括資格.地域災害医療コーデイネーター</a></dd>
                     </div>
                   </div>
                 </div>
