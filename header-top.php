@@ -136,8 +136,29 @@
             <li class="l-header__bottomItem"><a href="/greeting/">担当医師挨拶</a></li>
             <li class="l-header__bottomItem"><a href="/about/">当院について</a></li>
             <li class="l-header__bottomItem"><a href="/flow/">施術の流れ</a></li>
-            <li class="l-header__bottomItem"><a href="/menu/">施術一覧</a></li>
+            <!-- <li class="l-header__bottomItem"><a href="/menu/">施術一覧</a></li> -->
+            <li class="l-header__bottomItem has-child">
+              <a href="javascript:void(0)">施術一覧&thinsp;▼</a>
+              <div class="l-header__subnav">
+                <ul class="l-header__sublist">
+                  <li class="l-header__subItem"><a href="/menu/stimsure/">医療痩身機器<span>StimSure-スティムシュアー</span></a></li>
+                  <li class="l-header__subItem"><a href="/menu/clatuu-a/">医療脂肪冷却機器<span>CLATUU α -クラツーアルファ-</span></a></li>
+                  <li class="l-header__subItem"><a href="/menu/hifu/">医療HIFU<span>ULTRAcel [zíː] -ウルトラセル ジィー-</span></a></li>
+                  <li class="l-header__subItem"><a href="/menu/exosome/">細胞レベルで美しく<span>エクソソーム点滴</span></a></li>
+
+                  <li class="l-header__subItem"><a href="/menu/fat-dissolving-injection/">脂肪溶解注射</a></li>
+                  <li class="l-header__subItem"><a href="/menu/glp-1/">GLP-1</a></li>
+                  <li class="l-header__subItem"><a href="/menu/beauty-drip/">ダイエット美容点滴</a></li>
+                  <li class="l-header__subItem"><a href="/menu/original-supplement/">オリジナルサプリメント</a></li>
+                  <li class="l-header__subItem"><a href="/menu/original-protein/">オリジナルプロテイン</a></li>
+                  <li class="l-header__subItem"><a href="/menu/diet-supplement/">ダイエット薬</a></li>
+                  <li class="l-header__subItem"><a href="/menu/guidance/">食事・栄養指導</a></li>
+                  <li class="l-header__subItem"><a href="/menu/">施術一覧をみる</a></li>
+                </ul>
+              </div>
+            </li>
             <!-- <li class="l-header__bottomItem"><a href="/case/">当院の症例</a></li> -->
+            <li class="l-header__bottomItem"><a href="/monitor/">モニター募集</a></li>
             <li class="l-header__bottomItem"><a href="/minor/">未成年者の方へ</a></li>
             <li class="l-header__bottomItem"><a href="/faq/">よくある質問</a></li>
             <li class="l-header__bottomItem"><a href="/clinic/">クリニック一覧</a></li>
@@ -192,6 +213,7 @@
             </ul>
           </li>
           <!-- <li class="l-spHeader__item"><a href="/case/">当院の症例</a></li> -->
+            <li class="l-spHeader__item"><a href="/monitor/">モニター募集</a></li>
           <li class="l-spHeader__item"><a href="/minor/">未成年者の方へ</a></li>
           <li class="l-spHeader__item"><a href="/faq/">よくある質問</a></li>
           <li class="l-spHeader__item"><a href="/clinic/">クリニック一覧</a></li>
@@ -254,26 +276,33 @@
 
 
   <!-- fixedCta_SP -->
-  <div class="c-fixedCtaSp">
+  <div class="c-fixedCtaSp" style="bottom: 0;">
+    <!--
     <ul class="c-fixedCtaSp__list">
       <li class="c-fixedCtaSp__item">
-        <div href="javascript:void(0)" class="c-fixedCtaSp__itemTelLink c-fixedCtaSp__itemTelLink--tel js-modal-open">
-          <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_tel_dark.png' alt="icon">
+        <a href="javascript:void(0)" class="c-fixedCtaSp__itemTelLink c-fixedCtaSp__itemTelLink--tel js-modal-open">
+          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_tel_dark.png" alt="icon">
           <span class="c-fixedCtaSp__itemCounseling--large">お電話からの<br>ご予約はこちら</span>
-        </div>
+        </a>
       </li>
       <li class="c-fixedCtaSp__item">
-        <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p&_gl=1*cn51jo*_gcl_au*MTQxODQxMzY3Mi4xNzA3NDQ1MDg5" class="c-fixedCtaSp__itemTelLink c-fixedCtaSp__itemTelLink--counseling">
+        <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p&_gl=1*1gvdhfb*_gcl_au*MTQxODQxMzY3Mi4xNzA3NDQ1MDg5" class="c-fixedCtaSp__itemTelLink c-fixedCtaSp__itemTelLink--counseling">
           <span class="c-fixedCtaSp__itemCounseling--small">
             <span class="_num">3</span>分でWeb予約!<span class="_num">24</span>時間受付中!
           </span>
           <span class="c-fixedCtaSp__itemCounseling--large">
-            <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_counseling.png' alt="icon">
+            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_counseling.png" alt="icon">
             無料カウンセリング予約
           </span>
         </a>
       </li>
     </ul>
+    -->
+    <div class="c-fixedCtaSp__fix-banner">
+      <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p" class="">
+        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/toLPbtn.png" alt="無料カウンセリングに申し込む">
+      </a>
+    </div>
   </div>
 
   <!-- modal -->

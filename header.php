@@ -359,6 +359,7 @@
               </div>
             </li>
             <!-- <li class="l-header__bottomItem"><a href="/case/">当院の症例</a></li> -->
+            <li class="l-header__bottomItem"><a href="/monitor/">モニター募集</a></li>
             <li class="l-header__bottomItem"><a href="/minor/">未成年者の方へ</a></li>
             <li class="l-header__bottomItem"><a href="/faq/">よくある質問</a></li>
             <li class="l-header__bottomItem"><a href="/clinic/">クリニック一覧</a></li>
@@ -393,17 +394,10 @@
           <li class="l-spHeader__item"><a href="/about/">当院について</a></li>
           <li class="l-spHeader__item"><a href="/flow/">施術の流れ</a></li>
           <li class="l-spHeader__item has-child">
-            <?php if(is_front_page()): ?>
-              <div href="javascript:void(0)" class="js-accordion">
-                施術一覧
-                <span class="l-spHeader__itemOpen"></span>
-              </div>
-            <?php else: ?>
-              <a href="javascript:void(0)" class="js-accordion">
-                施術一覧
-                <span class="l-spHeader__itemOpen"></span>
-              </a>
-            <?php endif; ?>
+            <div href="javascript:void(0)" class="js-accordion">
+              施術一覧
+              <span class="l-spHeader__itemOpen"></span>
+            </div>
             <ul class="l-spHeader__sublist">
               <li class="l-spHeader__subitem"><a href="/menu/stimsure/">医療痩身機器<span>StimSure-スティムシュアー</span></a></li>
               <li class="l-spHeader__subitem"><a href="/menu/clatuu-a/">医療脂肪冷却機器<span>CLATUU α -クラツーアルファ-</span></a></li>
@@ -420,47 +414,14 @@
             </ul>
           </li>
           <!-- <li class="l-spHeader__item"><a href="/case/">当院の症例</a></li> -->
+            <li class="l-spHeader__item"><a href="/monitor/">モニター募集</a></li>
           <li class="l-spHeader__item"><a href="/minor/">未成年者の方へ</a></li>
           <li class="l-spHeader__item"><a href="/faq/">よくある質問</a></li>
-          <li class="l-spHeader__item has-child">
-            <?php if(is_front_page()): ?>
-              <div href="javascript:void(0)" class="js-accordion">
-              クリニック一覧
-                <span class="l-spHeader__itemOpen"></span>
-              </div>
-            <?php else: ?>
-              <a href="javascript:void(0)" class="js-accordion">
-              クリニック一覧
-                <span class="l-spHeader__itemOpen"></span>
-              </a>
-            <?php endif; ?>
-            <ul class="l-spHeader__sublist">
-              <li class="l-spHeader__subitem"><a href="/clinic/">クリニック一覧TOP</span></a></li>
-              <?php
-              $args = array(
-                'post_type' => 'clinic',
-              );
-              $query = new WP_Query($args);
-              ?>
-              <?php if ($query->have_posts()) : ?>
-                <?php while ($query->have_posts()) : $query->the_post(); ?>
-                  <li class="l-spHeader__subitem"><a href="<?php the_permalink(); ?>"><?php the_field("clinic_name"); ?>院</a></li>
-                <?php endwhile;
-                wp_reset_postdata() ?>
-              <?php endif; ?>
-            </ul>
-          </li>
-          <li class="l-spHeader__item"><a href="/column/">コラム一覧</a></li>
+          <li class="l-spHeader__item"><a href="/clinic/">クリニック一覧</a></li>
         </ul>
 
-        <!--
         <div class="l-spHeader__btn">
-          <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p&_gl=1*1gvdhfb*_gcl_au*MTQxODQxMzY3Mi4xNzA3NDQ1MDg5" class="c-btn _orange"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_counseling.png" alt="icon">無料カウンセリング予約</a>
-        </div>
-        -->
-
-        <div class="l-spHeader__btn--lp">
-          <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=a5ram6628mb28d3d&_gl=1*1lva8ke*_gcl_au*MTE1NDkzMzQ1NC4xNzEzMzI4MDIw" target="_blank"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/toLPbtn.png" alt=" 無料カウンセリングに申し込む"></a>
+          <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p&_gl=1*cn51jo*_gcl_au*MTQxODQxMzY3Mi4xNzA3NDQ1MDg5" class="c-btn _orange"><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_counseling.png' alt="icon">無料カウンセリング予約</a>
         </div>
 
         <div class="l-spHeader__tel">
@@ -478,7 +439,7 @@
                 <li class="l-spHeader__telItem">
                   <div class="l-spHeader__itemTitle"><?php the_field("clinic_name") ?>院</div>
                   <a href="tel:<?php echo get_field('clinic_info')['clinic_info_tel']; ?>" class="l-spHeader__itemTel">
-                    <img src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_tel_orange.png' alt="icon">
+                    <img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_tel_orange.png' alt="icon">
                     <div class="l-spHeader__itemNum"><?php echo get_field('clinic_info')['clinic_info_tel']; ?></div>
                   </a>
                   <div class="l-spHeader__itemTime">
@@ -518,7 +479,8 @@
 
   <!-- fixedCta_SP -->
   <?php if (!is_page(array('21', '23'))) : ?>
-    <div class="c-fixedCtaSp">
+    <div class="c-fixedCtaSp" style="bottom: 0;">
+      <!--
       <ul class="c-fixedCtaSp__list">
         <li class="c-fixedCtaSp__item">
           <a href="javascript:void(0)" class="c-fixedCtaSp__itemTelLink c-fixedCtaSp__itemTelLink--tel js-modal-open">
@@ -538,6 +500,12 @@
           </a>
         </li>
       </ul>
+      -->
+      <div class="c-fixedCtaSp__fix-banner">
+        <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p" class="">
+          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/toLPbtn.png" alt="無料カウンセリングに申し込む">
+        </a>
+      </div>
     </div>
   <?php endif; ?>
 
