@@ -194,11 +194,6 @@
     line-height: 30px;
     padding-top: 0.8rem;
   }
-
-  a {
-    text-decoration: underline;
-    color: cl(blue);
-  }
 }
 
 .p-faq__answerImg {
@@ -211,15 +206,4 @@
   margin: 1.6rem 0 3.2rem;
   display: block;
   width: unquote('min(65rem, 100%)');
-}
-
-.p-faq__text {
-  margin-top: 2rem;
-  line-height: 2.8rem;
-  font-size: 1.5rem;
-
-  a {
-    text-decoration: underline;
-    color: cl(blue);
-  }
 }
