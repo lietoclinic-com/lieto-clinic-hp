@@ -24,7 +24,7 @@
     font-size: 1.8rem;
     font-weight: 700;
     line-height: 2.8rem;
-    // color: cl(orange);    
+    color: cl(orange);
 
     @include mq(tab){
       margin: 5.0rem 0;
@@ -87,7 +87,7 @@
 
     strong {
       font-weight: 700;
-      // color: cl(orange);
+      color: cl(orange);
     }
   }
 
