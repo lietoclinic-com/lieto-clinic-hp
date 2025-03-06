@@ -365,3 +365,14 @@ $('.p-topTreatment__tab').on('click', function() {
   $('.p-topTreatment__table').removeClass('_active');
   $('.p-topTreatment__table').eq(index).addClass('_active');
 });
+
+// BeerSlider
+$.fn.BeerSlider = function (options) {
+  options = options || {};
+  return this.each(function () {
+    new BeerSlider(this, options);
+  });
+};
+$(".beer-slider").each(function (index, el) {
+  $(el).BeerSlider({ start: $(el).data("start") });
+});

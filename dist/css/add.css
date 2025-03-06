@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.beer-slider,.p-case__body{
+    width: 100%;
+}
+
+@media screen and (min-width: 769px) {
+    .p-case__body {
+        margin-top: 0;
+    }
+}

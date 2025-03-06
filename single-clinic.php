@@ -164,70 +164,49 @@
   </section>
 
   <!-- 当院の症例 -->
-  <?php if (get_field("clinic_case")) : ?>
+  <?php 
+    // 現在表示されている clinic の投稿IDを取得
+    $clinic_id = get_queried_object_id();
+
+    // clinic のスラッグを取得
+    $clinic_slug = get_post_field('post_name', $clinic_id);
+
+
+    $show_section = false; // 初期状態は非表示
+
+    if ($clinic_slug) {
+        // 該当する症例が1件でもあるか確認
+        $check_args = array(
+            'post_type'      => 'case',
+            'posts_per_page' => 1, // 1件でも見つかればよい
+            'post_status'    => 'publish',
+            'tax_query'      => array(
+                array(
+                    'taxonomy' => 'case_position',
+                    'field'    => 'slug',
+                    'terms'    => $clinic_slug, // クリニックのスラッグと一致するターム
+                ),
+            ),
+        );
+
+        $check_query = new WP_Query($check_args);
+
+        if ($check_query->have_posts()) {
+            $show_section = true; // 1件でもあれば表示
+        }
+    }
+
+    // `$show_section` が true の場合のみ表示
+    if ($show_section) :
+  ?>
     <section class="p-singleClinicCase">
       <div class="p-singleClinicCase__inner l-inner">
-        <div class="p-singleClinicCase__head p-clinicHead">
-          <h3 class="p-clinicHead__title"><?php echo get_field("clinic_name"); ?>院の症例</h3>
-        </div>
-
-        <div class="p-singleClinicCase__body">
-          <ul class="p-singleClinicCase__list p-case">
-            <?php
-            $count = 0;
-            while (have_rows('clinic_case')) : the_row();
-              $before = get_sub_field('clinic_case_before');
-              $count++;
-            ?>
-              <li class="p-case__item">
-                <div class="p-case__head">
-                  <div class="p-case__headName">症例</div>
-                  <div class="p-case__headNum">0<?php echo $count; ?></div>
-                </div>
-                <div class="p-case__body">
-                  <div class="p-case__images">
-                    <div class="p-case__image">
-                      <div class="p-case__imageTitle">BEFORE</div>
-                      <figure class="p-case__figure">
-                        <img loading="lazy" src="<?php the_sub_field('clinic_case_before'); ?>" alt="before">
-                      </figure>
-                    </div>
-                    <div class="p-case__image">
-                      <div class="p-case__imageTitle">AFTER</div>
-                      <figure class="p-case__figure">
-                        <img loading="lazy" src="<?php the_sub_field('clinic_case_after'); ?>" alt="after">
-                      </figure>
-                    </div>
-                  </div>
-                  <div class="p-case__box">
-                    <div class="p-case__boxTitle js-accordion">
-                      <?php the_sub_field('clinic_case_course'); ?>
-                      <div class="p-case__boxTitleMark"></div>
-                    </div>
-                    <div class="p-case__boxDescWrap">
-                      <div class="p-case__boxDesc">
-                        <dl class="p-case__boxContent">
-                          <dt>治療内容</dt>
-                          <dd><?php the_sub_field('clinic_case_content'); ?></dd>
-                        </dl>
-                        <dl class="p-case__boxDetail">
-                          <dt>金額</dt>
-                          <dd><?php the_sub_field('clinic_case_money'); ?></dd>
-                          <dt>期間・回数</dt>
-                          <dd><?php the_sub_field('clinic_case_term'); ?></dd>
-                          <dt>リスク・副作用</dt>
-                          <dd><?php the_sub_field('clinic_case_risk'); ?></dd>
-                        </dl>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-            <?php
-            endwhile;
-            ?>
-          </ul>
-        </div>
+          <div class="p-singleClinicCase__head p-clinicHead">
+              <h3 class="p-clinicHead__title"><?php echo esc_html(get_field("clinic_name", $clinic_id)); ?>院の症例</h3>
+          </div>
+          <div class="p-singleClinicCase__body">
+              <?php get_template_part('template-parts/all-case'); ?>
+          </div>
       </div>
     </section>
   <?php endif; ?>
