@@ -106,6 +106,14 @@
             // $_SESSION['faq'] = $count;
             // echo $_SESSION['faq'];
             ?>
+
+            <details class= "wp-block-details is-layout-flow wp-block-details-is-layout-flow"><summary>当記事の内容はご自由に引用いただけます。</summary>
+              <p style="margin: 0; padding:8px 12px; display: block; background-color: #f7f7f7; margin-top: 8px; line-height: 1.5;">
+                ただし、引用の際は、引用元として当院名および記事タイトルを明記し、読者の方が元の記事に遷移できるよう、引用元URLへのリンクをお願いいたします。
+                <br><br>例） 引用元：<a href="<?php echo home_url(); ?>">リエートクリニック</a>
+              </p>
+            </details>
+
             <?php the_content(); ?>
 
 
