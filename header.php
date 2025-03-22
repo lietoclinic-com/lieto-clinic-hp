@@ -162,11 +162,11 @@
         "datePublished": "<?php echo get_date_from_gmt(get_post_time('c', true), 'c'); ?>",
         "dateModified": "<?php echo get_date_from_gmt(get_post_modified_time('c', true), 'c'); ?>",
         "author": {
-          "@type": "Organization",
+          "@type": "Person",
           "name": "白川 巧"
         },
         "publisher": {
-          "@type": "Organization", //個人の場合は"Person"と記入
+          "@type": "Person", //個人の場合は"Person"と記入
           "name": "リエートクリニック", //ここに社名や個人名を記入
           "logo": {
             "@type": "ImageObject",
