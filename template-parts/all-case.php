@@ -21,8 +21,8 @@
                                     
                   <div class="sp-block">
                     <div class="image-compare-viewer" data-label-before="Before" data-label-after="After">
-                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case-no01-before-sp.webp" alt="Before">
-                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case-no01-after-sp.webp" alt="After">
+                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case-no01-after-sp.webp" alt="Before">
+                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case-no01-before-sp.webp" alt="After">
                     </div>
                   </div>
 

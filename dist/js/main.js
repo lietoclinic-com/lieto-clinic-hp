@@ -374,6 +374,7 @@ document.addEventListener("DOMContentLoaded", function () {
       controlColor: "#fff",
       addCircle: true,
       showLabels: true,
+      startingPoint: 5, // ← ここを変更！左寄りに
       labelOptions: {
         before: element.dataset.labelBefore || 'Before',
         after: element.dataset.labelAfter || 'After'
