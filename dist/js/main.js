@@ -366,13 +366,18 @@ $('.p-topTreatment__tab').on('click', function() {
   $('.p-topTreatment__table').eq(index).addClass('_active');
 });
 
-// BeerSlider
-$.fn.BeerSlider = function (options) {
-  options = options || {};
-  return this.each(function () {
-    new BeerSlider(this, options);
+// image-compare-viewer
+document.addEventListener("DOMContentLoaded", function () {
+  const viewers = document.querySelectorAll('.image-compare-viewer');
+  viewers.forEach((element) => {
+    new ImageCompare(element, {
+      controlColor: "#fff",
+      addCircle: true,
+      showLabels: true,
+      labelOptions: {
+        before: element.dataset.labelBefore || 'Before',
+        after: element.dataset.labelAfter || 'After'
+      }
+    }).mount();
   });
-};
-$(".beer-slider").each(function (index, el) {
-  $(el).BeerSlider({ start: $(el).data("start") });
 });

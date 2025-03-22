@@ -13,22 +13,18 @@
                   <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case-mv.webp" alt="mv" class="sp-hide">
                   <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case-mv-sp.webp" alt="mv" class="sp-block">
                   <div class="sp-hide">
-                    <div id="slider" class="beer-slider" data-beer-label="Beforeをみる" data-start="10">
-                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case-no01-after.webp" alt="Before">
-                      <div class="beer-reveal" data-beer-label="Afterをみる">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case-no01-before.webp" alt="After">
-                      </div>
+                    <div class="image-compare-viewer" data-label-before="Before" data-label-after="After">
+                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case-no01-before.webp" alt="Before">
+                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case-no01-after.webp" alt="After">
                     </div>
                   </div>
-                  
+                                    
                   <div class="sp-block">
-                    <div id="slider-sp" class="beer-slider sp-block" data-beer-label="Beforeをみる" data-start="10">
+                    <div class="image-compare-viewer" data-label-before="Before" data-label-after="After">
                       <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case-no01-before-sp.webp" alt="Before">
-                      <div class="beer-reveal" data-beer-label="Afterをみる">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case-no01-after-sp.webp" alt="After">
-                      </div>
+                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case-no01-after-sp.webp" alt="After">
                     </div>
-                  </div>    
+                  </div>
 
                 </div>
 
@@ -122,27 +118,24 @@
                               
                               <!-- PC表示 -->
                               <?php if ($case_pc) : ?>
-                                  <div class="sp-hide">
-                                      <div id="slider<?php echo $case_number; ?>" class="beer-slider" data-beer-label="Beforeをみる" data-start="10">
-                                          <img src="<?php echo esc_url($case_pc['after']['url']); ?>" alt="Before">
-                                          <div class="beer-reveal" data-beer-label="Afterをみる">
-                                              <img src="<?php echo esc_url($case_pc['before']['url']); ?>" alt="After">
-                                          </div>
-                                      </div>
+                                <div class="sp-hide">
+                                  <div class="image-compare-viewer" data-label-before="Before" data-label-after="After">
+                                    <img src="<?php echo esc_url($case_pc['before']['url']); ?>" alt="Before">
+                                    <img src="<?php echo esc_url($case_pc['after']['url']); ?>" alt="After">
                                   </div>
+                                </div>
                               <?php endif; ?>
 
                               <!-- SP表示 -->
                               <?php if ($case_sp) : ?>
-                                  <div class="sp-block">
-                                      <div id="slider<?php echo $case_number; ?>-sp" class="beer-slider sp-block" data-beer-label="Beforeをみる" data-start="10">
-                                          <img src="<?php echo esc_url($case_sp['after']['url']); ?>" alt="Before">
-                                          <div class="beer-reveal" data-beer-label="Afterをみる">
-                                              <img src="<?php echo esc_url($case_sp['before']['url']); ?>" alt="After">
-                                          </div>
-                                      </div>
+                                <div class="sp-block">
+                                  <div class="image-compare-viewer" data-label-before="Before" data-label-after="After">
+                                    <img src="<?php echo esc_url($case_sp['before']['url']); ?>" alt="Before">
+                                    <img src="<?php echo esc_url($case_sp['after']['url']); ?>" alt="After">
                                   </div>
+                                </div>
                               <?php endif; ?>
+                              
                           </div>
 
                           <div class="p-case__box">
