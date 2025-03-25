@@ -20,7 +20,7 @@ function my_scripts() {
 
   // beer-slider-js
   // wp_enqueue_script('beer-slider', 'https://unpkg.com/beerslider/dist/BeerSlider.js', array('jquery'), '1.0.0', true);
-  wp_enqueue_script('image-compare-viewer', 'https://unpkg.com/image-compare-viewer/dist/image-compare-viewer.min.js', array('jquery'), '1.0.0', true);
+  wp_enqueue_script('image-compare-viewer', 'https://unpkg.com/image-compare-viewer@1.5.0/dist/image-compare-viewer.min.js', array('jquery'), '1.0.0', true);
 
   // main-js
   wp_enqueue_script('main', get_template_directory_uri() . '/dist/js/main.js', array('jquery'), '1.0.0', true);
