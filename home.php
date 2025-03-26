@@ -29,13 +29,13 @@
                 <div class="p-editor__post">リエートクリニック名古屋院 <br class="_sp">院長</div>
                 <div class="p-editor__name">松永 宏之</div>
                 <div class="p-editor__btn _overTab">
-                  <a href="<?php echo esc_url(home_url("greeting")); ?>" class="c-btn">監修者について詳しく見る</a>
+                  <a href="<?php echo esc_url(home_url()); ?>/greeting/" class="c-btn">監修者について詳しく見る</a>
                 </div>
               </div>
             </div>
 
             <div class="p-editor__btn _sp">
-              <a href="/greeting/" class="c-btn">監修者について詳しく見る</a>
+              <a href="<?php echo esc_url(home_url()); ?>/greeting/" class="c-btn">監修者について詳しく見る</a>
             </div>
           </div>
         </div>
