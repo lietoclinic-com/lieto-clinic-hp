@@ -45,17 +45,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <?php //ページネーションの場合のタイトル
-    if(is_page('latest') or is_category()): // コラム内ページネーション
-      if (is_paged()): //2ページ目かどうかの判別
-        $pagenum = get_query_var('paged'); //ページ番号の取得
-  ?>
-    <title>最新コラム一覧｜<?php echo $pagenum; ?>ページ目｜リエートクリニック【公式】</title>
-  <?php 
-      endif;
-    endif;
-  ?>
-
   <!-- OGP -->
   <?php $current_url =  get_pagenum_link(get_query_var('page')); ?>
 
@@ -433,7 +422,35 @@
           <!-- <li class="l-spHeader__item"><a href="/case/">当院の症例</a></li> -->
           <li class="l-spHeader__item"><a href="/minor/">未成年者の方へ</a></li>
           <li class="l-spHeader__item"><a href="/faq/">よくある質問</a></li>
-          <li class="l-spHeader__item"><a href="/clinic/">クリニック一覧</a></li>
+          <li class="l-spHeader__item has-child">
+            <?php if(is_front_page()): ?>
+              <div href="javascript:void(0)" class="js-accordion">
+              クリニック一覧
+                <span class="l-spHeader__itemOpen"></span>
+              </div>
+            <?php else: ?>
+              <a href="javascript:void(0)" class="js-accordion">
+              クリニック一覧
+                <span class="l-spHeader__itemOpen"></span>
+              </a>
+            <?php endif; ?>
+            <ul class="l-spHeader__sublist">
+              <li class="l-spHeader__subitem"><a href="/clinic/">クリニック一覧TOP</span></a></li>
+              <?php
+              $args = array(
+                'post_type' => 'clinic',
+              );
+              $query = new WP_Query($args);
+              ?>
+              <?php if ($query->have_posts()) : ?>
+                <?php while ($query->have_posts()) : $query->the_post(); ?>
+                  <li class="l-spHeader__subitem"><a href="<?php the_permalink(); ?>"><?php the_field("clinic_name"); ?>院</a></li>
+                <?php endwhile;
+                wp_reset_postdata() ?>
+              <?php endif; ?>
+            </ul>
+          </li>
+          <li class="l-spHeader__item"><a href="/column/">コラム一覧</a></li>
         </ul>
 
         <!--
