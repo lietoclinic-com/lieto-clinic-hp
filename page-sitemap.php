@@ -85,7 +85,7 @@
               </ul>
             </li>
             <li class="p-pageSitemap__item"><a href="/monitor/">モニター募集</a></li>
-            <!-- <li class="p-pageSitemap__item"><a href="">当院の症例</a></li> -->
+            <li class="p-pageSitemap__item"><a href="">当院の症例</a></li>
           </ul>
         </div>
 
