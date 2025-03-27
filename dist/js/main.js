@@ -365,3 +365,20 @@ $('.p-topTreatment__tab').on('click', function() {
   $('.p-topTreatment__table').removeClass('_active');
   $('.p-topTreatment__table').eq(index).addClass('_active');
 });
+
+// image-compare-viewer
+document.addEventListener("DOMContentLoaded", function () {
+  const viewers = document.querySelectorAll('.image-compare-viewer');
+  viewers.forEach((element) => {
+    new ImageCompare(element, {
+      controlColor: "#fff",
+      addCircle: true,
+      showLabels: true,
+      startingPoint: 5, // ← ここを変更！左寄りに
+      labelOptions: {
+        before: element.dataset.labelBefore || 'Before',
+        after: element.dataset.labelAfter || 'After'
+      }
+    }).mount();
+  });
+});
