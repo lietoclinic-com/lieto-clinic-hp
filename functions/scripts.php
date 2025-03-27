@@ -18,12 +18,18 @@ function my_scripts() {
   // splide.js
   wp_enqueue_script('splide', get_template_directory_uri().'/dist/js/splide.min.js', array('jquery'), '1.0.0', true);
 
+  // beer-slider-js
+  // wp_enqueue_script('beer-slider', 'https://unpkg.com/beerslider/dist/BeerSlider.js', array('jquery'), '1.0.0', true);
+  wp_enqueue_script('image-compare-viewer', 'https://unpkg.com/image-compare-viewer@1.5.0/dist/image-compare-viewer.min.js', array('jquery'), '1.0.0', true);
+
   // main-js
-  wp_enqueue_script('main', get_template_directory_uri() . '/dist/js/main.min.js', array('jquery'), '1.0.0', true);
+  wp_enqueue_script('main', get_template_directory_uri() . '/dist/js/main.js', array('jquery'), '1.0.0', true);
+
+
 
   // jsの遅延読み込み
   function add_defer_attribute($tag, $handle) {
-    $defer_scripts = array('jquery', 'ajaxzip3', 'slick', 'main'); // 遅延読み込みにしたいスクリプトのハンドルを指定
+    $defer_scripts = array('jquery', 'ajaxzip3', 'slick', 'image-compare-viewer', 'main'); // 遅延読み込みにしたいスクリプトのハンドルを指定
     foreach ($defer_scripts as $defer_script) {
       if (strpos($tag, $defer_script) !== false) {
         return str_replace(' src', ' defer="defer" src', $tag);
@@ -44,6 +50,9 @@ function my_scripts() {
 
   // style-css
   wp_enqueue_style('style', get_template_directory_uri().'/dist/css/style.min.css', array(), '1.0.0');
+  // wp_enqueue_style('beer-slider', get_template_directory_uri().'/dist/css/beer-slider.css', array(), '1.0.0');
+  wp_enqueue_style('image-compare-viewer-css', 'https://unpkg.com/image-compare-viewer/dist/image-compare-viewer.min.css', array(), '1.0.0');
+  wp_enqueue_style('add', get_template_directory_uri().'/dist/css/add.css', array(), '1.0.0');
 
   //トップの場合はCSSを非同期で読み込む
   function load_css_async_top($html, $handle, $href, $media) {
