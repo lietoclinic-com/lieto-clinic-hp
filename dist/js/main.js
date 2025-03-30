@@ -382,3 +382,14 @@ document.addEventListener("DOMContentLoaded", function () {
     }).mount();
   });
 });
+
+// js-scrollable
+window.addEventListener('DOMContentLoaded', function () {
+  new ScrollHint('.js-scrollable', {
+    scrollHintIconAppendClass: 'scroll-hint-icon-white', 
+    suggestiveShadow: true,
+    i18n: {
+      scrollable: "スクロールできます"
+    }
+  });
+});

@@ -21,6 +21,7 @@ function my_scripts() {
   // beer-slider-js
   // wp_enqueue_script('beer-slider', 'https://unpkg.com/beerslider/dist/BeerSlider.js', array('jquery'), '1.0.0', true);
   wp_enqueue_script('image-compare-viewer', 'https://unpkg.com/image-compare-viewer@1.5.0/dist/image-compare-viewer.min.js', array('jquery'), '1.0.0', true);
+  wp_enqueue_script('scroll-hint', 'https://unpkg.com/scroll-hint@latest/js/scroll-hint.min.js', array('jquery'), '1.0.0', true);
 
   // main-js
   wp_enqueue_script('main', get_template_directory_uri() . '/dist/js/main.js', array('jquery'), '1.0.0', true);
@@ -50,6 +51,7 @@ function my_scripts() {
 
   // style-css
   wp_enqueue_style('style', get_template_directory_uri().'/dist/css/style.min.css', array(), '1.0.0');
+  wp_enqueue_style('scroll-hint', 'https://unpkg.com/scroll-hint@latest/css/scroll-hint.css', array(), '1.0.0');
   // wp_enqueue_style('beer-slider', get_template_directory_uri().'/dist/css/beer-slider.css', array(), '1.0.0');
   wp_enqueue_style('image-compare-viewer-css', 'https://unpkg.com/image-compare-viewer/dist/image-compare-viewer.min.css', array(), '1.0.0');
   wp_enqueue_style('add', get_template_directory_uri().'/dist/css/add.css', array(), '1.0.0');
