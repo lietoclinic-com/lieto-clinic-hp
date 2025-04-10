@@ -682,3 +682,22 @@ p-topFv
     object-fit: cover;
     object-position: 11.8% center;
 }
+.p-topFvSlider .slick-dots {
+    margin-left: 11%;
+    width: auto;
+}
+.p-topFvSlider .slick-dots li {
+    width: 80px;
+}
+.p-topFvSlider .slick-dots li button {
+    width: 100%;
+}
+.p-topFvSlider .slick-dots li button:before {
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 0;
+    width: 100%;
+}
+.p-topFvSlider .slick-dots li.slick-active button:before {
+    background-color: #4c3624;
+}
