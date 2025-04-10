@@ -734,3 +734,67 @@ p-topFv
     font-family: "Zen Kaku Gothic New";
     font-size: 14px;
 }
+
+/*===================================
+p-topIntro
+===================================*/
+.p-topIntro {
+    margin-top: 95px;
+}
+.p-intro__spotList,
+.p-intro__menuList {
+    display: flex;
+}
+.p-intro__spotList {
+    gap: 20px;
+    justify-content: space-between;
+}
+.p-intro__menuList {
+    align-items: flex-end;
+    gap: 120px;
+    justify-content: space-evenly;
+}
+.p-intro__spotItem,
+.p-intro__menuItem {
+    position: relative;
+}
+.p-intro__spotItem {
+    box-shadow: 0 0 15px rgba(187,187,187,.48);
+}
+.p-intro__spotTitle,
+.p-intro__menuTitle {
+    font-family: "Zen Kaku Gothic New";
+    text-align: center;
+    width: 100%;
+}
+.p-intro__spotTitle {
+    background: rgba(255,255,255,.9);
+    bottom: 0;
+    font-size: 18px;
+    font-weight: 500;
+    padding-block: 5px;
+    position: absolute;
+}
+.p-intro__spotTitle:after {
+    border-right: 2px solid #000;
+    border-top: 2px solid #000;
+    content: "";
+    display: block;
+    height: 9.5px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+    width: 9.5px;
+}
+.p-intro__menuTitle {
+    color: #4c3624;
+    font-size: 21px;
+}
+.p-intro__menuListWrap {
+    margin-top: 50px;
+}
+.p-intro__menuImage {
+    margin-inline: auto;
+    width: 60%;
+}

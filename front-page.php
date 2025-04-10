@@ -36,7 +36,74 @@
   </div>
 
   <!-- spot, link -->
-  
+  <div class="p-topIntro">
+    <div class="p-intro__inner l-inner">
+      <div class="p-intro__spotListWrap">
+        <ul class="p-intro__spotList">
+          <li class="p-intro__spotItem">
+            <a href="#" class="p-intro__spotLink">
+              <div class="p-intro__spotImage">
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_ikebukuro.png.webp">
+              </div>
+              <div class="p-intro__spotTitle">池袋院</div>
+            </a>
+          </li>
+          <li class="p-intro__spotItem">
+            <a href="#" class="p-intro__spotLink">
+              <div class="p-intro__spotImage">
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_yokohama.png.webp">
+              </div>
+              <div class="p-intro__spotTitle">横浜院</div>
+            </a>
+          </li>
+          <li class="p-intro__spotItem">
+            <a href="#" class="p-intro__spotLink">
+              <div class="p-intro__spotImage">
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_nagoya.png.webp">
+              </div>
+              <div class="p-intro__spotTitle">名古屋院</div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="p-intro__menuListWrap">
+        <ul class="p-intro__menuList">
+          <li class="p-intro__menuItem">
+            <a href="#" class="p-intro__menuLink">
+              <div class="p-intro__menuImage">
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/icon_hospital.png.webp">
+              </div>
+              <p class="p-intro__menuTitle">当院について</p>
+            </a>
+          </li>
+          <li class="p-intro__menuItem">
+            <a href="#" class="p-intro__menuLink">
+              <div class="p-intro__menuImage">
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/icon_menu.png.webp">
+              </div>
+              <p class="p-intro__menuTitle">施術一覧</p>
+            </a>
+          </li>
+          <li class="p-intro__menuItem">
+            <a href="#" class="p-intro__menuLink">
+              <div class="p-intro__menuImage">
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/icon_case.png.webp">
+              </div>
+              <p class="p-intro__menuTitle">症例一覧</p>
+            </a>
+          </li>
+          <li class="p-intro__menuItem">
+            <a href="#" class="p-intro__menuLink">
+              <div class="p-intro__menuImage">
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/icon_flow.png.webp">
+              </div>
+              <p class="p-intro__menuTitle">施術の流れ</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
   <!-- slick, banner -->
   <div class="p-topBanner">
