@@ -41,7 +41,7 @@
       <div class="p-intro__spotListWrap">
         <ul class="p-intro__spotList">
           <li class="p-intro__spotItem">
-            <a href="#" class="p-intro__spotLink">
+            <a href="/clinic#clinic_03" class="p-intro__spotLink">
               <div class="p-intro__spotImage">
                 <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_ikebukuro.png.webp">
               </div>
@@ -49,7 +49,7 @@
             </a>
           </li>
           <li class="p-intro__spotItem">
-            <a href="#" class="p-intro__spotLink">
+            <a href="/clinic#clinic_01" class="p-intro__spotLink">
               <div class="p-intro__spotImage">
                 <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_yokohama.png.webp">
               </div>
@@ -57,7 +57,7 @@
             </a>
           </li>
           <li class="p-intro__spotItem">
-            <a href="#" class="p-intro__spotLink">
+            <a href="/clinic#clinic_02" class="p-intro__spotLink">
               <div class="p-intro__spotImage">
                 <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_nagoya.png.webp">
               </div>

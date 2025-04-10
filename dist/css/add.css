@@ -664,6 +664,9 @@ l-header
 /*===================================
 p-topFv
 ===================================*/
+.p-topFv__body {
+    padding-top: 0 !important;
+}
 .p-topFvSlider {
     height: 100% !important;
     margin-left: 0 !important;
