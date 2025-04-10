@@ -686,6 +686,25 @@ p-topFv
     margin-left: 11%;
     width: auto;
 }
+.p-topFvSlider .slide-arrow {
+    height: 10rem;
+    transform: rotate(45deg) skew(20deg, 20deg);
+    width: 10rem;
+}
+.p-topFvSlider .prev-arrow {
+    border-bottom: 2px solid;
+    left: 30px;
+}
+.p-topFvSlider .next-arrow {
+    border-bottom: none;
+    border-right: 2px solid;
+    border-top: 2px solid;
+    right: 90px;
+}
+.p-topFvSlider .prev-arrow,
+.p-topFvSlider .next-arrow {
+    border-color: #fff;
+}
 .p-topFvSlider .slick-dots li {
     width: 80px;
 }
