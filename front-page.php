@@ -4,7 +4,19 @@
 
   <!-- FV -->
   <div class="p-topFv">
-    <div class="p-topFv__img"></div>
+    <div class="p-topFvSlider">
+      <div class="p-topFvSliderList" id="p-fvSlider__slick">
+        <div class="p-topFvSliderItem">
+          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg.jpg.webp">
+        </div>
+        <div class="p-topFvSliderItem">
+          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg.jpg.webp">
+        </div>
+        <div class="p-topFvSliderItem">
+          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg.jpg.webp">
+        </div>
+      </div>
+    </div>
 
     <div class="p-topFv__body">
       
