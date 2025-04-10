@@ -1,1 +1,655 @@
 @charset "UTF-8";
+
+.p-pagePrice{
+    padding-bottom: 120px;
+}
+
+.p-pagePrice__wrap{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .p-pagePrice{
+        padding-bottom: 80px;
+    }
+    
+    .p-pagePrice__wrap{
+        padding: 20px;
+    }
+}
+
+/*===================================
+ページ内ボタン
+===================================*/
+.p-pagePrice__wrap .p-pageCliniclink__btns{
+    justify-content: space-between;
+}
+.p-pagePrice__wrap .p-pageCliniclink__btns .p-pageClinicLink__btn{
+
+}
+
+/*===================================
+共通
+===================================*/
+#course ,
+#price {
+    padding-top: 120px;
+    font-size: 20px;
+    line-height: 2;
+}
+#price {
+    font-size: 16px;
+}
+#course .p-pageClinicContent__title ,
+#price .p-pageClinicContent__title {
+    margin-bottom: 64px;
+}
+
+#course table ,
+#price table {
+    font-weight: bold;
+    width: 100%;
+}
+
+#course table thead ,
+#price table thead {
+    background-color: #ED8500;
+}
+
+#course table thead th ,
+#price table thead th {
+    color: #fff;
+}
+
+#course table thead th ,
+#price table thead th ,
+#course table tbody td ,
+#price table tbody td {
+    height: 60px;
+    border: 2px solid #fff;
+    vertical-align: middle;
+    padding: 10px 24px;
+}
+
+#course table tbody td ,
+#price table tbody td {
+    background-color: #FFF4E3;
+}
+
+@media screen and (max-width: 1024px) {
+    #course ,
+    #price {
+        padding-top: 80px;
+        font-size: 12px;
+    }
+    #price {
+        font-size: 12px;
+    }
+    #course .p-pageClinicContent__title ,
+    #price .p-pageClinicContent__title {
+        margin-bottom: 40px;
+    }
+
+    #course table thead th ,
+    #price table thead th ,
+    #course table tbody td ,
+    #price table tbody td {
+        height: 40px;
+        padding: 8px 12px;
+    }
+
+}
+
+/*===================================
+共通 コース
+===================================*/
+#course {
+
+}
+#course h3 {
+    margin: 16px 0 8px;
+    padding: 10px 0;
+    text-align: center;
+    border: 2px solid #ED8500;
+    color: #ED8500;
+    font-size: 20px;
+    line-height: 2;
+    display: block;
+    width: 100%;
+}
+
+#course table thead th:nth-child(1){
+    width: 44.2%;
+}
+#course table thead th:nth-child(n+2){
+    width: 18.6%;
+}
+
+#course table tbody td {
+    background-color: #FFF4E3;
+    text-align: right;
+}
+
+#course table tbody td:nth-child(1) {
+    text-align: left;
+}
+
+.price-trial{
+    color: #FD4477;
+}
+
+@media screen and (max-width: 1024px) {
+    #course h3 {
+        margin: 16px 0 8px;
+        padding: 10px 0;
+        font-size: 14px;
+    }
+    
+    #course table thead th:nth-child(1){
+        width: 28%;
+    }
+    #course table thead th:nth-child(n+2){
+        width: 24%;
+    }
+
+    #course table thead th:nth-child(1) ,
+    #course table tbody td:nth-child(1) {
+        position: sticky;
+        z-index: 1;
+        left: 0;
+        background-color: #ED8500;
+    }
+    #course table tbody td:nth-child(1) {
+        background-color: #FFF4E3;
+    }
+    
+    #course table tbody td {
+        background-color: #FFF4E3;
+        text-align: right;
+    }
+    
+    #course table tbody td:nth-child(1) {
+        text-align: left;
+    }
+    
+    .price-trial{
+        color: #FD4477;
+    }
+
+    .price__scroll-wrap {
+        overflow-x: auto;
+    }
+    .price__scroll-wrap table {
+        border-collapse: collapse;
+        min-width: 500px;
+    }
+    .price__scroll-wrap th,
+    .price__scroll-wrap td {
+
+    }
+}
+
+/*===================================
+共通 施術料金
+===================================*/
+#price {
+
+}
+
+#price table thead th:nth-child(1){
+    width: 30%;
+}
+#price table thead th:nth-child(n+2){
+    width: 14%;
+}
+
+#price table tbody td {
+    background-color: #FFF4E3;
+    text-align: center;
+}
+
+#price table tbody td:nth-child(1) {
+    text-align: left;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #price table thead th:nth-child(1) ,
+    #price table tbody td:nth-child(1) {
+        position: sticky;
+        z-index: 1;
+        left: 0;
+        background-color: #ED8500;
+    }
+    #price table tbody td:nth-child(1) {
+        background-color: #FFF4E3;
+    }
+    
+    #price table tbody td {
+        background-color: #FFF4E3;
+        text-align: right;
+    }
+
+    .price__scroll-wrap2 {
+        overflow-x: auto;
+    }
+    .price__scroll-wrap2 table {
+        border-collapse: collapse;
+        min-width: 600px;
+    }
+    .price__scroll-wrap2 th,
+    .price__scroll-wrap2 td {
+
+    }
+
+    .scroll-hint-icon-wrap.is-active .scroll-hint-icon{
+        z-index: 2;
+    }
+    .scroll-hint-icon{
+        top: 18px;
+    }
+}
+
+/*===================================
+p-topCaution
+===================================*/
+.p-topCaution {
+    width: 100%;
+    height: auto;
+}
+
+.p-topCaution__lead{
+    padding: 80px 0 12px;
+}
+.p-topCaution__lead h2{
+    font-size: 80px;
+    color: #e03434;
+    font-family: Cinzel, serif;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: .14em;
+}
+.p-topCaution__lead p{
+    margin-top: 24px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: .14em;
+    font-family: "BIZ UDGothic",sans-serif;
+    color: #272727;
+}
+
+.p-topCaution__lead-img{
+    width: 100%;
+    height: auto;
+}
+
+.p-topCaution__wrap{
+    background-color: #f2f2f2;
+    width: 100%;
+    padding-bottom: 120px;
+}
+
+@media screen and (max-width: 1024px) {
+    .p-topCaution__lead{
+        padding: 48px 0 8px;
+    }
+    .p-topCaution__lead h2{
+        font-size: 36px;
+    }
+    .p-topCaution__lead p{
+        margin-top: 1em;
+        font-size: 14px;
+        text-align: left;
+        padding-right: 2.5rem;
+        padding-left: 2.5rem;
+        max-width: 540px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .p-topCaution__wrap{
+        padding-bottom: 64px;
+    }
+}
+
+/*===================================
+p-topCaution title
+===================================*/
+.p-topCaution__title{
+    padding: 1.6em 0 0;
+    margin-bottom: 1em;
+    width: 100%;
+    color: #272727;
+    font-size: 24px;
+}
+.p-topCaution__title .p-topCaution__title-top {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    letter-spacing: .14em;
+    font-family: Cinzel, serif;
+}
+.p-topCaution__title .p-topCaution__title-top:before,
+.p-topCaution__title .p-topCaution__title-top:after {
+    content: "";
+    height: 1px;
+    flex-grow: 1;
+    background-color: #272727;
+}
+.p-topCaution__title .p-topCaution__title-top:before {
+    margin-right: 1rem;
+}
+.p-topCaution__title .p-topCaution__title-top:after {
+    margin-left: 1rem;
+}
+.p-topCaution__title .p-topCaution__title-text{
+    font-size: 45px;
+    letter-spacing: .14em;
+    text-align: center;
+    padding: .1em 0 .5em;
+    border-bottom: 1px solid #272727;
+    margin-bottom: 1em;
+}
+
+@media screen and (max-width: 1024px) {
+    .p-topCaution__title{
+
+    }
+    .p-topCaution__title .p-topCaution__title-top {
+        font-size: 14px;
+    }
+    .p-topCaution__title .p-topCaution__title-text{
+        font-size: 18px;
+    }
+}
+
+/*===================================
+p-topCaution__text-center
+===================================*/
+.p-topCaution__text-center{
+    line-height: 1.5;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 1em;
+    color: #333333;
+}
+@media screen and (max-width: 1024px) {
+    .p-topCaution__text-center{
+        font-size: 14px;
+        text-align: left;
+    }
+}
+
+/*===================================
+p-topCaution__table
+===================================*/
+.p-topCaution__table{
+    max-width: 950px;
+    width: 100%;
+    margin: 40px auto 0;
+    border-top: 2px solid #8d8d8d;
+    border-left: 2px solid #8d8d8d;
+    color: #272727;
+    font-size: 18px;
+}
+
+.p-topCaution__table thead{
+    text-align: center;
+    background-color: #dedede;
+}
+.p-topCaution__table thead tr{
+
+}
+.p-topCaution__table thead tr th {
+    padding: 1em;
+    border-bottom: 2px solid #8d8d8d;
+    border-right: 2px solid #8d8d8d;
+}
+
+.p-topCaution__table tbody {
+
+}
+.p-topCaution__table tbody tr {
+    background-color: #fff;
+}
+.p-topCaution__table tbody tr th {
+    padding: 1em;
+    text-align: left;
+    border-bottom: 2px solid #8d8d8d;
+    border-right: 2px solid #8d8d8d;
+}
+.p-topCaution__table tbody tr td {
+    padding: 1em;
+    text-align: center;
+    border-bottom: 2px solid #8d8d8d;
+    border-right: 2px solid #8d8d8d;
+}
+
+@media screen and (max-width: 1024px) {
+    .p-topCaution__table{
+        font-size: 12px;
+    }
+    .p-topCaution__table tbody tr th{
+        white-space: nowrap;
+    }
+}
+
+/*===================================
+p-topCaution__table
+===================================*/
+.p-topCaution__diet {
+    max-width: 950px;
+    width: 100%;
+    margin: 100px auto 100px;
+    border: #ce8e5a 2px solid;
+    background-color: #fff;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 10px 10px 0 0px #ce8e5a;
+}
+.p-topCaution__diet::after{
+    position: absolute;
+    content: '';
+    width: 166.5px;
+    height: 64px;
+    background-image: url(../img/top/caution-arrow.png.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: translate(-50% , -40%);
+    top: 0;
+    left: 50%;
+}
+
+.p-topCaution__diet-inner{
+    border: #ce8e5a 2px solid;
+    position: relative;
+    padding: 40px 20px 40px;
+}
+
+.p-topCaution__diet-title {
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: .14em;
+    font-size: 32px;
+    letter-spacing: .14em;
+    padding: 0 0 .4em;
+    color: #ce8e5a;
+}
+
+.p-topCaution__diet__list{
+    max-width: 840px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8px;
+}
+.p-topCaution__diet__list .p-treatment__contentItem {
+    display: block;
+}
+.p-topCaution__diet__list .p-treatment__contentItem a {
+    display: block;
+}
+.p-topCaution__diet__list .p-treatment__contentItem a img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.p-topCaution__diet__list .p-treatment__contentItem a .p-treatment__contentItemDesc {
+
+}
+.p-topCaution__diet__list .p-treatment__contentItem a .p-treatment__contentItemDesc .p-treatment__contentItemText {
+    font-size: 16px;
+    margin-top: .4em;
+    letter-spacing: 0em;
+    color: #000000;
+    line-height: 1.5;
+}
+.p-topCaution__diet__list .p-treatment__contentItem a .p-treatment__contentItemDesc .p-treatment__contentItemHead {
+
+}
+.p-topCaution__diet__list .p-treatment__contentItem a .p-treatment__contentItemDesc .p-treatment__contentItemHead .p-treatment__contentItemTitle {
+    line-height: 1;
+    font-size: 26px;
+    letter-spacing: 0em;
+    color: #ce8e5a;
+    margin-top: .2em;
+}
+.p-topCaution__diet__list .p-treatment__contentItem a .p-treatment__contentItemDesc .p-treatment__contentItemHead .p-treatment__contentItemSubtitle {
+    margin-top: .2em;
+    line-height: 1;
+    font-size: 15px;
+    letter-spacing: 0em;
+    color: #ce8e5a;
+}
+
+@media screen and (max-width: 1024px) {
+    .p-topCaution__diet {
+        margin: 40px auto ;
+    }
+    .p-topCaution__diet::after{
+        width: 120px;
+        height: auto;
+        aspect-ratio: 166.5 / 64;
+    }
+    .p-topCaution__diet-inner{
+        border: #ce8e5a 2px solid;
+        position: relative;
+        padding: 40px 20px 40px;
+    }
+    .p-topCaution__diet-title {
+        font-size: 3.6svw;
+        margin-bottom: 1em;
+    }
+    .p-topCaution__diet__list{
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+    .p-topCaution__diet__list .p-treatment__contentItem a .p-treatment__contentItemDesc .p-treatment__contentItemText {
+        font-size: 14px;
+    }
+    .p-topCaution__diet__list .p-treatment__contentItem a .p-treatment__contentItemDesc .p-treatment__contentItemHead .p-treatment__contentItemTitle {
+        font-size: 28px;
+    }
+    .p-topCaution__diet__list .p-treatment__contentItem a .p-treatment__contentItemDesc .p-treatment__contentItemHead .p-treatment__contentItemSubtitle {
+        margin-top: 0.6em;
+        font-size: 14px;
+    }
+}
+
+/*===================================
+p-topCaution__column
+===================================*/
+.p-topCaution__column{
+    margin-top: 64px;
+    margin-bottom: 100px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.p-topCaution__column-img {
+    max-width: 420px;
+    width: 100%;
+}
+.p-topCaution__column-img img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.p-topCaution__column-text{
+    width: calc(100% - 444px);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .14em;
+}
+
+@media screen and (max-width: 1024px) {
+    .p-topCaution__column{
+        margin-top: 40px;
+        margin-bottom: 0px;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    .p-topCaution__column-img {
+        max-width: 100%;
+    }
+    .p-topCaution__column-img img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .p-topCaution__column-text{
+        width: 100%;
+        font-size: 14px;
+    }
+}
+
+/*===================================
+p-topCaution
+===================================*/
+.p-topCaution__img4-1{
+    max-width: 414px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 24px auto 0;
+}
+.p-topCaution__text4-1{
+    text-align: center;
+    color: #333333;
+    font-size: 14px;
+    margin-top: 1em;
+}
+
+.p-topCaution__img4-2{
+    margin: 40px auto 0;
+    max-width: 552px;
+    width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (max-width: 1024px) {
+    .p-topCaution__img4-1{
+        margin: 24px auto 0;
+        max-width: 100%;
+    }
+    .p-topCaution__text4-1{
+        font-size: 12px;
+        margin-top: 1em;
+    }
+    
+    .p-topCaution__img4-2{
+        max-width: 100%;
+        width: 100%;
+    }
+    
+}
