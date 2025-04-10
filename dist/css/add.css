@@ -655,6 +655,13 @@ p-topCaution
 }
 
 /*===================================
+l-header
+===================================*/
+.l-header__left {
+    padding-left: 11.8% !important;
+}
+
+/*===================================
 p-topFv
 ===================================*/
 .p-topFvSlider {
@@ -672,4 +679,6 @@ p-topFv
 .p-topFvSliderItem,
 .p-topFvSliderItem img {
     height: 100%;
+    object-fit: cover;
+    object-position: 11.8% center;
 }
