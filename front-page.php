@@ -7,43 +7,7 @@
     <div class="p-topFv__img"></div>
 
     <div class="p-topFv__body">
-      <div class="p-topFv__message">
-        <div class="p-topFv__messageTop">細胞レベルで痩せながら</div>
-        <div class="p-topFv__messageMiddle">
-          <span class="_large">美</span>
-          <span class="_large">し</span>
-          <span class="_large">く</span>
-          <span class="_small">を</span>
-          <span class="_large">実現</span>
-        </div>
-        <div class="p-topFv__messageBottom">ACHIEVE BEAUTY</div>
-      </div>
-
-      <ul class="p-topFv__clinics">
-        <?php
-        $args = array(
-          'post_type' => 'clinic',
-          'posts_per_page' => -1,
-        );
-        $query = new WP_Query($args);
-        ?>
-
-        <?php if ($query->have_posts()) : ?>
-          <?php while ($query->have_posts()) : $query->the_post();
-            $count++; ?>
-
-            <li class="p-topFv__clinic">
-              <span class="p-topFv__clinicName"><?php the_field("clinic_name"); ?>院</span>
-              <span class="p-topFv__clinicWalk">
-                <?php echo get_field("clinic_time")['clinic_near_station'] ?>駅から<br>
-                徒歩<span class="_num"><?php echo get_field("clinic_time")['clinic_walktime'] ?></span>分
-              </span>
-            </li>
-
-          <?php endwhile;
-          wp_reset_postdata() ?>
-        <?php endif; ?>
-      </ul>
+      
     </div>
 
     <div class="p-topFv__scroll">
