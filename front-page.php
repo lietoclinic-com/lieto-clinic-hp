@@ -69,7 +69,7 @@
       <div class="p-intro__menuListWrap">
         <ul class="p-intro__menuList">
           <li class="p-intro__menuItem">
-            <a href="#" class="p-intro__menuLink">
+            <a href="/about/" class="p-intro__menuLink">
               <div class="p-intro__menuImage">
                 <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/icon_hospital.png.webp">
               </div>
@@ -77,7 +77,7 @@
             </a>
           </li>
           <li class="p-intro__menuItem">
-            <a href="#" class="p-intro__menuLink">
+            <a href="/menu/" class="p-intro__menuLink">
               <div class="p-intro__menuImage">
                 <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/icon_menu.png.webp">
               </div>
@@ -85,7 +85,7 @@
             </a>
           </li>
           <li class="p-intro__menuItem">
-            <a href="#" class="p-intro__menuLink">
+            <a href="/case/" class="p-intro__menuLink">
               <div class="p-intro__menuImage">
                 <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/icon_case.png.webp">
               </div>
@@ -93,7 +93,7 @@
             </a>
           </li>
           <li class="p-intro__menuItem">
-            <a href="#" class="p-intro__menuLink">
+            <a href="/flow/" class="p-intro__menuLink">
               <div class="p-intro__menuImage">
                 <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/icon_flow.png.webp">
               </div>
