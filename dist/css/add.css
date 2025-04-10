@@ -720,3 +720,17 @@ p-topFv
 .p-topFvSlider .slick-dots li.slick-active button:before {
     background-color: #4c3624;
 }
+.p-topFv__warningWrap {
+    bottom: -70px;
+    display: flex;
+    justify-content: flex-end;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 100%;
+}
+.p-topFv__warningItem {
+    color: #000;
+    font-family: "Zen Kaku Gothic New";
+    font-size: 14px;
+}
