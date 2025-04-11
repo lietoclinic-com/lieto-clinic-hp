@@ -9,14 +9,26 @@
         <div class="p-topFvSliderItem">
           <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg.jpg.webp">
           <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg_sp.jpg.webp">
+          <div class="p-topFvSliderItem__copy">
+            <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_copy.png.webp">
+            <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_copy_sp.png.webp">
+          </div>
         </div>
         <div class="p-topFvSliderItem">
           <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg.jpg.webp">
           <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg_sp.jpg.webp">
+          <div class="p-topFvSliderItem__copy">
+            <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_copy.png.webp">
+            <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_copy_sp.png.webp">
+          </div>
         </div>
         <div class="p-topFvSliderItem">
           <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg.jpg.webp">
           <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg_sp.jpg.webp">
+          <div class="p-topFvSliderItem__copy">
+            <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_copy.png.webp">
+            <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_copy_sp.png.webp">
+          </div>
         </div>
       </div>
     </div>
@@ -44,7 +56,7 @@
       <div class="p-intro__spotListWrap">
         <ul class="p-intro__spotList">
           <li class="p-intro__spotItem">
-            <a href="/clinic#clinic_03" class="p-intro__spotLink">
+            <a href="/clinic/ikebukuro/" class="p-intro__spotLink">
               <div class="p-intro__spotImage">
                 <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_ikebukuro.png.webp">
                 <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_ikebukuro_sp.png.webp">
@@ -53,7 +65,7 @@
             </a>
           </li>
           <li class="p-intro__spotItem">
-            <a href="/clinic#clinic_01" class="p-intro__spotLink">
+            <a href="/clinic/yokohama/" class="p-intro__spotLink">
               <div class="p-intro__spotImage">
                 <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_yokohama.png.webp">
                 <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_yokohama_sp.png.webp">
@@ -62,7 +74,7 @@
             </a>
           </li>
           <li class="p-intro__spotItem">
-            <a href="/clinic#clinic_02" class="p-intro__spotLink">
+            <a href="/clinic/nagoya/" class="p-intro__spotLink">
               <div class="p-intro__spotImage">
                 <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_nagoya.png.webp">
                 <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_nagoya_sp.png.webp">

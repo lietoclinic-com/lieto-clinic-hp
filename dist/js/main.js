@@ -7,7 +7,7 @@ $('#p-fvSlider__slick').slick({
   infinite: true,          // スライドをループさせるか
   slidesToShow: 1,   // スライドを画面に何枚見せるか
   slidesToScroll: 1,   // 1回のスクロールで何枚見せるか
-  autoplay: true,      // 自動的に動き出すか。初期値false。
+  autoplay: false,      // 自動的に動き出すか。初期値false。
   autoplaySpeed: 5000, // 次のスライドに切り替わる待ち時間
   speed: 1000,          // 切り替え時のスピード(1000=1秒)
   arrows: true,         // 左右の移動ボタン

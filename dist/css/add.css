@@ -662,6 +662,12 @@ l-header
 }
 
 /*===================================
+l-main
+===================================*/
+.l-main {
+    padding-top: 0 !important;
+}
+/*===================================
 p-topFv
 ===================================*/
 .p-topFv {
@@ -681,12 +687,21 @@ p-topFv
     height: 100% !important;
 }
 .p-topFvSliderItem,
-.p-topFvSliderItem img {
+.p-topFvSliderItem > img {
     height: 100%;
 }
-.p-topFvSliderItem img {
+.p-topFvSliderItem > img {
     object-fit: contain;
-    object-position: center;
+}
+.p-topFvSliderItem__copy {
+    position: absolute;
+    top: 125px;
+    width: 100vw;
+}
+.p-topFvSliderItem__copy > img {
+    max-width: 721px;
+    position: relative;
+    width: 90%;
 }
 .p-topFvSlider .slick-dots {
     margin-left: 11%;
@@ -736,8 +751,10 @@ p-topFv
     bottom: -80px;
     display: flex;
     left: 50%;
+    padding-left: calc(3% + 5px) !important;
     position: absolute;
     transform: translateX(-50%);
+    white-space: nowrap;
     width: 100%;
 }
 .p-topFv__warningItem {
@@ -752,6 +769,7 @@ p-topFv
     .p-topFv__warningWrap {
         bottom: -70px;
         justify-content: flex-end;
+        padding-left: 2.5rem !important;
     }
 }
 @media screen and (min-width: 769px) {
@@ -767,15 +785,26 @@ p-topFv
     .p-topFvSlider .sp-hide {
         display: block;
     }
-    .p-topFvSliderItem img {
+    .p-topFvSliderItem > img {
         object-fit: cover;
-        object-position: 11.8% center;
+    }
+    .p-topFvSliderItem__copy > img {
+        left: 9.47%;
     }
     .p-topFv__scroll {
         display: flex;
     }
 }
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .p-topFvSliderItem__copy > img {
+        max-width: none;
+        width: 535px;
+    }
+}
 @media screen and (max-width: 1024px) {
+    .p-topFvSliderItem__copy {
+        top: 80px;
+    }
     .p-topFvSlider .slide-arrow {
         height: 7rem;
         width: 7rem;
@@ -788,6 +817,11 @@ p-topFv
     }
     .p-topFv__warningItem {
         font-size: 1.2rem;
+    }
+}
+@media screen and (min-width: 1025px) {
+    .p-topFvSliderItem__copy > img {
+        width: 782px;
     }
 }
 
@@ -823,6 +857,7 @@ p-topIntro
 .p-intro__menuTitle {
     font-family: "Zen Kaku Gothic New";
     text-align: center;
+    white-space: nowrap;
     width: 100%;
 }
 .p-intro__spotTitle {
