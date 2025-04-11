@@ -21,8 +21,6 @@ $('#p-fvSlider__slick').slick({
     breakpoint: 768,
       settings: {
         arrows: false,
-        centerMode: true,  // trueで、両端見切れ状態を作る
-        centerPadding: "22.5%", // 左右の見切れで表示される幅
         slidesToShow: 1,
         slidesToScroll: 1,
       }

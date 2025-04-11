@@ -7,13 +7,16 @@
     <div class="p-topFvSlider">
       <div class="p-topFvSliderList" id="p-fvSlider__slick">
         <div class="p-topFvSliderItem">
-          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg.jpg.webp">
+          <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg.jpg.webp">
+          <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg_sp.jpg.webp">
         </div>
         <div class="p-topFvSliderItem">
-          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg.jpg.webp">
+          <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg.jpg.webp">
+          <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg_sp.jpg.webp">
         </div>
         <div class="p-topFvSliderItem">
-          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg.jpg.webp">
+          <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg.jpg.webp">
+          <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg_sp.jpg.webp">
         </div>
       </div>
     </div>
@@ -43,7 +46,8 @@
           <li class="p-intro__spotItem">
             <a href="/clinic#clinic_03" class="p-intro__spotLink">
               <div class="p-intro__spotImage">
-                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_ikebukuro.png.webp">
+                <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_ikebukuro.png.webp">
+                <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_ikebukuro_sp.png.webp">
               </div>
               <div class="p-intro__spotTitle">池袋院</div>
             </a>
@@ -51,7 +55,8 @@
           <li class="p-intro__spotItem">
             <a href="/clinic#clinic_01" class="p-intro__spotLink">
               <div class="p-intro__spotImage">
-                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_yokohama.png.webp">
+                <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_yokohama.png.webp">
+                <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_yokohama_sp.png.webp">
               </div>
               <div class="p-intro__spotTitle">横浜院</div>
             </a>
@@ -59,7 +64,8 @@
           <li class="p-intro__spotItem">
             <a href="/clinic#clinic_02" class="p-intro__spotLink">
               <div class="p-intro__spotImage">
-                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_nagoya.png.webp">
+                <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_nagoya.png.webp">
+                <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_nagoya_sp.png.webp">
               </div>
               <div class="p-intro__spotTitle">名古屋院</div>
             </a>
