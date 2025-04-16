@@ -108,7 +108,8 @@
 #course {
 
 }
-#course h3 {
+#course h3 ,
+#price h3{
     margin: 16px 0 8px;
     padding: 10px 0;
     text-align: center;
@@ -141,7 +142,8 @@
 }
 
 @media screen and (max-width: 1024px) {
-    #course h3 {
+    #course h3 ,
+    #price h3 {
         margin: 16px 0 8px;
         padding: 10px 0;
         font-size: 14px;

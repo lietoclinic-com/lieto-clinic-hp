@@ -573,8 +573,8 @@
       <section id="price">
         <h2 class="p-pageClinicContent__title">施術料金</h2>
 
-        <div class="price__scroll-wrap2 js-scrollable">
-          <table>
+        <h3>医療機器施術</h3>
+        <table>
           <thead>
             <tr>
             <th>施術内容/回数</th>
@@ -586,15 +586,7 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
-            <td>遺伝子検査</td>
-            <td>¥15,000</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            </tr>
-            <tr>
+          <tr>
             <td>inbody（1回）</td>
             <td>¥500</td>
             <td>-</td>
@@ -658,15 +650,23 @@
             <td>-</td>
             <td>¥330,000</td>
             </tr>
+          </tbody>
+        </table>
+
+        <h3>内服薬・外用薬</h3>
+        <table>
+          <thead>
             <tr>
-            <td>脂肪溶解注射</td>
-            <td>¥70,000</td>
-            <td>-</td>
-            <td>¥204,000</td>
-            <td>-</td>
-            <td>¥330,000</td>
+            <th>内服薬・外用薬</th>
+            <th>1回</th>
+            <th>2回</th>
+            <th>3回</th>
+            <th>4回</th>
+            <th>5回</th>
             </tr>
-            <tr>
+          </thead>
+          <tbody>
+          <tr>
             <td>ダイエット薬セット（1ヶ月）</td>
             <td>¥200,000</td>
             <td>¥390,000</td>
@@ -818,6 +818,22 @@
             <td>-</td>
             <td>-</td>
             </tr>
+          </tbody>
+        </table>
+
+        <h3>オリジナルサプリメント</h3>
+        <table>
+          <thead>
+            <tr>
+            <th>施術内容/回数</th>
+            <th>1回</th>
+            <th>2回</th>
+            <th>3回</th>
+            <th>4回</th>
+            <th>5回</th>
+            </tr>
+          </thead>
+          <tbody>
             <tr>
             <td>Liend-リエートオリジナルダイエットプロテイン（1袋）</td>
             <td>¥6,000</td>
@@ -834,13 +850,37 @@
             <td>-</td>
             <td>-</td>
             </tr>
+          </tbody>
+        </table>
+
+        <h3>ダイエット注射・美容点滴</h3>
+        <table>
+          <thead>
             <tr>
-            <td>医師監修-管理栄養士による食事指導-</td>
-            <td>¥11,000</td>
+            <th>施術内容/回数</th>
+            <th>1回</th>
+            <th>2回</th>
+            <th>3回</th>
+            <th>4回</th>
+            <th>5回</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+            <td>脂肪溶解注射</td>
+            <td>¥70,000</td>
             <td>-</td>
+            <td>¥204,000</td>
             <td>-</td>
+            <td>¥330,000</td>
+            </tr>
+            <tr>
+            <td>プラセンタ注射</td>
+            <td>¥3,500</td>
             <td>-</td>
+            <td>¥9,600</td>
             <td>-</td>
+            <td>¥14,500</td>
             </tr>
             <tr>
             <td>エクソソーム点滴</td>
@@ -890,17 +930,56 @@
             <td>-</td>
             <td>¥33,500</td>
             </tr>
+          </tbody>
+        </table>
+
+        <h3>遺伝子検査</h3>
+        <table>
+          <thead>
             <tr>
-            <td>プラセンタ注射</td>
-            <td>¥3,500</td>
+            <th>施術内容/回数</th>
+            <th>1回</th>
+            <th>2回</th>
+            <th>3回</th>
+            <th>4回</th>
+            <th>5回</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+            <td>遺伝子検査</td>
+            <td>¥15,000</td>
             <td>-</td>
-            <td>¥9,600</td>
             <td>-</td>
-            <td>¥14,500</td>
+            <td>-</td>
+            <td>-</td>
             </tr>
           </tbody>
-          </table>
-        </div>
+        </table>
+
+        <h3>栄養・食事指導</h3>
+        <table>
+          <thead>
+            <tr>
+            <th>施術内容/回数</th>
+            <th>1回</th>
+            <th>2回</th>
+            <th>3回</th>
+            <th>4回</th>
+            <th>5回</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+            <td>医師監修-管理栄養士による食事指導-</td>
+            <td>¥11,000</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            </tr>
+          </tbody>
+        </table>
 
       </section>
     
