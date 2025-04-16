@@ -39,6 +39,7 @@
                 </li>
                 <li class="l-footer__item"><a href="/news/">新着情報</a></li>
                 <li class="l-footer__item"><a href="/recruit/">採用情報</a></li>
+                <li class="l-footer__item"><a href="/price/">料金一覧</a></li>
               </ul>
             </div>
 
