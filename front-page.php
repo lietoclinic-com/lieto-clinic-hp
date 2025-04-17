@@ -14,6 +14,15 @@
             <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_copy_sp.png.webp">
           </div>
         </div>
+        <div class="p-topFvSliderItem p-topFvSliderItem--second">
+          <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg02.jpg.webp">
+          <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg_sp02.jpg.webp">
+          <div class="p-topFvSliderItem__copy p-topFvSliderItem__copy--second">
+            <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_copy02.png.webp">
+            <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_copy02_sp.png.webp">
+          </div>
+        </div>
+        <!--
         <div class="p-topFvSliderItem">
           <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg.jpg.webp">
           <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg_sp.jpg.webp">
@@ -22,14 +31,7 @@
             <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_copy_sp.png.webp">
           </div>
         </div>
-        <div class="p-topFvSliderItem">
-          <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg.jpg.webp">
-          <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg_sp.jpg.webp">
-          <div class="p-topFvSliderItem__copy">
-            <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_copy.png.webp">
-            <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_copy_sp.png.webp">
-          </div>
-        </div>
+        -->
       </div>
     </div>
 
