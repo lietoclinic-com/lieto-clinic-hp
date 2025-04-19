@@ -812,7 +812,7 @@ p-topFv
     }
     .p-topFvSliderItem__copy--second > img {
         left: 50%;
-        max-width: 985px;
+        max-width: 1085px;
         transform: translateX(-50%);
     }
     .p-topFv__scroll {
@@ -823,6 +823,9 @@ p-topFv
     .p-topFvSliderItem__copy > img {
         max-width: none;
         width: 535px;
+    }
+    .p-topFvSliderItem__copy--second > img {
+        width: 735px;
     }
 }
 @media screen and (max-width: 1024px) {
@@ -851,7 +854,7 @@ p-topFv
         width: 782px;
     }
     .p-topFvSliderItem__copy--second > img {
-        width: 985px;
+        width: 1085px;
     }
 }
 
