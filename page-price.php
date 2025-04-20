@@ -579,9 +579,7 @@
             <tr>
             <th>施術内容/回数</th>
             <th>1回</th>
-            <th>2回</th>
             <th>3回</th>
-            <th>4回</th>
             <th>5回</th>
             </tr>
           </thead>
@@ -591,63 +589,47 @@
             <td>¥500</td>
             <td>-</td>
             <td>-</td>
-            <td>-</td>
-            <td>-</td>
             </tr>
             <tr>
             <td>CLATUUα（2部位）</td>
             <td>¥100,000</td>
-            <td>-</td>
             <td>¥255,000</td>
-            <td>-</td>
             <td>¥375,000</td>
             </tr>
             <tr>
             <td>StimSure（2部位）</td>
             <td>¥90,000</td>
-            <td>-</td>
             <td>¥225,000</td>
-            <td>-</td>
             <td>¥325,000</td>
             </tr>
             <tr>
             <td>ULTRAcel [zíː] 全顔</td>
             <td>¥140,000</td>
-            <td>-</td>
             <td>¥390,000</td>
-            <td>-</td>
             <td>¥600,000</td>
             </tr>
             <tr>
             <td>ULTRAcel [zíː] ボディ</td>
             <td>¥210,000</td>
-            <td>-</td>
             <td>¥465,000</td>
-            <td>-</td>
             <td>¥725,000</td>
             </tr>
             <tr>
             <td>ULTRAcel [zíː] 目元</td>
             <td>¥52,500</td>
-            <td>-</td>
             <td>¥153,000</td>
-            <td>-</td>
             <td>¥245,000</td>
             </tr>
             <tr>
             <td>ULTRAcel [zíː] 首</td>
             <td>¥70,000</td>
-            <td>-</td>
             <td>¥204,000</td>
-            <td>-</td>
             <td>¥330,000</td>
             </tr>
             <tr>
             <td>ULTRAcel [zíː] 顎下</td>
             <td>¥70,000</td>
-            <td>-</td>
             <td>¥204,000</td>
-            <td>-</td>
             <td>¥330,000</td>
             </tr>
           </tbody>
@@ -661,8 +643,6 @@
             <th>1回</th>
             <th>2回</th>
             <th>3回</th>
-            <th>4回</th>
-            <th>5回</th>
             </tr>
           </thead>
           <tbody>
@@ -671,14 +651,10 @@
             <td>¥200,000</td>
             <td>¥390,000</td>
             <td>¥570,000</td>
-            <td>-</td>
-            <td>-</td>
             </tr>
             <tr>
             <td>サクセンダ（1本）</td>
             <td>¥33,000</td>
-            <td>-</td>
-            <td>-</td>
             <td>-</td>
             <td>-</td>
             </tr>
@@ -687,14 +663,10 @@
             <td>¥16,500</td>
             <td>-</td>
             <td>-</td>
-            <td>-</td>
-            <td>-</td>
             </tr>
             <tr>
             <td>リベルサス 7mg（30日分）</td>
             <td>¥38,500</td>
-            <td>-</td>
-            <td>-</td>
             <td>-</td>
             <td>-</td>
             </tr>
@@ -703,14 +675,10 @@
             <td>¥57,500</td>
             <td>-</td>
             <td>-</td>
-            <td>-</td>
-            <td>-</td>
             </tr>
             <tr>
             <td>オゼンピック 2.0mg（1本）</td>
             <td>¥58,000</td>
-            <td>-</td>
-            <td>-</td>
             <td>-</td>
             <td>-</td>
             </tr>
@@ -719,14 +687,10 @@
             <td>¥23,500</td>
             <td>-</td>
             <td>-</td>
-            <td>-</td>
-            <td>-</td>
             </tr>
             <tr>
             <td>ゼニカル（30日分）</td>
             <td>¥12,750</td>
-            <td>-</td>
-            <td>-</td>
             <td>-</td>
             <td>-</td>
             </tr>
@@ -735,14 +699,10 @@
             <td>¥1,100</td>
             <td>-</td>
             <td>-</td>
-            <td>-</td>
-            <td>-</td>
             </tr>
             <tr>
             <td>酸化マグネシウム（30日分）</td>
             <td>¥550</td>
-            <td>-</td>
-            <td>-</td>
             <td>-</td>
             <td>-</td>
             </tr>
@@ -751,14 +711,10 @@
             <td>¥9,000</td>
             <td>-</td>
             <td>-</td>
-            <td>-</td>
-            <td>-</td>
             </tr>
             <tr>
             <td>マンジャロ2.5mg（2週間分）</td>
             <td>¥33,000</td>
-            <td>-</td>
-            <td>-</td>
             <td>-</td>
             <td>-</td>
             </tr>
@@ -767,14 +723,10 @@
             <td>¥63,000</td>
             <td>-</td>
             <td>-</td>
-            <td>-</td>
-            <td>-</td>
             </tr>
             <tr>
             <td>マンジャロ5mg（2週間分）</td>
             <td>¥58,000</td>
-            <td>-</td>
-            <td>-</td>
             <td>-</td>
             <td>-</td>
             </tr>
@@ -783,14 +735,10 @@
             <td>¥100,000</td>
             <td>-</td>
             <td>-</td>
-            <td>-</td>
-            <td>-</td>
             </tr>
             <tr>
             <td>マンジャロ7.5mg（2週間分）</td>
             <td>¥100,000</td>
-            <td>-</td>
-            <td>-</td>
             <td>-</td>
             <td>-</td>
             </tr>
@@ -799,22 +747,16 @@
             <td>¥180,000</td>
             <td>-</td>
             <td>-</td>
-            <td>-</td>
-            <td>-</td>
             </tr>
             <tr>
             <td>マンジャロ10mg（2週間分）</td>
             <td>¥120,000</td>
             <td>-</td>
             <td>-</td>
-            <td>-</td>
-            <td>-</td>
             </tr>
             <tr>
             <td>マンジャロ10mg（4週間分）</td>
             <td>¥220,000</td>
-            <td>-</td>
-            <td>-</td>
             <td>-</td>
             <td>-</td>
             </tr>
@@ -827,28 +769,16 @@
             <tr>
             <th>施術内容/回数</th>
             <th>1回</th>
-            <th>2回</th>
-            <th>3回</th>
-            <th>4回</th>
-            <th>5回</th>
             </tr>
           </thead>
           <tbody>
             <tr>
             <td>Liend-リエートオリジナルダイエットプロテイン（1袋）</td>
             <td>¥6,000</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
             </tr>
             <tr>
             <td>Laloc-リエートオリジナルダイエットサプリ（1箱）</td>
             <td>¥16,000</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
             </tr>
           </tbody>
         </table>
@@ -939,20 +869,12 @@
             <tr>
             <th>施術内容/回数</th>
             <th>1回</th>
-            <th>2回</th>
-            <th>3回</th>
-            <th>4回</th>
-            <th>5回</th>
             </tr>
           </thead>
           <tbody>
             <tr>
             <td>遺伝子検査</td>
             <td>¥15,000</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
             </tr>
           </tbody>
         </table>
@@ -963,20 +885,12 @@
             <tr>
             <th>施術内容/回数</th>
             <th>1回</th>
-            <th>2回</th>
-            <th>3回</th>
-            <th>4回</th>
-            <th>5回</th>
             </tr>
           </thead>
           <tbody>
             <tr>
             <td>医師監修-管理栄養士による食事指導-</td>
             <td>¥11,000</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
             </tr>
           </tbody>
         </table>
