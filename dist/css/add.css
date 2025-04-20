@@ -804,6 +804,9 @@ p-topFv
     .p-topFvSlider .sp-hide {
         display: block;
     }
+    .p-topFvSliderItem__copy--second {
+        top: 90px;
+    }
     .p-topFvSliderItem > img {
         object-fit: cover;
     }
@@ -812,7 +815,7 @@ p-topFv
     }
     .p-topFvSliderItem__copy--second > img {
         left: 50%;
-        max-width: 1085px;
+        max-width: 1285px;
         transform: translateX(-50%);
     }
     .p-topFv__scroll {
@@ -854,7 +857,7 @@ p-topFv
         width: 782px;
     }
     .p-topFvSliderItem__copy--second > img {
-        width: 1085px;
+        width: 1285px;
     }
 }
 
