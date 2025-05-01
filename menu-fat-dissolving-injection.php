@@ -309,7 +309,7 @@
               </tr>
               <tr>
                 <td>メーカー</td>
-                <td><a href="ttps://jp.dexlevo.co.kr/" target="_blank">DEXLEVO社<br>（韓国）</a></td>
+                <td><a href="https://jp.dexlevo.co.kr/" target="_blank">DEXLEVO社<br>（韓国）</a></td>
                 <td><a href="https://tnsco.co.kr/" target="_blank">TNS社<br>（韓国）</a></td>
                 <td><a href="https://bnls-global.com/?page_id=3072&lang=ja" target="_blank">株式会社BNLS<br>（韓国）</a></td>
               </tr>
