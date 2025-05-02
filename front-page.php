@@ -47,7 +47,7 @@
     <div class="p-topFv__warningWrap l-inner">
       <ul class="p-topFv__warningList">
         <li class="p-topFv__warningItem">※1 契約時の体重よりも1%以上の体重減少が見られた場合</li>
-        <li class="p-topFv__warningItem">※2 コース終了後、契約時より体重増加が見られなかった割合</li>
+        <li class="p-topFv__warningItem">※2 2023年7月〜2024年10月までのコース卒業者対象</li>
       </ul>
     </div>
   </div>
