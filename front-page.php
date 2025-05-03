@@ -4,51 +4,124 @@
 
   <!-- FV -->
   <div class="p-topFv">
-    <div class="p-topFv__img"></div>
+    <div class="p-topFvSlider">
+      <div class="p-topFvSliderList" id="p-fvSlider__slick">
+        <div class="p-topFvSliderItem">
+          <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg.jpg.webp">
+          <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg_sp.jpg.webp">
+          <div class="p-topFvSliderItem__copy">
+            <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_copy.png.webp">
+            <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_copy_sp.png.webp">
+          </div>
+        </div>
+        <div class="p-topFvSliderItem p-topFvSliderItem--second">
+          <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg02.jpg.webp">
+          <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg_sp02.jpg.webp">
+          <div class="p-topFvSliderItem__copy p-topFvSliderItem__copy--second">
+            <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_copy02.png.webp">
+            <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_copy02_sp.png.webp">
+          </div>
+        </div>
+        <!--
+        <div class="p-topFvSliderItem">
+          <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg.jpg.webp">
+          <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg_sp.jpg.webp">
+          <div class="p-topFvSliderItem__copy">
+            <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_copy.png.webp">
+            <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_copy_sp.png.webp">
+          </div>
+        </div>
+        -->
+      </div>
+    </div>
 
     <div class="p-topFv__body">
-      <div class="p-topFv__message">
-        <div class="p-topFv__messageTop">細胞レベルで痩せながら</div>
-        <div class="p-topFv__messageMiddle">
-          <span class="_large">美</span>
-          <span class="_large">し</span>
-          <span class="_large">く</span>
-          <span class="_small">を</span>
-          <span class="_large">実現</span>
-        </div>
-        <div class="p-topFv__messageBottom">ACHIEVE BEAUTY</div>
-      </div>
-
-      <ul class="p-topFv__clinics">
-        <?php
-        $args = array(
-          'post_type' => 'clinic',
-          'posts_per_page' => -1,
-        );
-        $query = new WP_Query($args);
-        ?>
-
-        <?php if ($query->have_posts()) : ?>
-          <?php while ($query->have_posts()) : $query->the_post();
-            $count++; ?>
-
-            <li class="p-topFv__clinic">
-              <span class="p-topFv__clinicName"><?php the_field("clinic_name"); ?>院</span>
-              <span class="p-topFv__clinicWalk">
-                <?php echo get_field("clinic_time")['clinic_near_station'] ?>駅から<br>
-                徒歩<span class="_num"><?php echo get_field("clinic_time")['clinic_walktime'] ?></span>分
-              </span>
-            </li>
-
-          <?php endwhile;
-          wp_reset_postdata() ?>
-        <?php endif; ?>
-      </ul>
+      
     </div>
 
     <div class="p-topFv__scroll">
       <div class="p-topFv__scrollLine"></div>
       <span class="p-topFv__scrollText">scroll</span>
+    </div>
+
+    <div class="p-topFv__warningWrap l-inner">
+      <ul class="p-topFv__warningList">
+        <li class="p-topFv__warningItem">※1 契約時の体重よりも1%以上の体重減少が見られた場合</li>
+        <li class="p-topFv__warningItem">※2 2023年7月〜2024年10月までのコース卒業者対象</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- spot, link -->
+  <div class="p-topIntro">
+    <div class="p-intro__inner l-inner">
+      <div class="p-intro__spotListWrap">
+        <ul class="p-intro__spotList">
+          <li class="p-intro__spotItem">
+            <a href="/clinic/ikebukuro/" class="p-intro__spotLink">
+              <div class="p-intro__spotImage">
+                <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_ikebukuro.png.webp">
+                <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_ikebukuro_sp.png.webp">
+              </div>
+              <div class="p-intro__spotTitle">池袋院</div>
+            </a>
+          </li>
+          <li class="p-intro__spotItem">
+            <a href="/clinic/yokohama/" class="p-intro__spotLink">
+              <div class="p-intro__spotImage">
+                <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_yokohama.png.webp">
+                <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_yokohama_sp.png.webp">
+              </div>
+              <div class="p-intro__spotTitle">横浜院</div>
+            </a>
+          </li>
+          <li class="p-intro__spotItem">
+            <a href="/clinic/nagoya/" class="p-intro__spotLink">
+              <div class="p-intro__spotImage">
+                <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_nagoya.png.webp">
+                <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_nagoya_sp.png.webp">
+              </div>
+              <div class="p-intro__spotTitle">名古屋院</div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="p-intro__menuListWrap">
+        <ul class="p-intro__menuList">
+          <li class="p-intro__menuItem">
+            <a href="/about/" class="p-intro__menuLink">
+              <div class="p-intro__menuImage">
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/icon_hospital.png.webp">
+              </div>
+              <p class="p-intro__menuTitle">当院について</p>
+            </a>
+          </li>
+          <li class="p-intro__menuItem">
+            <a href="/menu/" class="p-intro__menuLink">
+              <div class="p-intro__menuImage">
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/icon_menu.png.webp">
+              </div>
+              <p class="p-intro__menuTitle">施術一覧</p>
+            </a>
+          </li>
+          <li class="p-intro__menuItem">
+            <a href="/case/" class="p-intro__menuLink">
+              <div class="p-intro__menuImage">
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/icon_case.png.webp">
+              </div>
+              <p class="p-intro__menuTitle">症例一覧</p>
+            </a>
+          </li>
+          <li class="p-intro__menuItem">
+            <a href="/flow/" class="p-intro__menuLink">
+              <div class="p-intro__menuImage">
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/icon_flow.png.webp">
+              </div>
+              <p class="p-intro__menuTitle">施術の流れ</p>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 

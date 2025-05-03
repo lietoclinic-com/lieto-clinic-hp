@@ -281,32 +281,10 @@
     <div class="l-header__inner">
       <div class="l-header__body">
         <div class="l-header__left">
-          <?php if(is_front_page()): ?>
-            <h1 class="l-header__logo">	<div class="l-header__logo">
-              <a href="/">	<a href="/">
-                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/logo_white.png" alt="Lieto Clinic（リエートクリニック）｜医療ダイエット・医療痩身専門クリニック">
-              </a>
-            </h1>
-          <?php else: ?>
-            <div class="l-header__logo">
-              <a href="/">
-                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/logo_orange.png" alt="Lieto Clinic">
-              </a>
-            </div>
-          <?php endif; ?>
-          <div class="l-header__clinic">
-            <?php
-            $args = array(
-              'post_type' => 'clinic',
-            );
-            $query = new WP_Query($args);
-            ?>
-            <?php if ($query->have_posts()) : ?>
-              <?php while ($query->have_posts()) : $query->the_post(); ?>
-                <div class="l-header__clinicName"><a href="<?php the_permalink(); ?>"><?php the_field("clinic_name"); ?>院</a></div>
-              <?php endwhile;
-              wp_reset_postdata() ?>
-            <?php endif; ?>
+          <div class="l-header__logo">
+            <a href="/">
+              <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/logo_orange.png" alt="Lieto Clinic">
+            </a>
           </div>
         </div>
 
