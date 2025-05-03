@@ -664,18 +664,24 @@ body:has(.p-topFvSliderItem--second.slick-active) .l-header__bottomItem a {
 }
 
 /*===================================
+.l-main._top
+===================================*/
+.l-main._top {
+    padding-top: 0!important;
+  }
+@media screen and (min-width: 1025px) {
+    .l-main._top {
+        padding-top: 0!important;
+    }
+}
+
+/*===================================
 l-header
 ===================================*/
 .l-header__left {
     padding-left: 11.8% !important;
 }
 
-/*===================================
-l-main
-===================================*/
-.l-main {
-    padding-top: 0 !important;
-}
 /*===================================
 p-topFv
 ===================================*/
