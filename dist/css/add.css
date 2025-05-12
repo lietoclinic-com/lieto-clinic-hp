@@ -926,6 +926,18 @@ p-topIntro
 .p-intro__spotImage .sp-hide {
     display: none;
 }
+
+.l-spHeader__btn .monitor_in-header{
+    margin: 0 auto;
+    width: 30rem;
+    display: block;
+}
+.l-spHeader__btn .monitor_in-header img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 @media screen and (min-width: 769px) {
     .p-intro__spotList {
         justify-content: space-between;
