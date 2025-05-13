@@ -281,11 +281,11 @@
     <div class="l-header__inner">
       <div class="l-header__body">
         <div class="l-header__left">
-          <div class="l-header__logo">
+          <h1 class="l-header__logo">
             <a href="/">
-              <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/logo_orange.png" alt="Lieto Clinic">
+              <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/logo_orange.png" alt="【公式】リエートクリニック｜医療ダイエット・医療痩身専門クリニック">
             </a>
-          </div>
+          </h1>
         </div>
 
         <nav class="l-header__nav">

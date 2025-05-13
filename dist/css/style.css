@@ -563,6 +563,10 @@ button {
           flex: 1;
 }
 
+.l-header__logo {
+  display: block;
+}
+
 .l-header__logo img {
   width: 12.2rem;
   height: 9rem;
