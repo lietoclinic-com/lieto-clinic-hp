@@ -85,7 +85,7 @@
                       <dt>2008年</dt>
                       <dd>
                         同病院 救急医療部長
-                        <br><a href="https://www.icls-web.com/index.html" target="_blank">ICLS.JATEC.JPTEC.MCLSインストラクター</a>
+                        <br><a href="https://www.icls-web.com/articles/fwq1lsu-6x93" target="_blank">ICLS.JATEC.JPTEC.MCLSインストラクター</a>
                         <br><a href="https://www.mhlw.go.jp/content/10800000/000478174.pdf" target="_blank">DMAT統括資格.地域災害医療コーデイネーター</a>
                       </dd>
                     </div>
