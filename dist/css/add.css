@@ -999,3 +999,32 @@ p-topIntro
         font-size: 21px;
     }
 }
+
+.p-pagePrice .p-singleMenu__text{
+    font-size: 12px;
+    margin-top: 1em;
+}
+
+.p-singleClinicAccess {
+  background-color: #fff4e3;
+  margin-top: 0;
+  padding: 0;
+}
+@media screen and (min-width: 769px) {
+  .p-singleClinicAccess {
+    margin-top: 0;
+    padding: 0;
+  }
+}
+
+.single.single-clinic .slick-dotted.slick-slider{
+    margin-bottom: 0;
+}
+
+.single.single-clinic .benefits{
+    padding: 120px 0;
+}
+
+.l-spHeader__nav .p-topIntro{
+    margin: 40px 0;
+}

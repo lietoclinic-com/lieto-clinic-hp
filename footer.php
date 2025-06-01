@@ -132,6 +132,8 @@
 
             <div class="l-footer__sns-wrap">
               <ul class="l-footer__sns">
+                <li><a href="https://www.youtube.com/@lietoclinic" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/dist/img/top/icon-youtube.svg" alt="youtube"></a></li>
+                <li><a href="https://www.tiktok.com/@lietoclinic_official" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/dist/img/top/icon-tiktok.svg" alt="tiktok"></a></li>
                 <li><a href="https://www.instagram.com/lietoclinic/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/dist/img/top/icon-instagram.svg" alt="Instagram"></a></li>
                 <li><a href="https://twitter.com/lietoclinic" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/dist/img/top/icon-x.svg" alt="X"></a></li>
               </ul>

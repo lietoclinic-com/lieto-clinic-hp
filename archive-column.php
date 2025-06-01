@@ -25,17 +25,17 @@
                 <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/profile.png" alt='リエートクリニック名古屋院院長 松永 宏之'>
               </figure>
               <div class="p-editor__desc">
-                <div class="p-editor__profile">監修者プロフィール</div>
+                <div class="p-editor__profile">執筆者プロフィール</div>
                 <div class="p-editor__post">リエートクリニック名古屋院 <br class="_sp">院長</div>
                 <div class="p-editor__name">松永 宏之</div>
                 <div class="p-editor__btn _overTab">
-                  <a href="<?php echo esc_url(home_url()); ?>/greeting/" class="c-btn">監修者について詳しく見る</a>
+                  <a href="<?php echo esc_url(home_url()); ?>/greeting/" class="c-btn">執筆者について詳しく見る</a>
                 </div>
               </div>
             </div>
 
             <div class="p-editor__btn _sp">
-              <a href="<?php echo esc_url(home_url()); ?>/greeting/" class="c-btn">監修者について詳しく見る</a>
+              <a href="<?php echo esc_url(home_url()); ?>/greeting/" class="c-btn">執筆者について詳しく見る</a>
             </div>
           </div>
         </div>

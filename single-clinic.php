@@ -118,100 +118,7 @@
   
   </div>
 
-  <?php get_template_part('template-parts/part-lp-con'); ?>
-
-  <!-- 選ばれる理由 -->
-  <section class="p-singleClinicReason p-reason">
-    <div class="p-reason__inner l-inner">
-      <div class="p-reason__head c-secTitle">
-        <div class="c-secTitle__en">WHY LIETO CLINIC</div>
-        <h2 class="c-secTitle__ja">リエートクリニックの<br>医療ダイエットが選ばれる理由</h2>
-      </div>
-      <div class="p-reason__body">
-        <ul class="p-reason__list">
-          <li class="p-reason__item">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/top_reason_01.png" alt="有資格者が施術するから安心の医療痩身">
-            <h3 class="p-reason__itemTitle">有資格者が施術するから<br>安心の医療痩身</h3>
-            <p class="p-reason__itemText">
-              医師・看護師などの有資格者が施術を行うことで、お客様の健康状態や体質に合わせたプランをご提案させていただきます。<br>
-              <br>
-              専門的な知識と経験に基づいて行われるため、安心して施術を受けていただけます。
-            </p>
-          </li>
-
-          <li class="p-reason__item">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/top_reason_02.png" alt="短期間での痩身や難しい部分痩せも対応">
-            <h3 class="p-reason__itemTitle">短期間での痩身や<br>難しい部分痩せも対応</h3>
-            <p class="p-reason__itemText">
-              短期間での効果的な痩身や、通常難しいとされる部分痩せにも対応することができます。<br>
-              <br>
-              科学的な根拠に基づいたアプローチを用いて、特定の部位の脂肪やセルライトに対して、技術や機器を駆使して細胞レベルで効果的な施術が可能です。
-            </p>
-          </li>
-
-          <li class="p-reason__item">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/top_reason_03.png" alt="切らない施術で安心して痩身">
-            <h3 class="p-reason__itemTitle">切らない施術で<br>安心して痩身</h3>
-            <p class="p-reason__itemText _letter">
-              リエートクリニックでは、最先端の医療痩身機器や注射・点滴治療、ダイエット薬などを用いた切らない施術を行っています。<br>
-              <br>
-              お客様のお悩みに沿ったリエートクリニックオリジナルプログラムにより、理想のお身体を目指します。
-            </p>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- 当院の症例 -->
-  <?php 
-    // 現在表示されている clinic の投稿IDを取得
-    $clinic_id = get_queried_object_id();
-
-    // clinic のスラッグを取得
-    $clinic_slug = get_post_field('post_name', $clinic_id);
-
-
-    $show_section = false; // 初期状態は非表示
-
-    if ($clinic_slug) {
-        // 該当する症例が1件でもあるか確認
-        $check_args = array(
-            'post_type'      => 'case',
-            'posts_per_page' => 1, // 1件でも見つかればよい
-            'post_status'    => 'publish',
-            'tax_query'      => array(
-                array(
-                    'taxonomy' => 'case_position',
-                    'field'    => 'slug',
-                    'terms'    => $clinic_slug, // クリニックのスラッグと一致するターム
-                ),
-            ),
-        );
-
-        $check_query = new WP_Query($check_args);
-
-        if ($check_query->have_posts()) {
-            $show_section = true; // 1件でもあれば表示
-        }
-    }
-
-    // `$show_section` が true の場合のみ表示
-    if ($show_section) :
-  ?>
-    <section class="p-singleClinicCase">
-      <div class="p-singleClinicCase__inner l-inner">
-          <div class="p-singleClinicCase__head p-clinicHead">
-              <h3 class="p-clinicHead__title"><?php echo esc_html(get_field("clinic_name", $clinic_id)); ?>院の症例</h3>
-          </div>
-          <div class="p-singleClinicCase__body">
-              <?php get_template_part('template-parts/all-case'); ?>
-          </div>
-      </div>
-    </section>
-  <?php endif; ?>
-
-  <!-- アクセス・方法・外観内観 -->
+    <!-- アクセス・方法・外観内観 -->
   <section class="p-singleClinicAccess">
     <div class="p-singleClinicAccess__inner">
       <div class="p-singleClinicAccess__head c-secTitle">
@@ -344,6 +251,99 @@
 
     </div>
   </section>
+
+  <?php get_template_part('template-parts/part-lp-con'); ?>
+
+  <!-- 選ばれる理由 -->
+  <section class="p-singleClinicReason p-reason">
+    <div class="p-reason__inner l-inner">
+      <div class="p-reason__head c-secTitle">
+        <div class="c-secTitle__en">WHY LIETO CLINIC</div>
+        <h2 class="c-secTitle__ja">リエートクリニックの<br>医療ダイエットが選ばれる理由</h2>
+      </div>
+      <div class="p-reason__body">
+        <ul class="p-reason__list">
+          <li class="p-reason__item">
+            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/top_reason_01.png" alt="有資格者が施術するから安心の医療痩身">
+            <h3 class="p-reason__itemTitle">有資格者が施術するから<br>安心の医療痩身</h3>
+            <p class="p-reason__itemText">
+              医師・看護師などの有資格者が施術を行うことで、お客様の健康状態や体質に合わせたプランをご提案させていただきます。<br>
+              <br>
+              専門的な知識と経験に基づいて行われるため、安心して施術を受けていただけます。
+            </p>
+          </li>
+
+          <li class="p-reason__item">
+            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/top_reason_02.png" alt="短期間での痩身や難しい部分痩せも対応">
+            <h3 class="p-reason__itemTitle">短期間での痩身や<br>難しい部分痩せも対応</h3>
+            <p class="p-reason__itemText">
+              短期間での効果的な痩身や、通常難しいとされる部分痩せにも対応することができます。<br>
+              <br>
+              科学的な根拠に基づいたアプローチを用いて、特定の部位の脂肪やセルライトに対して、技術や機器を駆使して細胞レベルで効果的な施術が可能です。
+            </p>
+          </li>
+
+          <li class="p-reason__item">
+            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/top_reason_03.png" alt="切らない施術で安心して痩身">
+            <h3 class="p-reason__itemTitle">切らない施術で<br>安心して痩身</h3>
+            <p class="p-reason__itemText _letter">
+              リエートクリニックでは、最先端の医療痩身機器や注射・点滴治療、ダイエット薬などを用いた切らない施術を行っています。<br>
+              <br>
+              お客様のお悩みに沿ったリエートクリニックオリジナルプログラムにより、理想のお身体を目指します。
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 当院の症例 -->
+  <?php 
+    // 現在表示されている clinic の投稿IDを取得
+    $clinic_id = get_queried_object_id();
+
+    // clinic のスラッグを取得
+    $clinic_slug = get_post_field('post_name', $clinic_id);
+
+
+    $show_section = false; // 初期状態は非表示
+
+    if ($clinic_slug) {
+        // 該当する症例が1件でもあるか確認
+        $check_args = array(
+            'post_type'      => 'case',
+            'posts_per_page' => 1, // 1件でも見つかればよい
+            'post_status'    => 'publish',
+            'tax_query'      => array(
+                array(
+                    'taxonomy' => 'case_position',
+                    'field'    => 'slug',
+                    'terms'    => $clinic_slug, // クリニックのスラッグと一致するターム
+                ),
+            ),
+        );
+
+        $check_query = new WP_Query($check_args);
+
+        if ($check_query->have_posts()) {
+            $show_section = true; // 1件でもあれば表示
+        }
+    }
+
+    // `$show_section` が true の場合のみ表示
+    if ($show_section) :
+  ?>
+    <section class="p-singleClinicCase">
+      <div class="p-singleClinicCase__inner l-inner">
+          <div class="p-singleClinicCase__head p-clinicHead">
+              <h3 class="p-clinicHead__title"><?php echo esc_html(get_field("clinic_name", $clinic_id)); ?>院の症例</h3>
+          </div>
+          <div class="p-singleClinicCase__body">
+              <?php get_template_part('template-parts/all-case'); ?>
+          </div>
+      </div>
+    </section>
+  <?php endif; ?>
 
   <!-- 施術内容 -->
   <div class="p-singleClinicTreatmentWrap">

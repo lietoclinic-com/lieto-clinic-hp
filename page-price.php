@@ -896,6 +896,8 @@
         </table>
 
       </section>
+
+      <p class="p-singleMenu__text">※コース以外についてはコース終了後に継続いただいた方のみのご案内となっております。</p>
     
     </div>
 

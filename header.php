@@ -367,64 +367,136 @@
       </div>
 
       <nav class="l-spHeader__nav">
-        <ul class="l-spHeader__list">
-          <li class="l-spHeader__item"><a href="/greeting/">担当医師挨拶</a></li>
-          <li class="l-spHeader__item"><a href="/about/">当院について</a></li>
-          <li class="l-spHeader__item"><a href="/flow/">施術の流れ</a></li>
-          <li class="l-spHeader__item has-child">
-            <div href="javascript:void(0)" class="js-accordion">
-              施術一覧
-              <span class="l-spHeader__itemOpen"></span>
+          <!-- spot, link -->
+          <div class="p-topIntro">
+            <div class="p-intro__inner l-inner">
+              <div class="p-intro__spotListWrap">
+                <ul class="p-intro__spotList">
+                  <li class="p-intro__spotItem">
+                    <a href="/clinic/ikebukuro/" class="p-intro__spotLink">
+                      <div class="p-intro__spotImage">
+                        <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_ikebukuro.png.webp">
+                        <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_ikebukuro_sp.png.webp">
+                      </div>
+                      <div class="p-intro__spotTitle">池袋院</div>
+                    </a>
+                  </li>
+                  <li class="p-intro__spotItem">
+                    <a href="/clinic/yokohama/" class="p-intro__spotLink">
+                      <div class="p-intro__spotImage">
+                        <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_yokohama.png.webp">
+                        <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_yokohama_sp.png.webp">
+                      </div>
+                      <div class="p-intro__spotTitle">横浜院</div>
+                    </a>
+                  </li>
+                  <li class="p-intro__spotItem">
+                    <a href="/clinic/nagoya/" class="p-intro__spotLink">
+                      <div class="p-intro__spotImage">
+                        <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_nagoya.png.webp">
+                        <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/spot_nagoya_sp.png.webp">
+                      </div>
+                      <div class="p-intro__spotTitle">名古屋院</div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="p-intro__menuListWrap">
+                <ul class="p-intro__menuList">
+                  <li class="p-intro__menuItem">
+                    <a href="/about/" class="p-intro__menuLink">
+                      <div class="p-intro__menuImage">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/icon_hospital.png.webp">
+                      </div>
+                      <p class="p-intro__menuTitle">当院について</p>
+                    </a>
+                  </li>
+                  <li class="p-intro__menuItem">
+                    <a href="/menu/" class="p-intro__menuLink">
+                      <div class="p-intro__menuImage">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/icon_menu.png.webp">
+                      </div>
+                      <p class="p-intro__menuTitle">施術一覧</p>
+                    </a>
+                  </li>
+                  <li class="p-intro__menuItem">
+                    <a href="/case/" class="p-intro__menuLink">
+                      <div class="p-intro__menuImage">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/icon_case.png.webp">
+                      </div>
+                      <p class="p-intro__menuTitle">症例一覧</p>
+                    </a>
+                  </li>
+                  <li class="p-intro__menuItem">
+                    <a href="/flow/" class="p-intro__menuLink">
+                      <div class="p-intro__menuImage">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/icon_flow.png.webp">
+                      </div>
+                      <p class="p-intro__menuTitle">施術の流れ</p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <ul class="l-spHeader__sublist">
-              <li class="l-spHeader__subitem"><a href="/menu/stimsure/">医療痩身機器<span>StimSure-スティムシュアー</span></a></li>
-              <li class="l-spHeader__subitem"><a href="/menu/clatuu-a/">医療脂肪冷却機器<span>CLATUU α -クラツーアルファ-</span></a></li>
-              <li class="l-spHeader__subitem"><a href="/menu/hifu/">医療HIFU<span>ULTRAcel [zíː] -ウルトラセル ジィー-</span></a></li>
-              <li class="l-spHeader__subitem"><a href="/menu/fat-dissolving-injection/">脂肪溶解注射</a></li>
-
-              <li class="l-spHeader__subitem"><a href="/menu/glp-1/">GLP-1</a></li>
-              <li class="l-spHeader__subitem"><a href="/menu/beauty-drip/">ダイエット美容点滴</a></li>
-              <li class="l-spHeader__subitem"><a href="/menu/original-supplement/">オリジナルサプリメント</a></li>
-              <li class="l-spHeader__subitem"><a href="/menu/original-protein/">オリジナルプロテイン</a></li>
-              <li class="l-spHeader__subitem"><a href="/menu/diet-supplement/">ダイエット薬</a></li>
-              <li class="l-spHeader__subitem"><a href="/menu/guidance/">食事・栄養指導</a></li>
-              <li class="l-spHeader__subitem"><a href="/menu/exosome/">細胞レベルで美しく<span>エクソソーム点滴</span></a></li>
-            </ul>
-          </li>
-          <li class="l-spHeader__item"><a href="/case/">当院の症例</a></li>
-          <li class="l-spHeader__item"><a href="/monitor/">モニター募集</a></li>
-          <li class="l-spHeader__item"><a href="/minor/">未成年者の方へ</a></li>
-          <li class="l-spHeader__item"><a href="/faq/">よくある質問</a></li>
-          <li class="l-spHeader__item has-child">
-            <?php if(is_front_page()): ?>
+          </div>
+          <ul class="l-spHeader__list">
+            <li class="l-spHeader__item"><a href="/greeting/">担当医師挨拶</a></li>
+            <li class="l-spHeader__item"><a href="/about/">当院について</a></li>
+            <li class="l-spHeader__item"><a href="/flow/">施術の流れ</a></li>
+            <li class="l-spHeader__item has-child">
               <div href="javascript:void(0)" class="js-accordion">
-              クリニック一覧
+                施術一覧
                 <span class="l-spHeader__itemOpen"></span>
               </div>
-            <?php else: ?>
-              <a href="javascript:void(0)" class="js-accordion">
-              クリニック一覧
-                <span class="l-spHeader__itemOpen"></span>
-              </a>
-            <?php endif; ?>
-            <ul class="l-spHeader__sublist">
-              <li class="l-spHeader__subitem"><a href="/clinic/">クリニック一覧TOP</span></a></li>
-              <?php
-              $args = array(
-                'post_type' => 'clinic',
-              );
-              $query = new WP_Query($args);
-              ?>
-              <?php if ($query->have_posts()) : ?>
-                <?php while ($query->have_posts()) : $query->the_post(); ?>
-                  <li class="l-spHeader__subitem"><a href="<?php the_permalink(); ?>"><?php the_field("clinic_name"); ?>院</a></li>
-                <?php endwhile;
-                wp_reset_postdata() ?>
+              <ul class="l-spHeader__sublist">
+                <li class="l-spHeader__subitem"><a href="/menu/stimsure/">医療痩身機器<span>StimSure-スティムシュアー</span></a></li>
+                <li class="l-spHeader__subitem"><a href="/menu/clatuu-a/">医療脂肪冷却機器<span>CLATUU α -クラツーアルファ-</span></a></li>
+                <li class="l-spHeader__subitem"><a href="/menu/hifu/">医療HIFU<span>ULTRAcel [zíː] -ウルトラセル ジィー-</span></a></li>
+                <li class="l-spHeader__subitem"><a href="/menu/fat-dissolving-injection/">脂肪溶解注射</a></li>
+
+                <li class="l-spHeader__subitem"><a href="/menu/glp-1/">GLP-1</a></li>
+                <li class="l-spHeader__subitem"><a href="/menu/beauty-drip/">ダイエット美容点滴</a></li>
+                <li class="l-spHeader__subitem"><a href="/menu/original-supplement/">オリジナルサプリメント</a></li>
+                <li class="l-spHeader__subitem"><a href="/menu/original-protein/">オリジナルプロテイン</a></li>
+                <li class="l-spHeader__subitem"><a href="/menu/diet-supplement/">ダイエット薬</a></li>
+                <li class="l-spHeader__subitem"><a href="/menu/guidance/">食事・栄養指導</a></li>
+                <li class="l-spHeader__subitem"><a href="/menu/exosome/">細胞レベルで美しく<span>エクソソーム点滴</span></a></li>
+              </ul>
+            </li>
+            <li class="l-spHeader__item"><a href="/case/">当院の症例</a></li>
+            <li class="l-spHeader__item"><a href="/monitor/">モニター募集</a></li>
+            <li class="l-spHeader__item"><a href="/minor/">未成年者の方へ</a></li>
+            <li class="l-spHeader__item"><a href="/faq/">よくある質問</a></li>
+            <li class="l-spHeader__item has-child">
+              <?php if(is_front_page()): ?>
+                <div href="javascript:void(0)" class="js-accordion">
+                クリニック一覧
+                  <span class="l-spHeader__itemOpen"></span>
+                </div>
+              <?php else: ?>
+                <a href="javascript:void(0)" class="js-accordion">
+                クリニック一覧
+                  <span class="l-spHeader__itemOpen"></span>
+                </a>
               <?php endif; ?>
-            </ul>
-          </li>
-          <li class="l-spHeader__item"><a href="/column/">コラム一覧</a></li>
-        </ul>
+              <ul class="l-spHeader__sublist">
+                <li class="l-spHeader__subitem"><a href="/clinic/">クリニック一覧TOP</span></a></li>
+                <?php
+                $args = array(
+                  'post_type' => 'clinic',
+                );
+                $query = new WP_Query($args);
+                ?>
+                <?php if ($query->have_posts()) : ?>
+                  <?php while ($query->have_posts()) : $query->the_post(); ?>
+                    <li class="l-spHeader__subitem"><a href="<?php the_permalink(); ?>"><?php the_field("clinic_name"); ?>院</a></li>
+                  <?php endwhile;
+                  wp_reset_postdata() ?>
+                <?php endif; ?>
+              </ul>
+            </li>
+            <li class="l-spHeader__item"><a href="/column/">コラム一覧</a></li>
+          </ul>
 
         <div class="l-spHeader__btn">
           <!--<a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=a5ram6628mb28d3d" class="c-btn _orange"><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_counseling.png' alt="icon">無料カウンセリング予約</a>-->
@@ -509,9 +581,15 @@
       </ul>
       -->
       <div class="c-fixedCtaSp__fix-banner">
-        <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p" class="">
-          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/toLPbtn.png" alt="無料カウンセリングに申し込む">
-        </a>
+        <?php if(is_singular('post')): ?>
+          <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=a5ram6628mb28d3d&_gl=1*t09ahm*_gcl_au*MTM3NjAyMzE0Ny4xNzQ2NDk4OTQ1" class="">
+            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/toLPbtn.png" alt="無料カウンセリングに申し込む">
+          </a>
+        <?php else: ?>
+          <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p" class="">
+            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/toLPbtn.png" alt="無料カウンセリングに申し込む">
+          </a>
+        <?php endif; ?>
       </div>
     </div>
   <?php endif; ?>
