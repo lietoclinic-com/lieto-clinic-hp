@@ -125,6 +125,28 @@
   <div class="p-faq__questionDesc">
     <div class="p-faq__questionMark">Q</div>
     <span class="p-faq__questionText" itemprop="name">
+    支払い方法は何がありますか？
+    </span>
+  </div>
+  <span class="p-faq__questionOpen"></span>
+</div>
+
+<div class="p-faq__answer" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+  <div class="p-faq__answerDesc">
+    <div class="p-faq__answerMark">A</div>
+    <span class="p-faq__answerText" itemprop="text">
+    お支払い方法は現金・クレジットカード（VISA・MASTER・JCB・AMERICAN EXPRESS・Diners Club・DISCOVER）・電子決済（QR、交通系）・メディカルローンの中からお選び頂けます。
+    </span>
+  </div>
+</div>
+</div>
+
+<div class="p-faq__box js-faqAccordion" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+
+<div class="p-faq__question">
+  <div class="p-faq__questionDesc">
+    <div class="p-faq__questionMark">Q</div>
+    <span class="p-faq__questionText" itemprop="name">
     分割でのお支払いは可能ですか？
     </span>
   </div>
@@ -135,7 +157,8 @@
   <div class="p-faq__answerDesc">
     <div class="p-faq__answerMark">A</div>
     <span class="p-faq__answerText" itemprop="text">
-    分割でのお支払いは可能となります。当院のお支払い方法は現金・クレジットカード・メディカルローンの中からお選び頂けます。
+    医療ローン、クレジットカードでの分割でのお支払いも可能です。
+    <br>※ 医療ローン84回、クレジットカードmax36回（平均24回）
     </span>
   </div>
 </div>

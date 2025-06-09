@@ -160,48 +160,6 @@
 
   <?php get_template_part('template-parts/part-lp-con'); ?>
 
-  <!-- 選ばれる理由 -->
-  <section class="p-topReason p-reason" id="top-reason">
-    <div class="p-reason__inner l-inner">
-      <div class="p-reason__head c-secTitle">
-        <div class="c-secTitle__en">WHY LIETO CLINIC</div>
-        <h2 class="c-secTitle__ja">リエートクリニックの<br>医療ダイエットが選ばれる理由</h2>
-      </div>
-      <div class="p-reason__body">
-        <ul class="p-reason__list">
-          <li class="p-reason__item">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/top_reason_01.png" alt="有資格者が施術するから安心の医療痩身">
-            <h3 class="p-reason__itemTitle">有資格者が施術するから<br>安心の医療痩身</h3>
-            <p class="p-reason__itemText">
-              医師・看護師などの有資格者が施術を行うことで、お客様の健康状態や体質に合わせたプランをご提案させていただきます。<br>
-              <br>
-              専門的な知識と経験に基づいて行われるため、安心して施術を受けていただけます。
-            </p>
-          </li>
-
-          <li class="p-reason__item">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/top_reason_02.png" alt="短期間での痩身や難しい部分痩せも対応">
-            <h3 class="p-reason__itemTitle">短期間での痩身や<br>難しい部分痩せも対応</h3>
-            <p class="p-reason__itemText">
-              短期間での効果的な痩身や、通常難しいとされる部分痩せにも対応することができます。<br>
-              <br>
-              科学的な根拠に基づいたアプローチを用いて、特定の部位の脂肪やセルライトに対して、技術や機器を駆使して細胞レベルで効果的な施術が可能です。
-            </p>
-          </li>
-
-          <li class="p-reason__item">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/top_reason_03.png" alt="切らない施術で安心して痩身">
-            <h3 class="p-reason__itemTitle">切らない施術で<br>安心して痩身</h3>
-            <p class="p-reason__itemText">
-              リエートクリニックでは、切らない施術の取り扱いが多くございます。<br>
-              <br>
-              切らない施術は、手術のリスクやダウンタイムを最小限に抑えつつ、日常生活への影響も少ないのが特徴です。
-            </p>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
 
   <!-- 当院の症例 -->
   <section class="p-topFaq" id="top-case">
@@ -219,39 +177,7 @@
     </div>
   </section>
 
-  <!-- About us -->
-  <section class="p-topAbout" id="top-about">
-    <div class="p-topAbout__head c-wideTitle">
-      <div class="p-topAbout__headInner l-inner">
-        <div class="c-wideTitle__content">
-          <div class="c-wideTitle__en">About us</div>
-          <h2 class="c-wideTitle__ja">わたしたちの想い</h2>
-        </div>
-      </div>
-    </div>
-    <div class="p-topAbout__inner l-inner">
-      <div class="p-topAbout__body">
-        <figure class="p-topAbout__figure">
-          <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/top_about.png" alt="わたしたちの想い">
-        </figure>
-        <div class="p-topAbout__desc">
-          <div class="p-topAbout__message">
-            リエートクリニックでは、<br class="_overPc">
-            単なる医療痩身サービスの提供だけに留まらず、<br class="_overPc">
-            『美しさ』や『健康』をより追求いたします。
-          </div>
-          <p class="p-topAbout__text">
-            細胞レベルで身体にアプローチすることで、理想の体型づくりと共に人間本来の美しさを取り戻す美容医療を提供し、お客様の人生における『幸せ＝Lieto』の実現に貢献いたします。
-          </p>
-          <div class="p-topAbout__btn">
-            <a href="/about/" class="c-btn">当院について詳しくみる</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- 施術内容 -->
+    <!-- 施術内容 -->
   <section class="p-topTreatment">
     <div class="p-topTreatment__bgc">
       <div class="p-topTreatment__inner l-inner">
@@ -294,7 +220,7 @@
           <div class="p-treatment__body">
             <div class="p-treatment__content">
               <div class="p-treatment__contentTitle">
-                脂肪細胞を破壊したい方へ
+                脂肪細胞を減らしたい方へ
               </div>
               <ul class="p-treatment__contentList">
 
@@ -443,6 +369,81 @@
       </div>
     </div>
 
+  </section>
+
+  <!-- 選ばれる理由 -->
+  <section class="p-topReason p-reason" id="top-reason">
+    <div class="p-reason__inner l-inner">
+      <div class="p-reason__head c-secTitle">
+        <div class="c-secTitle__en">WHY LIETO CLINIC</div>
+        <h2 class="c-secTitle__ja">リエートクリニックの<br>医療ダイエットが選ばれる理由</h2>
+      </div>
+      <div class="p-reason__body">
+        <ul class="p-reason__list">
+          <li class="p-reason__item">
+            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/top_reason_01.png" alt="有資格者が施術するから安心の医療痩身">
+            <h3 class="p-reason__itemTitle">有資格者が施術するから<br>安心の医療痩身</h3>
+            <p class="p-reason__itemText">
+              医師・看護師などの有資格者が施術を行うことで、お客様の健康状態や体質に合わせたプランをご提案させていただきます。<br>
+              <br>
+              専門的な知識と経験に基づいて行われるため、安心して施術を受けていただけます。
+            </p>
+          </li>
+
+          <li class="p-reason__item">
+            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/top_reason_02.png" alt="短期間での痩身や難しい部分痩せも対応">
+            <h3 class="p-reason__itemTitle">短期間での痩身や<br>難しい部分痩せも対応</h3>
+            <p class="p-reason__itemText">
+              短期間での効果的な痩身や、通常難しいとされる部分痩せにも対応することができます。<br>
+              <br>
+              科学的な根拠に基づいたアプローチを用いて、特定の部位の脂肪やセルライトに対して、技術や機器を駆使して細胞レベルで効果的な施術が可能です。
+            </p>
+          </li>
+
+          <li class="p-reason__item">
+            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/top_reason_03.png" alt="切らない施術で安心して痩身">
+            <h3 class="p-reason__itemTitle">切らない施術で<br>安心して痩身</h3>
+            <p class="p-reason__itemText">
+              リエートクリニックでは、切らない施術の取り扱いが多くございます。<br>
+              <br>
+              切らない施術は、手術のリスクやダウンタイムを最小限に抑えつつ、日常生活への影響も少ないのが特徴です。
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- About us -->
+  <section class="p-topAbout" id="top-about">
+    <div class="p-topAbout__head c-wideTitle">
+      <div class="p-topAbout__headInner l-inner">
+        <div class="c-wideTitle__content">
+          <div class="c-wideTitle__en">About us</div>
+          <h2 class="c-wideTitle__ja">わたしたちの想い</h2>
+        </div>
+      </div>
+    </div>
+    <div class="p-topAbout__inner l-inner">
+      <div class="p-topAbout__body">
+        <figure class="p-topAbout__figure">
+          <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/top_about.png" alt="わたしたちの想い">
+        </figure>
+        <div class="p-topAbout__desc">
+          <div class="p-topAbout__message">
+            リエートクリニックでは、<br class="_overPc">
+            単なる医療痩身サービスの提供だけに留まらず、<br class="_overPc">
+            『美しさ』や『健康』をより追求いたします。
+          </div>
+          <p class="p-topAbout__text">
+            細胞レベルで身体にアプローチすることで、理想の体型づくりと共に人間本来の美しさを取り戻す美容医療を提供し、お客様の人生における『幸せ＝Lieto』の実現に貢献いたします。
+          </p>
+          <div class="p-topAbout__btn">
+            <a href="/about/" class="c-btn">当院について詳しくみる</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- caution -->
@@ -723,6 +724,9 @@
           </p>
         </div>
       </div>
+
+      <?php get_template_part('template-parts/doctor-info'); ?>
+
       <div class="p-message__btn">
         <a href="/greeting/" class="c-btn">担当医師について詳しくみる</a>
       </div>

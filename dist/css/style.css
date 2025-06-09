@@ -8875,7 +8875,7 @@ button {
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  .p-singleMenu__box:nth-of-type(even) .p-singleMenu__flex {
+  .p-singleMenu__box:not(.is-not):nth-of-type(even) .p-singleMenu__flex {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;

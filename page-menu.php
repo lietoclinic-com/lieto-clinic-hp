@@ -21,7 +21,7 @@
           <div class="p-treatment__body">
             <div class="p-treatment__content">
               <div class="p-treatment__contentTitle">
-                脂肪細胞を破壊したい方へ
+                脂肪細胞を減らしたい方へ
               </div>
               <ul class="p-treatment__contentList">
 
