@@ -28,3 +28,6 @@ CSS設計はFLOCSSを使用
 
 ## Git
 [main]ブランチ：本番環境
+
+## 画像を拡大してポップアップ
+https://web-saku.net/javascript-lightbox2/
