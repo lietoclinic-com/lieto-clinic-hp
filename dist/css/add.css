@@ -1121,3 +1121,27 @@ add flow
     font-size: 14px;
     line-height: 1.6!important;
 }
+
+
+/*===================================
+p-pageMessageGreeting__tiktok
+===================================*/
+.p-pageMessageGreeting__tiktok {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3.33%;
+}
+.p-pageMessageGreeting__tiktok .p-pageMessageGreeting__tiktok--column {
+    width: 30%;
+    height: auto;
+}
+.p-pageMessageGreeting__tiktok .p-pageMessageGreeting__tiktok--column blockquote{
+  
+}
+@media screen and (max-width: 768px) {
+    .p-pageMessageGreeting__tiktok .p-pageMessageGreeting__tiktok--column {
+        width: 100%;
+    }
+}
