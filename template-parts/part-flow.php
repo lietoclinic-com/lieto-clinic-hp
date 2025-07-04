@@ -94,7 +94,9 @@
                   <h4 class="p-flow__h4">採血や遺伝子検査をもとに以下のようなアドバイスを行います。</h4>
                   <div class="c-balloon c-balloon--left">
                     <figure class="c-balloon__image">
-                      <img decoding="async" width="75" height="75" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/flow/flow-doctor.webp" class="attachment-thumbnail size-thumbnail" alt="採血や遺伝子検査をもとに以下のようなアドバイスを行います。"></figure>
+                      <img decoding="async" width="75" height="75" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/flow/flow-doctor.webp" class="attachment-thumbnail size-thumbnail" alt="採血や遺伝子検査をもとに以下のようなアドバイスを行います。">
+                      <figcaption>医師</figcaption>
+                    </figure>
                     <div class="c-balloon__textWrapper c-balloon__textWrapper--left">
                       <div class="c-balloon__text">
                         <p>

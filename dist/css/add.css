@@ -1066,7 +1066,8 @@ add flow
     }
 }
 
-.p-flow__caution {
+.p-flow__caution ,
+.c-balloon__image figcaption {
     text-align: center;
     font-size: 1.4rem;
 }
@@ -1137,10 +1138,15 @@ p-pageMessageGreeting__tiktok
     width: 30%;
     height: auto;
 }
-.p-pageMessageGreeting__tiktok .p-pageMessageGreeting__tiktok--column blockquote{
-  
+.p-pageMessageGreeting__tiktok .p-pageMessageGreeting__tiktok--column iframe{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 321/571;
 }
 @media screen and (max-width: 768px) {
+    .p-pageMessageGreeting__tiktok {
+        gap: 24px;
+    }
     .p-pageMessageGreeting__tiktok .p-pageMessageGreeting__tiktok--column {
         width: 100%;
     }
