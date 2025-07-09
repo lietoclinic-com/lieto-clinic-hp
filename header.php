@@ -336,6 +336,7 @@
                 </ul>
               </div>
             </li>
+            <li class="l-header__bottomItem"><a href="/price/">料金</a></li>
             <li class="l-header__bottomItem"><a href="/case/">当院の症例</a></li>
             <li class="l-header__bottomItem"><a href="/monitor/">モニター募集</a></li>
             <li class="l-header__bottomItem"><a href="/minor/">未成年者の方へ</a></li>
@@ -463,6 +464,7 @@
                 <li class="l-spHeader__subitem"><a href="/menu/exosome/">細胞レベルで美しく<span>エクソソーム点滴</span></a></li>
               </ul>
             </li>
+            <li class="l-spHeader__item"><a href="/price/">料金</a></li>
             <li class="l-spHeader__item"><a href="/case/">当院の症例</a></li>
             <li class="l-spHeader__item"><a href="/monitor/">モニター募集</a></li>
             <li class="l-spHeader__item"><a href="/minor/">未成年者の方へ</a></li>

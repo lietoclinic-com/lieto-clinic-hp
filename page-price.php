@@ -784,6 +784,7 @@
         </table>
 
         <h3>ダイエット注射・美容点滴</h3>
+        <div class="price__scroll-wrap js-scrollable">
         <table>
           <thead>
             <tr>
@@ -862,7 +863,8 @@
             </tr>
           </tbody>
         </table>
-
+        </div>
+        
         <h3>遺伝子検査</h3>
         <table>
           <thead>
