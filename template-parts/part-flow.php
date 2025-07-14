@@ -27,6 +27,7 @@
                 </li>
 
                 <li class="p-flow__item">
+                  
                   <div class="p-flow__itemFlex">
                     <figure class="p-flow__figure">
                       <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/flow/flow_03.png" alt="inbody測定">
@@ -43,9 +44,29 @@
                       </p>
                     </div>
                   </div>
+
+                  <h4 class="p-flow__h4">実際のinbody測定の結果</h4>
+                  <div class="p-flow__itemFlex">
+                    <a class="p-flow__figure" href="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/flow/inbody-img.webp" data-lightbox="image-1" data-title="実際のinbody測定の結果" data-alt="Alt text">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/flow/inbody-img.webp" alt="実際のinbody測定の結果">
+                      <p class="p-flow__caution">※クリックで拡大表示できます。</p>
+                    </a>
+                    <div class="p-flow__desc">
+                      <p class="p-flow__descText"><span class="sp-hide">左</span><span class="sp-inline">上記</span>のような分析結果をもとに、</p>
+                      <ul class="p-flow__list--child">
+                        <li>効果が出やすく、リバウンドを防ぐダイエットプラン</li>
+                        <li>ご自宅で簡単にできるダイエット方法</li>
+                        <li>すぐに実践できる食事のポイント</li>
+                      </ul>
+                      <p class="p-flow__descText">などをお伝えします。</p>
+
+                    </div>
+                  </div>
+
                 </li>
 
                 <li class="p-flow__item">
+
                   <div class="p-flow__itemFlex">
                     <figure class="p-flow__figure">
                       <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/flow/flow_02.png" alt="採血・遺伝子検査">
@@ -61,6 +82,34 @@
                       </p>
                     </div>
                   </div>
+
+                  <h4 class="p-flow__h4">実際の遺伝子検査の結果イメージ</h4>
+                  <div class="p-flow__itemFlex">
+                    <a class="p-flow__full-image" href="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/flow/genetic-testing.webp" data-lightbox="image-1" data-title="実際の遺伝子検査の結果イメージ" data-alt="Alt text">
+                      <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/flow/genetic-testing.webp" alt="実際の遺伝子検査の結果イメージ">
+                      <p class="p-flow__caution">※クリックで拡大表示できます。</p>
+                    </a>
+                  </div>
+
+                  <h4 class="p-flow__h4">採血や遺伝子検査をもとに以下のようなアドバイスを行います。</h4>
+                  <div class="c-balloon c-balloon--left">
+                    <figure class="c-balloon__image">
+                      <img decoding="async" width="75" height="75" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/flow/flow-doctor.webp" class="attachment-thumbnail size-thumbnail" alt="採血や遺伝子検査をもとに以下のようなアドバイスを行います。">
+                      <figcaption>医師</figcaption>
+                    </figure>
+                    <div class="c-balloon__textWrapper c-balloon__textWrapper--left">
+                      <div class="c-balloon__text">
+                        <p>
+                          採血結果から見える点として、脂質代謝に関わる数値（LDLコレステロール・中性脂肪）がやや高めでした。これにより、脂質の代謝がやや苦手な体質である可能性がうかがえます。そのため、今後の食事指導では脂質の摂取量を適正に管理し、特に飽和脂肪酸の多い食品（揚げ物や脂身の多い肉類など）は控えていただくようおすすめします。
+                          <br>
+                          <br>また、遺伝子検査の結果からは、「糖代謝リスク型」の傾向が見られました。これは糖質をエネルギーとして使いにくく、脂肪として蓄積しやすい体質を示唆しています。そのため、急激な血糖上昇を避ける食事（低GI食品を中心とした内容）や、食事の順番（ベジファースト）を意識することが重要です。
+                          <br>
+                          <br>運動に関しては、遺伝的に有酸素運動の効果が出やすいタイプであることも確認できました。ウォーキングや軽いジョギングなど、継続的な有酸素運動を週3〜4回取り入れることを推奨いたします。
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
                 </li>
 
                 <h3 class="p-flow__subtitle _second">ご契約後のご来院</h3>

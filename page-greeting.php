@@ -52,6 +52,18 @@
 
           <?php get_template_part('template-parts/doctor-info'); ?>
 
+          <ul class="p-pageMessageGreeting__tiktok">
+            <li class="p-pageMessageGreeting__tiktok--column">
+              <iframe width="638" height="1134" src="https://www.youtube.com/embed/aYfMdsHS_Mo" title="医療ダイエットクリニックの院長が格付け‼️#ダイエット#痩せたい#医療ダイエット" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </li>
+            <li class="p-pageMessageGreeting__tiktok--column">
+              <iframe width="638" height="1134" src="https://www.youtube.com/embed/a0Lj1dLUVVE" title="ダイエットクリニックの院長に聞いた‼️#ダイエット#痩せる食事#痩せたい" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </li>
+            <li class="p-pageMessageGreeting__tiktok--column">
+              <iframe width="638" height="1134" src="https://www.youtube.com/embed/y-2IpP5ER5c" title="ダイエットクリニックの院長に聞いた‼️#ダイエット#ダイエット食#痩せたい" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </li>
+          </ul>
+
         </div>
       </section>
 

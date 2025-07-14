@@ -1028,3 +1028,147 @@ p-topIntro
 .l-spHeader__nav .p-topIntro{
     margin: 40px 0;
 }
+
+/*===================================
+lightbox2
+===================================*/
+.lb-nav a.lb-prev {
+  background: url('../img/prev.png') left 48% no-repeat;
+}
+
+.lb-nav a.lb-next{
+  background: url('../img/next.png') right 48% no-repeat;
+}
+
+.lb-cancel {
+  background: url('../img/loading.gif') center center no-repeat;
+}
+
+.lb-data .lb-close {
+  background: url('../img/close.png') top right no-repeat;
+}
+
+/*===================================
+add flow
+===================================*/
+.p-flow__h4 {
+    text-align: center;
+    margin-top: 2em;
+    font-family: "Zen Old Mincho", serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #AE8954; 
+}
+@media screen and (min-width: 769px) {
+    .p-flow__h4 {
+        font-size: 2rem;
+    }
+}
+
+.p-flow__caution ,
+.c-balloon__image figcaption {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.p-flow__list--child {
+    margin-top: 1.2rem;
+    line-height: 2;
+    letter-spacing: -0.04em;
+    font-size: 1.4rem;
+    padding-left: 2rem;
+    list-style: disc;
+}
+@media screen and (min-width: 769px) {
+  .p-flow__list--child {
+    margin-top: 2.4rem;
+    letter-spacing: 0;
+  }
+}
+.p-flow__list--child li {
+    margin-top: 0em;
+}
+.p-flow__list--child li::marker {
+  color: #AE8954;
+  font-weight: 700;
+}
+.p-flow__list--child li + li {
+  margin-top: 1.2rem;
+}
+
+.sp-hide{
+    display: inline;
+}
+.sp-inline{
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .sp-hide{
+        display: none;
+    }
+    .sp-inline{
+        display: inline;
+    }
+}
+
+.p-flow__full-image {
+    max-width: 620px;
+    width: 100%;
+    margin: 24px auto 0;
+}
+
+.p-flow__item .c-balloon__text p {
+    font-size: 14px;
+    line-height: 1.6!important;
+}
+
+
+/*===================================
+p-pageMessageGreeting__tiktok
+===================================*/
+.p-pageMessageGreeting__tiktok {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3.33%;
+}
+.p-pageMessageGreeting__tiktok .p-pageMessageGreeting__tiktok--column {
+    width: 30%;
+    height: auto;
+}
+.p-pageMessageGreeting__tiktok .p-pageMessageGreeting__tiktok--column iframe{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 321/571;
+}
+@media screen and (max-width: 768px) {
+    .p-pageMessageGreeting__tiktok {
+        gap: 24px;
+    }
+    .p-pageMessageGreeting__tiktok .p-pageMessageGreeting__tiktok--column {
+        width: 100%;
+    }
+}
+
+/*===================================
+p-reason__list top
+===================================*/
+.p-reason__list.is-top {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem 5.5rem;
+}
+
+.p-reason__list.is-top .p-reason__item{
+    width: 30%;
+}
+@media screen and (max-width: 768px) {
+    .p-reason__list.is-top {
+
+    }
+    .p-reason__list.is-top .p-reason__item{
+        width: 100%;
+    }
+}
