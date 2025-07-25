@@ -171,7 +171,7 @@
           <h2 class="c-secTitle__ja">当院の症例</h2>
         </div>
 
-        <?php get_template_part('template-parts/all-case'); ?>
+        <?php get_template_part('template-parts/front-case'); ?>
         
       </div>
     </div>

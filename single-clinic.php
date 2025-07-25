@@ -532,13 +532,17 @@
   </section>
 
   <!-- 担当医師挨拶 -->
-  <?php if (get_field("clinic_doctor")['clinic_doctor_image']) : ?>
+  <?php // if (get_field("clinic_doctor")['clinic_doctor_image']) : ?>
     <section class="p-singleClinicMessage p-message">
       <div class="p-message__head c-wideTitle">
         <div class="p-message__headInner l-inner">
           <div class="c-wideTitle__content">
             <div class="c-wideTitle__en">MESSAGE</div>
-            <h2 class="c-wideTitle__ja">担当医師挨拶</h2>
+            <?php if(get_field("clinic_name") === '名古屋'): ?>
+              <h2 class="c-wideTitle__ja">担当医師挨拶</h2>
+            <?php else: ?>
+              <h2 class="c-wideTitle__ja">統括院長挨拶</h2>
+            <?php endif; ?>
           </div>
         </div>
       </div>
@@ -560,7 +564,6 @@
           </div>
         </div>
       </div>
-      -->
 
       <div class="p-message__inner l-inner">
         <div class="p-message__body">
@@ -577,9 +580,42 @@
           </div>
         </div>
       </div>
+      -->
+
+      <div class="p-message__inner l-inner">
+        <div class="p-message__body">
+          <figure class="p-message__figure">
+            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/doctor.png" alt="リエートクリニック名古屋院 院長 松永 宏之">
+            <div class="p-message__post">
+              <div class="p-message__clinic">リエートクリニック</div>
+              <?php if(get_field("clinic_name") === '名古屋'): ?>
+                <div class="p-message__name"><span>名古屋院/院長</span>松永 宏之</div>
+              <?php else: ?>
+                <div class="p-message__name"><span>統括院長</span>松永 宏之</div>
+              <?php endif; ?>
+            </div>
+          </figure>
+          <div class="p-message__desc">
+            <p class="p-message__text">
+              数多くのクリニックの中から当院のホームページにお越しいただき、心より感謝申し上げます。
+              <br>
+              <br> 私たちが日常的に耳にする様々なダイエット方法は、しばしば過度な忍耐を求め、その結果として肉体的、精神的に大きな負担をもたらします。
+              <br>しかしながら、その効果は一時的なもので、終わってみれば健康を害することすらあります。
+              <br>
+              <br>当クリニックでは、単に体重を減らすだけではなく、「美しく、健康的に」痩せることを追求しております。
+              <br>医師、看護師、管理栄養士が一丸となり、それぞれのお客様の健康状態とライフスタイルを細かく分析し、最適な栄養指導、適切な投薬、医療機器を使用したダイエットプログラムをご提案しております。
+              <br>
+              <br>お客様一人ひとりの「幸せ」の実現を全力でサポートすることが、私たちの使命です。
+              <br>美と健康の両面で、お客様の人生に価値を加えられるよう尽力いたします。
+              <br>
+              <br>スタッフ一同、皆様のご来院を心からお待ちしております。
+            </p>
+          </div>
+        </div>
+      </div>
       
     </section>
-  <?php endif; ?>
+  <?php // endif; ?>
 
 
   <!-- よくあるご質問 -->
