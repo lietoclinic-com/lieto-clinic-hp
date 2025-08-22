@@ -13,9 +13,10 @@
       $title = '採用について｜リエートクリニック【公式】';
     }
 
-    $ages = $_GET['age'];
     if(is_post_type_archive('voice')){
-      if (!empty($ages)) {
+      // age パラメータが存在するか確認
+      if (isset($_GET['age']) && !empty($_GET['age'])) {
+        $ages = (array) $_GET['age']; // 配列でキャストして安全に処理
         foreach( $ages as $age ) {
           if($age === 'twenty'){$title .= '20代';}
           if($age === 'thirty'){$title .= '30代';}
@@ -24,8 +25,8 @@
           if($age === 'sixty'){$title .= '60代';}
         }
         $title .= 'の患者様の声｜リエートクリニック【公式】';
-
-      } else { // 年齢が選択されない場合
+      } else { 
+        // 年齢が選択されない場合
         $title = '患者様の声｜リエートクリニック【公式】';
       }
     }
