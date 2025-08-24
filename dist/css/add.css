@@ -1201,3 +1201,8 @@ p-reason__list top
     height: auto;
     margin: 0 auto;
 }
+
+.p-clatuuFeature__itemBody strong{
+    font-weight: bold;
+    color: #8A652F;
+}

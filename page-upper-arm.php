@@ -110,12 +110,6 @@
 
                       <h3 class="p-clatuuFeature__itemTitle">男性より女性の方が<br class="sp-block">二の腕が太りやすい</h3>
 
-                      <h4 class="c-listBox__title" style="margin-top: 40px; padding-bottom: 1rem;">筋肉量の違い</h4>
-                      <div class="p-clatuuFeature__itemDesc">
-                        <div class="p-clatuuFeature__itemText">
-                          男性は女性と比べて筋肉量が多く、基礎代謝量も高くなっています。
-                        </div>
-                      </div>
                       <figure class="p-clatuuFeature__itemFigure" style="max-width: 640px; margin: 40px auto 0;">
                         <picture>
                           <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_point2.webp" alt="男性より女性の方が二の腕が太りやすい" loading="lazy">
@@ -266,7 +260,7 @@
             </picture>
           </figure>
           <div class="p-clatuuFeature__itemDesc">
-            <div class="p-clatuuFeature__itemText">当院ではお悩みにあわせて3つの施術方法をご用意しています。</div>
+            <div class="p-clatuuFeature__itemText">当院ではお悩みにあわせて4つの施術方法をご用意しています。</div>
           </div>
   
           <ul class="p-clatuuChange__list">
@@ -554,11 +548,11 @@
         </a>
       </div>
 
-      <!-- 従来品「クラツー」からパワーアップ！ -->
+      <!-- なぜリエートクリニックなら「変われる」のか？3つの理由 -->
       <div class="p-clatuuChange _exo">
         <div class="p-clatuuChange__inner l-inner">
 
-          <h2 class="p-singleMenu__title">従来品「クラツー」からパワーアップ！</h2>
+          <h2 class="p-singleMenu__title">なぜリエートクリニックなら「変われる」のか？3つの理由</h2>
   
           <ul class="p-clatuuChange__list">
 
@@ -566,20 +560,20 @@
               <div class="p-clatuuChange__itemDesc">
                 <div class="p-clatuuChange__itemHead">
                   <div class="p-clatuuChange__itemNum">01</div>
-                  <div class="p-clatuuChange__itemTitle">複数の治療法を組み合わせるアプローチ</div>
+                  <div class="p-clatuuChange__itemTitle">メスを使わず日常生活に影響しない安心の施術</div>
                 </div>
                 <div class="p-clatuuChange__itemText">
-                  リエートクリニックの最大の特徴は、一つの治療法に頼らず、複数の治療を組み合わせる複合アプローチを採用していることです。
+                  リエートクリニックでは、メスを使わない非侵襲的な治療法のみを採用しています。
                   <br>
-                  <br>多くのクリニックでは単一の治療法のみを提供していますが、二の腕太りには様々な要因が関わっているため、それぞれに対応した治療が必要です。
+                  <br>脂肪吸引などの外科施術と異なり、当日からシャワーが可能で、翌日には通常通りお仕事に復帰できます。
                   <br>
-                  <br>例えば、大きな脂肪の塊にはクラツーアルファで冷却破壊を行い、細かい部分や仕上げにはカベリンで微調整、そして全体の引き締めにはウルトラセルジィーを使用します。
+                  <br>長期間のお休みを取る必要がないため、忙しい現代女性にも安心して治療を受けていただけます。
                   <br>
-                  <br>このような組み合わせにより、単一治療では得られない相乗効果を期待できます。
+                  <br>また、傷跡が残る心配もありません。二の腕は人目につきやすい部位だからこそ、美しい仕上がりと安全性の両立を最優先に考えています。
                 </div>
               </div>
               <figure class="p-clatuuChange__itemFigure">
-                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_reason1.webp" alt="複数の治療法を組み合わせるアプローチ" decoding="async" loading="lazy">
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_reason1.webp" alt="メスを使わず日常生活に影響しない安心の施術" decoding="async" loading="lazy">
               </figure>
             </li>
 

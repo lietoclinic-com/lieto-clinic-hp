@@ -7,8 +7,8 @@
     <div class="p-singleMenu__head c-pageTitleHead _exosome">
       <?php get_template_part('template-parts/part', 'breadcrumb'); ?>
       <div class="c-pageTitle">
-        <div class="c-pageTitle__en">二の腕痩せ</div>
-        <h1 class="c-pageTitle__ja">運動でも、エステでも変わらなかった二の腕を、医療の力で理想の細さへ。</h2>
+        <div class="c-pageTitle__en">太もも痩せ</div>
+        <h1 class="c-pageTitle__ja">運動でも、マッサージでも変わらなかった太ももを、医療の力で理想のサイズへ。</h2>
       </div>
     </div>
 
@@ -18,9 +18,9 @@
       <div class="p-clatuuMenu" style="margin-top: 40px;">
         <div class="p-clatuuMenu__inner l-inner">
           <ul class="p-clatuuMenu__list">
-            <li class="p-clatuuMenu__item"><a href="#reason">二の腕が痩せにくくなる理由</a></li>
-            <li class="p-clatuuMenu__item"><a href="#how">二の腕痩せの方法</a></li>
-            <li class="p-clatuuMenu__item"><a href="#case">二の腕痩せの症例</a></li>
+            <li class="p-clatuuMenu__item"><a href="#reason">太ももが痩せにくくなる理由</a></li>
+            <li class="p-clatuuMenu__item"><a href="#how">太もも痩せの方法</a></li>
+            <li class="p-clatuuMenu__item"><a href="#case">太もも痩せの症例</a></li>
           </ul>
         </div>
       </div>
@@ -33,11 +33,11 @@
             <div class="p-clatuuFeature__inner l-inner">
               <div class="p-clatuuAbout__head c-secTitle _exosome">
                 <div class="c-secTitle__en">WHAT’S IS THIS?</div>
-                <h2 class="c-secTitle__ja">なぜ年齢とともに<br>二の腕が痩せにくくなるのか？</h2>
+                <h2 class="c-secTitle__ja">なぜ年齢とともに<br>太ももが痩せにくくなるのか？</h2>
               </div>
 
               <div class="p-clatuuMechanism__text">
-                多くの女性から「若い頃は気にならなかったのに、最近二の腕がどんどん太くなって...」というご相談をいただきます。
+                多くの女性から「スキニーパンツがきつくて履けない」「太ももだけ太くて、全体のバランスが悪い」「昔のデニムが太ももで引っかかる」というご相談をいただきます。
               </div>
               <div class="c-secTitle__ja" style="text-align:center;">
                 実は、これには医学的な理由があるのです。
@@ -55,44 +55,15 @@
 
                     <div class="p-clatuuFeature__itemBody">
 
-                      <h3 class="p-clatuuFeature__itemTitle">女性の脂肪のつき方は<br class="sp-block">年齢でこんなに変わる</h3>
-                      <div class="p-clatuuFeature__itemFlex _reverse">
+                      <h3 class="p-clatuuFeature__itemTitle">女性は生物学的に<br class="sp-block">下半身に脂肪を蓄積しやすい</h3>
                         
-                        <div class="p-clatuuFeature__itemDesc">
-                          <div class="p-clatuuFeature__itemText">
-                            女性の身体は年齢とともに、脂肪のつき方が大きく変化します。
-                            <br>
-                            <br>30歳未満の女性は、主に脚部に脂肪が集中する傾向があります。
-                            <br>
-                            <br>ところが、30代以降になると腕や体幹部にも脂肪がつきやすくなり、年齢とともに腕の脂肪率は増加傾向になることが研究で明らかになっています。
-                          </div>
-                        </div>
-
-                        <figure class="p-clatuuFeature__itemFigure">
-                          <picture>
-                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_point1-1.webp" alt="女性の脂肪のつき方は年齢でこんなに変わる" loading="lazy">
-                          </picture>
-                        </figure>
-
-                      </div>
-
                       <div class="p-clatuuFeature__itemDesc">
                         <div class="p-clatuuFeature__itemText">
-                          この変化は女性ホルモンの影響と深く関係しています。エストロゲンの分泌量が減少すると、脂肪を蓄積する場所が変わってしまいます。
+                          女性の身体は妊娠・出産に備えるため、下半身に脂肪を蓄積しやすい構造になっています。
                           <br>
-                          <br>若い頃は「洋ナシ型」だった体型が、年齢とともに「リンゴ型」に変化していくのはこのためです。
-                        </div>
-                      </div>
-
-                      <figure class="p-clatuuFeature__itemFigure" style="max-width: 640px; margin: 40px auto 0;">
-                        <picture>
-                          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_point1-2.webp" alt="女性の脂肪のつき方は年齢でこんなに変わる" loading="lazy">
-                        </picture>
-                      </figure>
-
-                      <div class="p-clatuuFeature__itemDesc">
-                        <div class="p-clatuuFeature__itemText">
-                          50歳以上になると、腕・体幹部・脚の脂肪率がほぼ均等になります。これは、<strong>全身に満遍なく脂肪がついてしまう</strong>ということを意味しており、部分的なダイエットがより困難になる理由でもあります。
+                          <br>特に太ももは、妊娠・授乳期の栄養蓄積や体温維持、外的衝撃からの保護のための脂肪貯蔵部位としての役割があり、進化の過程で脂肪がつきやすく、かつ落ちにくい部位として発達してきました。
+                          <br>
+                          <br>この生物学的特徴により、女性の太ももには「貯蔵型脂肪」が集中的に蓄積されます。貯蔵型脂肪は、緊急時のエネルギー源として長期間保存されるため、通常のダイエットでは分解されにくい性質があります。
                         </div>
                       </div>
 
@@ -108,7 +79,7 @@
 
                     <div class="p-clatuuFeature__itemBody">
 
-                      <h3 class="p-clatuuFeature__itemTitle">男性より女性の方が<br class="sp-block">二の腕が太りやすい</h3>
+                      <h3 class="p-clatuuFeature__itemTitle">男性より女性の方が<br class="sp-block">太ももが太りやすい</h3>
 
                       <h4 class="c-listBox__title" style="margin-top: 40px; padding-bottom: 1rem;">筋肉量の違い</h4>
                       <div class="p-clatuuFeature__itemDesc">
@@ -118,7 +89,7 @@
                       </div>
                       <figure class="p-clatuuFeature__itemFigure" style="max-width: 640px; margin: 40px auto 0;">
                         <picture>
-                          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_point2.webp" alt="男性より女性の方が二の腕が太りやすい" loading="lazy">
+                          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_point2.webp" alt="男性より女性の方が太ももが太りやすい" loading="lazy">
                         </picture>
                       </figure>
                       <div class="p-clatuuFeature__itemDesc">
@@ -127,21 +98,22 @@
                         </div>
                       </div>
 
-                      <h4 class="c-listBox__title" style="margin-top: 40px; padding-bottom: 1rem;">女性は皮下脂肪がつきやすい体質</h4>
+                      <h4 class="c-listBox__title" style="margin-top: 40px; padding-bottom: 1rem;">皮下脂肪の分布パターン</h4>
                       <div class="p-clatuuFeature__itemDesc">
                         <div class="p-clatuuFeature__itemText">
-                          妊娠・出産に備えた身体の仕組みなのですが、特に二の腕の皮下脂肪は一度ついてしまうと落ちにくい特徴があります。
-                          <br>
-                          <br>男性の脂肪は内臓脂肪が中心で比較的落ちやすいのに対し、<strong>女性の皮下脂肪は「貯蓄型」</strong>の脂肪なのです。
+                         女性の脂肪分布は「洋ナシ型」と呼ばれ、太もも・臀部・腰回りに皮下脂肪が集中します。男性の「リンゴ型」（腹部中心）とは対照的に、女性は下半身への脂肪蓄積が顕著です。
                         </div>
+                        <figure class="p-clatuuFeature__itemFigure" style="max-width: 640px; margin: 40px auto 0;">
+                          <picture>
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_point1-2.webp" alt="女性の脂肪のつき方は年齢でこんなに変わる" loading="lazy">
+                          </picture>
+                        </figure>
                       </div>
 
                       <h4 class="c-listBox__title" style="margin-top: 40px; padding-bottom: 1rem;">女性ホルモンの影響</h4>
                       <div class="p-clatuuFeature__itemDesc">
                         <div class="p-clatuuFeature__itemText">
-                          エストロゲンは脂質代謝に影響を与え、特に皮下脂肪の蓄積を促進する作用があります。
-                          <br>
-                          <br>月経周期や妊娠、更年期などのホルモン変動が、二の腕の脂肪蓄積を促進してしまうことが分かっています。
+                          エストロゲンは下半身の脂肪細胞を大きくする作用があり、特に太ももの脂肪細胞に強く働きかけます。月経周期や妊娠、更年期などのホルモン変動が、太ももの脂肪蓄積を促進してしまうのです。
                         </div>
                       </div>
 
@@ -157,47 +129,13 @@
 
                     <div class="p-clatuuFeature__itemBody">
 
-                      <h3 class="p-clatuuFeature__itemTitle">リンパが詰まると<br class="sp-block">脂肪細胞が巨大化する</h3>
-
-                      <h4 class="c-listBox__title" style="margin-top: 40px; padding-bottom: 1rem;">筋肉量の違い</h4>
-                      <div class="p-clatuuFeature__itemDesc">
-                        <div class="p-clatuuFeature__itemText">
-                          男性は女性と比べて筋肉量が多く、基礎代謝量も高くなっています。
-                        </div>
-                      </div>
-                      <figure class="p-clatuuFeature__itemFigure" style="max-width: 640px; margin: 40px auto 0;">
-                        <picture>
-                          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_point3.webp" alt="女性の脂肪のつき方は年齢でこんなに変わる" loading="lazy">
-                        </picture>
-                      </figure>
-                      <div class="p-clatuuFeature__itemDesc">
-                        <div class="p-clatuuFeature__itemText">
-                          デスクワークやスマートフォンの使用により、現代人の姿勢は前かがみになりがちです。この姿勢が続くと、鎖骨下や脇の下のリンパ節が圧迫され、リンパ液の流れが大幅に低下することが研究で明らかになっています。
-                          <br>
-                          <br>リンパの流れが悪くなると、脂肪細胞周辺に老廃物が蓄積します。すると脂肪細胞は栄養を過剰に取り込み、肥大化してしまいます。
-                          <br>
-                          <br><strong>肥大化した脂肪細胞は周囲の毛細血管やリンパ管をさらに圧迫し、悪循環のスパイラルに陥ってしまう</strong>のです。
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-
-                  <!-- Point -->
-                  <li class="p-clatuuFeature__item _first">
-                    <div class="p-clatuuFeature__itemHead">
-                      <div class="p-clatuuFeature__itemName">Point</div>
-                      <div class="p-clatuuFeature__itemNum">04</div>
-                    </div>
-
-                    <div class="p-clatuuFeature__itemBody">
-
                       <h3 class="p-clatuuFeature__itemTitle">そもそも「部分痩せ」は<br class="sp-block">医学的に困難</h3>
 
                       <div class="p-clatuuFeature__itemDesc">
                         <div class="p-clatuuFeature__itemText">
-                          年齢に関わらず、「二の腕だけを集中的に細くしたい」という願いは、残念ながら運動だけでは実現が困難です。
+                          年齢に関わらず、「太ももだけを集中的に細くしたい」という願いは、残念ながら運動だけでは実現が困難です。
                           <br>
-                          <br>これには脂肪燃焼のメカニズムが深く関わっています。
+                          <br>これには<strong>脂肪燃焼のメカニズム</strong>が深く関わっています。
                         </div>
                       </div>
 
@@ -218,20 +156,44 @@
 
                       <div class="p-clatuuFeature__itemDesc">
                         <div class="p-clatuuFeature__itemText">
-                          <strong>脂肪の分解は全身で同時に起こるため、特定の部位だけを狙って脂肪を減らすことはできません。</strong>腕立て伏せで二の腕を鍛えても、消費される脂肪は全身から均等に動員されるのです。
-                          <br>
-                          <br>さらに、脂肪には「つきやすい順番」と「落ちやすい順番」があります。脂肪が減っていく順番には個人差がありますが、一般的には内臓脂肪の方が皮下脂肪よりも先に減りやすい傾向があるとされています。
-                          <br>
-                          <br><strong>二の腕は血流が少なく脂肪の代謝が緩やかなため、体の中でも比較的減りにくい部位</strong>といわれています。
+                          <strong>脂肪の分解は全身で同時に起こるため、特定の部位だけを狙って脂肪を減らすことはできません。</strong>スクワットで太ももを鍛えても、消費される脂肪は全身から均等に動員されるのです。
                       </div>
-                     
+
+                    </div>
+                  </li>
+
+                  <!-- Point -->
+                  <li class="p-clatuuFeature__item _first">
+                    <div class="p-clatuuFeature__itemHead">
+                      <div class="p-clatuuFeature__itemName">Point</div>
+                      <div class="p-clatuuFeature__itemNum">04</div>
+                    </div>
+
+                    <div class="p-clatuuFeature__itemBody">
+
+                      <h3 class="p-clatuuFeature__itemTitle">加齢とともに頑固な<br class="sp-block">セルライトが形成される</h3>
+
                       <div class="p-clatuuFeature__itemDesc">
                         <div class="p-clatuuFeature__itemText">
-                          デスクワークやスマートフォンの使用により、現代人の姿勢は前かがみになりがちです。この姿勢が続くと、鎖骨下や脇の下のリンパ節が圧迫され、リンパ液の流れが大幅に低下することが研究で明らかになっています。
+                          太もも特有の問題として、セルライトの形成があります。
                           <br>
-                          <br>リンパの流れが悪くなると、脂肪細胞周辺に老廃物が蓄積します。すると脂肪細胞は栄養を過剰に取り込み、肥大化してしまいます。
+                          <br>セルライトとは、皮下脂肪が肥大化し、周囲の結合組織と絡み合って凸凹した状態になったものです。太ももは座位の時間が長いことで血流が悪くなりやすく、老廃物が蓄積しやすい部位です。
                           <br>
-                          <br><strong>肥大化した脂肪細胞は周囲の毛細血管やリンパ管をさらに圧迫し、悪循環のスパイラルに陥ってしまう</strong>のです。
+                          <br>年齢を重ねることで、私たちの身体には以下の変化が生じます。
+                        </div>
+                      </div>
+                      <div class="p-content">
+                        <ol>
+                          <li>コラーゲンの減少により皮膚の弾力が低下</li>
+                          <li>血液・リンパの循環が悪化</li>
+                          <li>脂肪細胞がさらに肥大化</li>
+                          <li>セルライトが固定化される</li>
+                        </ol>
+                      </div>
+
+                      <div class="p-clatuuFeature__itemDesc">
+                        <div class="p-clatuuFeature__itemText">
+                          一度形成されたセルライトは、通常の運動や食事制限では改善が困難で、太もも痩せを阻害する大きな要因となります。
                         </div>
                       </div>
 
@@ -241,32 +203,31 @@
                 </ul>
               </div>
 
-              <div class="c-secTitle__ja" style="text-align:center;">
-                一般的なダイエット方法では限界がある二の腕痩せですが、<br><strong>医療ダイエット</strong>なら根本的な解決が期待できます。
-              </div>
-
             </div>
           </div>
         </div>
       </div>
 
 
-      <!-- 二の腕痩せを実現する4つの治療メソッド -->
+      <!-- 太もも痩せを実現する4つの治療メソッド -->
       <div id="how" class="p-clatuuChange _exo" style="padding-top: 100px;">
         <div class="p-clatuuChange__inner l-inner">
 
-          <h2 class="p-singleMenu__title">二の腕痩せを実現する4つの治療メソッド</h2>
+          <h2 class="p-singleMenu__title">太もも痩せを実現する4つの治療メソッド</h2>
   
           <div class="p-clatuuChange__text">
-            医療ダイエットの最大の特徴は、<strong>脂肪細胞の数を物理的に減らす</strong>ことができる点です。
+            一般的なダイエット方法では限界がある太もも痩せですが、医療ダイエットなら根本的な解決が期待できます。
           </div>
           <figure class="p-clatuuFeature__itemFigure" style="max-width: 640px; margin: 40px auto 0;">
             <picture>
-              <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_method.webp" alt="二の腕痩せを実現する4つの治療メソッド" loading="lazy">
+              <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_method.webp" alt="太もも痩せを実現する4つの治療メソッド" loading="lazy">
             </picture>
           </figure>
           <div class="p-clatuuFeature__itemDesc">
-            <div class="p-clatuuFeature__itemText">当院ではお悩みにあわせて3つの施術方法をご用意しています。</div>
+            <div class="p-clatuuFeature__itemText">
+              医療ダイエットの最大の特徴は、脂肪細胞の数を物理的に減らすことができる点です。
+              <br>当院ではお悩みにあわせて4つの施術方法をご用意しています。
+            </div>
           </div>
   
           <ul class="p-clatuuChange__list">
@@ -489,11 +450,11 @@
               </figure>
               <div class="p-clatuuChange__itemDesc">
                 <div class="p-clatuuChange__itemText">
-                  <br>スティムシュアーは、電磁場技術を用いた医療機器です。高強度の電磁場パルスにより、二の腕の筋肉を自動的に収縮・弛緩させ、まるで筋力トレーニングを行っているような効果を得ることができます。
+                  <br>スティムシュアーは、電磁場技術を用いた医療機器です。高強度の電磁場パルスにより、太ももの筋肉を自動的に収縮・弛緩させ、まるで筋力トレーニングを行っているような効果を得ることができます。
                   <br>
                   <br>1回の施術で通常24,000回分の筋肉運動の効果を得ることができます。
                   <br>
-                  <br>特に二の腕の上腕三頭筋（裏側の筋肉）は日常生活で使われにくいため、スティムシュアーで効率的に鍛えることで引き締め効果を実感できます。
+                  <br>太もも痩せにおいて、脂肪を減らすだけでなく筋肉を鍛えることは非常に重要です。筋肉量が増えることで基礎代謝が向上し、太ももの引き締まった美しいラインを作ることができます。
                 </div>
               </div>
             </div>
@@ -521,7 +482,7 @@
                   <div class="p-clatuuChange__itemText">
                       1回の施術にかかる所要時間は20～30分程度で、マシンに装着して横たわるだけです。
                       <br>
-                      <br>スティムシュアーでは、特定の部位に焦点を当てて筋肉を刺激することが可能なため、二の腕の気になる部分を集中的に鍛え、理想的なボディラインを整えることができます。
+                      <br>スティムシュアーでは、特定の部位に焦点を当てて筋肉を刺激することが可能なため、太ももの気になる部分を集中的に鍛え、理想的なボディラインを整えることができます。
                   </div>
                 </div>
               </li>
@@ -554,11 +515,11 @@
         </a>
       </div>
 
-      <!-- 従来品「クラツー」からパワーアップ！ -->
+      <!-- なぜリエートクリニックなら「変われる」のか？3つの理由 -->
       <div class="p-clatuuChange _exo">
         <div class="p-clatuuChange__inner l-inner">
 
-          <h2 class="p-singleMenu__title">従来品「クラツー」からパワーアップ！</h2>
+          <h2 class="p-singleMenu__title">なぜリエートクリニックなら「変われる」のか？3つの理由</h2>
   
           <ul class="p-clatuuChange__list">
 
@@ -566,20 +527,20 @@
               <div class="p-clatuuChange__itemDesc">
                 <div class="p-clatuuChange__itemHead">
                   <div class="p-clatuuChange__itemNum">01</div>
-                  <div class="p-clatuuChange__itemTitle">複数の治療法を組み合わせるアプローチ</div>
+                  <div class="p-clatuuChange__itemTitle">メスを使わず日常生活に影響しない安心の施術</div>
                 </div>
                 <div class="p-clatuuChange__itemText">
-                  リエートクリニックの最大の特徴は、一つの治療法に頼らず、複数の治療を組み合わせる複合アプローチを採用していることです。
+                  リエートクリニックでは、メスを使わない非侵襲的な治療法のみを採用しています。
                   <br>
-                  <br>多くのクリニックでは単一の治療法のみを提供していますが、二の腕太りには様々な要因が関わっているため、それぞれに対応した治療が必要です。
+                  <br>脂肪吸引などの外科施術と異なり、当日からシャワーが可能で、翌日には通常通りお仕事に復帰できます。
                   <br>
-                  <br>例えば、大きな脂肪の塊にはクラツーアルファで冷却破壊を行い、細かい部分や仕上げにはカベリンで微調整、そして全体の引き締めにはウルトラセルジィーを使用します。
+                  <br>長期間のお休みを取る必要がないため、忙しい現代女性にも安心して治療を受けていただけます。
                   <br>
-                  <br>このような組み合わせにより、単一治療では得られない相乗効果を期待できます。
+                  <br>傷跡が残る心配もなく、美しい仕上がりと安全性の両立を最優先に考えています。
                 </div>
               </div>
               <figure class="p-clatuuChange__itemFigure">
-                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_reason1.webp" alt="複数の治療法を組み合わせるアプローチ" decoding="async" loading="lazy">
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_reason1.webp" alt="メスを使わず日常生活に影響しない安心の施術" decoding="async" loading="lazy">
               </figure>
             </li>
 
@@ -592,9 +553,11 @@
                 <div class="p-clatuuChange__itemText">
                   リエートクリニックの最大の特徴は、一つの治療法に頼らず、複数の治療を組み合わせる複合アプローチを採用していることです。
                   <br>
-                  <br>多くのクリニックでは単一の治療法のみを提供していますが、二の腕太りには様々な要因が関わっているため、それぞれに対応した治療が必要です。
+                  <br>多くのクリニックでは単一の治療法のみを提供していますが、太もも太りには様々な要因が関わっているため、それぞれに対応した治療が必要です。
                   <br>
-                  <br>例えば、大きな脂肪の塊にはクラツーアルファで冷却破壊を行い、細かい部分や仕上げにはカベリンで微調整、そして全体の引き締めにはウルトラセルジィーを使用します。
+                  <br>例えば、大きな脂肪の塊にはクラツーアルファで冷却破壊を行い、細かい部分や仕上げにはカベリンで微調整、全体の引き締めにはウルトラセルジィーを使用し、さらに筋肉強化にはスティムシュアーで太ももの深層筋を鍛えます。
+                  <br>
+                  <br>加えて、「食べることがやめられない」「つい間食してしまう」といったお悩みがある場合には、GLP-1受容体作動薬による内服治療も組み合わせます。
                   <br>
                   <br>このような組み合わせにより、単一治療では得られない相乗効果を期待できます。
                 </div>
@@ -611,9 +574,15 @@
                   <div class="p-clatuuChange__itemTitle">一人ひとりに合わせた治療プランの提案</div>
                 </div>
                 <div class="p-clatuuChange__itemText">
-                  リエートクリニックでは、初回カウンセリングに十分な時間をかけ、患者様一人ひとりの状況を詳しく分析します。二の腕の脂肪量、筋肉量、ライフスタイル、ご予算など、多角的に検討して治療プランを立案します。
+                  リエートクリニックでは、初回カウンセリングに十分な時間をかけ、患者様一人ひとりの状況を詳しく分析します。太ももの脂肪量、筋肉量、ライフスタイル、ご予算など、多角的に検討して治療プランを立案します。
                   <br>
-                  <br>まず、高性能な体組成分析装置を使用して、二の腕を含む身体全体の脂肪量や筋肉量を正確に測定します。
+                  <br>まず、高性能な体組成分析装置を使用して、太ももを含む身体全体の脂肪量や筋肉量を正確に測定します。
+                  <br>
+                  <br>さらに、お客様一人ひとりに合ったプログラムを実施するため、施術前に採血と遺伝子検査を行います。
+                  <br>
+                  <br>年齢や職業も重要な要素です。20代の方と50代の方では代謝や回復力が異なりますし、立ち仕事の方とデスクワークの方では下半身の状態も違います。また、結婚式などの特定のイベントがある場合は、逆算してスケジュールを組みます。
+                  <br>
+                  <br>さらに、患者様のご予算や通院可能な頻度も考慮します。無理な治療プランではなく、継続可能で現実的なプランをご提案することで、確実な効果を目指します。
                 </div>
               </div>
               <figure class="p-clatuuChange__itemFigure">
