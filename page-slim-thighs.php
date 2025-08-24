@@ -715,21 +715,21 @@
                 </a>
               </li>
               <li class="p-intro__spotItem">
-                <a href="<?php echo home_url('/menu/slim-thighs/'); ?>" class="p-intro__spotLink">
-                  <div class="p-intro__spotImage">
-                    <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/link02-pc.webp">
-                    <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/link02-sp.webp">
-                  </div>
-                  <div class="p-intro__spotTitle">太もも痩せがしたい</div>
-                </a>
-              </li>
-              <li class="p-intro__spotItem">
                 <a href="<?php echo home_url('/menu/face-slimming/'); ?>" class="p-intro__spotLink">
                   <div class="p-intro__spotImage">
                     <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/link03-pc.webp">
                     <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/link03-sp.webp">
                   </div>
                   <div class="p-intro__spotTitle">顔痩せがしたい</div>
+                </a>
+              </li>
+              <li class="p-intro__spotItem">
+                <a href="<?php echo home_url('/menu/upper-arm/'); ?>" class="p-intro__spotLink">
+                  <div class="p-intro__spotImage">
+                    <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/link04-pc.webp">
+                    <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/link04-sp.webp">
+                  </div>
+                  <div class="p-intro__spotTitle">二の腕痩せがしたい</div>
                 </a>
               </li>
             </ul>
