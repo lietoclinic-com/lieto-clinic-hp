@@ -220,7 +220,7 @@
           </div>
           <figure class="p-clatuuFeature__itemFigure" style="max-width: 640px; margin: 40px auto 0;">
             <picture>
-              <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_method.webp" alt="太もも痩せを実現する4つの治療メソッド" loading="lazy">
+              <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/slim-thighs_method.webp" alt="太もも痩せを実現する4つの治療メソッド" loading="lazy">
             </picture>
           </figure>
           <div class="p-clatuuFeature__itemDesc">
@@ -232,9 +232,76 @@
   
           <ul class="p-clatuuChange__list">
 
-            <!-- クラツーアルファ -->
+
+            <!-- ULTRAcel [zíː]  -->
             <div class="p-clatuuChange__itemHead" style="margin-top: 5rem;">
               <div class="p-clatuuChange__itemNum">01</div>
+              <div class="p-clatuuChange__itemTitle2">
+                医療ハイフ
+                <br>ULTRAcel [zíː] 
+              </div>
+            </div>
+            <div class="p-clatuuChange__item" style="margin-top: 2em;">
+              <figure class="p-clatuuChange__itemFigure">
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_method3-1.webp" alt="ULTRAcel [zíː] " decoding="async" loading="lazy">
+              </figure>
+              <div class="p-clatuuChange__itemDesc">
+                <div class="p-clatuuChange__itemText">
+                  医療用の高密度焦点式超音波（HIFU）を用いて、皮膚表面を傷つけることなく、深部の脂肪層に熱エネルギーを集中させます。
+                  <br>
+                  <br>この熱により脂肪細胞が破壊され、同時にコラーゲンの生成も促進されるため、引き締め効果も期待できます。
+                </div>
+              </div>
+            </div>
+            <h4 class="c-listBox__title" style="margin-top: 40px; padding-bottom: 1rem;">ULTRAcel [zíː]の強み</h4>
+            <ul class="p-clatuuChange__list">
+              <div class="p-clatuuChange__text">リニアファームで脂肪層に効率よくアプローチ</div>
+              <li class="p-clatuuChange__item">
+                <figure class="p-clatuuChange__itemFigure">
+                  <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_method3-2.webp" alt="ULTRAcel [zíː]の強み" decoding="async" loading="lazy">
+                </figure>
+                <div class="p-clatuuChange__itemDesc">
+                  <div class="p-clatuuChange__itemText">
+                    脂肪溶解を目的としたリニアファームは、皮下組織（脂肪層）に対して均一かつ一度で広範囲に熱が広がり、従来のHIFU治療機よりも脂肪溶解に必要な温度での照射ができるのが特徴です。
+                  </div>
+                </div>
+              </li>
+              <div class="p-clatuuChange__text">通常のHIFUよりも痛み軽減</div>
+              <li class="p-clatuuChange__item" style="margin-top: 0;">
+                <figure class="p-clatuuChange__itemFigure">
+                  <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/slim-thighs_method3-3.webp" alt="通常のHIFUよりも痛み軽減" decoding="async" loading="lazy">
+                </figure>
+                <div class="p-clatuuChange__itemDesc">
+                  <div class="p-clatuuChange__itemText">
+                    一部のHIFU機器では、コラーゲン変性に必要な温度を超える高温で照射されることがあり、それが痛みの原因になる場合があります。
+                    <br>
+                    <br>ULTRAcel [zíː]は、このタンパク質変性が始まる温度をわずかに上回る温度（約63℃前後）で照射を安定させることができるため、従来のHIFUよりも痛みを軽減でき、麻酔を使用せずに施術を受けることができるようになりました。
+                    <br>※痛みの感じ方には個人差があります。
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="c-listBox">
+              【ダウンタイム】
+              <br>まれに腫れ、かゆみ、熱感が数日伴うことがあります
+              <br>
+              <br>【リスク・副作用】
+              <br>感染、熱傷、神経麻痺、色素沈着、毛包炎、紅斑
+              <br>
+              <br>【注意事項】
+              <br>未承認医療機器：本器は医薬品医療機器等法上、国内承認されていない未承認医療機器です。
+              <br>入手経路：医師がJeisys Medical Japan等の正規代理店から適法に輸入し、責任をもって使用しています。
+              <br>国内代替機器：同様の目的を持つ国内承認HIFU機器はなく、Ulthera（FDA承認）などが選択肢となります。
+              <br>海外での安全性：韓国MFDSで承認され、重篤な安全性問題の報告はありません 。
+              <br>副作用救済制度：万一重篤な副作用が出ても、国の医薬品副作用被害救済制度の対象外となります。
+            </div>
+            <div class="p-clatuuCase__btn">
+              <a href="<?php echo home_url('/menu/hifu/'); ?>" class="p-clatuuCase__btnLink c-btn">医療ハイフについて詳しく見る</a>
+            </div>
+
+            <!-- クラツーアルファ -->
+            <div class="p-clatuuChange__itemHead" style="margin-top: 5rem;">
+              <div class="p-clatuuChange__itemNum">02</div>
               <h3 class="p-clatuuChange__itemTitle2">
                 冷却による脂肪細胞破壊
                 <br>
@@ -303,7 +370,7 @@
 
             <!-- カベリン -->
             <div class="p-clatuuChange__itemHead" style="margin-top: 5rem;">
-              <div class="p-clatuuChange__itemNum">02</div>
+              <div class="p-clatuuChange__itemNum">03</div>
               <div class="p-clatuuChange__itemTitle2">
                 注射による直接的溶解
                 <br>カベリン
@@ -341,7 +408,7 @@
               <div class="p-clatuuChange__text">痛み・ダウンタイムが少ない</div>
               <li class="p-clatuuChange__item" style="margin-top: 0;">
                 <figure class="p-clatuuChange__itemFigure">
-                  <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_method2-3.webp" alt="痛み・ダウンタイムが少ない" decoding="async" loading="lazy">
+                  <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/slim-thighs_method2-3.webp" alt="痛み・ダウンタイムが少ない" decoding="async" loading="lazy">
                 </figure>
                 <div class="p-clatuuChange__itemDesc">
                   <div class="p-clatuuChange__itemText">
@@ -368,72 +435,6 @@
             </div>
             <div class="p-clatuuCase__btn">
               <a href="<?php echo home_url('/menu/fat-dissolving-injection/'); ?>" class="p-clatuuCase__btnLink c-btn">脂肪溶解注射について詳しく見る</a>
-            </div>
-
-            <!-- ULTRAcel [zíː]  -->
-            <div class="p-clatuuChange__itemHead" style="margin-top: 5rem;">
-              <div class="p-clatuuChange__itemNum">03</div>
-              <div class="p-clatuuChange__itemTitle2">
-                医療ハイフ
-                <br>ULTRAcel [zíː] 
-              </div>
-            </div>
-            <div class="p-clatuuChange__item" style="margin-top: 2em;">
-              <figure class="p-clatuuChange__itemFigure">
-                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_method3-1.webp" alt="ULTRAcel [zíː] " decoding="async" loading="lazy">
-              </figure>
-              <div class="p-clatuuChange__itemDesc">
-                <div class="p-clatuuChange__itemText">
-                  医療用の高密度焦点式超音波（HIFU）を用いて、皮膚表面を傷つけることなく、深部の脂肪層に熱エネルギーを集中させます。
-                  <br>
-                  <br>この熱により脂肪細胞が破壊され、同時にコラーゲンの生成も促進されるため、引き締め効果も期待できます。
-                </div>
-              </div>
-            </div>
-            <h4 class="c-listBox__title" style="margin-top: 40px; padding-bottom: 1rem;">ULTRAcel [zíː]の強み</h4>
-            <ul class="p-clatuuChange__list">
-              <div class="p-clatuuChange__text">リニアファームで脂肪層に効率よくアプローチ</div>
-              <li class="p-clatuuChange__item">
-                <figure class="p-clatuuChange__itemFigure">
-                  <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_method3-2.webp" alt="ULTRAcel [zíː]の強み" decoding="async" loading="lazy">
-                </figure>
-                <div class="p-clatuuChange__itemDesc">
-                  <div class="p-clatuuChange__itemText">
-                    脂肪溶解を目的としたリニアファームは、皮下組織（脂肪層）に対して均一かつ一度で広範囲に熱が広がり、従来のHIFU治療機よりも脂肪溶解に必要な温度での照射ができるのが特徴です。
-                  </div>
-                </div>
-              </li>
-              <div class="p-clatuuChange__text">通常のHIFUよりも痛み軽減</div>
-              <li class="p-clatuuChange__item" style="margin-top: 0;">
-                <figure class="p-clatuuChange__itemFigure">
-                  <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_method3-3.webp" alt="通常のHIFUよりも痛み軽減" decoding="async" loading="lazy">
-                </figure>
-                <div class="p-clatuuChange__itemDesc">
-                  <div class="p-clatuuChange__itemText">
-                    一部のHIFU機器では、コラーゲン変性に必要な温度を超える高温で照射されることがあり、それが痛みの原因になる場合があります。
-                    <br>
-                    <br>ULTRAcel [zíː]は、このタンパク質変性が始まる温度をわずかに上回る温度（約63℃前後）で照射を安定させることができるため、従来のHIFUよりも痛みを軽減でき、麻酔を使用せずに施術を受けることができるようになりました。
-                    <br>※痛みの感じ方には個人差があります。
-                  </div>
-                </div>
-              </li>
-            </ul>
-            <div class="c-listBox">
-              【ダウンタイム】
-              <br>まれに腫れ、かゆみ、熱感が数日伴うことがあります
-              <br>
-              <br>【リスク・副作用】
-              <br>感染、熱傷、神経麻痺、色素沈着、毛包炎、紅斑
-              <br>
-              <br>【注意事項】
-              <br>未承認医療機器：本器は医薬品医療機器等法上、国内承認されていない未承認医療機器です。
-              <br>入手経路：医師がJeisys Medical Japan等の正規代理店から適法に輸入し、責任をもって使用しています。
-              <br>国内代替機器：同様の目的を持つ国内承認HIFU機器はなく、Ulthera（FDA承認）などが選択肢となります。
-              <br>海外での安全性：韓国MFDSで承認され、重篤な安全性問題の報告はありません 。
-              <br>副作用救済制度：万一重篤な副作用が出ても、国の医薬品副作用被害救済制度の対象外となります。
-            </div>
-            <div class="p-clatuuCase__btn">
-              <a href="<?php echo home_url('/menu/hifu/'); ?>" class="p-clatuuCase__btnLink c-btn">医療ハイフについて詳しく見る</a>
             </div>
 
             <!-- スティムシュアー  -->
@@ -463,7 +464,7 @@
               <div class="p-clatuuChange__text">深層筋まで効率的にアプローチ</div>
               <li class="p-clatuuChange__item">
                 <figure class="p-clatuuChange__itemFigure">
-                  <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_method4-2.webp" alt="深層筋まで効率的にアプローチ" decoding="async" loading="lazy">
+                  <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/slim-thighs_method4-2.webp" alt="深層筋まで効率的にアプローチ" decoding="async" loading="lazy">
                 </figure>
                 <div class="p-clatuuChange__itemDesc">
                   <div class="p-clatuuChange__itemText">
@@ -511,7 +512,7 @@
       <!-- banner -->
       <div class="banner-container">
         <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p&_gl=1*1gvdhfb*_gcl_au*MTQxODQxMzY3Mi4xNzA3NDQ1MDg5" target="_blank">
-          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/monitor-banner.webp" alt="モニター募集" decoding="async" loading="lazy">
+          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/monitor_in-header.webp" alt="モニター募集" decoding="async" loading="lazy">
         </a>
       </div>
 
@@ -622,7 +623,7 @@
       <!-- banner -->
       <div class="banner-container">
         <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p&_gl=1*1gvdhfb*_gcl_au*MTQxODQxMzY3Mi4xNzA3NDQ1MDg5" target="_blank">
-          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/monitor-banner.webp" alt="モニター募集" decoding="async" loading="lazy">
+          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/monitor_in-header.webp" alt="モニター募集" decoding="async" loading="lazy">
         </a>
       </div>
 

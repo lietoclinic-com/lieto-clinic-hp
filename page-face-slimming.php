@@ -167,73 +167,70 @@
   
           <ul class="p-clatuuChange__list">
 
-            <!-- クラツーアルファ -->
+            <!-- ULTRAcel [zíː]  -->
             <div class="p-clatuuChange__itemHead" style="margin-top: 5rem;">
               <div class="p-clatuuChange__itemNum">01</div>
-              <h3 class="p-clatuuChange__itemTitle2">
-                冷却による脂肪細胞破壊
-                <br>
-                クラツーアルファ
-              </h3>
+              <div class="p-clatuuChange__itemTitle2">
+                医療ハイフ
+                <br>ULTRAcel [zíː] 
+              </div>
             </div>
-            <li class="p-clatuuChange__item" style="margin-top: 2em;">
+            <div class="p-clatuuChange__item" style="margin-top: 2em;">
               <figure class="p-clatuuChange__itemFigure">
-                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_method1-1.webp" alt="クラツーアルファ" decoding="async" loading="lazy">
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_method3-1.webp" alt="ULTRAcel [zíː] " decoding="async" loading="lazy">
               </figure>
               <div class="p-clatuuChange__itemDesc">
                 <div class="p-clatuuChange__itemText">
-                  一方、筋肉や皮膚は4℃前後では損傷を受けにくいため、この性質を利用して20〜40分ほど冷却し、<strong>脂肪細胞だけを選択的に破壊</strong>します。
+                  医療用の高密度焦点式超音波（HIFU）を用いて、皮膚表面を傷つけることなく、深部の脂肪層に熱エネルギーを集中させます。
                   <br>
-                  <br>脂肪細胞は他の組織よりも低温に弱く、約4℃で凍結します。
+                  <br>この熱により脂肪細胞が破壊され、同時にコラーゲンの生成も促進されるため、引き締め効果も期待できます。
                 </div>
               </div>
-            </li>
-            <h4 class="c-listBox__title" style="margin-top: 40px; padding-bottom: 1rem;">クラツーアルファの強み</h4>
+            </div>
+            <h4 class="c-listBox__title" style="margin-top: 40px; padding-bottom: 1rem;">ULTRAcel [zíː]の強み</h4>
             <ul class="p-clatuuChange__list">
-              <div class="p-clatuuChange__text">切らない施術で痛みやダウンタイムはほとんどなし</div>
+              <div class="p-clatuuChange__text">リニアファームで脂肪層に効率よくアプローチ</div>
               <li class="p-clatuuChange__item">
                 <figure class="p-clatuuChange__itemFigure">
-                  <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_method1-2.webp" alt="切らない施術で痛みやダウンタイムはほとんどなし" decoding="async" loading="lazy">
+                  <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_method3-2.webp" alt="ULTRAcel [zíː]の強み" decoding="async" loading="lazy">
                 </figure>
                 <div class="p-clatuuChange__itemDesc">
                   <div class="p-clatuuChange__itemText">
-                    クラツーアルファはメスを使わない医療痩身機器で、痛みやダウンタイムが少ない施術です。
-                    <br>
-                    <br>開始直後は吸引による違和感や不快感がありますが、冷却を続けると感覚が麻痺し、冷たさだけを感じるようになります。赤みや内出血、腫れ、鈍痛などの副作用は数日〜1週間程度で消失するのが一般的です。
+                    脂肪溶解を目的としたリニアファームは、皮下組織（脂肪層）に対して均一かつ一度で広範囲に熱が広がり、従来のHIFU治療機よりも脂肪溶解に必要な温度での照射ができるのが特徴です。
                   </div>
                 </div>
               </li>
-              <div class="p-clatuuChange__text">最大18.1%アップ！冷却効率の向上</div>
+              <div class="p-clatuuChange__text">通常のHIFUよりも痛み軽減</div>
               <li class="p-clatuuChange__item" style="margin-top: 0;">
                 <figure class="p-clatuuChange__itemFigure">
-                  <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_method1-3.webp" alt="最大18.1%アップ！冷却効率の向上" decoding="async" loading="lazy">
-                  <figcaption>[画像引用] <a href="https://classys.com/product/clatuu-alpha/" target="_blank">https://classys.com/product/clatuu-alpha/</a></figcaption>
+                  <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/face-slimming_method3-3.webp" alt="通常のHIFUよりも痛み軽減" decoding="async" loading="lazy">
                 </figure>
                 <div class="p-clatuuChange__itemDesc">
                   <div class="p-clatuuChange__itemText">
-                    クラツーアルファの冷却効率は、従来品に比べて最大18.1％向上しています。冷却性が向上したことによって、より確実に脂肪細胞を冷却できるようになりました。
+                    一部のHIFU機器では、コラーゲン変性に必要な温度を超える高温で照射されることがあり、それが痛みの原因になる場合があります。
                     <br>
-                    <br>これにより短時間での脂肪減少効果が期待でき、従来よりも早い段階でボディラインの変化を実感できるようになります。
+                    <br>ULTRAcel [zíː]は、このタンパク質変性が始まる温度をわずかに上回る温度（約63℃前後）で照射を安定させることができるため、従来のHIFUよりも痛みを軽減でき、麻酔を使用せずに施術を受けることができるようになりました。
+                    <br>※痛みの感じ方には個人差があります。
                   </div>
                 </div>
               </li>
             </ul>
             <div class="c-listBox">
-              【リスク・副作用】
-              <br>赤み、内出血、腫れ、鈍痛
+              【ダウンタイム】
+              <br>まれに腫れ、かゆみ、熱感が数日伴うことがあります
               <br>
-              <br>【禁忌事項】
-              <br>クリオグロブリン血症、発作性寒冷血色素尿症、妊娠中または授乳中、寒冷蕁麻疹、末梢循環が正常に機能しない、レイノー病、重度の皮膚疾患、開放創・感染創、シリコンや金属プレートが埋め込まれてる部位
+              <br>【リスク・副作用】
+              <br>感染、熱傷、神経麻痺、色素沈着、毛包炎、紅斑
               <br>
               <br>【注意事項】
               <br>未承認医療機器：本器は医薬品医療機器等法上、国内承認されていない未承認医療機器です。
-              <br>入手経路：医師がCLASSYS等の正規代理店から適法に輸入し、責任をもって使用しています。輸入医薬品等のリスク詳細は厚労省HPをご参照ください。
+              <br>入手経路：医師がJeisys Medical Japan等の正規代理店から適法に輸入し、責任をもって使用しています。
               <br>国内代替機器：同様の目的を持つ国内承認HIFU機器はなく、Ulthera（FDA承認）などが選択肢となります。
               <br>海外での安全性：韓国MFDSで承認され、重篤な安全性問題の報告はありません 。
               <br>副作用救済制度：万一重篤な副作用が出ても、国の医薬品副作用被害救済制度の対象外となります。
             </div>
             <div class="p-clatuuCase__btn">
-              <a href="<?php echo home_url('/menu/clatuu-a/'); ?>" class="p-clatuuCase__btnLink c-btn">クラツーアルファについて詳しく見る</a>
+              <a href="<?php echo home_url('/menu/hifu/'); ?>" class="p-clatuuCase__btnLink c-btn">医療ハイフについて詳しく見る</a>
             </div>
 
             <!-- カベリン -->
@@ -276,7 +273,7 @@
               <div class="p-clatuuChange__text">痛み・ダウンタイムが少ない</div>
               <li class="p-clatuuChange__item" style="margin-top: 0;">
                 <figure class="p-clatuuChange__itemFigure">
-                  <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_method2-3.webp" alt="痛み・ダウンタイムが少ない" decoding="async" loading="lazy">
+                  <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/face-slimming_method2-3.webp" alt="痛み・ダウンタイムが少ない" decoding="async" loading="lazy">
                 </figure>
                 <div class="p-clatuuChange__itemDesc">
                   <div class="p-clatuuChange__itemText">
@@ -305,140 +302,6 @@
               <a href="<?php echo home_url('/menu/fat-dissolving-injection/'); ?>" class="p-clatuuCase__btnLink c-btn">脂肪溶解注射について詳しく見る</a>
             </div>
 
-            <!-- ULTRAcel [zíː]  -->
-            <div class="p-clatuuChange__itemHead" style="margin-top: 5rem;">
-              <div class="p-clatuuChange__itemNum">03</div>
-              <div class="p-clatuuChange__itemTitle2">
-                医療ハイフ
-                <br>ULTRAcel [zíː] 
-              </div>
-            </div>
-            <div class="p-clatuuChange__item" style="margin-top: 2em;">
-              <figure class="p-clatuuChange__itemFigure">
-                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_method3-1.webp" alt="ULTRAcel [zíː] " decoding="async" loading="lazy">
-              </figure>
-              <div class="p-clatuuChange__itemDesc">
-                <div class="p-clatuuChange__itemText">
-                  医療用の高密度焦点式超音波（HIFU）を用いて、皮膚表面を傷つけることなく、深部の脂肪層に熱エネルギーを集中させます。
-                  <br>
-                  <br>この熱により脂肪細胞が破壊され、同時にコラーゲンの生成も促進されるため、引き締め効果も期待できます。
-                </div>
-              </div>
-            </div>
-            <h4 class="c-listBox__title" style="margin-top: 40px; padding-bottom: 1rem;">ULTRAcel [zíː]の強み</h4>
-            <ul class="p-clatuuChange__list">
-              <div class="p-clatuuChange__text">リニアファームで脂肪層に効率よくアプローチ</div>
-              <li class="p-clatuuChange__item">
-                <figure class="p-clatuuChange__itemFigure">
-                  <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_method3-2.webp" alt="ULTRAcel [zíː]の強み" decoding="async" loading="lazy">
-                </figure>
-                <div class="p-clatuuChange__itemDesc">
-                  <div class="p-clatuuChange__itemText">
-                    脂肪溶解を目的としたリニアファームは、皮下組織（脂肪層）に対して均一かつ一度で広範囲に熱が広がり、従来のHIFU治療機よりも脂肪溶解に必要な温度での照射ができるのが特徴です。
-                  </div>
-                </div>
-              </li>
-              <div class="p-clatuuChange__text">通常のHIFUよりも痛み軽減</div>
-              <li class="p-clatuuChange__item" style="margin-top: 0;">
-                <figure class="p-clatuuChange__itemFigure">
-                  <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_method3-3.webp" alt="通常のHIFUよりも痛み軽減" decoding="async" loading="lazy">
-                </figure>
-                <div class="p-clatuuChange__itemDesc">
-                  <div class="p-clatuuChange__itemText">
-                    一部のHIFU機器では、コラーゲン変性に必要な温度を超える高温で照射されることがあり、それが痛みの原因になる場合があります。
-                    <br>
-                    <br>ULTRAcel [zíː]は、このタンパク質変性が始まる温度をわずかに上回る温度（約63℃前後）で照射を安定させることができるため、従来のHIFUよりも痛みを軽減でき、麻酔を使用せずに施術を受けることができるようになりました。
-                    <br>※痛みの感じ方には個人差があります。
-                  </div>
-                </div>
-              </li>
-            </ul>
-            <div class="c-listBox">
-              【ダウンタイム】
-              <br>まれに腫れ、かゆみ、熱感が数日伴うことがあります
-              <br>
-              <br>【リスク・副作用】
-              <br>感染、熱傷、神経麻痺、色素沈着、毛包炎、紅斑
-              <br>
-              <br>【注意事項】
-              <br>未承認医療機器：本器は医薬品医療機器等法上、国内承認されていない未承認医療機器です。
-              <br>入手経路：医師がJeisys Medical Japan等の正規代理店から適法に輸入し、責任をもって使用しています。
-              <br>国内代替機器：同様の目的を持つ国内承認HIFU機器はなく、Ulthera（FDA承認）などが選択肢となります。
-              <br>海外での安全性：韓国MFDSで承認され、重篤な安全性問題の報告はありません 。
-              <br>副作用救済制度：万一重篤な副作用が出ても、国の医薬品副作用被害救済制度の対象外となります。
-            </div>
-            <div class="p-clatuuCase__btn">
-              <a href="<?php echo home_url('/menu/hifu/'); ?>" class="p-clatuuCase__btnLink c-btn">医療ハイフについて詳しく見る</a>
-            </div>
-
-            <!-- スティムシュアー  -->
-            <div class="p-clatuuChange__itemHead" style="margin-top: 5rem;">
-              <div class="p-clatuuChange__itemNum">04</div>
-              <div class="p-clatuuChange__itemTitle2">
-                医療電磁場機器
-                <br>スティムシュアー
-              </div>
-            </div>
-            <div class="p-clatuuChange__item" style="margin-top: 2em;">
-              <figure class="p-clatuuChange__itemFigure">
-                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_method4-1.webp" alt="スティムシュアー" decoding="async" loading="lazy">
-              </figure>
-              <div class="p-clatuuChange__itemDesc">
-                <div class="p-clatuuChange__itemText">
-                  <br>スティムシュアーは、電磁場技術を用いた医療機器です。高強度の電磁場パルスにより、顔の筋肉を自動的に収縮・弛緩させ、まるで筋力トレーニングを行っているような効果を得ることができます。
-                  <br>
-                  <br>1回の施術で通常24,000回分の筋肉運動の効果を得ることができます。
-                  <br>
-                  <br>特に顔の上腕三頭筋（裏側の筋肉）は日常生活で使われにくいため、スティムシュアーで効率的に鍛えることで引き締め効果を実感できます。
-                </div>
-              </div>
-            </div>
-            <h4 class="c-listBox__title" style="margin-top: 40px; padding-bottom: 1rem;">スティムシュアーの強み</h4>
-            <ul class="p-clatuuChange__list">
-              <div class="p-clatuuChange__text">深層筋まで効率的にアプローチ</div>
-              <li class="p-clatuuChange__item">
-                <figure class="p-clatuuChange__itemFigure">
-                  <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_method4-2.webp" alt="深層筋まで効率的にアプローチ" decoding="async" loading="lazy">
-                </figure>
-                <div class="p-clatuuChange__itemDesc">
-                  <div class="p-clatuuChange__itemText">
-                      家庭用やエステで使用されている一般的なEMS機器では、皮下1センチ程度までしか電磁波を届けることができません。
-                      <br>
-                      <br>対してスティムシュアーでは、深層部の筋肉まで電磁波の刺激を与えることが可能なため、効率的にお腹のインナーマッスル強化を目指すことができます。
-                  </div>
-                </div>
-              </li>
-              <div class="p-clatuuChange__text">ピンポイントで狙った部位を鍛えられる</div>
-              <li class="p-clatuuChange__item" style="margin-top: 0;">
-                <figure class="p-clatuuChange__itemFigure">
-                  <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_method4-3.webp" alt="ピンポイントで狙った部位を鍛えられる" decoding="async" loading="lazy">
-                </figure>
-                <div class="p-clatuuChange__itemDesc">
-                  <div class="p-clatuuChange__itemText">
-                      1回の施術にかかる所要時間は20～30分程度で、マシンに装着して横たわるだけです。
-                      <br>
-                      <br>スティムシュアーでは、特定の部位に焦点を当てて筋肉を刺激することが可能なため、顔の気になる部分を集中的に鍛え、理想的なボディラインを整えることができます。
-                  </div>
-                </div>
-              </li>
-            </ul>
-            <div class="c-listBox">
-              【ダウンタイム】
-              <br>施術中の振動が不快に感じる方がいます。翌日以降、治療部位に筋肉痛が出る方がいます。
-              <br>
-              <br>【リスク・副作用】
-              <br>治療部位の筋肉痛、筋肉収縮による疲労感
-              <br>
-              <br>【注意事項】
-              <br>未承認医療機器：本器は医薬品医療機器等法上、国内承認されていない未承認医療機器です。
-              <br>入手経路：医師が正規代理店から適法に輸入し、責任をもって使用しています。
-              <br>国内代替機器：同様の目的を持つ国内承認医療電磁場機器はありません。
-              <br>副作用救済制度：万一重篤な副作用が出ても、国の医薬品副作用被害救済制度の対象外となります。
-            </div>
-            <div class="p-clatuuCase__btn">
-              <a href="<?php echo home_url('/menu/stimsure/'); ?>" class="p-clatuuCase__btnLink c-btn">スティムシュアーについて詳しく見る</a>
-            </div>
-
           </ul>
         </div>
       </div>
@@ -446,7 +309,7 @@
       <!-- banner -->
       <div class="banner-container">
         <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p&_gl=1*1gvdhfb*_gcl_au*MTQxODQxMzY3Mi4xNzA3NDQ1MDg5" target="_blank">
-          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/monitor-banner.webp" alt="モニター募集" decoding="async" loading="lazy">
+          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/monitor_in-header.webp" alt="モニター募集" decoding="async" loading="lazy">
         </a>
       </div>
 
@@ -555,7 +418,7 @@
       <!-- banner -->
       <div class="banner-container">
         <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p&_gl=1*1gvdhfb*_gcl_au*MTQxODQxMzY3Mi4xNzA3NDQ1MDg5" target="_blank">
-          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/monitor-banner.webp" alt="モニター募集" decoding="async" loading="lazy">
+          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/monitor_in-header.webp" alt="モニター募集" decoding="async" loading="lazy">
         </a>
       </div>
 
