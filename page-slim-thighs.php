@@ -20,7 +20,7 @@
           <ul class="p-clatuuMenu__list">
             <li class="p-clatuuMenu__item"><a href="#reason">太ももが痩せにくくなる理由</a></li>
             <li class="p-clatuuMenu__item"><a href="#how">太もも痩せの方法</a></li>
-            <!--<li class="p-clatuuMenu__item"><a href="#case">太もも痩せの症例</a></li>-->
+            <li class="p-clatuuMenu__item"><a href="#case">太もも痩せの症例</a></li>
           </ul>
         </div>
       </div>
@@ -625,6 +625,286 @@
         <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p&_gl=1*1gvdhfb*_gcl_au*MTQxODQxMzY3Mi4xNzA3NDQ1MDg5" target="_blank">
           <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/monitor_in-header.webp" alt="モニター募集" decoding="async" loading="lazy">
         </a>
+      </div>
+
+      <!-- 症例 -->
+      <div class="p-clatuuCase _exo" id="case">
+        <div class="p-clatuuCase__inner l-inner">
+          <h2 class="p-singleMenu__title">Before & After</h2>
+          <div class="p-clatuuCase__body">
+
+            <div class="p-clatuuCase__area is-slim">
+              <ul class="p-clatuuCase__list">
+
+                <li class="p-clatuuCase__item">
+                  <div class="p-clatuuCase__subtitle">【20代 女性】</div>
+                  <div class="p-clatuuCase__figures">
+                    <figure class="p-clatuuCase__figure">
+                      
+                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm-case01-before.webp" alt="【20代 女性】" decoding="async" loading="lazy">
+                      <figcaption>術前</figcaption>
+                    </figure>
+                    <figure class="p-clatuuCase__figure">
+                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm-case01-after.webp" alt="【20代 女性】" decoding="async" loading="lazy">
+                      <figcaption>術後約3ヶ月半</figcaption>
+                    </figure>
+                  </div>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th></th>
+                        <th>before</th>
+                        <th>after</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th>体重</th>
+                        <td>53.1kg</td>
+                        <td>45.2kg</td>
+                      </tr>
+                      <tr>
+                        <th>体脂肪率</th>
+                        <td>29.4%</td>
+                        <td>21.6%</td>
+                      </tr>
+                      <tr>
+                        <th>二の腕のサイズ</th>
+                        <td>27.6cm</td>
+                        <td>24.3cm</td>
+                      </tr>
+                      <tr>
+                        <th>BMI</th>
+                        <td>21.5</td>
+                        <td>18.3</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p class="is-caution">※二の腕のサイズは右腕の前後で比較</p>
+                  <div class="p-clatuuCase__desc">
+                    <div class="p-clatuuCase__text">
+                      【治療内容】
+                      <br>コース名：リエートクリニックオリジナルプログラム
+                      <br>施術内容：医療脂肪冷却機器、医療電磁場機器、医療用HIFU、脂肪溶解注射、ダイエット点滴、ダイエット薬セット、医師による投薬指導、オリジナルプロテイン、医師監修サプリメント、管理栄養士によるパーソナル食事指導
+                    </div>
+                    <div class="p-clatuuCase__text">
+                      【金額】
+                      <br>400,000円〜1,500,000円
+                    </div>
+                    <div class="p-clatuuCase__text">
+                      【期間・回数】
+                      <br>約3ヶ月半
+                    </div>
+                    <div class="p-clatuuCase__text">
+                      【リスク・副作用】
+                      <br>便秘、下痢、筋肉痛、赤み、腫れ、内出血、しこり、低血糖、吐気、嘔吐
+                    </div>
+                  </div>
+                </li>
+
+                <li class="p-clatuuCase__item">
+                  <div class="p-clatuuCase__subtitle">【30代 女性】</div>
+                  <div class="p-clatuuCase__figures">
+                    <figure class="p-clatuuCase__figure">
+                      
+                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm-case02-before.webp" alt="【30代 女性】" decoding="async" loading="lazy">
+                      <figcaption>術前</figcaption>
+                    </figure>
+                    <figure class="p-clatuuCase__figure">
+                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm-case02-after.webp" alt="【30代 女性】" decoding="async" loading="lazy">
+                      <figcaption>術後4ヶ月</figcaption>
+                    </figure>
+                  </div>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th></th>
+                        <th>before</th>
+                        <th>after</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th>体重</th>
+                        <td>66.0kg</td>
+                        <td>48.8kg</td>
+                      </tr>
+                      <tr>
+                        <th>体脂肪率</th>
+                        <td>35.4%</td>
+                        <td>15.5%</td>
+                      </tr>
+                      <tr>
+                        <th>二の腕のサイズ</th>
+                        <td>30.8cm</td>
+                        <td>24.3cm</td>
+                      </tr>
+                      <tr>
+                        <th>BMI</th>
+                        <td>24.8</td>
+                        <td>18.4</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p class="is-caution">※二の腕のサイズは右腕の前後で比較</p>
+                  <div class="p-clatuuCase__desc">
+                    <div class="p-clatuuCase__text">
+                      【治療内容】
+                      <br>コース名：リエートクリニックオリジナルプログラム
+                      <br>施術内容：医療脂肪冷却機器、医療電磁場機器、医療用HIFU、脂肪溶解注射、ダイエット点滴、ダイエット薬セット、医師による投薬指導、オリジナルプロテイン、医師監修サプリメント、管理栄養士によるパーソナル食事指導
+                    </div>
+                    <div class="p-clatuuCase__text">
+                      【金額】
+                      <br>400,000円〜1,500,000円
+                    </div>
+                    <div class="p-clatuuCase__text">
+                      【期間・回数】
+                      <br>4ヶ月/14回
+                    </div>
+                    <div class="p-clatuuCase__text">
+                      【リスク・副作用】
+                      <br>便秘、下痢、筋肉痛、赤み、腫れ、内出血、しこり、低血糖、吐気、嘔吐
+                    </div>
+                  </div>
+                </li>
+
+                <li class="p-clatuuCase__item">
+                  <div class="p-clatuuCase__subtitle">【20代 女性】</div>
+                  <div class="p-clatuuCase__figures">
+                    <figure class="p-clatuuCase__figure">
+                      
+                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm-case03-before.webp" alt="【20代 女性】" decoding="async" loading="lazy">
+                      <figcaption>術前</figcaption>
+                    </figure>
+                    <figure class="p-clatuuCase__figure">
+                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm-case03-after.webp" alt="【20代 女性】" decoding="async" loading="lazy">
+                      <figcaption>術後約7ヶ月</figcaption>
+                    </figure>
+                  </div>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th></th>
+                        <th>before</th>
+                        <th>after</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th>体重</th>
+                        <td>60.5kg</td>
+                        <td>48.0kg</td>
+                      </tr>
+                      <tr>
+                        <th>体脂肪率</th>
+                        <td>36.6%</td>
+                        <td>30.9%</td>
+                      </tr>
+                      <tr>
+                        <th>二の腕のサイズ</th>
+                        <td>30.7cm</td>
+                        <td>26.3cm</td>
+                      </tr>
+                      <tr>
+                        <th>BMI</th>
+                        <td>25.7</td>
+                        <td>20.4</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p class="is-caution">※二の腕のサイズは右腕の前後で比較</p>
+                  <div class="p-clatuuCase__desc">
+                    <div class="p-clatuuCase__text">
+                      【治療内容】
+                      <br>コース名：リエートクリニックオリジナルプログラム
+                      <br>施術内容：医療脂肪冷却機器、医療電磁場機器、医療用HIFU、脂肪溶解注射、ダイエット点滴、ダイエット薬セット、医師による投薬指導、オリジナルプロテイン、医師監修サプリメント、管理栄養士によるパーソナル食事指導
+                    </div>
+                    <div class="p-clatuuCase__text">
+                      【金額】
+                      <br>400,000円〜1,500,000円
+                    </div>
+                    <div class="p-clatuuCase__text">
+                      【期間・回数】
+                      <br>約7ヶ月
+                    </div>
+                    <div class="p-clatuuCase__text">
+                      【リスク・副作用】
+                      <br>便秘、下痢、筋肉痛、赤み、腫れ、内出血、しこり、低血糖、吐気、嘔吐
+                    </div>
+                  </div>
+                </li>
+
+                <li class="p-clatuuCase__item">
+                  <div class="p-clatuuCase__subtitle">【20代 女性】</div>
+                  <div class="p-clatuuCase__figures">
+                    <figure class="p-clatuuCase__figure">
+                      
+                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm-case04-before.webp" alt="【20代 女性】" decoding="async" loading="lazy">
+                      <figcaption>術前</figcaption>
+                    </figure>
+                    <figure class="p-clatuuCase__figure">
+                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm-case04-after.webp" alt="【20代 女性】" decoding="async" loading="lazy">
+                      <figcaption>術後約5ヶ月</figcaption>
+                    </figure>
+                  </div>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th></th>
+                        <th>before</th>
+                        <th>after</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th>体重</th>
+                        <td>60.0kg</td>
+                        <td>49.6kg</td>
+                      </tr>
+                      <tr>
+                        <th>体脂肪率</th>
+                        <td>32.8%</th>
+                        <td>23.5%</td>
+                      </tr>
+                      <tr>
+                        <th>二の腕のサイズ</th>
+                        <td>30.2cm</td>
+                        <td>26.4cm</td>
+                      </tr>
+                      <tr>
+                        <th>BMI</th>
+                        <td>24.3</td>
+                        <td>20.1</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p class="is-caution">※二の腕のサイズは右腕の前後で比較</p>
+                  <div class="p-clatuuCase__desc">
+                    <div class="p-clatuuCase__text">
+                      【治療内容】
+                      <br>コース名：リエートクリニックオリジナルプログラム
+                      <br>施術内容：医療脂肪冷却機器、医療電磁場機器、医療用HIFU、脂肪溶解注射、ダイエット点滴、ダイエット薬セット、医師による投薬指導、オリジナルプロテイン、医師監修サプリメント、管理栄養士によるパーソナル食事指導
+                    </div>
+                    <div class="p-clatuuCase__text">
+                      【金額】
+                      <br>400,000円〜1,500,000円
+                    </div>
+                    <div class="p-clatuuCase__text">
+                      【期間・回数】
+                      <br>約5ヶ月
+                    </div>
+                    <div class="p-clatuuCase__text">
+                      【リスク・副作用】
+                      <br>便秘、下痢、筋肉痛、赤み、腫れ、内出血、しこり、低血糖、吐気、嘔吐
+                    </div>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+        </div>
       </div>
 
       <!-- 料金 -->
