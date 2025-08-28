@@ -20,7 +20,7 @@
           <ul class="p-clatuuMenu__list">
             <li class="p-clatuuMenu__item"><a href="#reason">太ももが痩せにくくなる理由</a></li>
             <li class="p-clatuuMenu__item"><a href="#how">太もも痩せの方法</a></li>
-            <li class="p-clatuuMenu__item"><a href="#case">太もも痩せの症例</a></li>
+            <!--<li class="p-clatuuMenu__item"><a href="#case">太もも痩せの症例</a></li>-->
           </ul>
         </div>
       </div>
@@ -625,61 +625,6 @@
         <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p&_gl=1*1gvdhfb*_gcl_au*MTQxODQxMzY3Mi4xNzA3NDQ1MDg5" target="_blank">
           <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/monitor_in-header.webp" alt="モニター募集" decoding="async" loading="lazy">
         </a>
-      </div>
-
-      <!-- 症例 -->
-      <div class="p-clatuuCase _exo" id="case">
-        <div class="p-clatuuCase__inner l-inner">
-          <h2 class="p-singleMenu__title">Before & After</h2>
-          <div class="p-clatuuCase__body">
-
-            <div class="p-clatuuCase__area">
-              <div class="p-clatuuCase__subtitle">【20代 女性】</div>
-              <ul class="p-clatuuCase__list">
-                <li class="p-clatuuCase__item">
-                  <div class="p-clatuuCase__figures">
-                    <figure class="p-clatuuCase__figure">
-                      
-                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_case01-bf.webp" alt="【20代 女性】" decoding="async" loading="lazy">
-                      <figcaption>術前</figcaption>
-                    </figure>
-                    <figure class="p-clatuuCase__figure">
-                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm_case01-ad.webp" alt="【20代 女性】" decoding="async" loading="lazy">
-                      <figcaption>術後13週間</figcaption>
-                    </figure>
-                  </div>
-                  <div class="p-clatuuCase__desc">
-                    <div class="p-clatuuCase__text">施術内容：クラツーアルファ</div>
-                    <div class="p-clatuuCase__text">施術回数：1回</div>
-                    <div class="p-clatuuCase__text">副作用・リスク：赤み、内出血、腫れ、鈍痛</div>
-                  </div>
-                </li>
-
-                <!--
-                <li class="p-clatuuCase__item">
-                  <div class="p-clatuuCase__figures">
-                    <figure class="p-clatuuCase__figure">
-                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/clatuu-a_item01_3.jpg" alt="腹部2術前" decoding="async" loading="lazy">
-                      <figcaption>術前</figcaption>
-                    </figure>
-                    <figure class="p-clatuuCase__figure">
-                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/clatuu-a_item01_4.jpg" alt="腹部2術後9週間" decoding="async" loading="lazy">
-                      <figcaption>術後9週間</figcaption>
-                    </figure>
-                  </div>
-                  <div class="p-clatuuCase__desc">
-                    <div class="p-clatuuCase__text">施術内容：クラツーアルファ</div>
-                    <div class="p-clatuuCase__text">施術回数：1回</div>
-                    <div class="p-clatuuCase__text">副作用・リスク：赤み、内出血、腫れ、鈍痛</div>
-                  </div>
-                </li>
-                -->
-
-              </ul>
-            </div>
-
-          </div>
-        </div>
       </div>
 
       <!-- 料金 -->

@@ -1206,3 +1206,96 @@ p-reason__list top
     font-weight: bold;
     color: #8A652F;
 }
+
+
+/*===================================
+p-reason__list top
+===================================*/
+.is-slim .p-clatuuCase__list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+@media screen and (max-width: 768px) {
+    .is-slim .p-clatuuCase__list{
+        grid-template-columns: 1fr;
+    }
+}
+
+.is-slim .p-clatuuCase__list .p-clatuuCase__item {
+    width: 100%;
+}
+
+/*===================================
+.is-slim table
+===================================*/
+.is-slim table {
+    width: 100%;
+    color: #333;
+    margin-top: 24px;
+}
+
+.is-slim table thead tr th ,
+.is-slim table tbody tr th ,
+.is-slim table tbody tr td{
+    padding: 0 .5em;
+    border: .5px solid #fff;
+    font-size: 14px;
+    line-height: 2;
+}
+@media screen and (max-width: 768px) {
+    .is-slim table thead tr th ,
+    .is-slim table tbody tr th ,
+    .is-slim table tbody tr td{
+        font-size: 12px;
+    }
+}
+
+.is-slim .is-caution {
+    font-size: 12px;
+    margin-top: .5em;
+}
+
+.is-slim table thead {
+    
+}
+.is-slim table thead tr {
+
+}
+.is-slim table thead tr th{
+    width: 33%;
+    background-color: #425E75;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+.is-slim table thead tr th:nth-child(1){
+
+}
+.is-slim table thead tr th:nth-child(n+2){
+
+}
+
+.is-slim table tbody tr th{
+    background-color: #C7DCED;
+}
+.is-slim table tbody tr td{
+    background-color: #DFDFDF;
+    text-align: right;
+}
+.is-slim table tbody tr td:nth-of-type(2){
+    font-weight: bold;
+    color: #8A652F;
+}
+
+.is-slim .p-clatuuCase__desc {
+    padding: 0 1.2rem 1.2em;
+}
+.is-slim .p-clatuuCase__desc *{
+    margin-top: 1em;
+    font-size: 14px;
+}
+@media screen and (max-width: 768px) {
+    .is-slim .p-clatuuCase__desc *{
+        font-size: 12px;
+    }
+}
