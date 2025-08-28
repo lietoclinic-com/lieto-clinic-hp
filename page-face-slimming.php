@@ -436,11 +436,11 @@
                   <div class="p-clatuuCase__figures">
                     <figure class="p-clatuuCase__figure">
                       
-                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm-case01-before.webp" alt="【30代 女性】" decoding="async" loading="lazy">
+                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/face-slimming-case01-before.webp" alt="【30代 女性】" decoding="async" loading="lazy">
                       <figcaption>術前</figcaption>
                     </figure>
                     <figure class="p-clatuuCase__figure">
-                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm-case01-after.webp" alt="【30代 女性】" decoding="async" loading="lazy">
+                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/face-slimming-case01-after.webp" alt="【30代 女性】" decoding="async" loading="lazy">
                       <figcaption>術後4ヶ月</figcaption>
                     </figure>
                   </div>
@@ -496,11 +496,11 @@
                   <div class="p-clatuuCase__figures">
                     <figure class="p-clatuuCase__figure">
                       
-                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm-case02-before.webp" alt="【30代 女性】" decoding="async" loading="lazy">
+                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/face-slimming-case02-before.webp" alt="【30代 女性】" decoding="async" loading="lazy">
                       <figcaption>術前</figcaption>
                     </figure>
                     <figure class="p-clatuuCase__figure">
-                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm-case02-after.webp" alt="【30代 女性】" decoding="async" loading="lazy">
+                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/face-slimming-case02-after.webp" alt="【30代 女性】" decoding="async" loading="lazy">
                       <figcaption>術後約5ヶ月</figcaption>
                     </figure>
                   </div>
@@ -556,11 +556,11 @@
                   <div class="p-clatuuCase__figures">
                     <figure class="p-clatuuCase__figure">
                       
-                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm-case03-before.webp" alt="【20代 女性】" decoding="async" loading="lazy">
+                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/face-slimming-case03-before.webp" alt="【20代 女性】" decoding="async" loading="lazy">
                       <figcaption>術前</figcaption>
                     </figure>
                     <figure class="p-clatuuCase__figure">
-                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm-case03-after.webp" alt="【20代 女性】" decoding="async" loading="lazy">
+                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/face-slimming-case03-after.webp" alt="【20代 女性】" decoding="async" loading="lazy">
                       <figcaption>術後約5ヶ月</figcaption>
                     </figure>
                   </div>
@@ -616,11 +616,11 @@
                   <div class="p-clatuuCase__figures">
                     <figure class="p-clatuuCase__figure">
                       
-                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm-case04-before.webp" alt="【30代 女性】" decoding="async" loading="lazy">
+                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/face-slimming-case04-before.webp" alt="【30代 女性】" decoding="async" loading="lazy">
                       <figcaption>術前</figcaption>
                     </figure>
                     <figure class="p-clatuuCase__figure">
-                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/upper-arm-case04-after.webp" alt="【30代 女性】" decoding="async" loading="lazy">
+                      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/face-slimming-case04-after.webp" alt="【30代 女性】" decoding="async" loading="lazy">
                       <figcaption>術後約4ヶ月</figcaption>
                     </figure>
                   </div>
