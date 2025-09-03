@@ -61,6 +61,12 @@
                     <li class="l-footer__subItem"><a href="/menu/diet-supplement/">ダイエット薬</a></li>
                     <li class="l-footer__subItem"><a href="/menu/guidance/">食事・栄養指導</a></li>
                     <li class="l-footer__subItem"><a href="/menu/exosome/">細胞レベルで美しく<span>エクソソーム点滴</span></a></li>
+                    <!-- 部位別メニュー -->
+                    <li class="l-footer__subItem is-parts_parent">部位別メニュー</li>
+                    <li class="l-footer__subItem is-parts"><a href="/menu/upper-arm/">二の腕痩せ</a></li>
+                    <li class="l-footer__subItem is-parts"><a href="/menu/face-slimming/">顔痩せ</a></li>
+                    <li class="l-footer__subItem is-parts"><a href="/menu/lose-weight/">お腹痩せ</a></li>
+                    <li class="l-footer__subItem is-parts"><a href="/menu/slim-thighs/">太もも痩せ</a></li>
                   </ul>
                 </li>
                 <li class="l-footer__item"><a href="/monitor/">モニター募集</a></li>

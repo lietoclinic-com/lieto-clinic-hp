@@ -55,7 +55,7 @@ function my_scripts() {
   wp_enqueue_style('lightbox', get_template_directory_uri().'/dist/css/lightbox.css', array(), '1.0.0');
 
   // style-css
-  wp_enqueue_style('style', get_template_directory_uri().'/dist/css/style.min.css', array(), '1.0.0');
+  wp_enqueue_style('style', get_template_directory_uri().'/dist/css/style.css', array(), '1.0.0');
   wp_enqueue_style('scroll-hint', 'https://unpkg.com/scroll-hint@latest/css/scroll-hint.css', array(), '1.0.0');
   // wp_enqueue_style('beer-slider', get_template_directory_uri().'/dist/css/beer-slider.css', array(), '1.0.0');
   wp_enqueue_style('image-compare-viewer-css', 'https://unpkg.com/image-compare-viewer/dist/image-compare-viewer.min.css', array(), '1.0.0');

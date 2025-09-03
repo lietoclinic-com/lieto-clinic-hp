@@ -897,6 +897,11 @@ p-topIntro
     max-width: 193px;
     width: 80%;
 }
+@media screen and (max-width: 1024px) {
+    .p-intro__spotItem {
+        width: 30%;
+    }
+}
 .p-intro__spotTitle,
 .p-intro__menuTitle {
     font-family: "Zen Kaku Gothic New";
@@ -1103,12 +1108,18 @@ add flow
 .sp-inline{
     display: none;
 }
+.sp-block{
+    display: none!important;
+}
 @media screen and (max-width: 768px) {
     .sp-hide{
         display: none;
     }
     .sp-inline{
         display: inline;
+    }
+    .sp-block{
+        display: block!important;
     }
 }
 
@@ -1171,4 +1182,167 @@ p-reason__list top
     .p-reason__list.is-top .p-reason__item{
         width: 100%;
     }
+}
+
+.banner-container {
+    margin: 80px auto 40px;
+    width: fit-content;
+    height: auto;
+}
+.banner-container a{
+    display: block;
+    width: fit-content;
+    height: auto;
+}
+.banner-container a img{
+    display: block;
+    max-width: 640px;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.p-clatuuFeature__itemBody strong{
+    font-weight: bold;
+    color: #8A652F;
+}
+
+
+/*===================================
+p-reason__list top
+===================================*/
+.is-slim .p-clatuuCase__list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+@media screen and (max-width: 768px) {
+    .is-slim .p-clatuuCase__list{
+        grid-template-columns: 1fr;
+    }
+}
+
+.is-slim .p-clatuuCase__list .p-clatuuCase__item {
+    width: 100%;
+}
+
+/*===================================
+.is-slim table
+===================================*/
+.is-slim table {
+    width: 100%;
+    color: #333;
+    margin-top: 24px;
+}
+
+.is-slim table thead tr th ,
+.is-slim table tbody tr th ,
+.is-slim table tbody tr td{
+    padding: 0 .5em;
+    border: .5px solid #fff;
+    font-size: 14px;
+    line-height: 2;
+}
+@media screen and (max-width: 768px) {
+    .is-slim table thead tr th ,
+    .is-slim table tbody tr th ,
+    .is-slim table tbody tr td{
+        font-size: 12px;
+    }
+}
+
+.is-slim .is-caution {
+    font-size: 12px;
+    margin-top: .5em;
+}
+
+.is-slim table thead {
+    
+}
+.is-slim table thead tr {
+
+}
+.is-slim table thead tr th{
+    width: 33%;
+    background-color: #425E75;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+.is-slim table thead tr th:nth-child(1){
+
+}
+.is-slim table thead tr th:nth-child(n+2){
+
+}
+
+.is-slim table tbody tr th{
+    background-color: #C7DCED;
+}
+.is-slim table tbody tr td{
+    background-color: #DFDFDF;
+    text-align: right;
+}
+.is-slim table tbody tr td:nth-of-type(2){
+    font-weight: bold;
+    color: #8A652F;
+}
+
+.is-slim .p-clatuuCase__desc {
+    padding: 0 1.2rem 1.2em;
+}
+.is-slim .p-clatuuCase__desc *{
+    margin-top: 1em;
+    font-size: 14px;
+}
+@media screen and (max-width: 768px) {
+    .is-slim .p-clatuuCase__desc *{
+        font-size: 12px;
+    }
+}
+
+.l-header__subItem.is-parts_parent ,
+.l-footer__subItem.is-parts_parent ,
+.p-pageSitemap__subItem.is-parts_parent {
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    width: 100%;
+    margin: 1em 0 0;
+    font-weight: bold;
+    border-bottom: 0.1rem solid rgba(255, 255, 255, .4);
+    padding: 0 0 0.8rem;
+}
+.l-footer__subItem.is-parts_parent ,
+.p-pageSitemap__subItem.is-parts_parent {
+    text-decoration: none;
+    color: #393327;
+    border-bottom: 0.1rem solid #393327;
+    padding: 0;
+    margin-bottom: .5em;
+}
+.l-header__subItem.is-parts > a::before{
+    content: "";
+    width: 1rem;
+    height: 0.2rem;
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    background-color: #fff;
+}
+
+.l-footer__subItem.is-parts::before ,
+.p-pageSitemap__subItem.is-parts::before {
+    content: '─';
+    margin-left: 0.5rem;
+}
+
+.l-spHeader__subitem.is-parts_parent {
+    background-color: #442906;
+    color: #fff;
+    height: 4.2rem;
+    padding: 0 3rem 0 2.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

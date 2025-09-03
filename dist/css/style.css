@@ -10384,7 +10384,7 @@ figure figcaption a {
 @media screen and (min-width: 769px) {
   ._first .p-clatuuFeature__itemFigure {
     text-align: right;
-    margin-top: 7rem;
+    margin-top: 3rem;
   }
 }
 ._first .p-clatuuFeature__itemFigure img {
@@ -10831,6 +10831,7 @@ figure figcaption a {
 
 .p-clatuuChange__text {
   margin-top: 3rem;
+  margin-bottom: 1rem;
   text-align: center;
   line-height: 3.4rem;
   font-size: 1.6rem;
@@ -10931,13 +10932,13 @@ figure figcaption a {
   }
 }
 
-.p-clatuuChange__itemTitle {
+.p-clatuuChange__itemTitle ,.p-clatuuChange__itemTitle2{
   font-weight: 700;
   font-size: 1.6rem;
   color: #1C6177;
 }
 @media screen and (min-width: 769px) {
-  .p-clatuuChange__itemTitle {
+  .p-clatuuChange__itemTitle ,.p-clatuuChange__itemTitle2{
     font-size: 2.2rem;
   }
 }
