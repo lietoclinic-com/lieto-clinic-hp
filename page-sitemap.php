@@ -63,6 +63,8 @@
             <li class="p-pageSitemap__item"><a href="/news/">新着情報</a></li>
             <li class="p-pageSitemap__item"><a href="/recruit/">採用情報</a></li>
             <li class="p-pageSitemap__item"><a href="/price/">料金一覧</a></li>
+            <li class="p-pageSitemap__item"><a href="/monitor/">モニター募集</a></li>
+            <li class="p-pageSitemap__item"><a href="">当院の症例</a></li>
           </ul>
         </div>
 
@@ -91,8 +93,6 @@
                 <li class="p-pageSitemap__subItem is-parts"><a href="/menu/slim-thighs/">太もも痩せ</a></li>
               </ul>
             </li>
-            <li class="p-pageSitemap__item"><a href="/monitor/">モニター募集</a></li>
-            <li class="p-pageSitemap__item"><a href="">当院の症例</a></li>
           </ul>
         </div>
 
