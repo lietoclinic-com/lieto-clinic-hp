@@ -1346,3 +1346,55 @@ p-reason__list top
     justify-content: space-between;
     align-items: center;
 }
+
+/*===================================
+sponsor
+===================================*/
+.sponsor__wrap {
+    margin: 80px auto 0;
+    width: fit-content;
+}
+
+.sponsor__content {
+    max-width: 600px;
+    width: 100%;
+    background-color: #ed8500;
+    border: solid #ed8500 12px;
+    border-radius: 12px;
+}
+
+.sponsor__head {
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #fff;
+}
+
+.sponsor__image {
+    background-color: #fff;
+    width: 100%;
+    padding: 36px 24px;
+}
+.sponsor__image img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .sponsor__wrap {
+        margin: 40px auto 0;
+    }
+
+    .sponsor__head {
+        padding-bottom: 12px;
+        font-size: 16px;
+    }
+
+    .sponsor__image {
+        background-color: #fff;
+        width: 100%;
+        padding: 12px 36px;
+    }
+}

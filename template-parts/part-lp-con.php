@@ -77,6 +77,15 @@
         <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/clinic/magazine-sp.png" alt="雑誌「百花秘人」にてご紹介いただきました">
       </div>
 
+      <div class="sponsor__wrap">
+        <div class="sponsor__content">
+          <h2 class="sponsor__head">リエートクリニックは<br>ミセスユニバースの<br class="sp-block">公式メインスポンサーです</h2>
+          <p class="sponsor__image">
+            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/sponsor-logos.webp" alt="リエートクリニックはミセスユニバースの公式メインスポンサーです">
+          </p>
+        </div>
+      </div>
+
     </div>
    
   </section>
