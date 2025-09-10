@@ -895,6 +895,21 @@
     <?php get_template_part('template-parts/part', 'cta'); ?>
   </div>
 
+  <div class="p-singleMenu__area l-inner">
+    <h2 class="p-singleMenu__title">協力企業・団体</h2>
+    <ul class="sponsor__lists">
+      <li class="sponsor__list">
+        <div class="sponsor__img"><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/mrs-logo.webp' alt="mrs"></div>
+        <div class="sponsor__text">
+          <h3>ミセスユニバースジャパン</h3>
+          <a href="https://www.mrsuniverse.jp/" target="_blank">https://www.mrsuniverse.jp/</a>
+          <p>“ミセスユニバースジャパン“は人の美に順位をつけ、美の頂上を決定する「誰かひとり」のためのものではありません。参加者が、自ら持つ本来の可能性に気づき生きることが楽しくなる、そんな女性を一人でも多く作る「すべての女性」のためのコンテストです。</p>
+        </div>
+      </li>
+    </ul>
+
+  </div>
+
 </main>
 
 <?php get_footer();

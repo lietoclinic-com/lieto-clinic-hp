@@ -1398,3 +1398,61 @@ sponsor
         padding: 12px 36px;
     }
 }
+
+.sponsor__lists {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 40px auto 0;
+    gap: 24px;
+}
+
+.sponsor__list{
+    display: flex;
+    gap: 12px;
+}
+
+.sponsor__list .sponsor__img {
+    max-width: 120px;
+    width: 100%;
+    height: auto;
+}
+.sponsor__list .sponsor__img img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.sponsor__list .sponsor__text {
+    width: calc(100% - 132px);
+}
+.sponsor__list .sponsor__text h3 {
+    font-family: "Zen Old Mincho", serif;
+    font-size: 18px;
+    color: #AE8954;
+}
+.sponsor__list .sponsor__text a {
+    text-decoration: underline;
+    color: blue;
+    margin-top: 1em;
+    font-size: 14px;
+        color: #BCBCBC;
+}
+.sponsor__list .sponsor__text p {
+    line-height: 1.5;
+    margin-top: 1em;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    .sponsor__lists {
+        grid-template-columns: 1fr;
+        gap: 3%;
+    }
+    .sponsor__list .sponsor__img {
+        max-width: 120px;
+        width: 25%;
+    }
+    .sponsor__list .sponsor__text {
+        width: 72%;
+    }
+}
