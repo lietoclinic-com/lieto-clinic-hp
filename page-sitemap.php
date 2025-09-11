@@ -65,6 +65,7 @@
             <li class="p-pageSitemap__item"><a href="/price/">料金一覧</a></li>
             <li class="p-pageSitemap__item"><a href="/monitor/">モニター募集</a></li>
             <li class="p-pageSitemap__item"><a href="">当院の症例</a></li>
+            <li class="p-pageSitemap__item"><a href="/voice/">患者様の声</a></li>
           </ul>
         </div>
 

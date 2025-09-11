@@ -265,7 +265,6 @@ table {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    gap: 0 1.6rem;
     font-size: 1.5rem;
     }
     @media screen and (min-width: 1025px) {
@@ -276,7 +275,6 @@ table {
     @media screen and (min-width: 1200px) {
     .l-header__bottomList {
         margin-right: 5rem;
-        gap: 0 2.5rem;
         font-size: 1.6rem;
     }
     }
