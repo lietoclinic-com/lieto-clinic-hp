@@ -1261,15 +1261,6 @@ table {
     height: 4rem;
   }
 }
-.p-topBanner {
-  margin-top: 3.4rem;
-}
-@media screen and (min-width: 769px) {
-  .p-topBanner {
-    margin-top: 8rem;
-  }
-}
-
 .p-topSlider {
   overflow: hidden;
 }

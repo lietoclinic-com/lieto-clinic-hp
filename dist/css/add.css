@@ -1456,3 +1456,17 @@ sponsor
         width: 72%;
     }
 }
+
+.p-singleClinicFv__title .p-singleClinicFv__title-read {
+    font-size: 50%;
+    margin-left: 0;
+}
+
+.p-singleClinicAccess__inner{
+    padding-top: 80px;
+}
+@media screen and (max-width: 768px) {
+    .p-singleClinicAccess__inner {
+        padding-top: 40px;
+    }
+}

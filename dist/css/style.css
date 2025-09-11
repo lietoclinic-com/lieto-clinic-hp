@@ -2778,11 +2778,13 @@ button {
   }
 }
 .p-topBanner {
-  margin-top: 3.4rem;
+  padding-top: 3.4rem;
+  margin-top: 0;
 }
 @media screen and (min-width: 769px) {
   .p-topBanner {
-    margin-top: 8rem;
+    padding-top: 8rem;
+    margin-top: 0;
   }
 }
 

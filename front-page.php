@@ -125,33 +125,7 @@
     </div>
   </div>
 
-  <!-- slick, banner -->
-  <div class="p-topBanner">
-    <div class="p-topSlider">
-      <div class="p-topSlider__inner">
-        <div class="p-topSliderList" id="p-topSlider__slick">
-          <div class="p-topSliderItem">
-            <a href="<?php echo esc_url(home_url('news/open-campaign/')); ?>"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/slider_01a.png" alt="オープン記念キャンペーン"></a>
-          </div>
-          <div class="p-topSliderItem">
-            <a href="<?php echo esc_url(home_url('news/cash-back/')); ?>"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/slider_02.png" alt="全額返金保証付"></a>
-          </div>
-          <div class="p-topSliderItem">
-            <a href="<?php echo esc_url(home_url('news/gift-campaign/')); ?>"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/slider_03.png" alt="ご来店でAmazonギフト 1,000円分をプレゼント"></a>
-          </div>
-          <div class="p-topSliderItem">
-            <a href="<?php echo esc_url(home_url('monitor/')); ?>"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/slider_04.png" alt="モニター募集ページへの誘導バナー"></a>
-          </div>
-          <div class="p-topSliderItem">
-            <a href="<?php echo esc_url(home_url('news/present-campaign/')); ?>"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/slider_05.png" alt="旅行券プレゼントキャンペーン"></a>
-          </div>
-          <div class="p-topSliderItem">
-            <a href="<?php echo esc_url(home_url('news/tenmonth-campaign/')); ?>"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/slider_06.png" alt="12ヶ月分0円キャンペーン"></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <?php get_template_part('template-parts/banner-slider'); ?>
 
   <!-- CTA -->
   <div class="p-topCta l-inner" style="margin-bottom: 48px;">
@@ -379,58 +353,7 @@
         <h2 class="c-secTitle__ja">リエートクリニックの<br>医療ダイエットが選ばれる理由</h2>
       </div>
       <div class="p-reason__body">
-        <ul class="p-reason__list is-top">
-          
-          <li class="p-reason__item">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/top_reason_new01.webp" alt="">
-            <h3 class="p-reason__itemTitle">検査結果をもとに導く<br>根拠ある痩身プラン</h3>
-            <p class="p-reason__itemText">
-              ただ体重を減らすのではなく、まずは太りやすさの原因を明確にすることからスタート。
-              <br>血液検査やInBody測定を通じて、体内の状態や体組成を正確に把握し、体質に合った“ムリのない痩せ方”を見極めます。
-              <br>感覚に頼らず、科学的根拠に基づいてプランを立てることで、効率的かつ安全なダイエットを目指せます。
-            </p>
-          </li>
-
-          <li class="p-reason__item">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/top_reason_new02.webp" alt="">
-            <h3 class="p-reason__itemTitle">豊富な医療機器で叶える<br>切らない痩身</h3>
-            <p class="p-reason__itemText">
-              脂肪冷却や電磁場による筋肉刺激、GLP-1など、多彩な選択肢を目的や体質に応じてご用意。
-              <br>体に負担の少ない方法を中心に、気になる部位にしっかりとアプローチできます。
-              <br>「外科的な治療には抵抗がある」「ダウンタイムは避けたい」といったニーズにも応えられる環境を整えています。
-            </p>
-          </li>
-
-          <li class="p-reason__item">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/top_reason_new03.webp" alt="">
-            <h3 class="p-reason__itemTitle">短期間でのダイエットや<br>難しい部分痩せも可能</h3>
-            <p class="p-reason__itemText">
-              「短期間で効果を出したい」「特定の部位を集中的にケアしたい」といった細かなご希望にも柔軟に対応。
-              <br>施術や薬剤の組み合わせにより、忙しい方や部分痩せをご希望の方でも、短期間での変化が目指せます。
-            </p>
-          </li>
-
-          <li class="p-reason__item">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/top_reason_new04.webp" alt="">
-            <h3 class="p-reason__itemTitle">医師・看護師・栄養士が<br>チームで伴走</h3>
-            <p class="p-reason__itemText">
-              ダイエットを続ける上で大切なのは、無理なく続けられるサポート体制。
-              <br>リエートクリニックでは、医師の診察を軸に、看護師の技術、管理栄養士の生活支援を組み合わせ、体の内外から健康的に体重と向き合える環境を整えています。
-              <br>専門スタッフがチームで支えるからこそ、継続しやすく、確かな結果へとつながります。
-            </p>
-          </li>
-
-          <li class="p-reason__item">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/top_reason_new05.webp" alt="">
-            <h3 class="p-reason__itemTitle">ムダのないあなただけの<br>ダイエットプランをご提案</h3>
-            <p class="p-reason__itemText">
-              年齢・体質・ライフスタイルが異なる中で、限られたコースから選ぶだけの方法では、本当に合った施術にはなかなか出会えません。
-              <br>リエートクリニックでは、決まったパッケージではなく、必要な施術だけを無理なく組み合わせてご提案。
-              <br>“あなただけ”のプランで、続けやすくリバウンドしにくい、現実的なダイエットをサポートしています。
-            </p>
-          </li>
-
-        </ul>
+        <?php get_template_part('template-parts/reason-content'); ?>
       </div>
     </div>
   </section>
@@ -467,170 +390,7 @@
     </div>
   </section>
 
-  <!-- caution -->
-  <section class="p-topCaution">
-    <div class="p-topCaution__lead">
-      <h2>CAUTION</h2>
-      <p>
-        医療ダイエットおよび当院をご検討している方
-        <br class="sp-hide">ご注意ください！
-      </p>
-      <p>
-        医療ダイエットは知名度のまだ低いダイエット方法のため
-        <br class="sp-hide">適切でないサービスや誤った情報が横行しています。
-      </p>
-    </div>
-    <img class="p-topCaution__lead-img sp-hide" loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/caution-head.png' alt="">
-    <img class="p-topCaution__lead-img sp-block" loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/caution-head-sp.png' alt="">
-    <div class="p-topCaution__wrap">
-      <div class="p-topCaution__inner l-inner">
-        <div class="p-topCaution__title">
-          <div class="p-topCaution__title-top">CAUTION 1</div>
-          <h3 class="p-topCaution__title-text">エステ機器を使っている</h3>
-        </div>
-        <p class="p-topCaution__text-center">
-          医療ダイエットを提供しているサービスの中には医療機器と比べ効果が低い
-          <br class="sp-hide">「エステ機器」を使っている場合がございます。
-          <br>
-          <br>特に極端に低価格な医療クリニックやエステ施設ではエステ機器を使っている場合がございます。
-        </p>
-        <table class="p-topCaution__table">
-          <thead>
-            <tr>
-              <th width="20%"></th>
-              <th width="40%">医療用脂肪<br class="sp-block">冷却マシン</th>
-              <th width="40%">エステ用脂肪<br class="sp-block">冷却マシン</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th>資格</th>
-              <td>医師免許が必要</td>
-              <td>不要</td>
-            </tr>
-            <tr>
-              <th>提供場所</th>
-              <td>皮膚科・美容外科・クリニック</td>
-              <td>エステ・整体・ジムなど</td>
-            </tr>
-            <tr>
-              <th>出力</th>
-              <td>高い</td>
-              <td>低い</td>
-            </tr>
-            <tr>
-              <th>効果</th>
-              <td>即効性がある</td>
-              <td>時間がかかる</td>
-            </tr>
-            <tr>
-              <th>施術価格</th>
-              <td>高い</td>
-              <td>安い</td>
-            </tr>
-          </tbody>
-        </table>
-        <div class="p-topCaution__diet">
-          <div class="p-topCaution__diet-inner">
-            <div class="p-topCaution__diet-title">
-              当院では全てダイエット効果の高い
-              <br>医療機器を使用しております
-            </div>
-            <ul class="p-topCaution__diet__list">
-              <li class="p-treatment__contentItem">
-                <a href="/menu/stimsure/">
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_01.png" alt="医療電磁場機器">
-                  <div class="p-treatment__contentItemDesc">
-                    <div class="p-treatment__contentItemText">メリハリのある理想のボディラインを</div>
-                    <div class="p-treatment__contentItemHead">
-                      <h3 class="p-treatment__contentItemTitle">医療電磁場機器</h3>
-                      <div class="p-treatment__contentItemSubtitle">StimSure-スティムシュアー</div>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li class="p-treatment__contentItem">
-                <a href="/menu/clatuu-a/">
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_02.png" alt="医療脂肪冷却機器">
-                  <div class="p-treatment__contentItemDesc">
-                    <div class="p-treatment__contentItemText">脂肪細胞のみ狙いうちで凍結排出</div>
-                    <div class="p-treatment__contentItemHead">
-                      <h3 class="p-treatment__contentItemTitle">医療脂肪冷却機器</h3>
-                      <div class="p-treatment__contentItemSubtitle">CLATUU α -クラツーアルファ-</div>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li class="p-treatment__contentItem">
-                <a href="/menu/hifu/">
-                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/treatment/treatment_03.png" alt="医療HIFU">
-                  <div class="p-treatment__contentItemDesc">
-                    <div class="p-treatment__contentItemText">引き締めながら脂肪細胞を破壊</div>
-                    <div class="p-treatment__contentItemHead">
-                      <h3 class="p-treatment__contentItemTitle">医療HIFU</h3>
-                      <div class="p-treatment__contentItemSubtitle">ULTRAcel [zíː] -ウルトラセル ジィー-</div>
-                    </div>
-                  </div>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="p-topCaution__title">
-          <div class="p-topCaution__title-top">CAUTION 2</div>
-          <h3 class="p-topCaution__title-text">医師、看護師の<br class="sp-block">経過観察などなく、薬のみ処方</h3>
-        </div>
-        <div class="p-topCaution__column">
-          <div class="p-topCaution__column-img">
-            <img class="p-topCaution__lead-img sp-hide" loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/caution2-img.png' alt="医師、看護師の経過観察などなく、薬のみ処方">
-          </div>
-          <div class="p-topCaution__column-text">
-            医師が在籍する医療機関が運営している場合でも、薬やGLP-1のダイエット注射のみを処方、施術される場合もご注意ください。
-            <br>
-            <br>特にオンライン診療などで見られるケースですが、医師による適切な診断のもとで実施しない場合、低血糖や胃腸の調子を崩す場合がございます。
-            <br>
-            <br>また、並行して食事指導や適度な運動のサポートがない場合、栄養不良による体調不良はもちろん、代謝が下がりリバウンドに繋がりやすくなります。
-          </div>
-        </div>
-        <div class="p-topCaution__title">
-          <div class="p-topCaution__title-top">CAUTION 3</div>
-          <h3 class="p-topCaution__title-text">都度払いに対応していない<br class="sp-block">クリニック</h3>
-        </div>
-        <div class="p-topCaution__column">
-          <div class="p-topCaution__column-img">
-            <img class="p-topCaution__lead-img sp-hide" loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/caution3-img.png' alt="都度払いに対応していないクリニック">
-          </div>
-          <div class="p-topCaution__column-text">
-            最近ではWebやSNSで低価格で医療ダイエットが受けられるように見える広告が多く見られます。
-            <br>
-            <br>実際には高額な費用を請求されることがほとんどです。
-            <br>
-            <br>当院では他の医療ダイエットクリニックではあまり実施されていない都度払い制度にも対応しています。
-            <br>
-            <br>そのため、ご自身のお財布事情に合わせて通院いただくことが可能です。
-          </div>
-        </div>
-        <div class="p-topCaution__title">
-          <div class="p-topCaution__title-top">CAUTION 4</div>
-          <h3 class="p-topCaution__title-text">誤った情報が<br class="sp-block">混在する口コミサイト</h3>
-        </div>
-        <p class="p-topCaution__text-center">
-          医療ダイエットを提供するクリニックが急激に増えたことで
-          <br class="sp-hide">他院を悪く見せるような口コミをあえて投稿するようなクリニック（同業者）が発生してきています。
-          <br>
-          <br>実際、当院の口コミにも事実ではない口コミが増えてきております。
-          <br>当院では患者様の体に関するデータは正確に管理しており、以下のような実績がございます。
-        </p>
-        <img class="p-topCaution__img4-1" loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/caution4-img1.png' alt="体脂肪減少率97.2% リバウンドしない率100%">
-        <p class="p-topCaution__text4-1">※2023年7月〜2024年10月までのコース卒業者様対象</p>
-        <p class="p-topCaution__text-center">
-          また、成果が出ないということも稀にございますのでそういった患者様には
-          <br class="sp-hide">誠意を持って全額返金をさせていただいております。
-        </p>
-        <img class="p-topCaution__img4-2" loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/caution4-img2.png' alt="返せなかったら全額返金保証">
-      </div>
-    </div>
-  </section>
+  <?php get_template_part('template-parts/caution-content'); ?>
 
   <!-- アクセス・店舗情報 -->
   <section class="p-topAccess" id="top-access">
@@ -843,12 +603,12 @@
         </div>
 
         <?php
-        $args = array(
-          'post_type' => 'post',
-          'posts_per_page' => 3,
-          'post_status' => 'publish',
-        );
-        $query = new WP_Query($args);
+          $args = array(
+            'post_type' => 'post',
+            'posts_per_page' => 3,
+            'post_status' => 'publish',
+          );
+          $query = new WP_Query($args);
         ?>
         <?php if ($query->have_posts()) : ?>
           <div class="p-topInformation__content _column <?php echo $no_post; ?>">

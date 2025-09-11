@@ -13,7 +13,11 @@
       <?php get_template_part('template-parts/part', 'breadcrumb'); ?>
 
       <div class="p-singleClinicFv__inner">
-        <h1 class="p-singleClinicFv__title">リエートクリニック<br><span><?php the_field("clinic_name"); ?>院</span></h1>
+        <h1 class="p-singleClinicFv__title">
+          <span class="p-singleClinicFv__title-read"><?php the_field("clinic_name"); ?>で医療ダイエットをご希望の方へ</span>
+          <br>リエートクリニック
+          <br><span><?php the_field("clinic_name"); ?>院</span>
+        </h1>
         <div class="p-singleClinicFv__walktime">
           <span class="p-singleClinicFv__walktimeText">
             <?php echo get_field("clinic_time")['clinic_near_station'] ?>駅から<br>
@@ -118,12 +122,15 @@
   
   </div>
 
-    <!-- アクセス・方法・外観内観 -->
+  <!-- アクセス・方法・外観内観 -->
   <section class="p-singleClinicAccess">
+
+    <?php get_template_part('template-parts/banner-slider'); ?>
+
     <div class="p-singleClinicAccess__inner">
       <div class="p-singleClinicAccess__head c-secTitle">
         <div class="c-secTitle__en">ACCESS</div>
-        <h2 class="c-secTitle__ja">アクセス・店舗情報</h2>
+        <h2 class="c-secTitle__ja"><?php the_field("clinic_name"); ?>院のアクセス・店舗情報</h2>
       </div>
 
       <!-- 店舗情報 -->
@@ -259,40 +266,10 @@
     <div class="p-reason__inner l-inner">
       <div class="p-reason__head c-secTitle">
         <div class="c-secTitle__en">WHY LIETO CLINIC</div>
-        <h2 class="c-secTitle__ja">リエートクリニックの<br>医療ダイエットが選ばれる理由</h2>
+        <h2 class="c-secTitle__ja">リエートクリニック<?php echo get_field("clinic_name"); ?>院の<br>医療ダイエットが選ばれる理由</h2>
       </div>
       <div class="p-reason__body">
-        <ul class="p-reason__list">
-          <li class="p-reason__item">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/top_reason_01.png" alt="有資格者が施術するから安心の医療痩身">
-            <h3 class="p-reason__itemTitle">有資格者が施術するから<br>安心の医療痩身</h3>
-            <p class="p-reason__itemText">
-              医師・看護師などの有資格者が施術を行うことで、お客様の健康状態や体質に合わせたプランをご提案させていただきます。<br>
-              <br>
-              専門的な知識と経験に基づいて行われるため、安心して施術を受けていただけます。
-            </p>
-          </li>
-
-          <li class="p-reason__item">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/top_reason_02.png" alt="短期間での痩身や難しい部分痩せも対応">
-            <h3 class="p-reason__itemTitle">短期間での痩身や<br>難しい部分痩せも対応</h3>
-            <p class="p-reason__itemText">
-              短期間での効果的な痩身や、通常難しいとされる部分痩せにも対応することができます。<br>
-              <br>
-              科学的な根拠に基づいたアプローチを用いて、特定の部位の脂肪やセルライトに対して、技術や機器を駆使して細胞レベルで効果的な施術が可能です。
-            </p>
-          </li>
-
-          <li class="p-reason__item">
-            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/top_reason_03.png" alt="切らない施術で安心して痩身">
-            <h3 class="p-reason__itemTitle">切らない施術で<br>安心して痩身</h3>
-            <p class="p-reason__itemText _letter">
-              リエートクリニックでは、最先端の医療痩身機器や注射・点滴治療、ダイエット薬などを用いた切らない施術を行っています。<br>
-              <br>
-              お客様のお悩みに沿ったリエートクリニックオリジナルプログラムにより、理想のお身体を目指します。
-            </p>
-          </li>
-        </ul>
+        <?php get_template_part('template-parts/reason-content'); ?>
       </div>
     </div>
   </section>
@@ -354,7 +331,7 @@
           <div class="p-singleClinicTreatment__main p-treatment">
             <div class="p-treatment__head c-secTitle">
               <div class="c-secTitle__en  _black">TREATMENT</div>
-              <h2 class="c-secTitle__ja">施術内容</h2>
+              <h2 class="c-secTitle__ja"><?php echo esc_html(get_field("clinic_name", $clinic_id)); ?>院の施術内容</h2>
             </div>
 
             <div class="p-treatment__body">
@@ -510,6 +487,8 @@
 
     </section>
   </div>
+
+  <?php get_template_part('template-parts/caution-content'); ?>
 
   <!-- CTA -->
   <div class="p-singleClinic__cta l-inner">
@@ -669,6 +648,66 @@
   <div class="p-singleClinic__bottomcta l-inner">
     <?php get_template_part('template-parts/part', 'cta'); ?>
   </div>
+
+  <section class="p-pageColumn__articles _related p-message">
+    <div class="l-inner">
+      <div class="p-pageColumn__articlesHead">
+        <h2 class="p-pageColumn__articlesHeadJa">お役立ちコラム</h2>
+        <span class="p-pageColumn__articlesHeadEn">COLUMN</span>
+      </div>
+      <ul class="p-pageColumn__articlesList">
+        <?php
+          // 別のカスタム投稿テンプレ内から、通常投稿の「medical-die」カテゴリ最新3件
+          $args = array(
+            'post_type' => 'post',
+            'posts_per_page' => 3,
+            'post_status' => 'publish',
+            'orderby'        => 'date',
+            'order'          => 'DESC',
+            'category_name'  => 'medical-diet',
+          );
+
+          $query = new WP_Query($args);
+        ?>
+
+        <?php if ($query->have_posts()) : ?>
+          <?php while ($query->have_posts()) : $query->the_post(); ?>
+            <li class="p-pageColumn__articlesItem">
+              <a href="<?php the_permalink(); ?>">
+                <figure class="p-pageColumn__articlesFigure">
+                  <?php if (has_post_thumbnail()) : ?>
+                    <?php the_post_thumbnail(); ?>
+                  <?php else : ?>
+                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/sample_01.png" alt="記事サムネイル">
+                  <?php endif; ?>
+                </figure>
+                <div class="p-pageColumn__articlesDesc">
+                  <div class="p-pageColumn__articlesCat">
+                    <?php
+                    $term_obj = get_the_terms($post->ID, 'category');
+                    echo $term_obj[0]->name;
+                    ?>
+                  </div>
+                  <div class="p-pageColumn__dates c-articleDates">
+                    <div class="c-articleDates__modified">
+                      <div class="c-articleDates__modifiedTtl">更新日</div>
+                      <time class="c-articleDates__modifiedNum" datetime="<?php the_modified_time('Y-m-d'); ?>" itemprop="datemodified"><?php the_modified_time('Y.m.d') ?></time>
+                    </div>
+                    <div class="c-articleDates__published">
+                      <div class="c-articleDates__publishedTtl">公開日</div>
+                      <time class="c-articleDates__publishedNum" datetime="<?php the_time('Y-m-d'); ?>" itemprop="datepublished"><?php the_time('Y.m.d'); ?></time>
+                    </div>
+                  </div>
+                  <h3 class="p-pageColumn__articlesTitle"><?php the_title(); ?></h3>
+                </div>
+              </a>
+            </li>
+          <?php endwhile;
+          wp_reset_postdata() ?>
+        <?php endif; ?>
+      </ul>
+    </div>
+  </section>
 
 </main>
 
