@@ -260,10 +260,6 @@
 
   <?php wp_head(); ?>
   <?php get_template_part('template-parts/part', 'top-css'); ?>
-
-  <?php if(is_post_type_archive('voice') || is_tax() || is_singular('voice')): ?>
-    <meta name="robots" content="noindex" />
-  <?php endif; ?>
 </head>
 
 <body <?php body_class(); ?>>
