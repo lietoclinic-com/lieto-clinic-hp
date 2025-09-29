@@ -67,6 +67,10 @@
           </li>
         </ul>
 
+        <?php if(is_singular('clinic')): ?>
+          <a href="https://lietoclinic.com/form/" class="monitor_in-clinic"><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/campaign-btn.webp' alt="無料カウンセリング予約"></a>
+        <?php endif; ?>
+
         <p class="benefits__after">特典は予告なく終了させていただく場合が御座います。<br>お客様にはご理解とご協力のほどよろしくお願い申し上げます。</p>
         <p class="benefits__caution">※1 モニターには審査がございます。　<br class="sp-block">※2 他キャンペーンとの併用不可。</p>
 

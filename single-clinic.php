@@ -125,9 +125,34 @@
   <!-- アクセス・方法・外観内観 -->
   <section class="p-singleClinicAccess">
 
+    <!-- バナー -->
+    <div class="p-pageMonitor__banner" style="margin-top: 0; padding-top: 40px; margin-bottom: 40px; background-color: #FFF4E3;">
+      <div class="p-pageMonitor__bannerInner l-inner">
+        <a href="https://lietoclinic.com/form/" target="_blank">
+          <picture>
+            <source media="(max-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/monitor/monitor_bannar_sp.jpg">
+            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/monitor/monitor_bannar.jpg" alt="バナー">
+          </picture>
+        </a>
+      </div>
+    </div>
+
+    <!-- menu -->
+    <div class="p-injectionMenu">
+      <div class="p-injectionMenu__inner l-inner">
+        <ul class="p-injectionMenu__list">
+          <li class="p-injectionMenu__item"><a href="#access">アクセス</a></li>
+          <li class="p-injectionMenu__item"><a href="#reason">選ばれる理由</a></li>
+          <li class="p-injectionMenu__item"><a href="#content">施術内容</a></li>
+          <li class="p-injectionMenu__item"><a href="#flow">施術の流れ</a></li>
+          <li class="p-injectionMenu__item"><a href="#faq">よくあるご質問</a></li>
+        </ul>
+      </div>
+    </div>
+
     <?php get_template_part('template-parts/banner-slider'); ?>
 
-    <div class="p-singleClinicAccess__inner">
+    <div class="p-singleClinicAccess__inner" id="access">
       <div class="p-singleClinicAccess__head c-secTitle">
         <div class="c-secTitle__en">ACCESS</div>
         <h2 class="c-secTitle__ja"><?php the_field("clinic_name"); ?>院のアクセス・店舗情報</h2>
@@ -262,7 +287,7 @@
   <?php get_template_part('template-parts/part-lp-con'); ?>
 
   <!-- 選ばれる理由 -->
-  <section class="p-singleClinicReason p-reason">
+  <section class="p-singleClinicReason p-reason" id="reason">
     <div class="p-reason__inner l-inner">
       <div class="p-reason__head c-secTitle">
         <div class="c-secTitle__en">WHY LIETO CLINIC</div>
@@ -310,7 +335,7 @@
     // `$show_section` が true の場合のみ表示
     if ($show_section) :
   ?>
-    <section class="p-singleClinicCase">
+    <section class="p-singleClinicCase" id="case">
       <div class="p-singleClinicCase__inner l-inner">
           <div class="p-singleClinicCase__head p-clinicHead">
               <h3 class="p-clinicHead__title"><?php echo esc_html(get_field("clinic_name", $clinic_id)); ?>院の症例</h3>
@@ -323,7 +348,7 @@
   <?php endif; ?>
 
   <!-- 施術内容 -->
-  <div class="p-singleClinicTreatmentWrap">
+  <div class="p-singleClinicTreatmentWrap" id="content">
     <section class="p-singleClinicTreatment">
       <div class="p-singleClinicTreatment__bgc">
         <div class="p-singleClinicTreatment__inner l-inner">
@@ -496,7 +521,7 @@
   </div>
 
   <!-- ご予約から施術の流れ -->
-  <section class="p-singleClinicFlow">
+  <section class="p-singleClinicFlow" id="flow">
     <div class="p-singleClinicFlow__inner l-inner">
 
       <div class="p-singleClinicFlow__area">
@@ -599,7 +624,7 @@
 
   <!-- よくあるご質問 -->
   <?php if (get_field("clinic_faq")) : ?>
-    <section class="p-singleClinicFaq">
+    <section class="p-singleClinicFaq" id="faq">
       <div class="p-singleClinicFaq__inner l-inner">
         <div class="p-singleClinicFaq__head c-secTitle">
           <div class="c-secTitle__en">FAQ</div>

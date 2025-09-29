@@ -1474,3 +1474,40 @@ sponsor
 .p-singleMenu__column{
     margin-top: 64px;
 }
+
+.p-access__btn.is-flex {
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    gap: 40px;
+
+}
+.p-access__btn.is-flex .p-cta__reserveBtn{
+    margin-top: 0;
+}
+@media screen and (max-width: 768px) {
+    .p-access__btn.is-flex {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}
+
+.monitor_in-clinic{
+    display: block;
+    margin: 64px auto 0;
+    max-width: 420px;
+    width: 100%;
+    height: auto;
+}
+.monitor_in-clinic img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 768px) {
+    .monitor_in-clinic{
+        margin: 40px auto 0;
+        width: 94%;
+    }
+}

@@ -13,6 +13,14 @@
     </div>
 
     <div class="p-pageClinic__body">
+
+        <!-- banner -->
+        <div class="banner-container" style="margin-top: 0;">
+          <a href="https://lietoclinic.com/form/" target="_blank">
+            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/monitor_in-header.webp" alt="モニター募集" decoding="async" loading="lazy">
+          </a>
+        </div>
+
       <div class="p-pageClinicLink__inner l-inner">
         <ul class="p-pageCliniclink__btns">
 
@@ -127,7 +135,13 @@
                     </div>
                   </div>
 
-                  <div class="p-access__btn">
+                  <div class="p-access__btn is-flex">
+                    <div class="p-cta__reserveBtn">
+                      <a href="https://lietoclinic.com/form/">
+                        <img sizes=auto loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_counseling_circle.png'>
+                        無料カウンセリング予約
+                      </a>
+                    </div>
                     <a href="<?php the_permalink(); ?>" class="c-btn"><?php the_field('clinic_name') ?>院を詳しくみる</a>
                   </div>
                 </div>

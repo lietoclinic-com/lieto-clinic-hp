@@ -14,6 +14,13 @@
     <div class="p-pageMenu__body">
       <section class="p-pageMenuTreatment p-treatment">
 
+        <!-- banner -->
+        <div class="banner-container" style="margin-top: 0;">
+          <a href="https://lietoclinic.com/form/" target="_blank">
+            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/monitor_in-header.webp" alt="モニター募集" decoding="async" loading="lazy">
+          </a>
+        </div>
+
         <div class="p-treatment__inner l-inner">
           <div class="p-treatment__title">施術内容</div>
 
