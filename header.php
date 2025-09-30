@@ -73,7 +73,7 @@
       "inLanguage": "jp",
       "publisher": {
         "@type": "Organization",
-        "name": "スペーム株式会社",
+        "name": "医療法人社団高整会",
         "logo": {
           "@type": "ImageObject",
           "url": "<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/logo_orange.png"
