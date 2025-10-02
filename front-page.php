@@ -58,7 +58,7 @@
     <!-- バナー -->
     <div class="p-pageMonitor__banner" style="margin-bottom: 40px;">
       <div class="p-pageMonitor__bannerInner l-inner">
-        <a href="https://lietoclinic.com/form/" target="_blank">
+        <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p" target="_blank">
           <picture>
             <source media="(max-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/monitor/monitor_bannar_sp.jpg">
             <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/monitor/monitor_bannar.jpg" alt="バナー">
