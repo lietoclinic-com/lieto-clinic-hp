@@ -332,8 +332,8 @@
           <tr>
             <td>肥満遺伝子検査</td>
             <td>1回</td>
-            <td rowspan="12"><span class="price-normal">¥1,560,000</span></td>
-            <td rowspan="12"><span class="price-trial">¥962,800</span></td>
+            <td rowspan="12"><span class="price-normal">¥1,420,000</span></td>
+            <td rowspan="12"><span class="price-trial">¥957,000</span></td>
           </tr>
           <tr>
             <td>inbody計測</td>
@@ -348,7 +348,7 @@
             <td>4回</td>
           </tr>
           <tr>
-            <td>ULTRAcel [zíː]</td>
+            <td>RADIO STIM PRO</td>
             <td>2回</td>
           </tr>
           <tr>
@@ -392,8 +392,8 @@
           <tr>
             <td>肥満遺伝子検査</td>
             <td>1回</td>
-            <td rowspan="11"><span class="price-normal">¥2,344,000</span></td>
-            <td rowspan="11"><span class="price-trial">¥1,342,000</span></td>
+            <td rowspan="11"><span class="price-normal">¥2,134,000</span></td>
+            <td rowspan="11"><span class="price-trial">¥1,387,100</span></td>
           </tr>
           <tr>
             <td>inbody計測</td>
@@ -408,7 +408,7 @@
             <td>6回</td>
           </tr>
           <tr>
-            <td>ULTRAcel [zíː]</td>
+            <td>RADIO STIM PRO</td>
             <td>3回</td>
           </tr>
           <tr>
@@ -453,8 +453,8 @@
           <tr>
             <td>肥満遺伝子検査</td>
             <td>1回</td>
-            <td rowspan="12"><span class="price-normal">¥1,880,000</span></td>
-            <td rowspan="12"><span class="price-trial">¥1,111,000</span></td>
+            <td rowspan="13"><span class="price-normal">¥1,810,000</span></td>
+            <td rowspan="13"><span class="price-trial">¥1,166,200</span></td>
           </tr>
           <tr>
             <td>inbody計測</td>
@@ -471,6 +471,10 @@
           <tr>
             <td>ULTRAcel [zíː]</td>
             <td>2回</td>
+          </tr>
+          <tr>
+            <td>RADIO STIM PRO</td>
+            <td>1回</td>
           </tr>
           <tr>
             <td>脂肪溶解注射</td>
@@ -518,8 +522,8 @@
           <tr>
             <td>肥満遺伝子検査</td>
             <td>1回</td>
-            <td rowspan="12"><span class="price-normal">¥2,824,000</span></td>
-            <td rowspan="12"><span class="price-trial">¥1,474,000</span></td>
+            <td rowspan="13"><span class="price-normal">¥2,754,000</span></td>
+            <td rowspan="13"><span class="price-trial">¥1,566,000</span></td>
           </tr>
           <tr>
             <td>inbody計測</td>
@@ -536,6 +540,10 @@
           <tr>
             <td>ULTRAcel [zíː]</td>
             <td>3回</td>
+          </tr>
+          <tr>
+            <td>RADIO STIM PRO</td>
+            <td>1回</td>
           </tr>
           <tr>
             <td>脂肪溶解注射</td>
@@ -631,6 +639,12 @@
             <td>¥70,000</td>
             <td>¥204,000</td>
             <td>¥330,000</td>
+            </tr>
+            <tr>
+            <td>RADIO STIM PRO</td>
+            <td>¥50,000</td>
+            <td>¥138,000</td>
+            <td>¥210,000</td>
             </tr>
           </tbody>
         </table>
