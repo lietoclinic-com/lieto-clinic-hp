@@ -1511,3 +1511,49 @@ sponsor
         width: 94%;
     }
 }
+
+.p-singleColumn__content.is-interview {
+    max-width: 840px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 24px;
+}
+.p-pageMessageGreeting__head.is-interview {
+    margin-top: -2rem;
+}
+.is-interview .c-balloon__textWrapper--right .c-balloon__text p {
+    color: #393327;
+}
+
+.interview__in-body {
+    margin: 2em auto 1em;
+    gap: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.interview__in-body img {
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .p-singleColumn__content.is-interview {
+        padding: 0 12px;
+    }
+
+    .is-interview .p-pageMessageGreeting__title {
+        font-size: 1.7rem;
+        padding: 0.5em 0;
+    }
+
+    .interview__in-body {
+        grid-template-columns: 1fr;
+    }
+    .interview__in-body img {
+        width: 64%;
+        margin: 0 auto;
+    }
+    .is-interview .c-balloon__image figcaption {
+        font-size: 10px;
+    }
+}
