@@ -20,16 +20,12 @@
             </p>
           </h1>
 
-          <div class="p-pageMessageGreeting__desc">
-            <p class="p-pageMessageGreeting__text">
-              「健康診断の結果が、今までで一番悪かったんです…」そう語るのは、リエートクリニックで医療ダイエットに取り組み、4ヶ月で17キロの減量に成功したY.A様。健康への危機感から始まったダイエットの体験談を詳しくお聞きしました。
-            </p>
-          </div>
-
         </div>
       </section>
 
       <div class="p-singleColumn__content p-content is-interview">
+
+        <p>「健康診断の結果が、今までで一番悪かったんです…」そう語るのは、リエートクリニックで医療ダイエットに取り組み、4ヶ月で17キロの減量に成功したY.A様。健康への危機感から始まったダイエットの体験談を詳しくお聞きしました。</p>
         
         <!-- きっかけは最悪の健康診断結果 -->
         <h2 class="wp-block-heading"><span>きっかけは最悪の健康診断結果</span></h2>
