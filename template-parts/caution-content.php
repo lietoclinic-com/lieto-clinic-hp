@@ -123,6 +123,7 @@
             <br>また、並行して食事指導や適度な運動のサポートがない場合、栄養不良による体調不良はもちろん、代謝が下がりリバウンドに繋がりやすくなります。
             </div>
         </div>
+        <!--
         <div class="p-topCaution__title">
             <div class="p-topCaution__title-top">CAUTION 3</div>
             <h3 class="p-topCaution__title-text">都度払いに対応していない<br class="sp-block">クリニック</h3>
@@ -141,8 +142,9 @@
             <br>そのため、ご自身のお財布事情に合わせて通院いただくことが可能です。
             </div>
         </div>
+        -->
         <div class="p-topCaution__title">
-            <div class="p-topCaution__title-top">CAUTION 4</div>
+            <div class="p-topCaution__title-top">CAUTION 3</div>
             <h3 class="p-topCaution__title-text">誤った情報が<br class="sp-block">混在する口コミサイト</h3>
         </div>
         <p class="p-topCaution__text-center">
