@@ -417,3 +417,16 @@ window.addEventListener('DOMContentLoaded', function () {
     }
   });
 });
+
+
+$(function () {
+    $(".media-slick").slick({
+      autoplay: true, 
+      arrows: true,
+      prevArrow: '<button class="arrow_name prev_arrow"></button>',
+      nextArrow: '<button class="arrow_name next_arrow"></button>',
+      variableWidth: true, // 固定幅と併用したい場合は true
+      centerMode: true,    // ← これで中央揃え
+      centerPadding: "0px" // ← 両サイドの余白を調整（例: "50px" も可）
+    });
+});
