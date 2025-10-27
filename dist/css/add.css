@@ -688,6 +688,7 @@ p-topFv
 .p-topFv {
     background-image: none !important;
     height: auto !important;
+    overflow: hidden;
 }
 .p-topFvSlider {
     height: 100% !important;
