@@ -546,6 +546,66 @@
     </div>
   </section>
 
+  <!-- Media -->
+  <section class="p-topMessage p-message" id="media">
+    <div class="p-topFaq__inner l-inner">
+      <div class="p-topFaq__head c-secTitle">
+        <div class="c-secTitle__en">Youtube</div>
+        <h2 class="c-secTitle__ja">公式Youtube</h2>
+      </div>
+    </div>
+
+    <div class="media__container">
+        <div class="media-slick">
+            <div class="media-slick__item">
+              <a href="https://youtu.be/luuJre4Tgt8?si=dZjhiSTbmxUze1wv" target="_blank">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/img/media-thumbnail01.webp" alt="" width="400" height="225">
+              </a>
+            </div>
+            <div class="media-slick__item">
+              <a href="https://youtu.be/luuJre4Tgt8?si=dZjhiSTbmxUze1wv" target="_blank">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/img/media-thumbnail02.webp" alt="" width="400" height="225">
+              </a>
+            </div>
+            <div class="media-slick__item">
+              <a href="https://youtube.com/shorts/MSqK2MZsO_U?si=SRj1WKQDJ4dUjKRV" target="_blank">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/img/media-thumbnail03.webp" alt="" width="400" height="225">
+              </a>
+            </div>
+            <div class="media-slick__item">
+              <a href="https://www.youtube.com/shorts/RbPE6sa6E2k" target="_blank">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/img/media-thumbnail04.webp" alt="" width="400" height="225">
+              </a>
+            </div>
+            <div class="media-slick__item">
+              <a href="https://www.youtube.com/shorts/Vmf6_1PgEKY" target="_blank">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/img/media-thumbnail05.webp" alt="" width="400" height="225">
+              </a>
+            </div>
+            <div class="media-slick__item">
+              <a href="https://www.youtube.com/shorts/y-2IpP5ER5c" target="_blank">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/img/media-thumbnail06.webp" alt="" width="400" height="225">
+              </a>
+            </div>
+            <div class="media-slick__item">
+              <a href="https://www.youtube.com/shorts/a0Lj1dLUVVE" target="_blank">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/img/media-thumbnail07.webp" alt="" width="400" height="225">
+              </a>
+            </div>
+            <div class="media-slick__item">
+              <a href="https://www.youtube.com/shorts/J-fdtvdW8jM" target="_blank">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/img/media-thumbnail08.webp" alt="" width="400" height="225">
+              </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="p-topFaq__btn">
+      <a href="https://www.youtube.com/@lietoclinic" target="_blank" class="c-btn">他の動画をみる</a>
+    </div>
+
+  </section>
+
   <!-- 新着情報 -->
   <section class="p-topInformation" id="top-information">
     <div class="p-topInformation__inner">

@@ -688,6 +688,7 @@ p-topFv
 .p-topFv {
     background-image: none !important;
     height: auto !important;
+    overflow: hidden;
 }
 .p-topFvSlider {
     height: 100% !important;
@@ -1020,6 +1021,27 @@ p-topIntro
     margin-top: 0;
     padding: 0;
   }
+}
+
+.media-slick__item {
+    width: 320px;   
+    height: auto;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.media-slick__item img{
+    width: 320px;
+    height: auto;
+    aspect-ratio: 300/200;
+    object-fit: cover;
+}
+@media screen and (max-width: 768px) {
+    .media-slick__item {
+        width: 74svw;
+    }
+    .media-slick__item img{
+        width: 74svw;
+    }
 }
 
 .single.single-clinic .slick-dotted.slick-slider{
@@ -1556,4 +1578,182 @@ sponsor
     .is-interview .c-balloon__image figcaption {
         font-size: 10px;
     }
+}
+
+.media-slick {
+    width: 100%;
+    max-width: 500px;
+    padding: 30px 10px;
+    margin: 15px auto;
+    position: relative;
+}
+
+
+.media-slick__item {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.media-slick__item img {
+    height: auto;
+    width: 100%;
+}
+
+.media-slick button.arrow_name {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #000066;
+    position: absolute;
+    bottom: -40px;
+    cursor: pointer;
+    z-index: 5;
+}
+.media-slick button.arrow_name::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    position: absolute;
+    top: 50%;
+}
+
+.media-slick button.prev_arrow {
+    right: 50px;
+}
+
+.media-slick button.next_arrow {
+    right: 0;
+}
+
+.media-slick button.prev_arrow::before {
+    left: 52%;
+    transform: translate(-50%,-50%)  rotate(225deg);
+}
+
+.media-slick button.next_arrow::before {
+    left: 48%;
+    transform: translate(-50%,-50%)  rotate(45deg);
+}
+
+.media-slick button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.slick-slider button:focus {
+  outline: none;
+}
+
+.slick-list{
+    overflow: visible;
+}
+
+/*===================================
+media slider
+===================================*/
+#media {
+    margin-top: 40px;
+}
+#media .c-secTitle{
+    text-align: left;
+}
+
+#media .c-secTitle__en::before ,
+#media .c-secTitle__en::after{
+    margin: unset;
+}
+
+.media__container {
+  overflow: hidden;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.media-slick {
+    width: 94%;
+    max-width: 860px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.media-slick__item {
+    margin-right: 5px;
+    margin-left: 5px;
+    display: block;
+}
+
+.media-slick__item a {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.media-slick__item img {
+    height: auto;
+    width: 100%;
+}
+
+.media-slick button.arrow_name {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #AE8954;
+    position: absolute;
+    top: -50px;
+    cursor: pointer;
+    z-index: 5;
+}
+.media-slick button.arrow_name::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    position: absolute;
+    top: 50%;
+}
+
+.media-slick button.prev_arrow {
+    right: 50px;
+}
+
+.media-slick button.next_arrow {
+    right: 0;
+}
+
+.media-slick button.prev_arrow::before {
+    left: 52%;
+    transform: translate(-50%,-50%)  rotate(225deg);
+}
+
+.media-slick button.next_arrow::before {
+    left: 48%;
+    transform: translate(-50%,-50%)  rotate(45deg);
+}
+
+.media-slick button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.slick-slider button:focus {
+  outline: none;
+}
+
+.slick-list{
+    overflow: visible;
 }
