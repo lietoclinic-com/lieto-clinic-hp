@@ -40,7 +40,7 @@
               <?php endif; ?>
             </div>
 
-            <div class="p-singleNews__content">
+            <div class="p-singleNews__content p-content">
               <?php the_content(); ?>
             </div>
               
