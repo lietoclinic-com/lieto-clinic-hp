@@ -146,7 +146,7 @@
   </div>
 
   <div class="p-pageMonitor__banner" style="margin-top: 40px; margin-bottom: 40px;">
-    <div class="p-pageMonitor__bannerInner l-inner">
+    <div class="p-pageMonitor__bannerInner l-inner" style=" max-width: 117rem;">
       <a href="<?php echo home_url('/interview/'); ?>" target="_blank">
         <picture>
           <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/story-banner.webp" alt="バナー">

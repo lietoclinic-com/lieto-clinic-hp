@@ -592,19 +592,19 @@
           <div class="p-editor__box">
             <div class="p-editor__content">
               <figure class="p-editor__figure">
-                <img loading="lazy" src="http://stg.lietoclinic.com/wp-content/themes/lieto-clinic-hp/dist/img/common/doctor.png" alt="リエートクリニック名古屋院院長 松永 宏之" width="400.5" height="439.5">
+                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/doctor.png" alt="リエートクリニック名古屋院院長 松永 宏之" width="400.5" height="439.5">
               </figure>
               <div class="p-editor__desc">
-                <div class="p-editor__profile">執筆者プロフィール</div>
+                <div class="p-editor__profile">監修者プロフィール</div>
                 <div class="p-editor__post">リエートクリニック名古屋院 <br class="_sp">院長</div>
                 <div class="p-editor__name">松永 宏之</div>
                 <div class="p-editor__btn _overTab">
-                  <a href="/greeting/" class="c-btn">執筆者について詳しく見る</a>
+                  <a href="/greeting/" class="c-btn">監修者について詳しく見る</a>
                 </div>
               </div>
             </div>
             <div class="p-editor__btn _sp">
-              <a href="/greeting/" class="c-btn">執筆者について詳しく見る</a>
+              <a href="/greeting/" class="c-btn">監修者について詳しく見る</a>
             </div>
           </div>
         </div>
