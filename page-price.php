@@ -642,9 +642,9 @@
             </tr>
             <tr>
             <td>RADIO STIM PRO</td>
-            <td>¥50,000</td>
-            <td>¥138,000</td>
-            <td>¥210,000</td>
+            <td>70,000</td>
+            <td>¥204,000</td>
+            <td>¥330,000</td>
             </tr>
           </tbody>
         </table>
