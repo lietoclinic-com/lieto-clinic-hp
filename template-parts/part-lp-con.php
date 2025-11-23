@@ -40,7 +40,7 @@
           <li>
             <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/clinic/benefits-num04.png" alt="特典">
             <p class="benefits__text">
-              <span class="line red"><span class="big">15</span><span class="min">ヵ月</span><span class="big">0</span>円</span>
+              <span class="line red"><span class="big">18</span><span class="min">ヵ月</span><span class="big">0</span>円</span>
               <br><span class="min">キャンペーン実施中</span>
             </p>
           </li>

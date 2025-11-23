@@ -505,10 +505,10 @@
     <div class="p-message__inner l-inner">
       <div class="p-message__body">
         <figure class="p-message__figure">
-          <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/doctor.png" alt="リエートクリニック名古屋院 院長 松永 宏之">
+          <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/doctor.png" alt="リエートクリニック 統括院長 松永 宏之">
           <div class="p-message__post">
-            <div class="p-message__clinic">リエートクリニック名古屋院</div>
-            <div class="p-message__name"><span>院長</span>松永 宏之</div>
+            <div class="p-message__clinic">リエートクリニック</div>
+            <div class="p-message__name"><span>統括院長</span>松永 宏之</div>
           </div>
         </figure>
         <div class="p-message__desc">
