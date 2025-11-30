@@ -19,17 +19,18 @@ function register_custom_post_type_case() {
   $args = array(
       'label'             => '症例',
       'labels'            => $labels,
-      'public'            => false, // 非公開
+      'public'            => true,
       'show_ui'           => true,
       'show_in_menu'      => true,
       'query_var'         => false,
-      'rewrite'           => false,
+      'rewrite'           => true,
       'capability_type'   => 'post',
-      'has_archive'       => false, // アーカイブなし
+      'has_archive'       => true,
       'hierarchical'      => false,
       'menu_position'     => 5,
       'menu_icon'         => 'dashicons-clipboard', // 管理画面のアイコン（適宜変更）
-      'supports'          => array('title', 'thumbnail'), // タイトルとサムネイルのみ
+      'supports'          => array('title', 'thumbnail', 'editor'), // タイトルとサムネイルのみ
+      'show_in_rest' => true,
   );
 
   register_post_type('case', $args);
