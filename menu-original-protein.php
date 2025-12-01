@@ -89,6 +89,19 @@
 
       </div>
 
+      <!-- 価格 -->
+      <div class="p-singleMenu__area l-inner">
+        <h2 class="p-singleMenu__title">価格</h2>
+        <div class="p-singleMenu__box">
+          <dl class="p-singleMenu__detail">
+            <div class="p-singleMenu__detailRow">
+              <dt>1袋</dt>
+              <dd>6,000円（税込）</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+
       <!-- オリジナルプロテインのよくある質問 -->
       <div class="p-singleMenu__area l-inner">
         <h2 class="p-singleMenu__title _nols">オリジナルプロテインのよくある質問</h2>
@@ -99,6 +112,7 @@
           </div>
         </div>
       </div>
+
 
       <!-- 関連コラム -->
       <?php get_template_part('template-parts/part', 'menu-related-column'); ?>

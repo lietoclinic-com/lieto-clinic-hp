@@ -79,6 +79,19 @@
           </div>
         </div>
 
+      </div>     
+      
+      <!-- 価格 -->
+      <div class="p-singleMenu__area l-inner">
+        <h2 class="p-singleMenu__title">価格</h2>
+        <div class="p-singleMenu__box">
+          <dl class="p-singleMenu__detail">
+            <div class="p-singleMenu__detailRow">
+              <dt>1箱</dt>
+              <dd>16,000円（税込）</dd>
+            </div>
+          </dl>
+        </div>
       </div>
 
       <!-- オリジナルサプリメントのよくある質問 -->

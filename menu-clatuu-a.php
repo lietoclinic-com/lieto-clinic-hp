@@ -23,10 +23,22 @@
         </picture>
       </figure>
 
-      <!-- CTA -->
+      <!-- バナー -->
+      <div class="p-pageMonitor__banner" style="margin-bottom: 40px;">
+        <div class="p-pageMonitor__bannerInner l-inner">
+          <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p" target="_blank">
+            <picture>
+              <source media="(max-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/monitor/monitor_bannar_sp.jpg">
+              <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/monitor/monitor_bannar.jpg" alt="バナー">
+            </picture>
+          </a>
+        </div>
+      </div>
+
+      <!-- CTA
       <div class="p-singleMenu__cta l-inner">
         <?php get_template_part('template-parts/part', 'cta'); ?>
-      </div>
+      </div> -->
 
       <!-- menu -->
       <div class="p-clatuuMenu">
