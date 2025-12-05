@@ -45,14 +45,15 @@
                   }
                 }
                 </style>
-                <time class="p-singleNews__publishedNum"><?php 
+                <?php
                   $clinic_id = get_field('at-clinic'); // clinic の投稿IDが返ってくる
-
-                  if ( $clinic_id ) {
-                      $clinic_title = get_the_title( $clinic_id );
-                      echo esc_html( $clinic_title );
-                  }
-                ?></time>
+                  if ( $clinic_id ) :
+                ?>
+                <a href="<?php echo get_the_permalink($clinic_id) ?>" class="p-singleNews__publishedNum" style="text-decoration: underline;"><?php 
+                    $clinic_title = get_the_title( $clinic_id );
+                    echo esc_html( $clinic_title );
+                ?></a>
+                <?php endif; ?>
               </div>
             </div>
 
