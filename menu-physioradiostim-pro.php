@@ -343,14 +343,6 @@
                 <dt>1回</dt>
                 <dd>¥70,000</dd>
               </div>
-              <div class="p-singleMenu__detailRow">
-                <dt>3回</dt>
-                <dd>¥204,000</dd>
-              </div>
-              <div class="p-singleMenu__detailRow">
-                <dt>5回</dt>
-                <dd>¥330,000</dd>
-              </div>
             </dl>
           </div>
           </div>
