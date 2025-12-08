@@ -56,6 +56,7 @@
                     <li class="l-footer__subItem"><a href="/menu/clatuu-a/">医療脂肪冷却機器<span>CLATUU α -クラツーアルファ-</span></a></li>
                     <li class="l-footer__subItem"><a href="/menu/hifu/">医療HIFU<span>ULTRAcel [zíː] -ウルトラセル ジィー-</span></a></li>
                     <li class="l-footer__subItem"><a href="/menu/fat-dissolving-injection/">脂肪溶解注射</a></li>
+                    <li class="l-footer__subItem"><a href="/menu/physioradiostim-pro/">Physio Radiostim Pro</a></li>
 
                     <li class="l-footer__subItem"><a href="/menu/glp-1/">GLP-1</a></li>
                     <li class="l-footer__subItem"><a href="/menu/beauty-drip/">ダイエット美容点滴</a></li>
