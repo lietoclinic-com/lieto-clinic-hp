@@ -217,24 +217,24 @@
 
       <div class="data__en">
         <div class="data__en-title">
-          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/data/data-enquête-title.webp" alt="患者様の満足度" decoding="async" loading="lazy">
+          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/data/data-en-title.webp" alt="患者様の満足度" decoding="async" loading="lazy">
         </div>
         <div class="data-en__wrap">
           <div class="data-en__con">
-            <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/data/data-enquête01.webp" alt="総合満足度" decoding="async" loading="lazy">
-            <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/data/data-enquête01-sp.webp" alt="総合満足度" decoding="async" loading="lazy">
+            <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/data/data-en01.webp" alt="総合満足度" decoding="async" loading="lazy">
+            <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/data/data-en01-sp.webp" alt="総合満足度" decoding="async" loading="lazy">
           </div>
           <div class="data-en__con">
-            <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/data/data-enquête02.webp" alt="効果実感度" decoding="async" loading="lazy">
-            <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/data/data-enquête02-sp.webp" alt="効果実感度" decoding="async" loading="lazy">
+            <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/data/data-en02.webp" alt="効果実感度" decoding="async" loading="lazy">
+            <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/data/data-en02-sp.webp" alt="効果実感度" decoding="async" loading="lazy">
           </div>
           <div class="data-en__con">
-            <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/data/data-enquête03.webp" alt="スタッフ対応" decoding="async" loading="lazy">
-            <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/data/data-enquête03-sp.webp" alt="スタッフ対応" decoding="async" loading="lazy">
+            <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/data/data-en03.webp" alt="スタッフ対応" decoding="async" loading="lazy">
+            <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/data/data-en03-sp.webp" alt="スタッフ対応" decoding="async" loading="lazy">
           </div>
           <div class="data-en__con">
-            <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/data/data-enquête04.webp" alt="コース完走率" decoding="async" loading="lazy">
-            <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/data/data-enquête04-sp.webp" alt="コース完走率" decoding="async" loading="lazy">
+            <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/data/data-en04.webp" alt="コース完走率" decoding="async" loading="lazy">
+            <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/data/data-en04-sp.webp" alt="コース完走率" decoding="async" loading="lazy">
           </div>
         </div>
         <div class="data-en-caution">
