@@ -73,9 +73,17 @@
           
           <div class="data-case__con">
             <!--<img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/data/data-case01.webp" alt="O.Y様/23歳/155cm" decoding="async" loading="lazy">-->
-            <div class="image-compare-viewer" data-label-before="Before" data-label-after="After">
-              <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case01-before-sp.webp" alt="Before">
-              <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case01-after-sp.webp" alt="After">
+            <div class="sp-hide">
+              <div class="image-compare-viewer" data-label-before="Before" data-label-after="After">
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case01-before.webp" alt="Before">
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case01-after.webp" alt="After">
+              </div>
+            </div>
+            <div class="sp-block">
+              <div class="image-compare-viewer" data-label-before="Before" data-label-after="After">
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case01-before-sp.webp" alt="Before">
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case01-after-sp.webp" alt="After">
+              </div>
             </div>
             <div class="p-case__box">
               <div class="p-case__boxTitle js-accordion">
@@ -103,9 +111,17 @@
           
           <div class="data-case__con">
             <!--<img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/data/data-case02.webp" alt="I.C様/30歳/152cm" decoding="async" loading="lazy">-->
-            <div class="image-compare-viewer" data-label-before="Before" data-label-after="After">
-              <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case02-before-sp.webp" alt="Before">
-              <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case02-after-sp.webp" alt="After">
+            <div class="sp-hide">
+              <div class="image-compare-viewer" data-label-before="Before" data-label-after="After">
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case02-before.webp" alt="Before">
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case02-after.webp" alt="After">
+              </div>
+            </div>
+            <div class="sp-block">
+              <div class="image-compare-viewer" data-label-before="Before" data-label-after="After">
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case02-before-sp.webp" alt="Before">
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case02-after-sp.webp" alt="After">
+              </div>
             </div>
             <div class="p-case__box">
               <div class="p-case__boxTitle js-accordion">
@@ -133,9 +149,17 @@
           
           <div class="data-case__con">
             <!--<img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/data/data-case03.webp" alt="Y.A様" decoding="async" loading="lazy">-->
-            <div class="image-compare-viewer" data-label-before="Before" data-label-after="After">
+            <div class="sp-hide">
+              <div class="image-compare-viewer" data-label-before="Before" data-label-after="After">
+              <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case03-before.webp" alt="Before">
+              <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case03-after.webp" alt="After">
+              </div>
+            </div>
+            <div class="sp-block">
+              <div class="image-compare-viewer" data-label-before="Before" data-label-after="After">
               <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case03-before-sp.webp" alt="Before">
               <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/case/case03-after-sp.webp" alt="After">
+              </div>
             </div>
             <div class="p-case__box">
               <div class="p-case__boxTitle js-accordion">
