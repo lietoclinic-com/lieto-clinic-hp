@@ -15,8 +15,11 @@
     </div>
 
     <div class="p-singleMenu__body">
-      <figure class="p-singleMenu__mainimg">
-        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/diet-supplement_main.png" alt="薬">
+      <figure class="p-clatuuFigure">
+        <picture>
+          <source media="(max-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/diet-supplement_main_sp.jpg">
+          <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/diet-supplement_main.jpg" alt="ダイエット薬">
+        </picture>
       </figure>
 
       <!-- バナー -->

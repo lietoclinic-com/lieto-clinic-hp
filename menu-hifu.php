@@ -15,8 +15,11 @@
     </div>
 
     <div class="p-singleMenu__body">
-      <figure class="p-singleMenu__mainimg">
-        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/hifu_main.png" alt="医療HIFU">
+      <figure class="p-clatuuFigure">
+        <picture>
+          <source media="(max-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/hifu_main_sp.jpg">
+          <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/hifu_main.jpg" alt="医療HIFU">
+        </picture>
       </figure>
 
       <!-- バナー -->

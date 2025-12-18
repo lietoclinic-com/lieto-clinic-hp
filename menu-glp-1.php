@@ -15,8 +15,11 @@
     </div>
 
     <div class="p-singleMenu__body">
-      <figure class="p-singleMenu__mainimg">
-        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/glp-1_main.png" alt="GLP-1痩身療法">
+      <figure class="p-clatuuFigure">
+        <picture>
+          <source media="(max-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/glp-1_main_sp.jpg">
+          <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/glp-1_main.jpg" alt="GLP-1痩身療法">
+        </picture>
       </figure>
 
       <!-- バナー -->

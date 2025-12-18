@@ -15,8 +15,11 @@
     </div>
 
     <div class="p-singleMenu__body">
-      <figure class="p-singleMenu__mainimg">
-        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/supplements_main.png" alt="サプリメント">
+      <figure class="p-clatuuFigure">
+        <picture>
+          <source media="(max-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/supplements_main_sp.jpg">
+          <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/supplements_main.jpg" alt="オリジナルサプリメント">
+        </picture>
       </figure>
 
       <!-- バナー -->
@@ -91,8 +94,8 @@
           </div>
         </div>
 
-      </div>     
-      
+      </div>
+
       <!-- 価格 -->
       <div class="p-singleMenu__area l-inner">
         <h2 class="p-singleMenu__title">価格</h2>
