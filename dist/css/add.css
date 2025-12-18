@@ -14,7 +14,7 @@
     .p-pagePrice{
         padding-bottom: 80px;
     }
-    
+
     .p-pagePrice__wrap{
         padding: 20px;
     }
@@ -148,7 +148,7 @@
         padding: 10px 0;
         font-size: 14px;
     }
-    
+
     #course table thead th:nth-child(1){
         width: 28%;
     }
@@ -166,16 +166,16 @@
     #course table tbody td:nth-child(1) {
         background-color: #FFF4E3;
     }
-    
+
     #course table tbody td {
         background-color: #FFF4E3;
         text-align: right;
     }
-    
+
     #course table tbody td:nth-child(1) {
         text-align: left;
     }
-    
+
     .price-trial{
         color: #FD4477;
     }
@@ -228,7 +228,7 @@
     #price table tbody td:nth-child(1) {
         background-color: #FFF4E3;
     }
-    
+
     #price table tbody td {
         background-color: #FFF4E3;
         text-align: right;
@@ -648,12 +648,12 @@ p-topCaution
         font-size: 12px;
         margin-top: 1em;
     }
-    
+
     .p-topCaution__img4-2{
         max-width: 100%;
         width: 100%;
     }
-    
+
 }
 
 /*===================================
@@ -1025,7 +1025,7 @@ p-topIntro
 }
 
 .media-slick__item {
-    width: 320px;   
+    width: 320px;
     height: auto;
     border-radius: 8px;
     overflow: hidden;
@@ -1086,7 +1086,7 @@ add flow
     font-size: 1.6rem;
     font-weight: 700;
     letter-spacing: 0.05em;
-    color: #AE8954; 
+    color: #AE8954;
 }
 @media screen and (min-width: 769px) {
     .p-flow__h4 {
@@ -1279,7 +1279,7 @@ p-reason__list top
 }
 
 .is-slim table thead {
-    
+
 }
 .is-slim table thead tr {
 
@@ -1757,4 +1757,73 @@ media slider
 
 .slick-list{
     overflow: visible;
+}
+
+/*===================================
+p-singleMenu menu-glp-1 テーブル
+===================================*/
+.p-singleMenu__box table {
+    font-weight: bold;
+    width: 100%;
+}
+
+.p-singleMenu__box table thead {
+    background-color: #ED8500;
+}
+
+.p-singleMenu__box table thead th {
+    color: #fff;
+}
+
+.p-singleMenu__box table thead th ,
+.p-singleMenu__box table tbody td {
+    height: 60px;
+    border: 2px solid #fff;
+    vertical-align: middle;
+    padding: 10px 24px;
+}
+
+.p-singleMenu__box table tbody td {
+    background-color: #FFF4E3;
+}
+
+.p-singleMenu__box table thead th:nth-child(1){
+    width: 30%;
+}
+.p-singleMenu__box table thead th:nth-child(n+2){
+    width: 14%;
+}
+
+.p-singleMenu__box table tbody td {
+    background-color: #FFF4E3;
+    text-align: center;
+}
+
+.p-singleMenu__box table tbody td:nth-child(1) {
+    text-align: left;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .p-singleMenu__box table thead th ,
+    .p-singleMenu__box table tbody td {
+        height: 40px;
+        padding: 8px 12px;
+    }
+
+    .p-singleMenu__box table thead th:nth-child(1) ,
+    .p-singleMenu__box table tbody td:nth-child(1) {
+        position: sticky;
+        z-index: 1;
+        left: 0;
+        background-color: #ED8500;
+    }
+    .p-singleMenu__box table tbody td:nth-child(1) {
+        background-color: #FFF4E3;
+    }
+
+    .p-singleMenu__box table tbody td {
+        background-color: #FFF4E3;
+        text-align: right;
+    }
 }
