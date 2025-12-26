@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <main class="l-main">
-  
+
   <?php
     $page = get_post( get_the_ID() );
     $slug = $page->post_name;
@@ -119,7 +119,7 @@
         <div class="p-singleClinicTime__text"><?php echo get_field("clinic_open")["clinic_open_text"]; ?></div>
       </div>
     </div>
-  
+
   </div>
 
   <!-- アクセス・方法・外観内観 -->
@@ -300,7 +300,7 @@
   </section>
 
   <!-- 当院の症例 -->
-  <?php 
+  <?php
     // 現在表示されている clinic の投稿IDを取得
     $clinic_id = get_queried_object_id();
 
@@ -338,7 +338,7 @@
     <section class="p-singleClinicCase" id="case">
       <div class="p-singleClinicCase__inner l-inner">
           <div class="p-singleClinicCase__head p-clinicHead">
-              <h3 class="p-clinicHead__title"><?php echo esc_html(get_field("clinic_name", $clinic_id)); ?>院の症例</h3>
+              <h3 class="p-clinicHead__title">累計3万件以上！<br><?php echo esc_html(get_field("clinic_name", $clinic_id)); ?>院の症例</h3>
           </div>
           <div class="p-singleClinicCase__body">
               <?php get_template_part('template-parts/all-case'); ?>
@@ -617,7 +617,7 @@
           </div>
         </div>
       </div>
-      
+
     </section>
   <?php // endif; ?>
 
