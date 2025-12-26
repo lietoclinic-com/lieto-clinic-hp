@@ -293,9 +293,9 @@
         <div class="data-map__voice">
           <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/data/data-map.webp" alt="患者様の満足度" decoding="async" loading="lazy">
         </div>
-        <a href="<?php echo home_url('/clinic/yokohama/'); ?>" class="data-btn">横浜院の口コミを見る</a>
-        <a href="<?php echo home_url('/clinic/nagoya/'); ?>" class="data-btn">池袋院の口コミを見る</a>
-        <a href="<?php echo home_url('/clinic/ikebukuro/'); ?>" class="data-btn">名古屋院の口コミを見る</a>
+        <a href="https://search.google.com/local/reviews?placeid=ChIJh92wkppdGGARPBq8-Fq5ys0" class="data-btn">横浜院の口コミを見る</a>
+        <a href="https://search.google.com/local/reviews?placeid=ChIJo4UYUpiNGGARa28t_Zh0TtU" class="data-btn">池袋院の口コミを見る</a>
+        <a href="https://search.google.com/local/reviews?placeid=ChIJ7TVTGq13A2ARfSvaRqMpsR4" class="data-btn">名古屋院の口コミを見る</a>
         
       </div>
 

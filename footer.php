@@ -43,6 +43,7 @@
                 <li class="l-footer__item"><a href="/monitor/">モニター募集</a></li>
                 <li class="l-footer__item"><a href="/case/">当院の症例</a></li>
                 <li class="l-footer__item"><a href="/voice/">患者様の声</a></li>
+                <li class="l-footer__item"><a href="/data/">データで見るリエートクリニック</a></li>
               </ul>
             </div>
 
