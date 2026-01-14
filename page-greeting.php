@@ -44,8 +44,8 @@
             </p>
 
             <h2 class="p-pageMessageGreeting__post">
-              <div class="p-pageMessageGreeting__clinic">リエートクリニック名古屋院</div>
-              <div class="p-pageMessageGreeting__name"><span>院長</span>松永 宏之</div>
+              <div class="p-pageMessageGreeting__clinic">リエートクリニック</div>
+              <div class="p-pageMessageGreeting__name"><span>統括院長</span>松永 宏之</div>
             </h2>
 
           </div>

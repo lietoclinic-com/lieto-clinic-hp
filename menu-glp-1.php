@@ -15,9 +15,24 @@
     </div>
 
     <div class="p-singleMenu__body">
-      <figure class="p-singleMenu__mainimg">
-        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/glp-1_main.png" alt="GLP-1痩身療法">
+      <figure class="p-clatuuFigure">
+        <picture>
+          <source media="(max-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/glp-1_main_sp.jpg">
+          <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/glp-1_main.jpg" alt="GLP-1痩身療法">
+        </picture>
       </figure>
+
+      <!-- バナー -->
+      <div class="p-pageMonitor__banner" style="margin-bottom: 40px;">
+        <div class="p-pageMonitor__bannerInner l-inner">
+          <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p" target="_blank">
+            <picture>
+              <source media="(max-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/monitor/monitor_bannar_sp.jpg">
+              <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/monitor/monitor_bannar.jpg" alt="バナー">
+            </picture>
+          </a>
+        </div>
+      </div>
 
       <!-- とは -->
       <div class="p-singleMenu__area l-inner">
@@ -123,7 +138,7 @@
           <dl class="p-singleMenu__detail">
             <div class="p-singleMenu__detailRow">
               <dt>商品名</dt>
-              <dd>サクセンダ</dd>
+              <dd>サクセンダ、リベルサス、オゼンピク、マンジャロ</dd>
             </div>
             <div class="p-singleMenu__detailRow">
               <dt>商品の説明</dt>
@@ -145,6 +160,74 @@
           <br>※諸外国にて重大なリスクとしてアレルギー反応(アナフィラキシー)や膵炎が報告されています。
           <br>※サクセンダは日本の医薬品副作用の被害救済制度の対象ではありません。
         </p>
+      </div>
+
+      <div class="p-singleMenu__area l-inner">
+        <h2 class="p-singleMenu__title">費用</h2>
+        <div class="p-singleMenu__box">
+          <table>
+            <thead>
+              <tr>
+                <th>施術内容/回数</th>
+                <th>1回</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>サクセンダ(1本)</td>
+                <td>¥33,000</td>
+              </tr>
+              <tr>
+                <td>リベルサス 3mg(30日分)</td>
+                <td>¥16,500</td>
+              </tr>
+              <tr>
+                <td>リベルサス 7mg(30日分)</td>
+                <td>¥38,500</td>
+              </tr>
+              <tr>
+                <td>リベルサス 14mg(30日分)</td>
+                <td>¥57,500</td>
+              </tr>
+              <tr>
+                <td>オゼンピック 2.0mg(1本)</td>
+                <td>¥58,000</td>
+              </tr>
+              <tr>
+                <td>マンジャロ2.5mg(2週間分)</td>
+                <td>¥33,000</td>
+              </tr>
+              <tr>
+                <td>マンジャロ2.5mg(4週間分)</td>
+                <td>¥63,000</td>
+              </tr>
+              <tr>
+                <td>マンジャロ5mg(2週間分)</td>
+                <td>¥58,000</td>
+              </tr>
+              <tr>
+                <td>マンジャロ5mg(4週間分)</td>
+                <td>¥100,000</td>
+              </tr>
+              <tr>
+                <td>マンジャロ7.5mg(2週間分)</td>
+                <td>¥100,000</td>
+              </tr>
+              <tr>
+                <td>マンジャロ7.5mg(4週間分)</td>
+                <td>¥180,000</td>
+              </tr>
+              <tr>
+                <td>マンジャロ10mg(2週間分)</td>
+                <td>¥120,000</td>
+              </tr>
+              <tr>
+                <td>マンジャロ10mg(4週間分)</td>
+                <td>¥220,000</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
 
       <!-- 詳細情報とリスク・副作用 -->

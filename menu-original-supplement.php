@@ -15,9 +15,24 @@
     </div>
 
     <div class="p-singleMenu__body">
-      <figure class="p-singleMenu__mainimg">
-        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/supplements_main.png" alt="サプリメント">
+      <figure class="p-clatuuFigure">
+        <picture>
+          <source media="(max-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/supplements_main_sp.jpg">
+          <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/menu/supplements_main.jpg" alt="オリジナルサプリメント">
+        </picture>
       </figure>
+
+      <!-- バナー -->
+      <div class="p-pageMonitor__banner" style="margin-bottom: 40px;">
+        <div class="p-pageMonitor__bannerInner l-inner">
+          <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p" target="_blank">
+            <picture>
+              <source media="(max-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/monitor/monitor_bannar_sp.jpg">
+              <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/monitor/monitor_bannar.jpg" alt="バナー">
+            </picture>
+          </a>
+        </div>
+      </div>
 
       <!-- とは -->
       <div class="p-singleMenu__area l-inner">
@@ -79,6 +94,19 @@
           </div>
         </div>
 
+      </div>
+
+      <!-- 価格 -->
+      <div class="p-singleMenu__area l-inner">
+        <h2 class="p-singleMenu__title">価格</h2>
+        <div class="p-singleMenu__box">
+          <dl class="p-singleMenu__detail">
+            <div class="p-singleMenu__detailRow">
+              <dt>1箱</dt>
+              <dd>16,000円（税込）</dd>
+            </div>
+          </dl>
+        </div>
       </div>
 
       <!-- オリジナルサプリメントのよくある質問 -->

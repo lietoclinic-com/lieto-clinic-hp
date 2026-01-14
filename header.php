@@ -320,6 +320,7 @@
                   <li class="l-header__subItem"><a href="/menu/hifu/">医療HIFU<span>ULTRAcel [zíː] -ウルトラセル ジィー-</span></a></li>
                   <li class="l-header__subItem"><a href="/menu/exosome/">細胞レベルで美しく<span>エクソソーム点滴</span></a></li>
                   <li class="l-header__subItem"><a href="/menu/fat-dissolving-injection/">脂肪溶解注射</a></li>
+                  <li class="l-header__subItem"><a href="/menu/physioradiostim-pro/">Physio Radiostim Pro</a></li>
                   <li class="l-header__subItem"><a href="/menu/glp-1/">GLP-1</a></li>
                   <li class="l-header__subItem"><a href="/menu/beauty-drip/">ダイエット美容点滴</a></li>
                   <li class="l-header__subItem"><a href="/menu/original-supplement/">オリジナルサプリメント</a></li>

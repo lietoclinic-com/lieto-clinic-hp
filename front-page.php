@@ -36,7 +36,7 @@
     </div>
 
     <div class="p-topFv__body">
-      
+
     </div>
 
     <div class="p-topFv__scroll">
@@ -155,6 +155,16 @@
     </div>
   </div>
 
+  <div class="p-pageMonitor__banner" style="margin-top: 40px; margin-bottom: 40px;">
+    <div class="p-pageMonitor__bannerInner l-inner" style=" max-width: 117rem;">
+      <a href="<?php echo home_url('/data/'); ?>" target="_blank">
+        <picture>
+          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/data-banner.jpg" alt="バナー">
+        </picture>
+      </a>
+    </div>
+  </div>
+
   <?php get_template_part('template-parts/part-lp-con'); ?>
 
 
@@ -169,7 +179,7 @@
         </div>
 
         <?php get_template_part('template-parts/front-case'); ?>
-        
+
       </div>
     </div>
   </section>
@@ -505,10 +515,10 @@
     <div class="p-message__inner l-inner">
       <div class="p-message__body">
         <figure class="p-message__figure">
-          <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/doctor.png" alt="リエートクリニック名古屋院 院長 松永 宏之">
+          <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/doctor.png" alt="リエートクリニック 統括院長 松永 宏之">
           <div class="p-message__post">
-            <div class="p-message__clinic">リエートクリニック名古屋院</div>
-            <div class="p-message__name"><span>院長</span>松永 宏之</div>
+            <div class="p-message__clinic">リエートクリニック</div>
+            <div class="p-message__name"><span>統括院長</span>松永 宏之</div>
           </div>
         </figure>
         <div class="p-message__desc">
