@@ -52,13 +52,14 @@
                       <div class="p-case__body">
                           <div class="p-case__box" style="border: none;">
 
-                              <?php if($case_mv['pc']['url']): ?>
+                              <?php if (!empty($case_mv['pc']['url'])): ?>
                                 <img src="<?php echo esc_url($case_mv['pc']['url']); ?>" alt="mv" class="sp-hide">
                               <?php endif; ?>
-                              <?php if($case_mv['sp']['url']): ?>
+
+                              <?php if (!empty($case_mv['sp']['url'])): ?>
                                 <img src="<?php echo esc_url($case_mv['sp']['url']); ?>" alt="mv" class="sp-block">
                               <?php endif; ?>
-                              
+
                               <!-- PC表示 -->
                               <?php if ($case_pc) : ?>
                                 <div class="sp-hide">
@@ -101,9 +102,11 @@
                                           <dd><?php echo nl2br(esc_html($risks)); ?></dd>
                                       </dl>
                                   </div>
-                              <div class="p-case__btn">
-                                <a href="<?php the_permalink(); ?>" class="c-btn">詳しくみる</a>
-                              </div>
+                                  <?php if (trim(get_the_content()) !== '') : ?>
+                                    <div class="p-case__btn">
+                                      <a href="<?php the_permalink(); ?>" class="c-btn">詳しくみる</a>
+                                    </div>
+                                  <?php endif; ?>
                               </div>
                           </div>
                       </div>

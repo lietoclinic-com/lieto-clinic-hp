@@ -45,6 +45,27 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <?php
+  // カスタム投稿タイプのスラッグ
+  $target_post_type = 'case'; // ← 実際のスラッグに合わせて変更
+
+  if (
+    is_singular($target_post_type) &&
+    in_the_loop() === false
+  ) {
+    global $post;
+
+    if ($post instanceof WP_Post) {
+      $content = trim(strip_tags(do_shortcode($post->post_content)));
+
+      if ($content === '') {
+        echo '<meta name="robots" content="noindex, follow">' . PHP_EOL;
+      }
+    }
+  }
+  ?>
+
+
   <!-- OGP -->
   <?php $current_url =  get_pagenum_link(get_query_var('page')); ?>
 
