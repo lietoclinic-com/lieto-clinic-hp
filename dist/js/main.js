@@ -430,3 +430,114 @@ $(function () {
       centerPadding: "0px" // ← 両サイドの余白を調整（例: "50px" も可）
     });
 });
+
+jQuery(function ($) {
+
+  // ==========================
+  // PC：タブ挙動
+  // ==========================
+  $('.js-tab-slider').each(function () {
+    var $block   = $(this);
+    var $tabs    = $block.find('.js-tab-slider-tab');
+    var $panels  = $block.find('.js-tab-slider-panel');
+
+    $tabs.on('click', function (e) {
+      e.preventDefault();
+      var index = $(this).data('index');
+
+      $tabs.removeClass('is-active');
+      $(this).addClass('is-active');
+
+      $panels.removeClass('is-active');
+      $panels.filter('[data-index="' + index + '"]').addClass('is-active');
+    });
+  });
+
+  // ==========================
+  // SP：slick スライダー
+  // 768px 未満でのみ有効
+  // ==========================
+  function initTabSliderSlick() {
+    $('.js-tab-slider-slider').each(function () {
+      var $slider = $(this);
+
+      // slick 済なら何もしない
+      if ($slider.hasClass('slick-initialized')) {
+        return;
+      }
+
+      $slider.slick({
+        mobileFirst: true,
+        slidesToShow: 1,
+        dots: true,
+        arrows: false,
+        infinite: false,
+        adaptiveHeight: true,
+        // 768px 以上になったら unslick（=PCではタダの並び）
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: 'unslick'
+          }
+        ]
+      });
+    });
+  }
+
+  // 初期化
+  initTabSliderSlick();
+
+  // 画面幅変更時に「SP → PC」など切り替わる場合に備えて
+  $(window).on('resize orientationchange', function () {
+    initTabSliderSlick();
+  });
+
+});
+jQuery(function ($) {
+
+  // ==========================
+  // PC：タブ切り替え
+  // ==========================
+  $('.js-tab-slider').each(function () {
+    var $block  = $(this);
+    var $tabs   = $block.find('.js-tab-slider-tab');
+    var $panels = $block.find('.js-tab-slider-panel');
+
+    $tabs.on('click', function (e) {
+      e.preventDefault();
+
+      var index = $(this).data('index');
+
+      $tabs.removeClass('is-active');
+      $(this).addClass('is-active');
+
+      $panels.removeClass('is-active');
+      $panels.filter('[data-index="' + index + '"]').addClass('is-active');
+    });
+  });
+
+
+  // ==========================
+  // SP 用スライダー
+  // （PC でも初期化されるけど CSS で非表示なので問題なし）
+  // ==========================
+  $('.js-tab-slider-slider').each(function () {
+    var $slider = $(this);
+
+    // 既に slick 済みならスキップ
+    if ($slider.hasClass('slick-initialized')) {
+      return;
+    }
+
+    $slider.slick({
+      slidesToShow: 1,
+      dots: true,
+      arrows: true,
+      prevArrow: '<button sizes=auto class="slick-slide-arrow _archive slick-prev-arrow">',
+      nextArrow: '<button sizes=auto class="slick-slide-arrow _archive slick-next-arrow">',
+      infinite: true,
+      adaptiveHeight: true
+    });
+  });
+
+});

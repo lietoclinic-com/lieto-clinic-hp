@@ -6694,11 +6694,13 @@ button {
   letter-spacing: 0.02em;
   font-size: 1.2rem;
   color: #99A9B0;
+    flex-wrap: wrap;
 }
 @media screen and (min-width: 769px) {
   .p-singleNews__dates {
     gap: 0 4rem;
     font-size: 1.5rem;
+    flex-wrap: wrap;
   }
 }
 

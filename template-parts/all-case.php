@@ -101,6 +101,9 @@
                                           <dd><?php echo nl2br(esc_html($risks)); ?></dd>
                                       </dl>
                                   </div>
+                              <div class="p-case__btn">
+                                <a href="<?php the_permalink(); ?>" class="c-btn">詳しくみる</a>
+                              </div>
                               </div>
                           </div>
                       </div>
