@@ -24,11 +24,22 @@ foreach ($includes as $include) {
 // コラム最初の見出し前にバナー表示
 //----------------------------------------------------
 function insert_banner_before_first_h2( $content ) {
+
+    // 管理画面（編集画面）や RSS などでは挿入しない
+    if ( is_admin() ) {
+        return $content;
+    }
+
+    // 投稿タイプが「post」のシングルページ以外は何もしない
+    if ( ! is_singular( 'post' ) ) {
+        return $content;
+    }
+
     // 挿入したいバナーHTML
     $banner = '
     <!-- banner -->
     <div class="banner-container" style="margin-top: 40px;">
-      <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p" target="_blank">
+      <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p" target="_blank" rel="noopener">
         <img src="' . esc_url( get_template_directory_uri() ) . '/dist/img/common/monitor_in-header.webp" alt="モニター募集" decoding="async" loading="lazy">
       </a>
     </div>

@@ -69,6 +69,12 @@
           <span class="current-item" itemprop="name">お知らせ</span>
           <meta itemprop="position" content="2" />
         </li>
+      <?php elseif(is_post_type_archive('case')): ?>
+        <!-- ③症例アーカイブページ -->
+        <li class="c-breadcrumb__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <span class="current-item" itemprop="name">当院の症例</span>
+          <meta itemprop="position" content="2" />
+        </li>
       <?php elseif(is_post_type_archive('recruit')): ?>
         <!-- ③投稿アーカイブページ -->
         <li class="c-breadcrumb__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
@@ -182,6 +188,30 @@
         
         <li class="c-breadcrumb__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
           <span class="current-item" itemprop="name"><?php single_post_title(); ?></span>
+          <meta itemprop="position" content="3" />
+        </li>
+      <?php elseif(is_singular('case')): ?>
+        <!-- ⑥症例詳細ページ -->
+        <li class="c-breadcrumb__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/case/" itemprop="item">
+            <span itemprop="name">当院の症例</span>
+          </a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span>/</span>
+
+        <li class="c-breadcrumb__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <span class="current-item" itemprop="name">
+            <?php
+              // タイトル長い場合は他の部分に合わせて60文字で省略
+              if(mb_strlen($post->post_title) > 60) {
+                $title = mb_substr($post->post_title, 0, 60);
+                echo $title . '...';
+              } else {
+                echo $post->post_title;
+              }
+            ?>
+          </span>
           <meta itemprop="position" content="3" />
         </li>
 
