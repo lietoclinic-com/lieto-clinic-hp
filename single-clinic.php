@@ -338,7 +338,7 @@
     <section class="p-singleClinicCase" id="case">
       <div class="p-singleClinicCase__inner l-inner">
           <div class="p-singleClinicCase__head p-clinicHead">
-              <h3 class="p-clinicHead__title">累計3万件以上！<br><?php echo esc_html(get_field("clinic_name", $clinic_id)); ?>院の症例</h3>
+              <h3 class="p-clinicHead__title"><span><span style="transform: translateX(6px); display: inline-block;">累計3万件以上！</span><br><?php echo esc_html(get_field("clinic_name", $clinic_id)); ?>院の症例</span></h3>
           </div>
           <div class="p-singleClinicCase__body">
               <?php get_template_part('template-parts/all-case'); ?>
