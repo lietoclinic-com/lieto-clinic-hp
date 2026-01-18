@@ -141,6 +141,11 @@
     color: #FD4477;
 }
 
+#course table td a {
+    color: #000;
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 1024px) {
     #course h3 ,
     #price h3 {

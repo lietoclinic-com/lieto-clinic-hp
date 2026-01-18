@@ -25,7 +25,7 @@
 
       <section id="course">
         <h2 class="p-pageClinicContent__title">コースのご案内</h2>
-        
+
         <h3>トライアルボディメイクコース</h3>
         <div class="price__scroll-wrap js-scrollable">
         <table>
@@ -39,17 +39,17 @@
           </thead>
           <tbody>
           <tr>
-            <td>CLATUUα　1部位</td>
+            <td><a href="/menu/clatuu-a/">CLATUUα</a>　1部位</td>
             <td>1回</td>
             <td rowspan="3"><span class="price-normal">¥95,500</span></td>
             <td rowspan="3"><span class="price-trial">¥27,500</span></td>
           </tr>
           <tr>
-            <td>ULTRAcel [zíː]</td>
+            <td><a href="/menu/hifu/">ULTRAcel [zíː]</a></td>
             <td>1回</td>
           </tr>
           <tr>
-            <td>脂肪溶解注射</td>
+            <td><a href="/menu/fat-dissolving-injection/">脂肪溶解注射</a></td>
             <td>1回</td>
           </tr>
           </tbody>
@@ -68,7 +68,7 @@
           </thead>
           <tbody>
           <tr>
-            <td>CLATUUα　2部位</td>
+            <td><a href="/menu/clatuu-a/">CLATUUα</a>　2部位</td>
             <td>3回</td>
             <td rowspan="3"><span class="price-normal">¥513,000</span></td>
             <td rowspan="3"><span class="price-trial">¥490,000</span></td>
@@ -97,13 +97,13 @@
           </thead>
           <tbody>
           <tr>
-            <td>CLATUUα　2部位</td>
+            <td><a href="/menu/clatuu-a/">CLATUUα</a>　2部位</td>
             <td>2回</td>
             <td rowspan="2"><span class="price-normal">¥560,000</span></td>
             <td rowspan="2"><span class="price-trial">¥400,000</span></td>
           </tr>
           <tr>
-            <td>StimSure　2部位</td>
+            <td><a href="/menu/stimsure/">StimSure</a>　2部位</td>
             <td>4回</td>
           </tr>
           </tbody>
@@ -128,35 +128,35 @@
             <td rowspan="9"><span class="price-trial">¥460,000</span></td>
           </tr>
           <tr>
-            <td>CLATUUα　2部位</td>
+            <td><a href="/menu/clatuu-a/">CLATUUα</a>　2部位</td>
             <td>1回</td>
           </tr>
           <tr>
-            <td>StimSure　2部位</td>
+            <td><a href="/menu/stimsure/">StimSure</a>　2部位</td>
             <td>2回</td>
           </tr>
           <tr>
-            <td>ULTRAcel [zíː]</td>
+            <td><a href="/menu/hifu/">ULTRAcel [zíː]</a></td>
             <td>1回</td>
           </tr>
           <tr>
-            <td>ダイエット点滴</td>
+            <td><a href="/menu/beauty-drip/">ダイエット点滴</a></td>
             <td>2回</td>
           </tr>
           <tr>
-            <td>エクソソーム点滴</td>
+            <td><a href="/menu/exosome/">エクソソーム点滴</a></td>
             <td>1回</td>
           </tr>
           <tr>
-            <td>脂肪溶解注射</td>
+            <td><a href="/menu/fat-dissolving-injection/">脂肪溶解注射</a></td>
             <td>1回</td>
           </tr>
           <tr>
-            <td>Liend-リエートオリジナルダイエットプロテイン</td>
+            <td><a href="/menu/original-protein/">Liend-リエートオリジナルダイエットプロテイン</a></td>
             <td>2袋</td>
           </tr>
           <tr>
-            <td>Laloc-リエートオリジナルダイエットサプリ</td>
+            <td><a href="/menu/original-supplement/">Laloc-リエートオリジナルダイエットサプリ</a></td>
             <td>1箱</td>
           </tr>
           </tbody>
@@ -185,15 +185,15 @@
             <td>10回</td>
           </tr>
           <tr>
-            <td>StimSure　2部位</td>
+            <td><a href="/menu/stimsure/">StimSure</a>　2部位</td>
             <td>8回</td>
           </tr>
           <tr>
-            <td>ULTRAcel [zíː]</td>
+            <td><a href="/menu/hifu/">ULTRAcel [zíː]</a></td>
             <td>1回</td>
           </tr>
           <tr>
-            <td>脂肪溶解注射</td>
+            <td><a href="/menu/fat-dissolving-injection/">脂肪溶解注射</a></td>
             <td>3回</td>
           </tr>
           <tr>
@@ -201,7 +201,7 @@
             <td>3回</td>
           </tr>
           <tr>
-            <td>エクソソーム点滴</td>
+            <td><a href="/menu/exosome/">エクソソーム点滴</a></td>
             <td>3回</td>
           </tr>
           <tr>
@@ -209,11 +209,11 @@
             <td>10回</td>
           </tr>
           <tr>
-            <td>Liend-リエートオリジナルダイエットプロテイン</td>
+            <td><a href="/menu/original-protein/">Liend-リエートオリジナルダイエットプロテイン</a></td>
             <td>6袋</td>
           </tr>
           <tr>
-            <td>Laloc-リエートオリジナルダイエットサプリ</td>
+            <td><a href="/menu/original-supplement/">Laloc-リエートオリジナルダイエットサプリ</a></td>
             <td>3箱</td>
           </tr>
           </tbody>
@@ -242,15 +242,15 @@
             <td>6回</td>
           </tr>
           <tr>
-            <td>CLATUUα　2部位</td>
+            <td><a href="/menu/clatuu-a/">CLATUUα</a>　2部位</td>
             <td>2回</td>
           </tr>
           <tr>
-            <td>StimSure　2部位</td>
+            <td><a href="/menu/stimsure/">StimSure</a>　2部位</td>
             <td>6回</td>
           </tr>
           <tr>
-            <td>脂肪溶解注射</td>
+            <td><a href="/menu/fat-dissolving-injection/">脂肪溶解注射</a></td>
             <td>1回</td>
           </tr>
           <tr>
@@ -258,11 +258,11 @@
             <td>6回</td>
           </tr>
           <tr>
-            <td>ダイエット薬セット</td>
+            <td><a href="/menu/diet-supplement/">ダイエット薬セット</a></td>
             <td>2ヶ月分</td>
           </tr>
           <tr>
-            <td>Liend-リエートオリジナルダイエットプロテイン</td>
+            <td><a href="/menu/original-protein/">Liend-リエートオリジナルダイエットプロテイン</a></td>
             <td>4袋</td>
           </tr>
           </tbody>
@@ -291,15 +291,15 @@
             <td>10回</td>
           </tr>
           <tr>
-            <td>CLATUUα　2部位</td>
+            <td><a href="/menu/clatuu-a/">CLATUUα</a>　2部位</td>
             <td>3回</td>
           </tr>
           <tr>
-            <td>StimSure　2部位</td>
+            <td><a href="/menu/stimsure/">StimSure</a>　2部位</td>
             <td>9回</td>
           </tr>
           <tr>
-            <td>脂肪溶解注射</td>
+            <td><a href="/menu/fat-dissolving-injection/">脂肪溶解注射</a></td>
             <td>2回</td>
           </tr>
           <tr>
@@ -307,11 +307,11 @@
             <td>10回</td>
           </tr>
           <tr>
-            <td>ダイエット薬セット（1ヶ月分）</td>
+            <td><a href="/menu/diet-supplement/">ダイエット薬セット</a>（1ヶ月分）</td>
             <td>3ヶ月分</td>
           </tr>
           <tr>
-            <td>Liend-リエートオリジナルダイエットプロテイン</td>
+            <td><a href="/menu/original-protein/">Liend-リエートオリジナルダイエットプロテイン</a></td>
             <td>6袋</td>
           </tr>
           </tbody>
@@ -340,35 +340,35 @@
             <td>6回</td>
           </tr>
           <tr>
-            <td>CLATUUα　2部位</td>
+            <td><a href="/menu/clatuu-a/">CLATUUα</a>　2部位</td>
             <td>2回</td>
           </tr>
           <tr>
-            <td>StimSure　2部位</td>
+            <td><a href="/menu/stimsure/">StimSure</a>　2部位</td>
             <td>4回</td>
           </tr>
           <tr>
-            <td>RADIO STIM PRO</td>
+            <td><a href="/menu/physioradiostim-pro/">RADIO STIM PRO</a></td>
             <td>2回</td>
           </tr>
           <tr>
-            <td>脂肪溶解注射</td>
+            <td><a href="/menu/fat-dissolving-injection/">脂肪溶解注射</a></td>
             <td>2回</td>
           </tr>
           <tr>
-            <td>ダイエット点滴</td>
+            <td><a href="/menu/beauty-drip/">ダイエット点滴</a></td>
             <td>4回</td>
           </tr>
           <tr>
-            <td>ダイエット薬セット（1ヶ月分）</td>
+            <td><a href="/menu/diet-supplement/">ダイエット薬セット</a>（1ヶ月分）</td>
             <td>2ヶ月分</td>
           </tr>
           <tr>
-            <td>Liend-リエートオリジナルダイエットプロテイン</td>
+            <td><a href="/menu/original-protein/">Liend-リエートオリジナルダイエットプロテイン</a></td>
             <td>4袋</td>
           </tr>
           <tr>
-            <td>Laloc-リエートオリジナルダイエットサプリ</td>
+            <td><a href="/menu/original-supplement/">Laloc-リエートオリジナルダイエットサプリ</a></td>
             <td>2箱</td>
           </tr>
           <tr>
@@ -400,35 +400,35 @@
             <td>10回</td>
           </tr>
           <tr>
-            <td>CLATUUα　2部位</td>
+            <td><a href="/menu/clatuu-a/">CLATUUα</a>　2部位</td>
             <td>3回</td>
           </tr>
           <tr>
-            <td>StimSure　2部位</td>
+            <td><a href="/menu/stimsure/">StimSure</a>　2部位</td>
             <td>6回</td>
           </tr>
           <tr>
-            <td>RADIO STIM PRO</td>
+            <td><a href="/menu/physioradiostim-pro/">RADIO STIM PRO</a></td>
             <td>3回</td>
           </tr>
           <tr>
-            <td>脂肪溶解注射</td>
+            <td><a href="/menu/fat-dissolving-injection/">脂肪溶解注射</a></td>
             <td>3回</td>
           </tr>
           <tr>
-            <td>ダイエット点滴</td>
+            <td><a href="/menu/beauty-drip/">ダイエット点滴</a></td>
             <td>6回</td>
           </tr>
           <tr>
-            <td>ダイエット薬セット（1ヶ月分）</td>
+            <td><a href="/menu/diet-supplement/">ダイエット薬セット</a>（1ヶ月分）</td>
             <td>3ヶ月分</td>
           </tr>
           <tr>
-            <td>Liend-リエートオリジナルダイエットプロテイン</td>
+            <td><a href="/menu/original-protein/">Liend-リエートオリジナルダイエットプロテイン</a></td>
             <td>6袋</td>
           </tr>
           <tr>
-            <td>Laloc-リエートオリジナルダイエットサプリ</td>
+            <td><a href="/menu/original-supplement/">Laloc-リエートオリジナルダイエットサプリ</a></td>
             <td>3箱</td>
           </tr>
           <tr>
@@ -461,27 +461,27 @@
             <td>6回</td>
           </tr>
           <tr>
-            <td>CLATUUα　2部位</td>
+            <td><a href="/menu/clatuu-a/">CLATUUα</a>　2部位</td>
             <td>2回</td>
           </tr>
           <tr>
-            <td>StimSure　2部位</td>
+            <td><a href="/menu/stimsure/">StimSure</a>　2部位</td>
             <td>4回</td>
           </tr>
           <tr>
-            <td>ULTRAcel [zíː]</td>
+            <td><a href="/menu/hifu/">ULTRAcel [zíː]</a></td>
             <td>2回</td>
           </tr>
           <tr>
-            <td>RADIO STIM PRO</td>
+            <td><a href="/menu/physioradiostim-pro/">RADIO STIM PRO</a></td>
             <td>1回</td>
           </tr>
           <tr>
-            <td>脂肪溶解注射</td>
+            <td><a href="/menu/fat-dissolving-injection/">脂肪溶解注射</a></td>
             <td>2回</td>
           </tr>
           <tr>
-            <td>エクソソーム点滴</td>
+            <td><a href="/menu/exosome/">エクソソーム点滴</a></td>
             <td>2回</td>
           </tr>
           <tr>
@@ -489,15 +489,15 @@
             <td>4回</td>
           </tr>
           <tr>
-            <td>ダイエット薬セット（1ヶ月分）</td>
+            <td><a href="/menu/diet-supplement/">ダイエット薬セット</a>（1ヶ月分）</td>
             <td>2ヶ月分</td>
           </tr>
           <tr>
-            <td>Liend-リエートオリジナルダイエットプロテイン</td>
+            <td><a href="/menu/original-protein/">Liend-リエートオリジナルダイエットプロテイン</a></td>
             <td>4袋</td>
           </tr>
           <tr>
-            <td>Laloc-リエートオリジナルダイエットサプリ</td>
+            <td><a href="/menu/original-supplement/">Laloc-リエートオリジナルダイエットサプリ</a></td>
             <td>2箱</td>
           </tr>
           <tr>
@@ -530,27 +530,27 @@
             <td>10回</td>
           </tr>
           <tr>
-            <td>CLATUUα　2部位</td>
+            <td><a href="/menu/clatuu-a/">CLATUUα</a>　2部位</td>
             <td>3回</td>
           </tr>
           <tr>
-            <td>StimSure　2部位</td>
+            <td><a href="/menu/stimsure/">StimSure</a>　2部位</td>
             <td>6回</td>
           </tr>
           <tr>
-            <td>ULTRAcel [zíː]</td>
+            <td><a href="/menu/hifu/">ULTRAcel [zíː]</a></td>
             <td>3回</td>
           </tr>
           <tr>
-            <td>RADIO STIM PRO</td>
+            <td><a href="/menu/physioradiostim-pro/">RADIO STIM PRO</a></td>
             <td>1回</td>
           </tr>
           <tr>
-            <td>脂肪溶解注射</td>
+            <td><a href="/menu/fat-dissolving-injection/">脂肪溶解注射</a></td>
             <td>3回</td>
           </tr>
           <tr>
-            <td>エクソソーム点滴</td>
+            <td><a href="/menu/exosome/">エクソソーム点滴</a></td>
             <td>3回</td>
           </tr>
           <tr>
@@ -558,15 +558,15 @@
             <td>6回</td>
           </tr>
           <tr>
-            <td>ダイエット薬セット（1ヶ月分）</td>
+            <td><a href="/menu/diet-supplement/">ダイエット薬セット</a>（1ヶ月分）</td>
             <td>3ヶ月分</td>
           </tr>
           <tr>
-            <td>Liend-リエートオリジナルダイエットプロテイン</td>
+            <td><a href="/menu/original-protein/">Liend-リエートオリジナルダイエットプロテイン</a></td>
             <td>6袋</td>
           </tr>
           <tr>
-            <td>Laloc-リエートオリジナルダイエットサプリ</td>
+            <td><a href="/menu/original-supplement/">Laloc-リエートオリジナルダイエットサプリ</a></td>
             <td>3箱</td>
           </tr>
           <tr>
@@ -878,7 +878,7 @@
           </tbody>
         </table>
         </div>
-        
+
         <h3>遺伝子検査</h3>
         <table>
           <thead>
@@ -914,7 +914,7 @@
       </section>
 
       <p class="p-singleMenu__text">※コース以外についてはコース終了後に継続いただいた方のみのご案内となっております。</p>
-    
+
     </div>
 
   </section>
