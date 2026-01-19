@@ -34,7 +34,8 @@
 共通
 ===================================*/
 #course ,
-#price {
+#price,
+#faq {
     padding-top: 120px;
     font-size: 20px;
     line-height: 2;
@@ -43,7 +44,8 @@
     font-size: 16px;
 }
 #course .p-pageClinicContent__title ,
-#price .p-pageClinicContent__title {
+#price .p-pageClinicContent__title,
+#faq .p-pageClinicContent__title {
     margin-bottom: 64px;
 }
 

@@ -19,6 +19,7 @@
         <ul class="p-pageCliniclink__btns">
             <li class="p-pageClinicLink__btn"><a href="#course">コースのご案内<div class="p-pageClinicLink__btnMark"></div></a></li>
             <li class="p-pageClinicLink__btn"><a href="#price">施術料金<div class="p-pageClinicLink__btnMark"></div></a></li>
+            <li class="p-pageClinicLink__btn"><a href="#faq">料金に関するよくある質問<div class="p-pageClinicLink__btnMark"></div></a></li>
         </ul>
 
       </div>
@@ -197,7 +198,7 @@
             <td>3回</td>
           </tr>
           <tr>
-            <td>ダイエット美容点滴</td>
+            <td><a href="https://lietoclinic.com/menu/beauty-drip/">ダイエット美容点滴</a></td>
             <td>3回</td>
           </tr>
           <tr>
@@ -485,7 +486,7 @@
             <td>2回</td>
           </tr>
           <tr>
-            <td>ダイエット美容点滴</td>
+            <td><a href="https://lietoclinic.com/menu/beauty-drip/">ダイエット美容点滴</a></td>
             <td>4回</td>
           </tr>
           <tr>
@@ -554,7 +555,7 @@
             <td>3回</td>
           </tr>
           <tr>
-            <td>ダイエット美容点滴</td>
+            <td><a href="https://lietoclinic.com/menu/beauty-drip/">ダイエット美容点滴</a></td>
             <td>6回</td>
           </tr>
           <tr>
@@ -914,6 +915,79 @@
       </section>
 
       <p class="p-singleMenu__text">※コース以外についてはコース終了後に継続いただいた方のみのご案内となっております。</p>
+
+      <section id="faq">
+        <h2 class="p-pageClinicContent__title">料金に関するよくある質問</h2>
+
+        <div class="p-faq" itemscope itemtype="https://schema.org/FAQPage">
+
+          <div class="p-faq__box js-faqAccordion" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+            <div class="p-faq__question">
+              <div class="p-faq__questionDesc">
+                <div class="p-faq__questionMark">Q</div>
+                <span class="p-faq__questionText" itemprop="name">
+                  支払い方法は何がありますか？
+                </span>
+              </div>
+              <span class="p-faq__questionOpen"></span>
+            </div>
+            <div class="p-faq__answer" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+              <div class="p-faq__answerDesc">
+                <div class="p-faq__answerMark">A</div>
+                <span class="p-faq__answerText" itemprop="text">
+                  お支払い方法は現金・クレジットカード（VISA・MASTER・JCB・AMERICAN EXPRESS・Diners Club・DISCOVER）・電子決済（QR、交通系）・メディカルローンの中からお選び頂けます。
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-faq__box js-faqAccordion" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+            <div class="p-faq__question">
+              <div class="p-faq__questionDesc">
+                <div class="p-faq__questionMark">Q</div>
+                <span class="p-faq__questionText" itemprop="name">
+                  分割でのお支払いは可能ですか？
+                </span>
+              </div>
+              <span class="p-faq__questionOpen"></span>
+            </div>
+            <div class="p-faq__answer" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+              <div class="p-faq__answerDesc">
+                <div class="p-faq__answerMark">A</div>
+                <span class="p-faq__answerText" itemprop="text">
+                  医療ローン、クレジットカードでの分割でのお支払いも可能です。
+                  <br>※ 医療ローン84回、クレジットカードmax36回（平均24回）
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-faq__box js-faqAccordion" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+            <div class="p-faq__question">
+              <div class="p-faq__questionDesc">
+                <div class="p-faq__questionMark">Q</div>
+                <span class="p-faq__questionText" itemprop="name">
+                  医療痩身は保険適用ですか？
+                </span>
+              </div>
+              <span class="p-faq__questionOpen"></span>
+            </div>
+            <div class="p-faq__answer" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+              <div class="p-faq__answerDesc">
+                <div class="p-faq__answerMark">A</div>
+                <span class="p-faq__answerText" itemprop="text">
+                  当院のダイエットプログラムに含まれる全メニューは健康保険適用外となります。
+                </span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="p-topFaq__btn">
+          <a href="/faq/" class="c-btn">よくあるご質問を詳しくみる</a>
+        </div>
+      </section>
 
     </div>
 
