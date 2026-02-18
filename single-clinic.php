@@ -256,6 +256,36 @@
         </div>
       <?php endif; ?>
 
+      <!-- 道のり動画 -->
+      <?php
+      $clinic_slug = $post->post_name;
+      $video_ids = array(
+        'yokohama' => 'bsb3u0P9Zxs',
+        'nagoya' => 'jfzJeUHD588',
+        'ikebukuro' => 'slczMfptaB4',
+      );
+      if (isset($video_ids[$clinic_slug])) :
+        $video_id = $video_ids[$clinic_slug];
+        $clinic_name = get_field("clinic_name");
+      ?>
+        <div class="p-singleClinicVideo l-inner">
+          <div class="p-singleClinicVideo__head p-clinicHead">
+            <h3 class="p-clinicHead__title"><?php echo $clinic_name; ?>院までの道のり</h3>
+          </div>
+          <div class="p-singleClinicVideo__body">
+            <div class="p-topAccess__videoWrap">
+              <iframe src="https://www.youtube.com/embed/<?php echo $video_id; ?>"
+                      width="100%"
+                      height="100%"
+                      title="<?php echo $clinic_name; ?>院までの道のり"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      <?php endif; ?>
+
       <?php if(get_field('clinic_gallery')): ?>
         <!-- 外観・内観 -->
         <div class="p-singleClinicAlbum">

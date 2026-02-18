@@ -1,6 +1,6 @@
             <div class="p-pageFlow__mainBody p-flow">
               <ul class="p-flow__list">
-                <h3 class="p-flow__subtitle">ご予約当日</h3>
+                <h3 class="p-flow__subtitle">ご予約当日（約60分〜90分間）</h3>
                 <li class="p-flow__item">
                   <div class="p-flow__itemFlex">
                     <figure class="p-flow__figure">
@@ -11,7 +11,7 @@
                       <div class="p-flow__descHead">
                         <div class="p-flow__descNum">01</div>
                         <div class="p-flow__descTitle">
-                          ご予約・<br>無料カウンセリング
+                          来院予約（約1分間）
                         </div>
                       </div>
                       <p class="p-flow__descText">
@@ -27,7 +27,7 @@
                 </li>
 
                 <li class="p-flow__item">
-                  
+
                   <div class="p-flow__itemFlex">
                     <figure class="p-flow__figure">
                       <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/flow/flow_03.png" alt="inbody測定">
@@ -36,7 +36,7 @@
                     <div class="p-flow__desc">
                       <div class="p-flow__descHead">
                         <div class="p-flow__descNum">02</div>
-                        <div class="p-flow__descTitle">inbody測定</div>
+                        <div class="p-flow__descTitle">inbody測定（約5分間）</div>
                       </div>
                       <p class="p-flow__descText">
                         ご来院いただいた皆様にカウンセリングを受けていただく前に、高性能な体成分分析装置のInbodyで、精密な検査を行います。
@@ -75,7 +75,7 @@
                     <div class="p-flow__desc">
                       <div class="p-flow__descHead">
                         <div class="p-flow__descNum">03</div>
-                        <div class="p-flow__descTitle">採血・遺伝子検査</div>
+                        <div class="p-flow__descTitle">採血・遺伝子検査（約10分間）</div>
                       </div>
                       <p class="p-flow__descText">
                         お客様ひとりひとりに合ったプログラムを実施するため、施術前に採血と遺伝子検査を行います。
@@ -107,12 +107,16 @@
                           <br>運動に関しては、遺伝的に有酸素運動の効果が出やすいタイプであることも確認できました。ウォーキングや軽いジョギングなど、継続的な有酸素運動を週3〜4回取り入れることを推奨いたします。
                         </p>
                       </div>
+                      <ul>
+                        <li>※当日契約いただいた場合のみ、施術の実施も可能です。</li>
+                        <li>※初回の無料カウンセリングでは無理な勧誘は一切行いません。</li>
+                      </ul>
                     </div>
                   </div>
 
                 </li>
 
-                <h3 class="p-flow__subtitle _second">ご契約後のご来院</h3>
+                <h3 class="p-flow__subtitle _second">ご契約後のご来院（約1時間半〜2時間）</h3>
                 <li class="p-flow__item">
                   <div class="p-flow__itemFlex">
                     <figure class="p-flow__figure">
@@ -122,7 +126,7 @@
                     <div class="p-flow__desc">
                       <div class="p-flow__descHead">
                         <div class="p-flow__descNum">04</div>
-                        <div class="p-flow__descTitle">inbody測定</div>
+                        <div class="p-flow__descTitle">inbody測定（約5分間）</div>
                       </div>
                       <p class="p-flow__descText">
                         ご来院いただく度に、Inbodyで精密な検査を行います。
@@ -141,7 +145,7 @@
                     <div class="p-flow__desc">
                       <div class="p-flow__descHead">
                         <div class="p-flow__descNum">05</div>
-                        <div class="p-flow__descTitle">問診・<br>ダイエット食事指導</div>
+                        <div class="p-flow__descTitle">問診・<br>ダイエット食事指導（約10分間）</div>
                       </div>
                       <p class="p-flow__descText">
                         採血・遺伝子検査・Inbodyの結果をもとに、お客様の理想の体を実現すべく、医師による投薬指導と管理栄養士による食事指導を実施します。
@@ -159,7 +163,7 @@
                     <div class="p-flow__desc">
                       <div class="p-flow__descHead">
                         <div class="p-flow__descNum">06</div>
-                        <div class="p-flow__descTitle">医療機器施術</div>
+                        <div class="p-flow__descTitle">医療機器施術（約1〜2時間）</div>
                       </div>
                       <p class="p-flow__descText">
                         お客様ひとりひとりに合ったプランで、国際的に医療認可を受けた医療痩身機器によるリエートクリニックならではの効果の高い施術を行います。
@@ -177,7 +181,7 @@
                     <div class="p-flow__desc">
                       <div class="p-flow__descHead">
                         <div class="p-flow__descNum">07</div>
-                        <div class="p-flow__descTitle">注射・点滴施術</div>
+                        <div class="p-flow__descTitle">注射・点滴施術（約20分〜30分間）</div>
                       </div>
                       <p class="p-flow__descText">
                         ダウンタイムの少ない脂肪溶解注射をお客様のご希望する部位への施術を行います。
@@ -195,7 +199,7 @@
                     <div class="p-flow__desc">
                       <div class="p-flow__descHead">
                         <div class="p-flow__descNum">08</div>
-                        <div class="p-flow__descTitle">ダイエット薬・<br>サプリメント処方</div>
+                        <div class="p-flow__descTitle">ダイエット薬・<br>サプリメント処方（約5分間）</div>
                       </div>
                       <p class="p-flow__descText">
                         痩身効果を期待される厳選されたダイエット薬と痩せたいへと導くリエートクリニックのオリジナルサプリメントをお客様に合わせたオーダーメイド処方を実施します。
