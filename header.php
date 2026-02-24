@@ -2,11 +2,11 @@
 <html <?php language_attributes(); ?>>
 
 <head>
-  <!-- LandingHub Dispatcher 
+  <!-- LandingHub Dispatcher
   <script data-landinghub="dispatcher-helper-tag">(function(w,d,i,wl){const u=new URL('https://airport.landinghub.cloud/dispatcher/manifest.json');u.searchParams.set('id',i);u.searchParams.set('location',w.location.href);wl.length&&u.searchParams.set('wl',wl.join(','));const l=d.createElement('link');l.rel='preload';l.as='fetch';l.crossOrigin='anonymous';l.href=u.href;d.head.prepend(l)})(window,document,'4e8641f9-b859-4033-aad1-93a7f2771f87',[])</script>
   <script src="https://airport.landinghub.cloud/dispatcher/latest/index.js?id=4e8641f9-b859-4033-aad1-93a7f2771f87" data-landinghub="dispatcher-tag" referrerpolicy="strict-origin"></script>
    End of LandingHub Dispatcher -->
-  
+
   <!-- Google Tag Manager -->
   <script defer="">
     var isExec = false;
@@ -81,7 +81,7 @@
     <meta http-equiv="refresh" content=" 5; url=/">
   <?php endif; ?>
 
-  <?php //構造化データ 
+  <?php //構造化データ
   // タイトル取得
   $title = get_the_title();
   ?>
@@ -163,8 +163,8 @@
   <?php endif; ?>
 
   <?php if (is_singular('post')) : // 記事
-    // サムネイル画像の取得 
-    $img_id = get_post_thumbnail_id(); // ID取得 
+    // サムネイル画像の取得
+    $img_id = get_post_thumbnail_id(); // ID取得
     $imageobject = wp_get_attachment_image_src($img_id, 'full');
   ?>
 
@@ -202,7 +202,7 @@
   <?php
   if (is_singular('recruit')) : // 募集要項
     $recruit_name = get_field('recruit_name'); // 医院名
-    $page_data = get_page_by_path($recruit_name, null, "clinic"); //クリニックdata 
+    $page_data = get_page_by_path($recruit_name, null, "clinic"); //クリニックdata
     $page_id = $page_data->ID; //クリニックID
     $address = get_field("clinic_info", $page_id)['clinic_info_address']; //IDの住所
     $code = get_field("clinic_info", $page_id)['clinic_info_post']; // IDの郵便番号
@@ -533,6 +533,7 @@
         <div class="l-spHeader__btn">
           <!--<a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=a5ram6628mb28d3d" class="c-btn _orange"><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_counseling.png' alt="icon">無料カウンセリング予約</a>-->
           <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=a5ram6628mb28d3d" class="monitor_in-header"><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/monitor_in-header.webp' alt="無料カウンセリング予約"></a>
+          <a href="https://line.me/ti/p/%40616mohew" target="_blank" class="monitor_in-header" style="margin-top: 3rem;"><img loading="lazy" src='<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/line_banner.jpg' alt="無料でチェックする"></a>
         </div>
 
         <div class="l-spHeader__tel">
@@ -571,17 +572,23 @@
   <?php if (!is_page(array('21', '23'))) : ?>
     <div class="c-fixedCta">
       <ul class="c-fixedCta__List">
-        <li class="c-fixedCta__Item c-fixedCta__Item--tel">
-          <a href="javascript:void(0)" class="js-modal-open">
-            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_tel_orange.png" alt="お電話">
-            <div class="c-fixedCta__ItemText">お電話からの<br>ご予約はこちら</div>
-          </a>
-        </li>
-
         <li class="c-fixedCta__Item c-fixedCta__Item--counseling">
           <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p&_gl=1*1gvdhfb*_gcl_au*MTQxODQxMzY3Mi4xNzA3NDQ1MDg5">
             <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_counseling.png" alt="無料カウンセリング">
             <div class="c-fixedCta__ItemText">無料カウンセリング予約</div>
+          </a>
+        </li>
+
+        <li class="c-fixedCta__Item c-fixedCta__Item--line">
+          <a href="https://line.me/ti/p/%40616mohew" target="_blank">
+            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/line_button.png" alt="簡単30秒！ダイエットプラン診断" width="64" height="230">
+          </a>
+        </li>
+
+        <li class="c-fixedCta__Item c-fixedCta__Item--tel">
+          <a href="javascript:void(0)" class="js-modal-open">
+            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/icon/icon_tel_orange.png" alt="お電話">
+            <div class="c-fixedCta__ItemText">お電話からの<br>ご予約はこちら</div>
           </a>
         </li>
       </ul>

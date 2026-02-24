@@ -48,7 +48,7 @@
             <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/clinic/benefits-num05.png" alt="特典">
             <p class="benefits__text">
               <span class="min">ご来店</span><span class="red min">amazonギフト</span>
-              <br><span class="line"><span class="big">1,000</span>円分プレゼント</span>
+              <br><span class="line"><span class="big">5,000</span>円分プレゼント</span>
             </p>
           </li>
           <li>
