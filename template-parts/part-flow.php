@@ -116,6 +116,10 @@
 
                 </li>
 
+                <figure style="margin: 40px auto; width: 100%;">
+                  <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/flow/flow_anxiety_voice.png" alt="ご来院前に感じやすい不安と、その後の声">
+                </figure>
+
                 <h3 class="p-flow__subtitle _second">ご契約後のご来院（約1時間半〜2時間）</h3>
                 <li class="p-flow__item">
                   <div class="p-flow__itemFlex">

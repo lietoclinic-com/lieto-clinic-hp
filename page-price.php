@@ -16,6 +16,13 @@
 
       <div class="p-pageClinic__body">
 
+        <!-- banner -->
+        <div class="banner-container" style="margin-top: 0;">
+          <a href="https://ac.lietoclinic.com/cl/043cbe9C3Ge4cC56/?bid=1fC589b7e76c3p4p" target="_blank">
+            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/common/monitor_in-header.webp" alt="モニター募集" decoding="async" loading="lazy">
+          </a>
+        </div>
+
         <ul class="p-pageCliniclink__btns">
             <li class="p-pageClinicLink__btn"><a href="#course">コースのご案内<div class="p-pageClinicLink__btnMark"></div></a></li>
             <li class="p-pageClinicLink__btn"><a href="#price">施術料金<div class="p-pageClinicLink__btnMark"></div></a></li>
@@ -577,8 +584,11 @@
           </tbody>
         </table>
         </div>
-
       </section>
+      <div class="p-topTreatment__btns">
+        <a href="/flow/" class="c-btn" style="width: 34rem;">無料カウンセリングの流れをみる</a>
+        <a href="/monitor/" class="c-btn _orange" style="width: 34rem;">モニター募集情報をみる</a>
+      </div>
       <section id="price">
         <h2 class="p-pageClinicContent__title">施術料金</h2>
 

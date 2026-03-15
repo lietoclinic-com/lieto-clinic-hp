@@ -6,20 +6,20 @@
   <div class="p-topFv">
     <div class="p-topFvSlider">
       <div class="p-topFvSliderList" id="p-fvSlider__slick">
-        <div class="p-topFvSliderItem">
-          <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg.jpg.webp">
-          <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg_sp.jpg.webp">
-          <div class="p-topFvSliderItem__copy">
-            <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_copy.png.webp">
-            <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_copy_sp.png.webp">
-          </div>
-        </div>
         <div class="p-topFvSliderItem p-topFvSliderItem--second">
           <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg02.jpg.webp">
           <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg_sp02.jpg.webp">
           <div class="p-topFvSliderItem__copy p-topFvSliderItem__copy--second">
             <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_copy02.png.webp">
             <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_copy02_sp.png.webp">
+          </div>
+        </div>
+        <div class="p-topFvSliderItem">
+          <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg.jpg.webp">
+          <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_bg_sp.jpg.webp">
+          <div class="p-topFvSliderItem__copy">
+            <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_copy.png.webp">
+            <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/fv_copy_sp.png.webp">
           </div>
         </div>
         <!--
@@ -67,6 +67,24 @@
       </div>
     </div>
 
+    <!-- 横並びバナー（story & data） -->
+    <div class="p-pageMonitor__bannerRow l-inner">
+      <div class="p-pageMonitor__bannerInner">
+        <a href="<?php echo home_url('/interview/'); ?>" target="_blank">
+          <picture>
+            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/story-banner-800.jpg" alt="バナー">
+          </picture>
+        </a>
+      </div>
+      <div class="p-pageMonitor__bannerInner">
+        <a href="<?php echo home_url('/data/'); ?>" target="_blank">
+          <picture>
+            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/data-banner-800.jpg" alt="バナー">
+          </picture>
+        </a>
+      </div>
+    </div>
+
     <div class="p-intro__inner l-inner">
       <div class="p-intro__spotListWrap">
         <ul class="p-intro__spotList">
@@ -102,11 +120,11 @@
       <div class="p-intro__menuListWrap">
         <ul class="p-intro__menuList">
           <li class="p-intro__menuItem">
-            <a href="/about/" class="p-intro__menuLink">
+            <a href="/price/" class="p-intro__menuLink">
               <div class="p-intro__menuImage">
-                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/icon_hospital.png.webp">
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/icon_price.png">
               </div>
-              <p class="p-intro__menuTitle">当院について</p>
+              <p class="p-intro__menuTitle">料金一覧</p>
             </a>
           </li>
           <li class="p-intro__menuItem">
@@ -130,7 +148,7 @@
               <div class="p-intro__menuImage">
                 <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/icon_flow.png.webp">
               </div>
-              <p class="p-intro__menuTitle">施術の流れ</p>
+              <p class="p-intro__menuTitle">無料カウンセリングの流れ</p>
             </a>
           </li>
         </ul>
@@ -138,31 +156,9 @@
     </div>
   </div>
 
-  <?php get_template_part('template-parts/banner-slider'); ?>
-
   <!-- CTA -->
   <div class="p-topCta l-inner" style="margin-bottom: 48px;">
     <?php get_template_part('template-parts/part', 'cta'); ?>
-  </div>
-
-  <div class="p-pageMonitor__banner" style="margin-top: 40px; margin-bottom: 40px;">
-    <div class="p-pageMonitor__bannerInner l-inner" style=" max-width: 117rem;">
-      <a href="<?php echo home_url('/interview/'); ?>" target="_blank">
-        <picture>
-          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/story-banner.webp" alt="バナー">
-        </picture>
-      </a>
-    </div>
-  </div>
-
-  <div class="p-pageMonitor__banner" style="margin-top: 40px; margin-bottom: 40px;">
-    <div class="p-pageMonitor__bannerInner l-inner" style=" max-width: 117rem;">
-      <a href="<?php echo home_url('/data/'); ?>" target="_blank">
-        <picture>
-          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/data-banner.jpg" alt="バナー">
-        </picture>
-      </a>
-    </div>
   </div>
 
   <?php get_template_part('template-parts/part-lp-con'); ?>
@@ -565,6 +561,21 @@
       </div>
     </div>
   </section>
+
+  <!-- Magazine & Sponsor -->
+  <div class="magazine__wrap l-inner">
+    <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/clinic/magazine.png" alt="雑誌「百花秘人」にてご紹介いただきました">
+    <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/clinic/magazine-sp.png" alt="雑誌「百花秘人」にてご紹介いただきました">
+  </div>
+
+  <div class="sponsor__wrap l-inner">
+    <div class="sponsor__content">
+      <h2 class="sponsor__head">リエートクリニックは<br>ミセスユニバースの<br class="sp-block">公式メインスポンサーです</h2>
+      <p class="sponsor__image">
+        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/sponsor-logos.webp" alt="リエートクリニックはミセスユニバースの公式メインスポンサーです">
+      </p>
+    </div>
+  </div>
 
   <!-- Media -->
   <section class="p-topMessage p-message" id="media">

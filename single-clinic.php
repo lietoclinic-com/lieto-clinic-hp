@@ -137,6 +137,24 @@
       </div>
     </div>
 
+    <!-- 横並びバナー（story & data） -->
+    <div class="p-pageMonitor__bannerRow l-inner">
+      <div class="p-pageMonitor__bannerInner">
+        <a href="<?php echo home_url('/interview/'); ?>" target="_blank">
+          <picture>
+            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/story-banner-800.jpg" alt="バナー">
+          </picture>
+        </a>
+      </div>
+      <div class="p-pageMonitor__bannerInner">
+        <a href="<?php echo home_url('/data/'); ?>" target="_blank">
+          <picture>
+            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/data-banner-800.jpg" alt="バナー">
+          </picture>
+        </a>
+      </div>
+    </div>
+
     <!-- menu -->
     <div class="p-injectionMenu">
       <div class="p-injectionMenu__inner l-inner">
@@ -149,8 +167,6 @@
         </ul>
       </div>
     </div>
-
-    <?php get_template_part('template-parts/banner-slider'); ?>
 
     <div class="p-singleClinicAccess__inner" id="access">
       <div class="p-singleClinicAccess__head c-secTitle">
@@ -698,6 +714,21 @@
       </div>
     </section>
   <?php endif; ?>
+
+  <!-- Magazine & Sponsor -->
+  <div class="magazine__wrap l-inner">
+    <img class="sp-hide" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/clinic/magazine.png" alt="雑誌「百花秘人」にてご紹介いただきました">
+    <img class="sp-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/clinic/magazine-sp.png" alt="雑誌「百花秘人」にてご紹介いただきました">
+  </div>
+
+  <div class="sponsor__wrap l-inner">
+    <div class="sponsor__content">
+      <h2 class="sponsor__head">リエートクリニックは<br>ミセスユニバースの<br class="sp-block">公式メインスポンサーです</h2>
+      <p class="sponsor__image">
+        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/img/top/sponsor-logos.webp" alt="リエートクリニックはミセスユニバースの公式メインスポンサーです">
+      </p>
+    </div>
+  </div>
 
   <!-- CTA -->
   <div class="p-singleClinic__bottomcta l-inner">

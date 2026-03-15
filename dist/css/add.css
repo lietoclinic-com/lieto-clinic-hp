@@ -883,18 +883,17 @@ p-topIntro
 .p-topIntro {
     margin-top: 95px;
 }
-.p-intro__spotList,
-.p-intro__menuList {
-    display: flex;
-}
 .p-intro__spotList {
+    display: flex;
     gap: 20px;
     justify-content: center;
 }
 .p-intro__menuList {
-    align-items: flex-end;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    justify-items: center;
+    align-items: end;
     gap: 5px;
-    justify-content: space-evenly;
 }
 .p-intro__spotItem,
 .p-intro__menuItem {
@@ -933,8 +932,8 @@ p-topIntro
     margin-top: 25px;
 }
 .p-intro__menuImage {
+    max-width: 94px;
     margin-inline: auto;
-    width: 60%;
 }
 .p-intro__spotImage .sp-hide {
     display: none;
@@ -999,9 +998,10 @@ p-topIntro
         font-size: 1.7rem;
     }
 }
-@media screen and (max-width: 1024px) {
-    .p-intro__menuImage {
-        width: 50%;
+@media screen and (max-width: 768px) {
+    .p-intro__menuList {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
     }
 }
 @media screen and (min-width: 1025px) {
@@ -2097,5 +2097,31 @@ p-singleMenu menu-glp-1 テーブル
 
     .p-singleClinicVideo__head {
         margin-bottom: 3rem;
+    }
+}
+
+/*===================================
+p-pageMonitor__bannerRow レスポンシブ
+===================================*/
+.p-pageMonitor__bannerRow {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+    max-width: 83rem;
+    margin-inline: auto;
+}
+
+.p-pageMonitor__bannerRow .p-pageMonitor__bannerInner {
+    flex: 1;
+    max-width: none;
+}
+
+.p-pageMonitor__bannerRow .p-pageMonitor__bannerInner img {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .p-pageMonitor__bannerRow {
+        flex-direction: column;
     }
 }
