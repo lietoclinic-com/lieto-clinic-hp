@@ -48,7 +48,7 @@
             </div>
             <div class="p-singleMenu__detailRow">
               <dt>プライバシーポリシー</dt>
-              <dd><a href="https://lietoclinic.com/privacy-policy_kounkai/">https://lietoclinic.com/privacy-policy_kounkai/</a></dd>
+              <dd><a href="https://lietoclinic.com/privacy-policy_koseikai/">https://lietoclinic.com/privacy-policy_koseikai/</a></dd>
             </div>
           </dl>
         </div>
