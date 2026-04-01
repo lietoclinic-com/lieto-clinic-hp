@@ -18,13 +18,13 @@
       <div class="p-singleMenu__area l-inner">
         <div class="p-pageAboutAccess__head c-secTitle">
           <div class="c-secTitle__en">COMPANY</div>
-          <h2 class="c-secTitle__ja">医療法人社団高整会</h2>
+          <h2 class="c-secTitle__ja">医療法人社団煌雲会</h2>
         </div>
         <div class="p-singleMenu__box">
           <dl class="p-singleMenu__detail">
             <div class="p-singleMenu__detailRow">
               <dt>法人名</dt>
-              <dd>医療法人社団高整会</dd>
+              <dd>医療法人社団煌雲会</dd>
             </div>
             <div class="p-singleMenu__detailRow">
               <dt>理事長名</dt>
@@ -48,7 +48,7 @@
             </div>
             <div class="p-singleMenu__detailRow">
               <dt>プライバシーポリシー</dt>
-              <dd><a href="https://lietoclinic.com/privacy-policy_koseikai/">https://lietoclinic.com/privacy-policy_koseikai/</a></dd>
+              <dd><a href="https://lietoclinic.com/privacy-policy_kounkai/">https://lietoclinic.com/privacy-policy_kounkai/</a></dd>
             </div>
           </dl>
         </div>

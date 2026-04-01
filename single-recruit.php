@@ -248,7 +248,7 @@
             <dl class="p-singleRecruitInfo__list">
               <div class="p-singleRecruitInfo__row">
                 <dt>法人名</dt>
-                <dd>医療法人社団高整会</dd>
+                <dd>医療法人社団煌雲会</dd>
               </div>
               <div class="p-singleRecruitInfo__row">
                 <dt>理事長名</dt>
